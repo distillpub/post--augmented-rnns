@@ -23,7 +23,7 @@
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
-<figure>
+<figure class="side-saddle-right">
   <figcaption>A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>
   <img src="assets/rnn.svg"></img>
 </figure>
@@ -43,7 +43,7 @@ Individually, these techniques are all potent extensions of RNNs, but the really
 
 Neural Turing Machines ([Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:
 
-<figure>
+<figure class="side-saddle-right">
   <figcaption>Memory is an array of vectors.</figcaption>
   <figcaption style="top: 100px;">At every time step, the RNN controller can read from and write to this external memory.</figcaption>
   <img src="assets/ntm-memory.svg"></img>
@@ -53,12 +53,12 @@ But how does reading and writing work? The challenge is that we want to make the
 
 NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents. As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.
 
-<figure>
+<figure class="side-saddle-right">
   <figcaption><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
   <img src="assets/ntm-read.svg"></img>
 </figure>
 
-<figure>
+<figure class="side-saddle-right">
   <figcaption><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
   <img src="assets/ntm-write.svg"></img>
 </figure>
@@ -69,7 +69,7 @@ But how do NTMs distribute their attention over positions in memory? They actual
 
 The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
 
-<figure>
+<figure class="side-saddle-left">
   <figcaption>First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
   <figcaption style="top: 200px;">The scores are then converted into an attention distribution using softmax.</figcaption>
   <figcaption style="top: 300px;">Next, we interpolate the attention from the previous time step. </figcaption>
@@ -92,7 +92,7 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machiens use: we focus everywhere, just to different extents.
 
-<figure>
+<figure class="side-saddle-right">
   <figcaption>We use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.</figcaption>
   <img src="assets/rnn-attention.svg"></img>
 </figure>
