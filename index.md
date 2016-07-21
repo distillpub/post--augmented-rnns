@@ -7,10 +7,6 @@
       <div class="affiliation">Google Brain</div>
     </div>
     <div class="author">
-      <div class="name">Maithra Raghu</div>
-      <div class="affiliation">Google Brain</div>
-    </div>
-    <div class="author">
       <div class="name">Shan Carter</div>
       <div class="affiliation">Google Brain</div>
     </div>
@@ -20,8 +16,8 @@
     <div class="year">2016</div>
   </div>
   <div class="citation">
-    <div>Cite as</div>
-    <div>Blog:01-01-16/101</div>
+    <div>Olah & Carter, 2016</div>
+    <div>BibTeX</div> <!-- This should be a link. -->
   </div>
 </div>
 
@@ -103,13 +99,25 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
 
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.
 
-<img src="imgs/rnn-attention-mechanism.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-rnn-attention-mechanism.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
 
-*(TODO: Examples)*
+Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
+
+<img src="assets/old-rnn-attention-vis2.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
+
+([Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf))
+
+This kind of attention between RNNs can also be used in translation. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
+
+<img src="assets/old-rnn-attention-vis1.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
+
+([Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf))
 
 Attention can also be used on the interface between a convolutional neural network and an RNN. This can allow an RNN to do things like look at a different position in an image every step.
 
-<img src="imgs/rnn-attention-conv.png" style="width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-rnn-attention-conv.png" style="width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;"></img>
+
+*(TODO: Captioning example)*
 
 
 ### Adaptive Computation Time
@@ -119,30 +127,34 @@ Standard RNNs do the same amount of computation each time step. This seems unint
 
 The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
-<img src="imgs/ACT-overview.png" style="width:80%; margin-left:10%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-ACT-overview.png" style="width:80%; margin-left:10%; padding-top:20px; padding-bottom:17px;"></img>
 
 In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weigthed combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
-<img src="imgs/act-step.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-act-step.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputing a weighted combination of the states:
 
-<img src="imgs/act-step1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-act-step1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an atteing weight, which we can think of as the probability that we should stop at that step.
 
-<img src="imgs/act-step2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-act-step2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.
 
-<img src="imgs/act-step3.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-act-step3.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it's being given to future steps but we don't want to compute those, so we attribute it to the last step.
 
-<img src="imgs/act-step4.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-act-step4.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 ### Neural Programmer
+
+<img src="assets/old-np1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+
+<img src="assets/old-np2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 ### Conclusion
