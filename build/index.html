@@ -1,0 +1,544 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Montserrat:400,700|Oswald:300,400|Open+Sans:300,400,400i,600,700" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">-->
+</head>
+
+<body>
+
+<style>
+  .header {
+    font-family: "Open Sans", sans;
+    font-weight: 300;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header .content {
+    margin: 0 30px;
+  }
+
+  .header a {
+    font-size: 13px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #999;
+  }
+
+  .header .logo {
+    height: 60px;
+    line-height: 60px;
+    /*background: rgba(0, 0, 0, 0.05);*/
+    text-transform: uppercase;
+  }
+
+  .header .logo i {
+    position: relative;
+    top: 7px;
+    margin-right: 6px;
+  }
+
+  .header .nav {
+    float: right;
+    margin-left: 20px;
+  }
+</style>
+<div class="header w-screen">
+  <div class="content">
+    <a href="../../" class="logo">
+      <i class="material-icons">menu</i>
+
+      </a>
+    <a href="" class="nav">Contribute</a>
+    <a href="" class="nav">About</a>
+  </div>
+</div>
+  <style>
+
+html {
+  background-color: #fafafa;
+}
+
+body {
+  margin: 0;
+  min-width: 1024px;
+  -webkit-text-size-adjust: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.page {
+  overflow: hidden;
+  background-color: #fcfcfc;
+  padding-bottom: 120px;
+}
+
+/**
+ * Widths
+ */
+
+.w-screen,
+.post .w-screen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.w-page,
+.post .w-page {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
+}
+@media(min-width: 1280px) {
+  .w-page,
+  .post .w-page {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.w-body,
+.post .w-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
+}
+
+
+/**
+ * Columns
+ */
+
+.c-1-1 {
+  display: flex;
+}
+
+.c-1-1 > * {
+  flex-grow: 1;
+  position: relative;
+  width: 50%;
+}
+
+.c-equal {
+  display: flex;
+}
+
+.c-equal > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+  margin: 0 12px 0 0;
+}
+
+.c-equal > *:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.c-equal.c-divider > * {
+  border-right: 1px solid #ddd;
+}
+
+.c-equal.c-divider > *:last-child {
+  border-right: none;
+}
+
+/**
+ * Positions
+ */
+
+.p-right,
+.post .p-right {
+  float: right;
+  width: calc(40%);
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+@media(min-width: 1240px) {
+  .p-right,
+  .post .p-right {
+    /*width: calc(960px / 2 - 100px);*/
+    width: calc(1200px * 0.4);
+    margin-right: calc((100% - 1200px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  /*.p-right,
+  .post .p-right {
+    width: calc(1200px / 2 - 150px);
+    margin-right: calc((100vw - 1200px) / 2);
+  }*/
+}
+
+.p-right-margin,
+.post .p-right-margin {
+  float: right;
+  width: calc((768px - 620px) / 2);
+  margin-right: calc((100vw - 768px) / 2);
+  margin-top: 0;
+}
+@media(min-width: 920px) {
+  .p-right-margin,
+  .post .p-right-margin {
+    width: calc((960px - 620px) / 2);
+    margin-right: calc((100vw - 960px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  .p-right-margin,
+  .post .p-right-margin {
+    width: calc((1200px - 620px) / 2);
+    margin-right: calc((100vw - 1200px) / 2);
+  }
+}
+
+.p-left-margin,
+.post .p-left-margin {
+  float: left;
+  width: calc((768px - 620px) / 2);
+  margin-left: calc((100vw - 768px) / 2);
+  margin-top: 0;
+}
+@media(min-width: 920px) {
+  .p-left-margin,
+  .post .p-left-margin {
+    width: calc((960px - 620px) / 2);
+    margin-left: calc((100vw - 960px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  .p-left-margin,
+  .post .p-left-margin {
+    width: calc((1200px - 620px) / 2);
+    margin-left: calc((100vw - 1200px) / 2);
+  }
+}
+
+    /* Post */
+
+    /* If we have elements as direct descendent children of a .post, we should assume they are "w-body" */
+    .post > h1,
+    .post > h2,
+    .post > h3,
+    .post > h4,
+    .post > h5,
+    .post > ul,
+    .post > ol,
+    .post > figure,
+    .post > pre,
+    .post > p,
+    .post > .byline {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 620px;
+    }
+
+    .post {
+      color: rgba(0, 0, 0, 0.8);
+      font: 17px/28px georgia, "Open Sans", serif;
+    }
+
+
+    .post section:first-of-type {
+      margin-top: 80px;
+    }
+
+    .post > h1:first-of-type {
+      margin-top: 80px;
+    }
+
+    .post h1 {
+      font: 400 48px/1.3em "oswald", "pt serif", helvetica, sans-serif;
+      margin-bottom: 15px;
+    }
+
+    .post h2 {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 1.45em;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .post h3 {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 1.4em;
+      font-family: "Open Sans", sans-serif;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .post h4 {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 1.4em;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .post a {
+      color: #004276;
+    }
+
+    .post p {
+      margin-bottom: 20px;
+      /*-webkit-font-smoothing: antialiased;*/
+    }
+
+    .post pre {
+      font-size: 14px;
+      margin-bottom: 20px;
+      /*padding-top: 15px;*/
+      /*padding-bottom: 15px;*/
+      /*border-top: 1px solid rgba(0, 0, 0, 0.05);*/
+      /*border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+    }
+
+    pre code {
+      background: white;
+      padding: 12px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      display: block;
+      margin-left: -12px;
+      margin-right: -12px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .post hr {
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+
+    .post section {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+
+    /* Byline */
+    .post .byline {
+      font: 500 12px/18px "Open Sans", helvetica, sans-serif;
+      margin-bottom: 80px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      padding-top: 15px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .post .byline .authors {
+      display: inline-block;
+    }
+
+    .post .byline .author {
+      display: inline-block;
+      margin-right: 20px;
+      /*padding-left: 20px;*/
+      /*border-left: 1px solid #ddd;*/
+    }
+
+    .post .byline .author:last-child {
+      margin-right: 0;
+    }
+
+    .post .byline .name {
+      text-transform: uppercase;
+    }
+
+    .post .byline .date {
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      padding-left: 15px;
+      margin-left: 15px;
+      display: inline-block;
+    }
+
+    .post .byline .citation {
+      border-left: 1px solid rgba(0, 0, 0, 0.15);
+      padding-left: 15px;
+      margin-left: 15px;
+      display: inline-block;
+    }
+
+    /* Figure */
+
+    .post figure {
+      position: relative;
+    }
+
+    .post figure img {
+      width: 100%;
+    }
+
+    .post figure figcaption {
+      font-family: "Open Sans";
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .post figure. figcaption {
+
+    }
+
+    /*.post figure figcaption::before {
+      position: relative;
+      display: block;
+      top: -20px;
+      content: "";
+      width: 25px;
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }*/
+
+    .post figure figcaption b {
+      color: rgba(0, 0, 0, 1.0);
+      font-weight: 600;
+    }
+  </style>
+  <div class="page post">
+<h1 id="understanding-augmented-recurrent-neural-networks">Understanding Augmented Recurrent Neural Networks</h1>
+<p>&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;authors&quot;&gt;
+    &lt;div class=&quot;author&quot;&gt;
+      &lt;div class=&quot;name&quot;&gt;Chris Olah&lt;/div&gt;
+      &lt;div class=&quot;affiliation&quot;&gt;Google Brain&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;author&quot;&gt;
+      &lt;div class=&quot;name&quot;&gt;Maithra Raghu&lt;/div&gt;
+      &lt;div class=&quot;affiliation&quot;&gt;Google Brain&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;author&quot;&gt;
+      &lt;div class=&quot;name&quot;&gt;Shan Carter&lt;/div&gt;
+      &lt;div class=&quot;affiliation&quot;&gt;Google Brain&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;date&quot;&gt;
+    &lt;div class=&quot;month&quot;&gt;Jan. 1&lt;/div&gt;
+    &lt;div class=&quot;year&quot;&gt;2016&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;citation&quot;&gt;
+    &lt;div&gt;Cite as&lt;/div&gt;
+    &lt;div&gt;Blog:01-01-16/101&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</p>
+<p>Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;A basic recurrent neural network uses one cell several times to help understand sequences.&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/rnn.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>The basic RNN design struggles with longer sequences, but if you use <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">LSTM networks</a>, a special kind of RNN, they can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.</p>
+<p>As this happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions stand out as particularly exciting:</p>
+<ul>
+<li><em>Neural Turing Machines</em> have external memory that they can read and write to.</li>
+<li><em>Attentional Interfaces</em> allow RNNs to focus on part of the information they’re given.</li>
+<li><em>Adaptive Computation Time</em> allows for varying amounts of computation per step.</li>
+<li><em>Neural Programmers</em> can call functions, building programs as they run.</li>
+</ul>
+<p>Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together. My guess is that these “augmented RNNs” will radically extend what deep learning is capable of in the coming years.</p>
+<h3 id="neural-turing-machines">Neural Turing Machines</h3>
+<p>Neural Turing Machines (<a href="https://arxiv.org/pdf/1410.5401v2.pdf">Graves, <em>et al.</em>, 2014</a>) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;Memory is an array of vectors.&lt;/figcaption&gt;
+  &lt;figcaption style=&quot;top: 100px;&quot;&gt;At every time step, the RNN controller can read from and write to this external memory.&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/ntm-memory.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>But how does reading and writing work? The challenge is that we want to make them differentiable. In particular, we want to make them differentiable with respect to the location we read from or write to, so that we can learn where to read and write. This is tricky, because memory addresses seem to be fundamentally discrete.</p>
+<p>NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents. As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;&lt;b&gt;When reading&lt;/b&gt;, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/ntm-read.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;&lt;b&gt;When writing&lt;/b&gt; the RNN reads from everywhere, just to different extents&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/ntm-write.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.</p>
+<p>But how do NTMs distribute their attention over positions in memory? They actually combine together two different attention mechanisms: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and move to places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.</p>
+<p>The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.&lt;/figcaption&gt;
+  &lt;figcaption style=&quot;top: 200px;&quot;&gt;The scores are then converted into an attention distribution using softmax.&lt;/figcaption&gt;
+  &lt;figcaption style=&quot;top: 300px;&quot;&gt;Next, we interpolate the attention from the previous time step. &lt;/figcaption&gt;
+  &lt;figcaption style=&quot;top: 400px;&quot;&gt;We convolve the attention with a shift filter — this allows the controller to move relative to the position it is anchored to.&lt;/figcaption&gt;
+  &lt;figcaption style=&quot;top: 600px;&quot;&gt;Finally, we sharpen the attention distribution to concentrate our focus. This final attention distribution is fed to the read or write operation.&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/ntm-attend.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. They can learn to store a sequence in memory, and then loop over it, repeating it back. They can learn to mimic a lookup table. They can even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.</p>
+<p>Since the original NTM paper, there’s been a number of exciting papers exploring similar directions. The Neural GPU (<a href="http://arxiv.org/pdf/1511.08228v3.pdf">Kaiser &amp; Sutskever, 2015</a>) overcomes the NTM’s inability to add and multiply numbers.  <a href="http://arxiv.org/pdf/1505.00521.pdf">Zaremba &amp; Sutskever, 2016</a> train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines (<a href="http://arxiv.org/pdf/1511.06392.pdf">Kurach <em>et al.</em>, 2015</a>) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues (<a href="http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf">Grefenstette <em>et al</em>. 2015</a>; <a href="https://arxiv.org/pdf/1503.01007v4.pdf">Joulin &amp; Mikolov, 2015</a>). And memory networks (<a href="http://arxiv.org/abs/1410.3916">Weston <em>et al.</em>, 2014</a>; <a href="http://arxiv.org/abs/1506.07285">Kumar <em>et al.</em>, 2015</a>) are another approach to attacking similar problems.</p>
+<p><em>(TODO: make above more readable)</em></p>
+<h3 id="attentional-interfaces">Attentional Interfaces</h3>
+<p>When I’m translating a sentence, I pay special attention to the word I’m presently translating. When I’m transcribing an audio recording, I listen carefully to the segment I’m actively writing down. And if you ask me to describe the room I’m sitting in, I’ll glance around at the objects I’m describing as I do so.</p>
+<p>Neural networks can achieve this same behavior using <em>attention</em>, focusing on part of a subset of the information they’re given. For example, an RNN can attend over the output of another RNN. At every time step, it focuses on different positions in the other RNN.</p>
+<p>We’d like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machiens use: we focus everywhere, just to different extents.</p>
+<p>&lt;figure&gt;
+  &lt;figcaption&gt;We use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.&lt;/figcaption&gt;
+  &lt;img src=&quot;assets/rnn-attention.svg&quot;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+</p>
+<p>The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.</p>
+<p>&lt;img src=&quot;imgs/rnn-attention-mechanism.png&quot; style=&quot;width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p><em>(TODO: Examples)</em></p>
+<p>Attention can also be used on the interface between a convolutional neural network and an RNN. This can allow an RNN to do things like look at a different position in an image every step.</p>
+<p>&lt;img src=&quot;imgs/rnn-attention-conv.png&quot; style=&quot;width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<h3 id="adaptive-computation-time">Adaptive Computation Time</h3>
+<p>Standard RNNs do the same amount of computation each time step. This seems unintuitive – surely, one should think more when things are hard? – and limits RNNs to doing $O(n)$ operations. Adaptive Computation Time (<a href="https://arxiv.org/pdf/1603.08983v4.pdf">Graves, 2016</a>), or ACT, is a way for RNNs to do variable amounts of computation each step.</p>
+<p>The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.</p>
+<p>&lt;img src=&quot;imgs/ACT-overview.png&quot; style=&quot;width:80%; margin-left:10%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p>In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weigthed combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.</p>
+<p>There are a few more details, which were left out in the previous diagram. Here’s a complete diagram of a time step with three computation steps.</p>
+<p>&lt;img src=&quot;imgs/act-step.png&quot; style=&quot;width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p>That’s a bit complicated, so let’s work through it step by step. At a high-level, we’re still running the RNN and outputing a weighted combination of the states:</p>
+<p>&lt;img src=&quot;imgs/act-step1.png&quot; style=&quot;width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p>The weight for each step is determined by a “halting neuron”. It’s a sigmoid neuron that looks at the RNN state and gives an atteing weight, which we can think of as the probability that we should stop at that step.</p>
+<p>&lt;img src=&quot;imgs/act-step2.png&quot; style=&quot;width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p>We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.</p>
+<p>&lt;img src=&quot;imgs/act-step3.png&quot; style=&quot;width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<p>When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it’s being given to future steps but we don’t want to compute those, so we attribute it to the last step.</p>
+<p>&lt;img src=&quot;imgs/act-step4.png&quot; style=&quot;width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;&quot;&gt;&lt;/img&gt;</p>
+<h3 id="neural-programmer">Neural Programmer</h3>
+<h3 id="conclusion">Conclusion</h3>
+  </div>
+
+<style>
+  .footer {
+    font: 13px/1.4em "Open Sans", helvetica, sans;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 40px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+  }
+</style>
+<div class="footer">
+  <div class="w-body">
+    <p>Blog</p>
+    <p>About the Blog</p>
+    <p>Copyright 2016</p>
+  </div>
+</div></body>
