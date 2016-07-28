@@ -21,7 +21,6 @@
   </div>
 </div>
 
-**TODO: put mathjax code somewhere better?**
 <script type="text/javascript" async
   src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
@@ -34,8 +33,8 @@ MathJax.Hub.Config({
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
 <figure class="side-saddle-right">
-  <figcaption>A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>
-  <img src="assets/rnn.svg"></img>
+  <figcaption style="top: 40px;">A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>
+  <img src="assets/rnn.svg" style="padding-top: 10px;"></img>
 </figure>
 
 The basic RNN design struggles with longer sequences, but if you use [LSTM networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a special kind of RNN, they can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.
@@ -64,14 +63,14 @@ But how does reading and writing work? The challenge is that we want to make the
 NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents. As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.
 
 <figure class="side-saddle-right">
-  <figcaption><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
+  <figcaption style="top: 60px;"><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
   <img src="assets/ntm-read.svg"></img>
 </figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
 <figure class="side-saddle-right">
-  <figcaption><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
+  <figcaption style="top: 130px;"><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
   <img src="assets/ntm-write.svg"></img>
 </figure>
 
@@ -80,19 +79,22 @@ But how do NTMs distribute their attention over positions in memory? They actual
 The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
 
 <figure class="side-saddle-left">
-  <figcaption>First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
-  <figcaption style="top: 200px;">The scores are then converted into an attention distribution using softmax.</figcaption>
-  <figcaption style="top: 300px;">Next, we interpolate the attention from the previous time step. </figcaption>
-  <figcaption style="top: 400px;">We convolve the attention with a shift filter — this allows the controller to move relative to the position it is anchored to.</figcaption>
-  <figcaption style="top: 600px;">Finally, we sharpen the attention distribution to concentrate our focus. This final attention distribution is fed to the read or write operation.</figcaption>
+  <figcaption style="top: 50px;">First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
+  <figcaption style="top: 250px;">The scores are then converted into an attention distribution using softmax.</figcaption>
+  <figcaption style="top: 410px;">Next, we interpolate the attention from the previous time step. </figcaption>
+  <figcaption style="top: 530px;">We convolve the attention with a shift filter — this allows the controller to move relative to the position it is anchored to.</figcaption>
+  <figcaption style="top: 700px;">Finally, we sharpen the attention distribution to concentrate our focus. This final attention distribution is fed to the read or write operation.</figcaption>
   <img src="assets/ntm-attend.svg"></img>
 </figure>
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
 
-<img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="side-saddle-right">
+  <figcaption style="top: 75px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
+  <img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
+</figure>
 
-[Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)
+
 
 They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
 
@@ -121,29 +123,30 @@ The attention distribution is usually generated with content-based attention. Th
 
 Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
-<img src="assets/old-rnn-attention-vis2.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
-
-([Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf))
+<figure class="side-saddle-right">
+  <figcaption style="top: 170px;">Figure from<br> [Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf)</figcaption>
+  <img src="assets/old-rnn-attention-vis2.png" style="width:50%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+</figure>
 
 This kind of attention between RNNs can also be used in translation. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
 
-<img src="assets/old-rnn-attention-vis1.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
-
-([Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf))
+<figure class="side-saddle-right">
+<figcaption style="top: 150px;">Figure from<br> [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
+<img src="assets/old-rnn-attention-vis1.png" style="width:60%; margin-left:18%; padding-top:20px; padding-bottom:17px;"></img>
+</figure>
 
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step.
 
-<img src="assets/old-rnn-attention-conv.png" style="width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
+<figure class="side-saddle-right">
+<figcaption style="top: 60px;">Figure from<br> [Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)</figcaption>
 <img src="assets/ShowAttendTell.png" style="width:90%; margin-left:5%; padding-top:20px; padding-bottom:17px;"></img>
+</figure>
 
-[Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)
-
-
-
-
+More broadly, attentional interfaces can be used whenever... **TODO**
 
 ### Adaptive Computation Time
 
@@ -160,11 +163,11 @@ There are a few more details, which were left out in the previous diagram. Here'
 
 <img src="assets/old-act-step.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
-That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputing a weighted combination of the states:
+That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:
 
 <img src="assets/old-act-step1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
-The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an atteing weight, which we can think of as the probability that we should stop at that step.
+The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.
 
 <img src="assets/old-act-step2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
@@ -178,8 +181,28 @@ When we stop, might have some left over halting budget because we stop when it g
 
 ### Neural Programmer
 
+Neural nets are good at many things, but they also struggle to do many operations that are trivial in normal approaches to computing, such as arithmetic. It would be really nice to have a way to fuse these two, and get the best of both worlds.
+
+The neural programmer ([Neelakantan, *et al.*, 2015](http://arxiv.org/abs/1511.04834)) is one approach to this. It can learn to generate programs in order to solve the task at hand. Further, it learns to generate such programs without needing examples of correct programs. It discovers how to produce programs, in order to accomplish some task.
+
+The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. There are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
+
+The program is generated one operation at a time by a controller RNN. At each step, it outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
+
 <img src="assets/old-np1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
+The resulting distribution over programs can now be evaluated.
+
+Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
+
 <img src="assets/old-np2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+
+As long as we can define derivatives through the operations, the program's output is differentiable with respect to the probabilities. We can then define a loss, and train the neural net to produce programs that give the correct answer. In this way, the Neural Programmer learns to produce programs without examples of good programs. The only supervision is the answer the program should produce.
+
+
+
+
+
+This makes the process of running the program differentiable with respect to the
 
 ### Conclusion
