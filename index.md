@@ -90,11 +90,11 @@ The addressing process starts with the generating the content-based focus. First
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
 
-<img src="assets/TODO-NTM-VIS1.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
+<img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
 
 [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)
 
-They can learn to mimic a lookup table. They can even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
+They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
 
 Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015](http://arxiv.org/pdf/1511.08228v3.pdf)) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016](http://arxiv.org/pdf/1505.00521.pdf) train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]( http://arxiv.org/pdf/1511.06392.pdf)) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015](http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf); [Joulin & Mikolov, 2015](https://arxiv.org/pdf/1503.01007v4.pdf)). And memory networks ([Weston *et al.*, 2014](http://arxiv.org/abs/1410.3916); [Kumar *et al.*, 2015](http://arxiv.org/abs/1506.07285)) are another approach to attacking similar problems.
 
@@ -135,9 +135,14 @@ Attention can also be used on the interface between a convolutional neural netwo
 
 <img src="assets/old-rnn-attention-conv.png" style="width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;"></img>
 
+One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
+
+<img src="assets/ShowAttendTell.png" style="width:90%; margin-left:5%; padding-top:20px; padding-bottom:17px;"></img>
+
+[Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)
 
 
-*(TODO: Captioning example)*
+
 
 
 ### Adaptive Computation Time
