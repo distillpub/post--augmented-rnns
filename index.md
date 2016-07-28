@@ -21,6 +21,16 @@
   </div>
 </div>
 
+**TODO: put mathjax code somewhere better?**
+<script type="text/javascript" async
+  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
 <figure class="side-saddle-right">
@@ -33,7 +43,7 @@ The basic RNN design struggles with longer sequences, but if you use [LSTM netwo
 As this happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions stand out as particularly exciting:
 
 * *Neural Turing Machines* have external memory that they can read and write to.
-* *Attentional Interfaces* allow RNNs to focus on part of the information they’re given.
+* *Attentional Interfaces* allow RNNs to focus on parts of their input.
 * *Adaptive Computation Time* allows for varying amounts of computation per step.
 * *Neural Programmers* can call functions, building programs as they run.
 
@@ -58,12 +68,12 @@ NTMs take a very clever solution to this: every step, they read and write everyw
   <img src="assets/ntm-read.svg"></img>
 </figure>
 
+Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
+
 <figure class="side-saddle-right">
   <figcaption><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
   <img src="assets/ntm-write.svg"></img>
 </figure>
-
-Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
 But how do NTMs distribute their attention over positions in memory? They actually combine together two different attention mechanisms: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and move to places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
 
@@ -78,7 +88,13 @@ The addressing process starts with the generating the content-based focus. First
   <img src="assets/ntm-attend.svg"></img>
 </figure>
 
-This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. They can learn to store a sequence in memory, and then loop over it, repeating it back. They can learn to mimic a lookup table. They can even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
+This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
+
+<img src="assets/TODO-NTM-VIS1.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
+
+[Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)
+
+They can learn to mimic a lookup table. They can even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
 
 Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015](http://arxiv.org/pdf/1511.08228v3.pdf)) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016](http://arxiv.org/pdf/1505.00521.pdf) train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]( http://arxiv.org/pdf/1511.06392.pdf)) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015](http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf); [Joulin & Mikolov, 2015](https://arxiv.org/pdf/1503.01007v4.pdf)). And memory networks ([Weston *et al.*, 2014](http://arxiv.org/abs/1410.3916); [Kumar *et al.*, 2015](http://arxiv.org/abs/1506.07285)) are another approach to attacking similar problems.
 
@@ -97,6 +113,8 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
   <img src="assets/rnn-attention.svg"></img>
 </figure>
 
+**TODO: Blue attention; small fading lines**
+
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.
 
 <img src="assets/old-rnn-attention-mechanism.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
@@ -113,9 +131,11 @@ This kind of attention between RNNs can also be used in translation. This allows
 
 ([Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf))
 
-Attention can also be used on the interface between a convolutional neural network and an RNN. This can allow an RNN to do things like look at a different position in an image every step.
+Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step.
 
 <img src="assets/old-rnn-attention-conv.png" style="width:50%; margin-left:25%; padding-top:20px; padding-bottom:17px;"></img>
+
+
 
 *(TODO: Captioning example)*
 
