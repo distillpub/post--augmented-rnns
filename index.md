@@ -78,7 +78,7 @@ But how do NTMs distribute their attention over positions in memory? They actual
 
 The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
 
-<figure class="side-saddle-left">
+<figure class="side-saddle-left" style="position:relative; left: 170px;">
   <figcaption style="top: 50px;">First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
   <figcaption style="top: 250px;">The scores are then converted into an attention distribution using softmax.</figcaption>
   <figcaption style="top: 410px;">Next, we interpolate the attention from the previous time step. </figcaption>
@@ -181,17 +181,19 @@ When we stop, might have some left over halting budget because we stop when it g
 
 ### Neural Programmer
 
-Neural nets are good at many things, but they also struggle to do many operations that are trivial in normal approaches to computing, such as arithmetic. It would be really nice to have a way to fuse these two, and get the best of both worlds.
+Neural nets are excellent at many tasks, but they also struggle to do some basic things like arithmetic, which are trivial in normal approaches to computing. It would be really nice to have a way to fuse neural nets with normal programming, and get the best of both worlds.
 
-The neural programmer ([Neelakantan, *et al.*, 2015](http://arxiv.org/abs/1511.04834)) is one approach to this. It can learn to generate programs in order to solve the task at hand. Further, it learns to generate such programs without needing examples of correct programs. It discovers how to produce programs, in order to accomplish some task.
+The neural programmer ([Neelakantan, *et al.*, 2015](http://arxiv.org/abs/1511.04834)) is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs *without needing examples of correct programs*. It discovers how to produce programs as a means to the end of accomplishing some task.
 
-The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. There are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
+The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
 
-The program is generated one operation at a time by a controller RNN. At each step, it outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
+The program is generated one operation at a time by a controller RNN. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned and read from.
+
+At each step, the controller RNN outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
 
 <img src="assets/old-np1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
-The resulting distribution over programs can now be evaluated.
+The resulting distribution over operations  can now be evaluated.
 
 Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
 
@@ -199,10 +201,15 @@ Instead of running a single operation at each step, we use our usual trick of ru
 
 As long as we can define derivatives through the operations, the program's output is differentiable with respect to the probabilities. We can then define a loss, and train the neural net to produce programs that give the correct answer. In this way, the Neural Programmer learns to produce programs without examples of good programs. The only supervision is the answer the program should produce.
 
+That's the core idea of Neural Programmer, but the version in the paper answers questions about tables, rather than arithmetic expressions. There's a few additional neat tricks:
+
+* **Multiple Types:** Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) Only outputs of the same type get merged together. This is part way to having a type system.
+
+* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (discussed above). For example, the *Greater* operation allows the controller to select table entries where a previously selected column is greater than a value in the question that the controller selects by attending over the question. The exciting thing about this is that, while it's being used in a very limited way, it shows that pointer network-style attention can be used enable a kind of variable.
 
 
+One other ne
 
 
-This makes the process of running the program differentiable with respect to the
 
 ### Conclusion
