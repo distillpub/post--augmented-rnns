@@ -36,8 +36,9 @@ Recurrent neural networks are one of the staples of deep learning, allowing neur
 
 <figure class="side-saddle-right diagram">
   <figcaption style="top: 40px;">A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>
-  <img src="assets/rnn_basic_rnn.svg" style="padding-top: 10px;"></img>
+  {{> assets/rnn_basic_rnn.svg}}
 </figure>
+
 
 The basic RNN design struggles with longer sequences, but if you use [LSTM networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a special kind of RNN, they can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.
 
@@ -57,8 +58,9 @@ Neural Turing Machines ([Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401
 <figure class="side-saddle-right diagram">
   <figcaption>Memory is an array of vectors.</figcaption>
   <figcaption style="top: 100px;">At every time step, the RNN controller can read from and write to this external memory.</figcaption>
-  <img src="assets/rnn_memory.svg"></img>
+  {{> assets/rnn_memory.svg}}
 </figure>
+
 
 But how does reading and writing work? The challenge is that we want to make them differentiable. In particular, we want to make them differentiable with respect to the location we read from or write to, so that we can learn where to read and write. This is tricky, because memory addresses seem to be fundamentally discrete.
 
@@ -66,14 +68,14 @@ NTMs take a very clever solution to this: every step, they read and write everyw
 
 <figure class="side-saddle-right diagram">
   <figcaption style="top: 60px;"><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
-  <img src="assets/rnn_read.svg"></img>
+  {{> assets/rnn_read.svg}}
 </figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
 <figure class="side-saddle-right diagram">
   <figcaption style="top: 130px;"><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
-  <img src="assets/rnn_write.svg"></img>
+  {{> assets/rnn_write.svg}}
 </figure>
 
 But how do NTMs distribute their attention over positions in memory? They actually combine together two different attention mechanisms: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and move to places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
@@ -86,7 +88,7 @@ The addressing process starts with the generating the content-based focus. First
   <figcaption style="top: 410px;">Next, we interpolate the attention from the previous time step. </figcaption>
   <figcaption style="top: 530px;">We convolve the attention with a shift filter — this allows the controller to move relative to the position it is anchored to.</figcaption>
   <figcaption style="top: 700px;">Finally, we sharpen the attention distribution to concentrate our focus. This final attention distribution is fed to the read or write operation.</figcaption>
-  <img src="assets/rnn_write_detail.svg"></img>
+  {{> assets/rnn_write_detail.svg}}
 </figure>
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
@@ -114,7 +116,7 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
 
 <figure class="side-saddle-right diagram">
   <figcaption>We use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.</figcaption>
-  <img src="assets/rnn_attentional_01.svg">
+  {{> assets/rnn_attentional_01.svg}}
 </figure>
 
 **TODO: Blue attention; small fading lines**
@@ -122,7 +124,7 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.
 
 <figure class="diagram">
-  <img src="assets/rnn_attentional_02.svg"></img>
+  {{> assets/rnn_attentional_02.svg}}
 </figure>
 
 Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
@@ -159,7 +161,7 @@ Standard RNNs do the same amount of computation each time step. This seems unint
 The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
 <figure class="side-saddle-right diagram">
-  <img src="assets/rnn_adaptive_01.svg">
+  {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
 In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weigthed combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.
@@ -167,7 +169,7 @@ In order for the network to learn how many steps to do, we want the number of st
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
 <figure class="side-saddle-right diagram">
-  <img src="assets/rnn_adaptive_02.svg">
+  {{> assets/rnn_adaptive_02.svg}}
 </figure>
 
 That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:

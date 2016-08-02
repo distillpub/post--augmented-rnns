@@ -1,57 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="144px" viewBox="0 0 792 144" style="enable-background:new 0 0 792 144;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#798294;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#E6EAF2;}
-	.st3{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
-	.st4{fill:#8C8C8C;}
-	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
-	.st6{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st7{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st8{opacity:0.8;}
-	.st9{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st10{fill:#0080F7;}
-	.st11{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st12{opacity:0.1;}
-	.st13{opacity:0.4;}
-	.st14{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
-	.st15{fill:#6300F7;}
-	.st16{opacity:0;fill:#0080F7;}
-	.st17{opacity:0.8;fill:#0080F7;}
-	.st18{fill:#596673;}
-	.st19{fill:#717171;}
-	.st20{fill:none;stroke:#919191;stroke-miterlimit:10;}
-	.st21{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
-	.st22{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
-	.st23{opacity:0.2;}
-	.st24{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
-	.st25{fill:#B3B3B3;}
-	.st26{font-family:'Helvetica';}
-	.st27{font-size:12px;}
-	.st28{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
-</style>
+	 height="144px" viewBox="0 0 792 144" enable-background="new 0 0 792 144" xml:space="preserve">
 <symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
-		/>
+	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
+		z"/>
 </symbol>
 <symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
 </symbol>
 <symbol  id="rnn-a_4_3_" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" style="overflow:visible;"/>
-	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" class="st1 st26" style="font-size:21.7741px;">A</text>
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
 </symbol>
 <symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
-		/>
+	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
+		z"/>
 </symbol>
 <g id="background">
 	<g id="XMLID_7_">
 		<g>
-			<path class="st2" d="M468,102.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-126.3,0-294.6,0-432,0c-11.6,0-11.6,0-11.6,0
+			<path fill="#E6EAF2" d="M468,102.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-126.3,0-294.6,0-432,0c-11.6,0-11.6,0-11.6,0
 				C4,108,0,105.4,0,102.3c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3C0,40.4,4,36,8.9,36c0,0,0,0,11.6,0
 				c137.4,0,305.7,0,432,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C468,102.3,468,102.3,468,102.3z"/>
 		</g>
@@ -75,124 +44,124 @@
 		</g>
 	</g>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 33.501 69.5)" style="overflow:visible;"/>
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 33.501 69.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 165.501 69.5)" style="overflow:visible;"/>
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 165.501 69.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 297.501 69.5)" style="overflow:visible;"/>
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 297.501 69.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" id="XMLID_34_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 429.501 69.5)" style="overflow:visible;"/>
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" id="XMLID_34_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 429.501 69.5)" overflow="visible"/>
 </g>
 <g id="text">
-	<text transform="matrix(1 0 0 1 17.6631 135.9998)" class="st19 st26 st27">x0</text>
-	<text transform="matrix(1 0 0 1 41.6631 135.9998)" class="st19 st26 st27">y0</text>
-	<text transform="matrix(1 0 0 1 149.6631 135.9998)" class="st19 st26 st27">x1</text>
-	<text transform="matrix(1 0 0 1 173.6631 135.9998)" class="st19 st26 st27">y1</text>
-	<text transform="matrix(1 0 0 1 281.6631 135.9998)" class="st19 st26 st27">x2</text>
-	<text transform="matrix(1 0 0 1 305.6631 135.9998)" class="st19 st26 st27">y2</text>
-	<text transform="matrix(1 0 0 1 413.6631 135.9998)" class="st19 st26 st27">x3</text>
-	<text transform="matrix(1 0 0 1 437.6631 135.9998)" class="st19 st26 st27">y3</text>
+	<text transform="matrix(1 0 0 1 17.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x0</text>
+	<text transform="matrix(1 0 0 1 41.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y0</text>
+	<text transform="matrix(1 0 0 1 149.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x1</text>
+	<text transform="matrix(1 0 0 1 173.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y1</text>
+	<text transform="matrix(1 0 0 1 281.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x2</text>
+	<text transform="matrix(1 0 0 1 305.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y2</text>
+	<text transform="matrix(1 0 0 1 413.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x3</text>
+	<text transform="matrix(1 0 0 1 437.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y3</text>
 	<g>
-		<text transform="matrix(1 0 0 1 26.9971 16.9998)" class="st26 st27">cell</text>
+		<text transform="matrix(1 0 0 1 26.9971 16.9998)" font-family="'Helvetica'" font-size="12px">cell</text>
 	</g>
-	<line class="st28" x1="35.5" y1="47" x2="35.5" y2="24"/>
-	<line class="st28" x1="168.5" y1="47" x2="168.5" y2="24"/>
-	<line class="st28" x1="300.5" y1="47" x2="300.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="35.5" y1="47" x2="35.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="168.5" y1="47" x2="168.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="300.5" y1="47" x2="300.5" y2="24"/>
 	<g>
-		<text transform="matrix(1 0 0 1 105.6328 16.9998)" class="st26 st27">same cell is used again</text>
+		<text transform="matrix(1 0 0 1 105.6328 16.9998)" font-family="'Helvetica'" font-size="12px">same cell is used again</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 273.6416 16.9998)" class="st26 st27">and again</text>
+		<text transform="matrix(1 0 0 1 273.6416 16.9998)" font-family="'Helvetica'" font-size="12px">and again</text>
 	</g>
-	<line class="st28" x1="432.5" y1="47" x2="432.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="432.5" y1="47" x2="432.5" y2="24"/>
 	<g>
-		<text transform="matrix(1 0 0 1 400.6406 16.9998)" class="st26 st27">and again...</text>
+		<text transform="matrix(1 0 0 1 400.6406 16.9998)" font-family="'Helvetica'" font-size="12px">and again...</text>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="60" y1="72.5" x2="143" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="60" y1="72.5" x2="143" y2="72.5"/>
 			<g>
-				<polygon class="st4" points="139.6,76.6 138.9,75.9 142.5,72.5 138.9,69.1 139.6,68.4 144,72.5 				"/>
+				<polygon fill="#8C8C8C" points="139.6,76.6 138.9,75.9 142.5,72.5 138.9,69.1 139.6,68.4 144,72.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="23.5" y1="120" x2="23.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="23.5" y1="120" x2="23.5" y2="97"/>
 			<g>
-				<polygon class="st4" points="28.1,99.9 27.4,100.6 24,97 20.6,100.6 19.9,99.9 24,95.5 				"/>
+				<polygon fill="#8C8C8C" points="28.1,99.9 27.4,100.6 24,97 20.6,100.6 19.9,99.9 24,95.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="48.5" y1="96" x2="48.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="48.5" y1="96" x2="48.5" y2="119"/>
 			<g>
-				<polygon class="st4" points="44.9,115.6 45.6,114.9 49,118.5 52.4,114.9 53.1,115.6 49,120 				"/>
+				<polygon fill="#8C8C8C" points="44.9,115.6 45.6,114.9 49,118.5 52.4,114.9 53.1,115.6 49,120 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="155.5" y1="120" x2="155.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="155.5" y1="120" x2="155.5" y2="97"/>
 			<g>
-				<polygon class="st4" points="160.1,99.9 159.4,100.6 156,97 152.6,100.6 151.9,99.9 156,95.5 				"/>
+				<polygon fill="#8C8C8C" points="160.1,99.9 159.4,100.6 156,97 152.6,100.6 151.9,99.9 156,95.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="180.5" y1="96" x2="180.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="180.5" y1="96" x2="180.5" y2="119"/>
 			<g>
-				<polygon class="st4" points="176.9,115.6 177.6,114.9 181,118.5 184.4,114.9 185.1,115.6 181,120 				"/>
+				<polygon fill="#8C8C8C" points="176.9,115.6 177.6,114.9 181,118.5 184.4,114.9 185.1,115.6 181,120 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="288.5" y1="120" x2="288.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="288.5" y1="120" x2="288.5" y2="97"/>
 			<g>
-				<polygon class="st4" points="293.1,99.9 292.4,100.6 289,97 285.6,100.6 284.9,99.9 289,95.5 				"/>
+				<polygon fill="#8C8C8C" points="293.1,99.9 292.4,100.6 289,97 285.6,100.6 284.9,99.9 289,95.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="311.5" y1="96" x2="311.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="311.5" y1="96" x2="311.5" y2="119"/>
 			<g>
-				<polygon class="st4" points="307.9,115.6 308.6,114.9 312,118.5 315.4,114.9 316.1,115.6 312,120 				"/>
+				<polygon fill="#8C8C8C" points="307.9,115.6 308.6,114.9 312,118.5 315.4,114.9 316.1,115.6 312,120 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="419.5" y1="120" x2="419.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="419.5" y1="120" x2="419.5" y2="97"/>
 			<g>
-				<polygon class="st4" points="424.1,99.9 423.4,100.6 420,97 416.6,100.6 415.9,99.9 420,95.5 				"/>
+				<polygon fill="#8C8C8C" points="424.1,99.9 423.4,100.6 420,97 416.6,100.6 415.9,99.9 420,95.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="443.5" y1="96" x2="443.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="443.5" y1="96" x2="443.5" y2="119"/>
 			<g>
-				<polygon class="st4" points="439.9,115.6 440.6,114.9 444,118.5 447.4,114.9 448.1,115.6 444,120 				"/>
+				<polygon fill="#8C8C8C" points="439.9,115.6 440.6,114.9 444,118.5 447.4,114.9 448.1,115.6 444,120 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="192" y1="72.5" x2="275" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="192" y1="72.5" x2="275" y2="72.5"/>
 			<g>
-				<polygon class="st4" points="271.6,76.6 270.9,75.9 274.5,72.5 270.9,69.1 271.6,68.4 276,72.5 				"/>
+				<polygon fill="#8C8C8C" points="271.6,76.6 270.9,75.9 274.5,72.5 270.9,69.1 271.6,68.4 276,72.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st3" x1="324" y1="72.5" x2="407" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="324" y1="72.5" x2="407" y2="72.5"/>
 			<g>
-				<polygon class="st4" points="403.6,76.6 402.9,75.9 406.5,72.5 402.9,69.1 403.6,68.4 408,72.5 				"/>
+				<polygon fill="#8C8C8C" points="403.6,76.6 402.9,75.9 406.5,72.5 402.9,69.1 403.6,68.4 408,72.5 				"/>
 			</g>
 		</g>
 	</g>

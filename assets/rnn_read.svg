@@ -1,74 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="264px" viewBox="0 0 792 264" style="enable-background:new 0 0 792 264;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#798294;}
-	.st1{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
-	.st2{opacity:0;fill:#0080F7;}
-	.st3{opacity:0.8;fill:#0080F7;}
-	.st4{fill:#E6EAF2;}
-	.st5{fill:#8C8C8C;}
-	.st6{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
-	.st7{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st8{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st9{opacity:0.8;}
-	.st10{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st11{fill:#0080F7;}
-	.st12{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
-	.st13{opacity:0.1;}
-	.st14{opacity:0.4;}
-	.st15{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
-	.st16{fill:#6300F7;}
-	.st17{fill:#FFFFFF;}
-	.st18{fill:#596673;}
-	.st19{fill:#717171;}
-	.st20{fill:none;stroke:#919191;stroke-miterlimit:10;}
-	.st21{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
-	.st22{font-family:'Helvetica';}
-	.st23{font-size:12px;}
-	.st24{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
-	.st25{opacity:0.2;}
-	.st26{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
-	.st27{fill:#B3B3B3;}
-	.st28{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
-</style>
+	 height="264px" viewBox="0 0 792 264" enable-background="new 0 0 792 264" xml:space="preserve">
 <symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
-		/>
+	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
+		z"/>
 </symbol>
 <symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
-	<path class="st1" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24c3.3,0,6-2.7,6-6v-24C18-15.3,15.3-18,12-18z"/>
+	<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24c3.3,0,6-2.7,6-6
+		v-24C18-15.3,15.3-18,12-18z"/>
 </symbol>
 <symbol  id="array-7" viewBox="-126.5 -18.5 253 37">
-	<path class="st1" d="M120-18h-240c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h240c3.3,0,6-2.7,6-6v-24C126-15.3,123.3-18,120-18z"/>
-	<line class="st1" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
-	<line class="st1" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
-	<line class="st1" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
-	<line class="st1" x1="17.5" y1="-18" x2="17.5" y2="18"/>
-	<line class="st1" x1="53.5" y1="-18" x2="53.5" y2="18"/>
-	<line class="st1" x1="89.5" y1="-18" x2="89.5" y2="18"/>
+	<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M120-18h-240c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h240
+		c3.3,0,6-2.7,6-6v-24C126-15.3,123.3-18,120-18z"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="17.5" y1="-18" x2="17.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="53.5" y1="-18" x2="53.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="89.5" y1="-18" x2="89.5" y2="18"/>
 </symbol>
 <symbol  id="array-positive-value" viewBox="-18 -18 36 36">
-	<polygon class="st2" points="18,-18 -18,-18 -18,18 18,18 	"/>
-	<path class="st3" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6C13.6-10.9,10.9-13.6,7.6-13.6z
-		"/>
+	<polygon opacity="0" fill="#0080F7" points="18,-18 -18,-18 -18,18 18,18 	"/>
+	<path opacity="0.8" fill="#0080F7" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6
+		C13.6-10.9,10.9-13.6,7.6-13.6z"/>
 </symbol>
 <symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
 </symbol>
 <symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
-		/>
+	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
+		z"/>
 </symbol>
 <g id="background">
 </g>
 <g id="edges">
 	<g>
 		<g>
-			<path class="st1" d="M682,95.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1l16.9,0.4"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M682,95.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1
+				l16.9,0.4"/>
 			<g>
-				<polygon class="st5" points="715.5,147.5 714.9,146.8 718.5,143.5 715,140 715.7,139.3 720,143.5 				"/>
+				<polygon fill="#8C8C8C" points="715.5,147.5 714.9,146.8 718.5,143.5 715,140 715.7,139.3 720,143.5 				"/>
 			</g>
 		</g>
 	</g>
@@ -89,28 +61,28 @@
 		</g>
 	</g>
 	
-		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_24_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 42.5)" style="overflow:visible;"/>
+		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_24_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 42.5)" overflow="visible"/>
 	
-		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 113.5)" style="overflow:visible;"/>
+		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 113.5)" overflow="visible"/>
 	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 125.5 221.5)" style="overflow:visible;"/>
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 125.5 221.5)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 18 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 18 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 42)" style="overflow:visible;"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 42)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 234 42)" style="overflow:visible;"/>
-	<text transform="matrix(1 0 0 1 332 47.9998)" class="st19 st22 st23">attention</text>
-	<text transform="matrix(1 0 0 1 332 115.9998)" class="st19 st22 st23">memory</text>
-	<text transform="matrix(1 0 0 1 230 220.9998)" class="st19 st22 st23">read result</text>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 234 42)" overflow="visible"/>
+	<text transform="matrix(1 0 0 1 332 47.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">attention</text>
+	<text transform="matrix(1 0 0 1 332 115.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">memory</text>
+	<text transform="matrix(1 0 0 1 230 220.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">read result</text>
 </g>
 <g id="text">
 </g>
