@@ -336,6 +336,8 @@ pre code {
 
 .post figure {
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .post figure img {
@@ -344,6 +346,10 @@ pre code {
 
 .post figure.diagram img {
   width: auto;
+}
+
+.post figure.diagram svg text {
+  font-family: "Open Sans";
 }
 
 .post figure figcaption {

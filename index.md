@@ -34,8 +34,8 @@ MathJax.Hub.Config({
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
-<figure class="side-saddle-right diagram">
-  <figcaption style="top: 40px;">A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>
+<figure class="diagram">
+  <!--<figcaption style="top: 40px;">A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>-->
   {{> assets/rnn_basic_rnn.svg}}
 </figure>
 
