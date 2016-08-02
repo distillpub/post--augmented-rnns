@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
+	 height="312px" viewBox="0 0 792 312" style="enable-background:new 0 0 792 312;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#798294;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#E6EAF2;}
+	.st3{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st4{fill:#8C8C8C;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st6{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st7{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st8{opacity:0.8;}
+	.st9{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#0080F7;}
+	.st11{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st12{opacity:0.1;}
+	.st13{opacity:0.4;}
+	.st14{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
+	.st15{fill:#6300F7;}
+	.st16{opacity:0;fill:#0080F7;}
+	.st17{opacity:0.8;fill:#0080F7;}
+	.st18{fill:#596673;}
+	.st19{fill:none;}
+	.st20{fill:#717171;}
+	.st21{font-family:'Helvetica-LightOblique';}
+	.st22{font-size:11px;}
+	.st23{fill:none;stroke:#919191;stroke-miterlimit:10;}
+	.st24{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
+	.st25{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st26{opacity:0.2;}
+	.st27{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
+	.st28{fill:#B3B3B3;}
+	.st29{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
+</style>
+<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
+	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
+		/>
+</symbol>
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="op-sum" viewBox="-11.2 -11.6 22.5 22.9">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_14_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -4.8384 -3.917)" class="st1" style="font-family:'Helvetica'; font-size:16px;">+</text>
+	</g>
+</symbol>
+<symbol  id="rnn-a_4_3_" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" style="overflow:visible;"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" class="st1" style="font-family:'Helvetica'; font-size:21.7741px;">A</text>
+</symbol>
+<symbol  id="rnn-a_5" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_23_" x="-21.5" y="-26.5" style="overflow:visible;"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" class="st1" style="font-family:'Helvetica'; font-size:21.7741px;">B</text>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
+		/>
+</symbol>
+<g id="background">
+	<g id="XMLID_2_">
+		<g>
+			<path class="st2" d="M372,90.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-94.4,0-220.3,0-323,0c-11.6,0-11.6,0-11.6,0
+				C17,96,13,93.4,13,90.3c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c102.7,0,228.6,0,323,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C372,90.3,372,90.3,372,90.3z"/>
+		</g>
+	</g>
+	<g id="XMLID_18_">
+		<g>
+			<path class="st2" d="M372,258.3c0,3.2-2.9,5.8-6.5,5.8c0,0,0,0-9,0c-94.4,0-220.3,0-323,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.8c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c102.7,0,228.6,0,323,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C372,258.3,372,258.3,372,258.3z"/>
+		</g>
+	</g>
+</g>
+<g id="edges">
+	<g>
+		<g>
+			<path class="st3" d="M682,73.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1l16.9,0.4"/>
+			<g>
+				<polygon class="st4" points="715.5,125.5 714.9,124.8 718.5,121.5 715,118 715.7,117.3 720,121.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="nodes">
+	<g id="New_Symbol">
+	</g>
+	<g id="rnn-a_4_2_">
+		<g id="Deleted_Symbol_2_">
+		</g>
+	</g>
+	<g id="rnn-a_4_1_">
+		<g id="Deleted_Symbol_1_">
+		</g>
+	</g>
+	<g id="rnn-a_4">
+		<g id="Deleted_Symbol">
+		</g>
+	</g>
+	
+		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 45.501 57.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 141.501 57.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 237.501 57.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 333.501 57.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 45.501 225.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 141.501 225.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 237.501 225.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 333.501 225.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 48 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 144 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 240 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 336 131.25)" style="overflow:visible;"/>
+	<g>
+		<rect x="420" y="120" class="st19" width="77.7" height="51.5"/>
+		<text transform="matrix(1 0 0 1 420 129.4488)"><tspan x="0" y="0" class="st20 st21 st22">weighted sum </tspan><tspan x="0" y="15" class="st20 st21 st22">of the outputs</tspan></text>
+	</g>
+	<g>
+		<rect x="563.3" y="120" class="st19" width="120.7" height="43.5"/>
+		<text transform="matrix(1 0 0 1 563.2695 129.4488)"><tspan x="0" y="0" class="st20 st21 st22">The same RNN A is </tspan><tspan x="0" y="15" class="st20 st21 st22">used at each step of B</tspan></text>
+	</g>
+</g>
+<g id="text">
+</g>
+</svg>

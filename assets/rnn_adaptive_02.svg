@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
+	 height="288px" viewBox="0 0 792 288" style="enable-background:new 0 0 792 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#798294;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#E6EAF2;}
+	.st4{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st5{fill:#8C8C8C;}
+	.st6{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st7{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st8{opacity:0.8;}
+	.st9{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#0080F7;}
+	.st11{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st12{opacity:0.1;}
+	.st13{opacity:0.4;}
+	.st14{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
+	.st15{fill:#6300F7;}
+	.st16{opacity:0;fill:#0080F7;}
+	.st17{opacity:0.8;fill:#0080F7;}
+	.st18{fill:#596673;}
+	.st19{fill:#717171;}
+	.st20{fill:none;stroke:#919191;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
+	.st22{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st23{opacity:0.2;}
+	.st24{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
+	.st25{fill:#B3B3B3;}
+	.st26{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
+</style>
+<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
+	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
+		/>
+</symbol>
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="op-halo" viewBox="-15.5 -15.5 31 31">
+	<path class="st1" d="M14.7,0c0-8.1-6.6-14.7-14.7-14.7S-14.7-8.1-14.7,0S-8.1,14.7,0,14.7S14.7,8.1,14.7,0z"/>
+</symbol>
+<symbol  id="op-sum" viewBox="-11.2 -11.6 22.5 22.9">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_14_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -4.8384 -3.917)" class="st2" style="font-family:'Helvetica'; font-size:16px;">+</text>
+	</g>
+</symbol>
+<symbol  id="op-sum_2" viewBox="-11.2 -11.2 22.5 22.5">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -3.6313 -5.75)" class="st2" style="font-family:'Roboto-Regular'; font-size:14px;">δ</text>
+	</g>
+</symbol>
+<symbol  id="op-sum_3" viewBox="-11.2 -11.2 22.5 22.5">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_41_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -3.5034 -3.959)" class="st2" style="font-family:'Helvetica'; font-size:12px;">1</text>
+	</g>
+</symbol>
+<symbol  id="op-sum_4" viewBox="-11.2 -11.9 22.5 23.2">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_35_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -4.4492 -4.209)" class="st2" style="font-family:'Helvetica'; font-size:16px;">–</text>
+	</g>
+</symbol>
+<symbol  id="op-sum_5" viewBox="-11.2 -11.2 22.5 22.5">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_39_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -7.9531 -3.209)"><tspan x="0" y="0" class="st2" style="font-family:'Helvetica'; font-size:12px;">&gt;</tspan><tspan x="7" y="0" class="st2" style="font-family:'Helvetica'; font-size:16px;">ε</tspan></text>
+	</g>
+</symbol>
+<symbol  id="op-x" viewBox="-11.2 -12 23.2 23.4">
+	
+		<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 1 6.640625e-02 0.1797)" style="overflow:visible;"/>
+	<g>
+		
+			<text transform="matrix(0.7071 0.7071 0.7071 -0.7071 -0.7407 -6.2092)" class="st2" style="font-family:'Helvetica'; font-size:17px;">+</text>
+	</g>
+</symbol>
+<symbol  id="rnn-a_2" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_5_" x="-21.5" y="-26.5" style="overflow:visible;"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" class="st2" style="font-family:'Helvetica'; font-size:21.7741px;">S</text>
+</symbol>
+<symbol  id="rnn-a_3" viewBox="-13.7 -17.1 27.4 30.8">
+	
+		<use xlink:href="#Deleted_Symbol_3_"  width="43" height="43" x="-21.5" y="-21.5" transform="matrix(0.6364 0 0 0.6364 0 0)" style="overflow:visible;"/>
+	<text transform="matrix(1 0 0 -1 -7.1372 -6.6533)" class="st2" style="font-family:'Helvetica'; font-size:21.7741px;">σ</text>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
+		/>
+</symbol>
+<g id="background">
+	<g>
+		<g>
+			<path class="st3" d="M180,270.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-38.6,0-90,0-132,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-64.7,0-153.8,0-228c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c42,0,93.4,0,132,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,74.2,0,163.3,0,228C180,270.3,180,270.3,180,270.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M372,270.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-38.6,0-90,0-132,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-64.7,0-153.8,0-228c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c42,0,93.4,0,132,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,74.2,0,163.3,0,228C372,270.3,372,270.3,372,270.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M564,270.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-38.6,0-90,0-132,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-64.7,0-153.8,0-228c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c42,0,93.4,0,132,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,74.2,0,163.3,0,228C564,270.3,564,270.3,564,270.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M636,270.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-3.5,0-8.2,0-12,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-64.7,0-153.8,0-228c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c3.8,0,8.5,0,12,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,74.2,0,163.3,0,228C636,270.3,636,270.3,636,270.3z"/>
+		</g>
+	</g>
+</g>
+<g id="edges">
+	<g>
+		<g>
+			<line class="st4" x1="48" y1="289" x2="48" y2="218.1"/>
+			<g>
+				<polygon class="st5" points="52.1,221.4 51.4,222.1 48,218.5 44.6,222.1 43.9,221.4 48,217 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M48,265.5h185.5c3.3,0,6-2.7,6-6V218"/>
+			<g>
+				<polygon class="st5" points="243.6,221.4 242.9,222.1 239.5,218.5 236.1,222.1 235.4,221.4 239.5,217 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M48,265.5h377.5c3.3,0,6-2.7,6-6V218"/>
+			<g>
+				<polygon class="st5" points="435.6,221.4 434.9,222.1 431.5,218.5 428.1,222.1 427.4,221.4 431.5,217 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="0" y1="192" x2="22.9" y2="192"/>
+			<g>
+				<polygon class="st5" points="19.6,196.1 18.9,195.4 22.5,192 18.9,188.6 19.6,187.9 24,192 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="624" y1="72" x2="646.9" y2="72"/>
+			<g>
+				<polygon class="st5" points="643.6,76.1 642.9,75.4 646.5,72 642.9,68.6 643.6,67.9 648,72 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="72" y1="192" x2="214.9" y2="192"/>
+			<g>
+				<polygon class="st5" points="211.6,196.1 210.9,195.4 214.5,192 210.9,188.6 211.6,187.9 216,192 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="264" y1="192" x2="406.9" y2="192"/>
+			<g>
+				<polygon class="st5" points="403.6,196.1 402.9,195.4 406.5,192 402.9,188.6 403.6,187.9 408,192 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M72,192h18c3.3,0,6-2.7,6-6v-28.9"/>
+			<g>
+				<polygon class="st5" points="100.1,160.4 99.4,161.1 96,157.5 92.6,161.1 91.9,160.4 96,156 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M264,192h18c3.3,0,6-2.7,6-6v-28.9"/>
+			<g>
+				<polygon class="st5" points="292.1,160.4 291.4,161.1 288,157.5 284.6,161.1 283.9,160.4 288,156 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M456,192h18c3.3,0,6-2.7,6-6v-28.9"/>
+			<g>
+				<polygon class="st5" points="484.1,160.4 483.4,161.1 480,157.5 476.6,161.1 475.9,160.4 480,156 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st4" d="M72,192h66c3.3,0,6-2.7,6-6v-78"/>
+	</g>
+	<g>
+		<path class="st4" d="M264,192h66c3.3,0,6-2.7,6-6v-78"/>
+	</g>
+	<g>
+		<path class="st4" d="M456,192h66c3.3,0,6-2.7,6-6v-78"/>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="96" y1="132" x2="96" y2="61.1"/>
+			<g>
+				<polygon class="st5" points="100.1,64.4 99.4,65.1 96,61.5 92.6,65.1 91.9,64.4 96,60 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="288" y1="132" x2="288" y2="61.1"/>
+			<g>
+				<polygon class="st5" points="292.1,64.4 291.4,65.1 288,61.5 284.6,65.1 283.9,64.4 288,60 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="480" y1="132" x2="480" y2="61.1"/>
+			<g>
+				<polygon class="st5" points="484.1,64.4 483.4,65.1 480,61.5 476.6,65.1 475.9,64.4 480,60 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M96,132v-30c0-3.3,2.7-6,6-6h28.9"/>
+			<g>
+				<polygon class="st5" points="127.6,100.1 126.9,99.4 130.5,96 126.9,92.6 127.6,91.9 132,96 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M288,132v-30c0-3.3,2.7-6,6-6h28.9"/>
+			<g>
+				<polygon class="st5" points="319.6,100.1 318.9,99.4 322.5,96 318.9,92.6 319.6,91.9 324,96 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st4" d="M143.5,84v-8.5c0-3.3,2.7-6,6-6H600"/>
+	</g>
+	<g>
+		<path class="st4" d="M335.5,84c0,0,0-2.6,0-5.8s2.7-5.8,6-5.8H600"/>
+	</g>
+	<g>
+		<path class="st4" d="M527.5,84c0,0,0-1.9,0-4.2s2.7-4.2,6-4.2H600"/>
+	</g>
+	<line class="st4" x1="60" y1="48.5" x2="480" y2="48.5"/>
+	<g>
+		<g>
+			<path class="st4" d="M96,48.5h18c3.3,0,7.9-1.9,10.3-4.2L140,28.7c2.3-2.3,7-4.2,10.3-4.2H167"/>
+			<g>
+				<polygon class="st5" points="163.6,28.6 162.9,27.9 166.5,24.5 162.9,21.1 163.6,20.4 168,24.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M288,48.5h18c3.3,0,7.9-1.9,10.3-4.2L332,28.7c2.3-2.3,7-4.2,10.3-4.2H359"/>
+			<g>
+				<polygon class="st5" points="355.6,28.6 354.9,27.9 358.5,24.5 354.9,21.1 355.6,20.4 360,24.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M480,48.5h18c3.3,0,7.9-1.9,10.3-4.2L524,28.7c2.3-2.3,7-4.2,10.3-4.2H551"/>
+			<g>
+				<polygon class="st5" points="547.6,28.6 546.9,27.9 550.5,24.5 546.9,21.1 547.6,20.4 552,24.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M408,48.5h29.5c3.3,0,6,2.7,6,6v36c0,3.3,2.7,6,6,6H516"/>
+			<g>
+				<polygon class="st5" points="512.6,100.6 511.9,99.9 515.5,96.5 511.9,93.1 512.6,92.4 517,96.5 				"/>
+			</g>
+		</g>
+	</g>
+	
+		<use xlink:href="#op-halo"  width="31" height="31" id="XMLID_50_" x="-15.5" y="-15.5" transform="matrix(1 0 0 -1 180.6667 24.8333)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-halo"  width="31" height="31" id="XMLID_49_" x="-15.5" y="-15.5" transform="matrix(1 0 0 -1 372.6665 24.8333)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-halo"  width="31" height="31" id="XMLID_48_" x="-15.5" y="-15.5" transform="matrix(1 0 0 -1 564.6663 24.8333)" style="overflow:visible;"/>
+</g>
+<g id="nodes">
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_32_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 611.25 72)" style="overflow:visible;"/>
+	<g id="New_Symbol">
+	</g>
+	<g id="rnn-a_4_2_">
+		<g id="Deleted_Symbol_2_">
+		</g>
+	</g>
+	<g id="rnn-a_4_1_">
+		<g id="Deleted_Symbol_1_">
+		</g>
+	</g>
+	<g id="rnn-a_4">
+		<g id="Deleted_Symbol">
+		</g>
+	</g>
+	
+		<use xlink:href="#rnn-a_3"  width="27.4" height="30.8" x="-13.7" y="-17.1" transform="matrix(1 0 0 -1 97.6824 145.6818)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_5"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 180.75 24.75)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_4"  width="22.5" height="23.2" x="-11.2" y="-11.9" transform="matrix(1 0 0 -1 96.75 48.0957)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_3"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 47.25 48.75)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-x"  width="23.2" height="23.4" x="-11.2" y="-12" transform="matrix(1 0 0 -1 143.9395 95.4297)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 45.501 189.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_3"  width="27.4" height="30.8" x="-13.7" y="-17.1" transform="matrix(1 0 0 -1 289.6766 145.6818)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_5"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 372.7441 24.75)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_4"  width="22.5" height="23.2" x="-11.2" y="-11.9" transform="matrix(1 0 0 -1 288.7441 48.0957)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-x"  width="23.2" height="23.4" x="-11.2" y="-12" transform="matrix(1 0 0 -1 335.9336 95.4297)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 237.4951 189.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_3"  width="27.4" height="30.8" x="-13.7" y="-17.1" transform="matrix(1 0 0 -1 481.6707 145.6818)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_5"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 564.7383 24.75)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_4"  width="22.5" height="23.2" x="-11.2" y="-11.9" transform="matrix(1 0 0 -1 480.7383 48.0957)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-x"  width="23.2" height="23.4" x="-11.2" y="-12" transform="matrix(1 0 0 -1 527.9277 95.4297)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 429.4893 189.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 48.75 240.75)" style="overflow:visible;"/>
+</g>
+<g id="text">
+</g>
+</svg>

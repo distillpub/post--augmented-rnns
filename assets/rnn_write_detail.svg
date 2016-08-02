@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
+	 height="912px" viewBox="0 0 792 912" style="enable-background:new 0 0 792 912;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#798294;}
+	.st1{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st2{opacity:0;fill:#0080F7;}
+	.st3{opacity:0.8;fill:#0080F7;}
+	.st4{fill:#596673;}
+	.st5{fill:#E6EAF2;}
+	.st6{fill:#8C8C8C;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st8{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st9{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st10{opacity:0.8;}
+	.st11{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st12{fill:#0080F7;}
+	.st13{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st14{opacity:0.1;}
+	.st15{opacity:0.4;}
+	.st16{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
+	.st17{fill:#6300F7;}
+	.st18{fill:#FFFFFF;}
+	.st19{font-family:'Helvetica';}
+	.st20{font-size:11px;}
+	.st21{fill:#717171;}
+	.st22{fill:none;stroke:#919191;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
+	.st24{fill:none;}
+	.st25{font-family:'Helvetica-LightOblique';}
+	.st26{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st27{opacity:0.2;}
+	.st28{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
+	.st29{fill:#B3B3B3;}
+	.st30{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
+</style>
+<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
+	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
+		/>
+</symbol>
+<symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
+	<path class="st1" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24c3.3,0,6-2.7,6-6v-24C18-15.3,15.3-18,12-18z"/>
+</symbol>
+<symbol  id="array-3" viewBox="-57.8 -18.5 108.5 37">
+	<path class="st1" d="M44.2-18h-95.5c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h95.5c3.3,0,6-2.7,6-6v-24C50.2-15.3,47.6-18,44.2-18z"/>
+	<line class="st1" x1="-21.8" y1="-18" x2="-21.8" y2="18"/>
+	<line class="st1" x1="14.2" y1="-18" x2="14.2" y2="18"/>
+</symbol>
+<symbol  id="array-5" viewBox="-126.5 -18.5 180.5 37">
+	<path class="st1" d="M47.5-18H-120c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6H47.5c3.3,0,6-2.7,6-6v-24C53.5-15.3,50.8-18,47.5-18z"/>
+	<line class="st1" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
+	<line class="st1" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
+	<line class="st1" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
+	<line class="st1" x1="17.5" y1="-18" x2="17.5" y2="18"/>
+</symbol>
+<symbol  id="array-positive-value" viewBox="-18 -18 36 36">
+	<polygon class="st2" points="18,-18 -18,-18 -18,18 18,18 	"/>
+	<path class="st3" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6C13.6-10.9,10.9-13.6,7.6-13.6z
+		"/>
+</symbol>
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="op-wide-bg" viewBox="-25.3 -11.5 50.5 23">
+	<path class="st4" d="M13.8-11.5h-27.5c-6.3,0-11.5,5.2-11.5,11.5v0c0,6.3,5.2,11.5,11.5,11.5h27.5c6.3,0,11.5-5.2,11.5-11.5v0
+		C25.3-6.3,20.1-11.5,13.8-11.5z"/>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
+		/>
+</symbol>
+<g id="background">
+</g>
+<g id="edges">
+	<g>
+		<g>
+			<path class="st1" d="M682,174.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1l16.9,0.4"/>
+			<g>
+				<polygon class="st6" points="715.5,226.5 714.9,225.8 718.5,222.5 715,219 715.7,218.3 720,222.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="nodes">
+	<g id="New_Symbol">
+	</g>
+	<g id="rnn-a_4_2_">
+		<g id="Deleted_Symbol_2_">
+		</g>
+	</g>
+	<g id="rnn-a_4_1_">
+		<g id="Deleted_Symbol_1_">
+		</g>
+	</g>
+	<g id="rnn-a_4">
+		<g id="Deleted_Symbol">
+		</g>
+	</g>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 246)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 246)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 246)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 246)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 246)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 245.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 101.5)" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 1 42.9811 171.9994)" class="st18 st19 st20">dot product</text>
+	</g>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_26_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 156.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_27_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 312.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 389.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 270.5 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 306.5 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 342.5 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 378.5 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 414.5 390)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 378.5 389.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_28_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 456.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 534)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 534)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 534)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 534)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 534)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 533.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_29_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 600.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 678)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 678)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 678)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 678)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 678)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 677.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_30_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 744.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 822)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 822)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 822)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 822)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 822)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 821.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 497 162)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 497 462.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_31_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 537.75 534)" style="overflow:visible;"/>
+	<g>
+		<g>
+			<line class="st22" x1="419.1" y1="142" x2="419.1" y2="143"/>
+			<line class="st23" x1="419.1" y1="145" x2="419.1" y2="911"/>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 111.6494 149.0006)" class="st21 st19 st20">memory</text>
+	</g>
+	<g>
+		<rect x="231.4" y="307.5" class="st24" width="136.7" height="51.5"/>
+		<text transform="matrix(1 0 0 1 231.4189 316.9401)"><tspan x="0" y="0" class="st21 st25 st20">Blue shows high similarity, </tspan><tspan x="0" y="15" class="st21 st25 st20">pink high dissimilarity.</tspan></text>
+	</g>
+	<g>
+		<rect x="139.4" y="269.5" class="st24" width="102.7" height="51.5"/>
+		<text transform="matrix(1 0 0 1 139.4194 278.9401)" class="st21 st25 st20">(or cosine similarity)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 444 505.1339)" class="st21 st19 st20">interpolation amount</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 444.0001 641.0002)" class="st21 st19 st20">shift filter</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 434.6494 150.0001)" class="st21 st25 st20">RNN controller</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 299.5479 150.0001)" class="st21 st25 st20">attention mechanism</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 444 221.0001)" class="st21 st19 st20">query vector</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 252.2454 436.1337)" class="st21 st19 st20">attention from previous step</text>
+	</g>
+	<g>
+		<rect x="229.6" y="586.4" class="st24" width="106.5" height="54.6"/>
+		<text transform="matrix(1 0 0 1 229.6494 595.8483)"><tspan x="0" y="0" class="st21 st25 st20">Strong values from </tspan><tspan x="0" y="15" class="st21 st25 st20">previous attention </tspan><tspan x="0" y="30" class="st21 st25 st20">show up faintly</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 104.9649 537.0002)" class="st18 st19 st20">interpolate</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 108.9422 677.0002)" class="st18 st19 st20">convolve</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 110.7737 819.0002)" class="st18 st19 st20">sharpen</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 111.3941 393.0001)" class="st18 st19 st20">softmax</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 103.1306 254.9996)" class="st18 st19 st20">dot product</text>
+	</g>
+</g>
+<g id="text">
+</g>
+</svg>

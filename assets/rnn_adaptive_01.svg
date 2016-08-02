@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
+	 height="180px" viewBox="0 0 792 180" style="enable-background:new 0 0 792 180;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#798294;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#E6EAF2;}
+	.st3{fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st4{fill:#8C8C8C;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st6{opacity:0.1;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st7{opacity:0.4;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st8{opacity:0.8;}
+	.st9{fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#0080F7;}
+	.st11{opacity:0.2;fill:none;stroke:#0080F7;stroke-width:2;stroke-miterlimit:10;}
+	.st12{opacity:0.1;}
+	.st13{opacity:0.4;}
+	.st14{fill:none;stroke:#6300F7;stroke-width:2;stroke-miterlimit:10;}
+	.st15{fill:#6300F7;}
+	.st16{opacity:0;fill:#0080F7;}
+	.st17{opacity:0.8;fill:#0080F7;}
+	.st18{fill:#596673;}
+	.st19{fill:#717171;}
+	.st20{fill:none;stroke:#919191;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#919191;stroke-miterlimit:10;stroke-dasharray:1.9974,1.9974;}
+	.st22{opacity:0.2;fill:none;stroke:#8C8C8C;stroke-miterlimit:10;}
+	.st23{opacity:0.2;}
+	.st24{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
+	.st25{fill:#B3B3B3;}
+	.st26{fill:none;stroke:#B4B4B4;stroke-miterlimit:10;stroke-dasharray:2;}
+</style>
+<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
+	<path class="st0" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5z"
+		/>
+</symbol>
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path class="st0" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="op-sum" viewBox="-11.2 -11.6 22.5 22.9">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_14_" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -4.8384 -3.917)" class="st1" style="font-family:'Helvetica'; font-size:16px;">+</text>
+	</g>
+</symbol>
+<symbol  id="op-sum_2" viewBox="-11.2 -11.2 22.5 22.5">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" style="overflow:visible;"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -3.6313 -5.75)" class="st1" style="font-family:'Roboto-Regular'; font-size:14px;">δ</text>
+	</g>
+</symbol>
+<symbol  id="rnn-a_2" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_5_" x="-21.5" y="-26.5" style="overflow:visible;"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" class="st1" style="font-family:'Helvetica'; font-size:21.7741px;">S</text>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path class="st0" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5z"
+		/>
+</symbol>
+<g id="background">
+	<g id="XMLID_3_">
+		<g>
+			<path class="st2" d="M204,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-49.1,0-114.6,0-168,0c-11.6,0-11.6,0-11.6,0
+				C4,168,0,165.4,0,162.3c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3C0,16.4,4,12,8.9,12c0,0,0,0,11.6,0
+				c53.4,0,118.9,0,168,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C204,162.3,204,162.3,204,162.3z"/>
+		</g>
+	</g>
+	<g id="XMLID_9_">
+		<g>
+			<path class="st2" d="M564,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-91.2,0-212.8,0-312,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c99.2,0,220.8,0,312,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C564,162.3,564,162.3,564,162.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st2" d="M708,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-28.1,0-65.5,0-96,0c-11.6,0-11.6,0-11.6,0
+				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
+				c30.5,0,67.9,0,96,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C708,162.3,708,162.3,708,162.3z"/>
+		</g>
+	</g>
+</g>
+<g id="edges">
+	<g>
+		<g>
+			<line class="st3" x1="36" y1="180" x2="36" y2="109.1"/>
+			<g>
+				<polygon class="st4" points="40.1,112.4 39.4,113.1 36,109.5 32.6,113.1 31.9,112.4 36,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M35.5,180v-18c0-3.3,2.9-6,6.2-6l59.6,0.4c3.3,0,6.1-2.7,6.1-6V109"/>
+			<g>
+				<polygon class="st4" points="111.6,112.4 110.9,113.1 107.5,109.5 104.1,113.1 103.4,112.4 107.5,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="252" y1="180" x2="252" y2="109.1"/>
+			<g>
+				<polygon class="st4" points="256.1,112.4 255.4,113.1 252,109.5 248.6,113.1 247.9,112.4 252,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="612" y1="180" x2="612" y2="109.1"/>
+			<g>
+				<polygon class="st4" points="616.1,112.4 615.4,113.1 612,109.5 608.6,113.1 607.9,112.4 612,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M276,156l42.5,0.5c3.3,0,6-2.6,6-5.9V109"/>
+			<g>
+				<polygon class="st4" points="328.6,112.4 327.9,113.1 324.5,109.5 321.1,113.1 320.4,112.4 324.5,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M276,156l114.5,0.5c3.3,0,6-2.7,6-6V109"/>
+			<g>
+				<polygon class="st4" points="400.6,112.4 399.9,113.1 396.5,109.5 393.1,113.1 392.4,112.4 396.5,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M251.5,180v-18c0-3.3,2.9-6,6.2-6l204.6,0.5c3.3,0,6.1-2.7,6.1-6V109"/>
+			<g>
+				<polygon class="st4" points="472.6,112.4 471.9,113.1 468.5,109.5 465.1,113.1 464.4,112.4 468.5,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="60" y1="84.5" x2="83" y2="84.5"/>
+			<g>
+				<polygon class="st4" points="79.6,88.6 78.9,87.9 82.5,84.5 78.9,81.1 79.6,80.4 84,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="276" y1="84.5" x2="299" y2="84.5"/>
+			<g>
+				<polygon class="st4" points="295.6,88.6 294.9,87.9 298.5,84.5 294.9,81.1 295.6,80.4 300,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="348" y1="84.5" x2="371" y2="84.5"/>
+			<g>
+				<polygon class="st4" points="367.6,88.6 366.9,87.9 370.5,84.5 366.9,81.1 367.6,80.4 372,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="420" y1="84.5" x2="443" y2="84.5"/>
+			<g>
+				<polygon class="st4" points="439.6,88.6 438.9,87.9 442.5,84.5 438.9,81.1 439.6,80.4 444,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st3" d="M156,38.5h-6.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0"/>
+	</g>
+	<g>
+		<path class="st3" d="M276,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-40c0-3.3,2.7-6,6-6H527"/>
+	</g>
+	<g>
+		<path class="st3" d="M348,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-37c0-3.3,2.7-6,6-6H527"/>
+	</g>
+	<g>
+		<path class="st3" d="M527,38.5h-89.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0"/>
+	</g>
+	<g>
+		<path class="st3" d="M527,41.5h-17.5c-3.3,0-6,2.7-6,6v31c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0"/>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M178,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h30"/>
+			<g>
+				<polygon class="st4" points="223.6,88.6 222.9,87.9 226.5,84.5 222.9,81.1 223.6,80.4 228,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st3" d="M60,84.5l5.8-0.3c3.3-0.1,5.7-2.9,5.7-6.2V42c0-3.3,2.9-6,6.2-6l78.1-0.5"/>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M178,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<g>
+				<polygon class="st4" points="195.6,4.4 194.9,5.1 191.5,1.5 188.1,5.1 187.4,4.4 191.5,0 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M538,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h30"/>
+			<g>
+				<polygon class="st4" points="583.6,88.6 582.9,87.9 586.5,84.5 582.9,81.1 583.6,80.4 588,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M538,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<g>
+				<polygon class="st4" points="555.6,4.4 554.9,5.1 551.5,1.5 548.1,5.1 547.4,4.4 551.5,0 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st3" d="M660,36.5h-6.5c-3.3,0-6,2.7-6,6v36c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0"/>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M682,36.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1l16.9,0.4"/>
+			<g>
+				<polygon class="st4" points="715.5,88.5 714.9,87.8 718.5,84.5 715,81 715.7,80.3 720,84.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st3" d="M682,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<g>
+				<polygon class="st4" points="699.6,4.4 698.9,5.1 695.5,1.5 692.1,5.1 691.4,4.4 695.5,0 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="nodes">
+	
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 36.75 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_13_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 33.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_1_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 105.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_10_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 249.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_11_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 321.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_15_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 393.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_16_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 465.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_19_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 609.501 81.5)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 252.75 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 612.75 131.25)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_20_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 670.75 36.3877)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_8_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 167.25 36.3877)" style="overflow:visible;"/>
+	
+		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_17_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 526.75 36.3877)" style="overflow:visible;"/>
+	<g id="New_Symbol">
+	</g>
+	<g id="rnn-a_4_2_">
+		<g id="Deleted_Symbol_2_">
+		</g>
+	</g>
+	<g id="rnn-a_4_1_">
+		<g id="Deleted_Symbol_1_">
+		</g>
+	</g>
+	<g id="rnn-a_4">
+		<g id="Deleted_Symbol">
+		</g>
+	</g>
+</g>
+<g id="text">
+</g>
+</svg>
