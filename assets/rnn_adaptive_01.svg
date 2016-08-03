@@ -1,268 +1,262 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="180px" viewBox="0 0 792 180" enable-background="new 0 0 792 180" xml:space="preserve">
-<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
-		z"/>
-</symbol>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="180px" viewBox="0 0 984 180" enable-background="new 0 0 984 180" xml:space="preserve">
 <symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
 	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
 </symbol>
-<symbol  id="op-sum" viewBox="-11.2 -11.6 22.5 22.9">
-	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_14_" x="-11.2" y="-11.2" overflow="visible"/>
+<symbol  id="op-sum" viewBox="-11.2 -11.2 22.5 22.5">
+	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_21_" x="-11.2" y="-11.2" overflow="visible"/>
 	<g>
-		<text transform="matrix(1 0 0 -1 -4.8384 -3.917)" fill="#FFFFFF" font-family="'Helvetica'" font-size="16px">+</text>
+		<g>
+			<path fill="#FFFFFF" d="M-4.1-0.5v1.3h3.4v3.4h1.3V0.8H4v-1.3H0.6v-3.4h-1.3v3.4H-4.1z"/>
+		</g>
 	</g>
 </symbol>
 <symbol  id="op-sum_2" viewBox="-11.2 -11.2 22.5 22.5">
 	<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" overflow="visible"/>
 	<g>
-		<text transform="matrix(1 0 0 -1 -3.6313 -5.75)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="14px">δ</text>
+		<g>
+			<path fill="#FFFFFF" d="M-2.1,2.9c0,0.6,0.2,1.1,0.7,1.5C-1,4.8-0.3,4.9,0.5,4.9c0.6,0,1.3-0.1,1.9-0.4l0-1.1
+				C1.6,3.7,1,3.9,0.4,3.9C0,3.9-0.3,3.8-0.5,3.6s-0.3-0.4-0.3-0.7c0-0.5,0.5-0.9,1.5-1.3c1-0.3,1.8-0.8,2.2-1.4S3.6-1.1,3.6-2v-0.3
+				c0-0.7-0.1-1.3-0.4-1.9s-0.7-1-1.2-1.3C1.6-5.7,1-5.9,0.3-5.9c-1,0-1.8,0.3-2.4,1C-2.7-4.2-3-3.3-3-2.2v0.1c0,0.8,0.2,1.4,0.6,2
+				s1,1,1.6,1.1l0,0c-0.5,0.2-0.8,0.4-1,0.7S-2.1,2.5-2.1,2.9z M-1.7-2.3c0-0.8,0.2-1.4,0.6-1.9c0.4-0.5,0.9-0.7,1.5-0.7
+				c0.6,0,1.1,0.2,1.5,0.7s0.5,1.1,0.5,2c0,0.6-0.2,1.2-0.6,1.7S0.9,0.3,0.4,0.5c-0.6,0-1.1-0.2-1.5-0.7S-1.7-1.4-1.7-2.3z"/>
+		</g>
 	</g>
-</symbol>
-<symbol  id="rnn-a_2" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_5_" x="-21.5" y="-26.5" overflow="visible"/>
-	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">S</text>
 </symbol>
 <symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
 	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
 		z"/>
 </symbol>
+<symbol  id="rnn-s" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_5_" x="-21.5" y="-26.5" overflow="visible"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">S</text>
+</symbol>
 <g id="background">
 	<g id="XMLID_3_">
 		<g>
-			<path fill="#E6EAF2" d="M204,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-49.1,0-114.6,0-168,0c-11.6,0-11.6,0-11.6,0
-				C4,168,0,165.4,0,162.3c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3C0,16.4,4,12,8.9,12c0,0,0,0,11.6,0
-				c53.4,0,118.9,0,168,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C204,162.3,204,162.3,204,162.3z"/>
+			<path fill="#E6EAF2" d="M372,162.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-49.6,0-115,0-168,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-33.7,0-80.6,0-120c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c53,0,118.4,0,168,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,39.4,0,86.3,0,120C372,162.5,372,162.5,372,162.5z
+				"/>
 		</g>
 	</g>
 	<g id="XMLID_9_">
 		<g>
-			<path fill="#E6EAF2" d="M564,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-91.2,0-212.8,0-312,0c-11.6,0-11.6,0-11.6,0
-				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
-				c99.2,0,220.8,0,312,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C564,162.3,564,162.3,564,162.3z"/>
+			<path fill="#E6EAF2" d="M732,162.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-92,0-213.6,0-312,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-33.7,0-80.6,0-120c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c98.4,0,220,0,312,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,39.4,0,86.3,0,120C732,162.5,732,162.5,732,162.5z
+				"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="#E6EAF2" d="M708,162.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-28.1,0-65.5,0-96,0c-11.6,0-11.6,0-11.6,0
-				c-4.9,0-8.9-2.6-8.9-5.7c0,0,0,0,0-8.3c0-34.1,0-80.9,0-120c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
-				c30.5,0,67.9,0,96,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,39.1,0,85.9,0,120C708,162.3,708,162.3,708,162.3z"/>
+			<path fill="#E6EAF2" d="M876,162.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-28.3,0-65.7,0-96,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-33.7,0-80.6,0-120c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c30.3,0,67.7,0,96,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,39.4,0,86.3,0,120C876,162.5,876,162.5,876,162.5z
+				"/>
 		</g>
 	</g>
 </g>
 <g id="edges">
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="36" y1="180" x2="36" y2="109.1"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="204" y1="180" x2="204" y2="109.1"/>
 			<g>
-				<polygon fill="#8C8C8C" points="40.1,112.4 39.4,113.1 36,109.5 32.6,113.1 31.9,112.4 36,108 				"/>
+				<polygon fill="#8C8C8C" points="208.1,112.4 207.4,113.1 204,109.5 200.6,113.1 199.9,112.4 204,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M35.5,180v-18c0-3.3,2.9-6,6.2-6l59.6,0.4c3.3,0,6.1-2.7,6.1-6V109
-				"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M204,180v-18c0-3.3,2.7-6,6-6l59.5,0.4c3.3,0,6-2.7,6-6v-41.4"/>
 			<g>
-				<polygon fill="#8C8C8C" points="111.6,112.4 110.9,113.1 107.5,109.5 104.1,113.1 103.4,112.4 107.5,108 				"/>
+				<polygon fill="#8C8C8C" points="279.6,112.4 278.9,113.1 275.5,109.5 272.1,113.1 271.4,112.4 275.5,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="252" y1="180" x2="252" y2="109.1"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="420" y1="180" x2="420" y2="109.1"/>
 			<g>
-				<polygon fill="#8C8C8C" points="256.1,112.4 255.4,113.1 252,109.5 248.6,113.1 247.9,112.4 252,108 				"/>
+				<polygon fill="#8C8C8C" points="424.1,112.4 423.4,113.1 420,109.5 416.6,113.1 415.9,112.4 420,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="612" y1="180" x2="612" y2="109.1"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="780" y1="180" x2="780" y2="109.1"/>
 			<g>
-				<polygon fill="#8C8C8C" points="616.1,112.4 615.4,113.1 612,109.5 608.6,113.1 607.9,112.4 612,108 				"/>
+				<polygon fill="#8C8C8C" points="784.1,112.4 783.4,113.1 780,109.5 776.6,113.1 775.9,112.4 780,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M276,156l42.5,0.5c3.3,0,6-2.6,6-5.9V109"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M444,156l42.5,0.4c3.3,0,6-2.6,6-5.9v-41.4"/>
 			<g>
-				<polygon fill="#8C8C8C" points="328.6,112.4 327.9,113.1 324.5,109.5 321.1,113.1 320.4,112.4 324.5,108 				"/>
+				<polygon fill="#8C8C8C" points="496.6,112.4 495.9,113.1 492.5,109.5 489.1,113.1 488.4,112.4 492.5,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M276,156l114.5,0.5c3.3,0,6-2.7,6-6V109"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M444,156l114.5,0.5c3.3,0,6-2.7,6-6v-41.4"/>
 			<g>
-				<polygon fill="#8C8C8C" points="400.6,112.4 399.9,113.1 396.5,109.5 393.1,113.1 392.4,112.4 396.5,108 				"/>
+				<polygon fill="#8C8C8C" points="568.6,112.4 567.9,113.1 564.5,109.5 561.1,113.1 560.4,112.4 564.5,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M251.5,180v-18c0-3.3,2.9-6,6.2-6l204.6,0.5c3.3,0,6.1-2.7,6.1-6
-				V109"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M420,180v-18c0-3.3,2.7-6,6-6l204.5,0.5c3.3,0,6-2.7,6-6v-41.4"/>
 			<g>
-				<polygon fill="#8C8C8C" points="472.6,112.4 471.9,113.1 468.5,109.5 465.1,113.1 464.4,112.4 468.5,108 				"/>
+				<polygon fill="#8C8C8C" points="640.6,112.4 639.9,113.1 636.5,109.5 633.1,113.1 632.4,112.4 636.5,108 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="60" y1="84.5" x2="83" y2="84.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="228" y1="84.5" x2="250.9" y2="84.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="79.6,88.6 78.9,87.9 82.5,84.5 78.9,81.1 79.6,80.4 84,84.5 				"/>
+				<polygon fill="#8C8C8C" points="247.6,88.6 246.9,87.9 250.5,84.5 246.9,81.1 247.6,80.4 252,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="276" y1="84.5" x2="299" y2="84.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="444" y1="84.5" x2="466.9" y2="84.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="295.6,88.6 294.9,87.9 298.5,84.5 294.9,81.1 295.6,80.4 300,84.5 				"/>
+				<polygon fill="#8C8C8C" points="463.6,88.6 462.9,87.9 466.5,84.5 462.9,81.1 463.6,80.4 468,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="348" y1="84.5" x2="371" y2="84.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="516" y1="84.5" x2="538.9" y2="84.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="367.6,88.6 366.9,87.9 370.5,84.5 366.9,81.1 367.6,80.4 372,84.5 				"/>
+				<polygon fill="#8C8C8C" points="535.6,88.6 534.9,87.9 538.5,84.5 534.9,81.1 535.6,80.4 540,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="420" y1="84.5" x2="443" y2="84.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="588" y1="84.5" x2="610.9" y2="84.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="439.6,88.6 438.9,87.9 442.5,84.5 438.9,81.1 439.6,80.4 444,84.5 				"/>
+				<polygon fill="#8C8C8C" points="607.6,88.6 606.9,87.9 610.5,84.5 606.9,81.1 607.6,80.4 612,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M156,38.5h-6.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M324,38.5h-6.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0
 			"/>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M276,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-40c0-3.3,2.7-6,6-6H527"
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M444,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-40c0-3.3,2.7-6,6-6H695"
 			/>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M348,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-37c0-3.3,2.7-6,6-6H527"
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M516,84.5c0,0,2.6,0,5.8,0s5.8-2.7,5.8-6v-37c0-3.3,2.7-6,6-6H695"
 			/>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M527,38.5h-89.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M695,38.5h-89.5c-3.3,0-6,2.7-6,6v34c0,3.3-2.6,6-5.8,6
 			s-5.8,0-5.8,0"/>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M527,41.5h-17.5c-3.3,0-6,2.7-6,6v31c0,3.3-2.6,6-5.8,6
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M695,41.5h-17.5c-3.3,0-6,2.7-6,6v31c0,3.3-2.6,6-5.8,6
 			s-5.8,0-5.8,0"/>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M178,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h30"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M346,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h29.9"
+				/>
 			<g>
-				<polygon fill="#8C8C8C" points="223.6,88.6 222.9,87.9 226.5,84.5 222.9,81.1 223.6,80.4 228,84.5 				"/>
+				<polygon fill="#8C8C8C" points="391.6,88.6 390.9,87.9 394.5,84.5 390.9,81.1 391.6,80.4 396,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M60,84.5l5.8-0.3c3.3-0.1,5.7-2.9,5.7-6.2V42c0-3.3,2.9-6,6.2-6
-			l78.1-0.5"/>
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M228,84.5l6-0.3c3.3-0.1,6-2.9,6-6.2V42c0-3.3,2.7-6,6-6l78-0.5"/>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M178,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M346,36.5h7.5c3.3,0,6-2.7,6-6V1.1"/>
 			<g>
-				<polygon fill="#8C8C8C" points="195.6,4.4 194.9,5.1 191.5,1.5 188.1,5.1 187.4,4.4 191.5,0 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M538,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h30"/>
-			<g>
-				<polygon fill="#8C8C8C" points="583.6,88.6 582.9,87.9 586.5,84.5 582.9,81.1 583.6,80.4 588,84.5 				"/>
+				<polygon fill="#8C8C8C" points="363.6,4.4 362.9,5.1 359.5,1.5 356.1,5.1 355.4,4.4 359.5,0 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M538,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M706,36.5h7.5c3.3,0,6,2.7,5.9,6l-0.4,36c0,3.3,2.6,6,5.9,6h29.9"
+				/>
 			<g>
-				<polygon fill="#8C8C8C" points="555.6,4.4 554.9,5.1 551.5,1.5 548.1,5.1 547.4,4.4 551.5,0 				"/>
+				<polygon fill="#8C8C8C" points="751.6,88.6 750.9,87.9 754.5,84.5 750.9,81.1 751.6,80.4 756,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
-		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M660,36.5h-6.5c-3.3,0-6,2.7-6,6v36c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0
+		<g>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M706,36.5h7.5c3.3,0,6-2.7,6-6V1.1"/>
+			<g>
+				<polygon fill="#8C8C8C" points="723.6,4.4 722.9,5.1 719.5,1.5 716.1,5.1 715.4,4.4 719.5,0 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M828,36.5h-6.5c-3.3,0-6,2.7-6,6v36c0,3.3-2.6,6-5.8,6s-5.8,0-5.8,0
 			"/>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M682,36.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M850,36.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1
 				l16.9,0.4"/>
 			<g>
-				<polygon fill="#8C8C8C" points="715.5,88.5 714.9,87.8 718.5,84.5 715,81 715.7,80.3 720,84.5 				"/>
+				<polygon fill="#8C8C8C" points="883.5,88.5 882.9,87.8 886.5,84.5 883,81 883.7,80.3 888,84.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M682,36.5h7.5c3.3,0,6-2.7,6-6V1"/>
+			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M850,36.5h7.5c3.3,0,6-2.7,6-6V1.1"/>
 			<g>
-				<polygon fill="#8C8C8C" points="699.6,4.4 698.9,5.1 695.5,1.5 692.1,5.1 691.4,4.4 695.5,0 				"/>
+				<polygon fill="#8C8C8C" points="867.6,4.4 866.9,5.1 863.5,1.5 860.1,5.1 859.4,4.4 863.5,0 				"/>
 			</g>
 		</g>
 	</g>
 </g>
 <g id="nodes">
 	
-		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 36.75 131.25)" overflow="visible"/>
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 204.75 131.25)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_13_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 33.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_13_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 201.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_1_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 105.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_1_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 273.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_10_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 249.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_10_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 417.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_11_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 321.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_11_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 489.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_15_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 393.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_15_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 561.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_16_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 465.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_16_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 633.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_2"  width="48" height="48" id="XMLID_19_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 609.501 81.5)" overflow="visible"/>
+		<use xlink:href="#rnn-s"  width="48" height="48" id="XMLID_19_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 777.501 81.5)" overflow="visible"/>
 	
-		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 252.75 131.25)" overflow="visible"/>
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 420.75 131.25)" overflow="visible"/>
 	
-		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 612.75 131.25)" overflow="visible"/>
+		<use xlink:href="#op-sum_2"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 780.75 131.25)" overflow="visible"/>
 	
-		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_20_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 670.75 36.3877)" overflow="visible"/>
+		<use xlink:href="#op-sum"  width="22.5" height="22.5" id="XMLID_20_" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 838.75 36.3877)" overflow="visible"/>
 	
-		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_8_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 167.25 36.3877)" overflow="visible"/>
+		<use xlink:href="#op-sum"  width="22.5" height="22.5" id="XMLID_8_" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 335.25 36.3877)" overflow="visible"/>
 	
-		<use xlink:href="#op-sum"  width="22.5" height="22.9" id="XMLID_17_" x="-11.2" y="-11.6" transform="matrix(1 0 0 -1 526.75 36.3877)" overflow="visible"/>
-	<g id="New_Symbol">
-	</g>
-	<g id="rnn-a_4_2_">
-		<g id="Deleted_Symbol_2_">
-		</g>
-	</g>
-	<g id="rnn-a_4_1_">
-		<g id="Deleted_Symbol_1_">
-		</g>
-	</g>
-	<g id="rnn-a_4">
-		<g id="Deleted_Symbol">
-		</g>
-	</g>
+		<use xlink:href="#op-sum"  width="22.5" height="22.5" id="XMLID_17_" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 694.75 36.3877)" overflow="visible"/>
 </g>
 <g id="text">
+</g>
+<g id="images">
 </g>
 </svg>

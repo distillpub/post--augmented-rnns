@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="144px" viewBox="0 0 792 144" enable-background="new 0 0 792 144" xml:space="preserve">
-<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
-		z"/>
-</symbol>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="144px" viewBox="0 0 984 144" enable-background="new 0 0 984 144" xml:space="preserve">
 <symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
 	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
 </symbol>
-<symbol  id="rnn-a_4_3_" viewBox="-21.5 -26.5 48 48">
+<symbol  id="rnn-a" viewBox="-21.5 -26.5 48 48">
 	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
 	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
 </symbol>
@@ -20,150 +16,170 @@
 <g id="background">
 	<g id="XMLID_7_">
 		<g>
-			<path fill="#E6EAF2" d="M468,102.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-126.3,0-294.6,0-432,0c-11.6,0-11.6,0-11.6,0
-				C4,108,0,105.4,0,102.3c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3C0,40.4,4,36,8.9,36c0,0,0,0,11.6,0
-				c137.4,0,305.7,0,432,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C468,102.3,468,102.3,468,102.3z"/>
+			<path fill="#E6EAF2" d="M768,98.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-166.4,0-386.1,0-564,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c177.9,0,397.6,0,564,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36C768,98.5,768,98.5,768,98.5z"
+				/>
 		</g>
 	</g>
 </g>
 <g id="edges">
 </g>
 <g id="nodes">
-	<g id="New_Symbol">
-	</g>
-	<g id="rnn-a_4_2_">
-		<g id="Deleted_Symbol_2_">
-		</g>
-	</g>
-	<g id="rnn-a_4_1_">
-		<g id="Deleted_Symbol_1_">
-		</g>
-	</g>
-	<g id="rnn-a_4">
-		<g id="Deleted_Symbol">
-		</g>
-	</g>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 33.501 69.5)" overflow="visible"/>
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 201.5009 65.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 165.501 69.5)" overflow="visible"/>
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 333.5009 65.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 297.501 69.5)" overflow="visible"/>
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 465.5009 65.5)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" id="XMLID_34_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 429.501 69.5)" overflow="visible"/>
+		<use xlink:href="#rnn-a"  width="48" height="48" id="XMLID_30_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 597.5009 65.5)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" id="XMLID_29_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 729.5009 65.5)" overflow="visible"/>
 </g>
 <g id="text">
-	<text transform="matrix(1 0 0 1 17.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x0</text>
-	<text transform="matrix(1 0 0 1 41.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y0</text>
-	<text transform="matrix(1 0 0 1 149.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x1</text>
-	<text transform="matrix(1 0 0 1 173.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y1</text>
-	<text transform="matrix(1 0 0 1 281.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x2</text>
-	<text transform="matrix(1 0 0 1 305.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y2</text>
-	<text transform="matrix(1 0 0 1 413.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x3</text>
-	<text transform="matrix(1 0 0 1 437.6631 135.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y3</text>
+	<text transform="matrix(1 0 0 1 185.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x0</text>
+	<text transform="matrix(1 0 0 1 209.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y0</text>
+	<text transform="matrix(1 0 0 1 317.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x1</text>
+	<text transform="matrix(1 0 0 1 341.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y1</text>
+	<text transform="matrix(1 0 0 1 449.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x2</text>
+	<text transform="matrix(1 0 0 1 473.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y2</text>
+	<text transform="matrix(1 0 0 1 581.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x3</text>
+	<text transform="matrix(1 0 0 1 605.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y3</text>
 	<g>
-		<text transform="matrix(1 0 0 1 26.9971 16.9998)" font-family="'Helvetica'" font-size="12px">cell</text>
+		<text transform="matrix(1 0 0 1 176.9882 12.9998)" fill="#666666" font-family="'Helvetica'" font-size="12px">One cell...</text>
 	</g>
-	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="35.5" y1="47" x2="35.5" y2="24"/>
-	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="168.5" y1="47" x2="168.5" y2="24"/>
-	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="300.5" y1="47" x2="300.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="203.5" y1="43" x2="203.5" y2="20"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="336.5" y1="43" x2="336.5" y2="20"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="468.5" y1="43" x2="468.5" y2="20"/>
 	<g>
-		<text transform="matrix(1 0 0 1 105.6328 16.9998)" font-family="'Helvetica'" font-size="12px">same cell is used again</text>
+		<text transform="matrix(1 0 0 1 284.9677 12.9998)" fill="#666666" font-family="'Helvetica'" font-size="12px">can be used over...</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 273.6416 16.9998)" font-family="'Helvetica'" font-size="12px">and again</text>
+		<text transform="matrix(1 0 0 1 439.6493 12.9998)" fill="#666666" font-family="'Helvetica'" font-size="12px">and over...</text>
 	</g>
-	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="432.5" y1="47" x2="432.5" y2="24"/>
+	<line fill="none" stroke="#B4B4B4" stroke-miterlimit="10" stroke-dasharray="2" x1="600.5" y1="43" x2="600.5" y2="20"/>
 	<g>
-		<text transform="matrix(1 0 0 1 400.6406 16.9998)" font-family="'Helvetica'" font-size="12px">and again...</text>
+		<text transform="matrix(1 0 0 1 571.6493 12.9998)" fill="#666666" font-family="'Helvetica'" font-size="12px">and over...</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 715.6522 12.9998)" fill="#666666" font-family="'Helvetica'" font-size="12px">again.</text>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="60" y1="72.5" x2="143" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="228" y1="68.5" x2="310.9" y2="68.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="139.6,76.6 138.9,75.9 142.5,72.5 138.9,69.1 139.6,68.4 144,72.5 				"/>
+				<polygon fill="#8C8C8C" points="307.6,72.6 306.9,71.9 310.5,68.5 306.9,65.1 307.6,64.4 312,68.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="23.5" y1="120" x2="23.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="192" y1="116" x2="192" y2="92.6"/>
 			<g>
-				<polygon fill="#8C8C8C" points="28.1,99.9 27.4,100.6 24,97 20.6,100.6 19.9,99.9 24,95.5 				"/>
+				<polygon fill="#8C8C8C" points="196.1,95.9 195.4,96.6 192,93 188.6,96.6 187.9,95.9 192,91.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="48.5" y1="96" x2="48.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="217" y1="91.5" x2="217" y2="114.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="44.9,115.6 45.6,114.9 49,118.5 52.4,114.9 53.1,115.6 49,120 				"/>
+				<polygon fill="#8C8C8C" points="212.9,111.6 213.6,110.9 217,114.5 220.4,110.9 221.1,111.6 217,116 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="155.5" y1="120" x2="155.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="324" y1="116" x2="324" y2="92.6"/>
 			<g>
-				<polygon fill="#8C8C8C" points="160.1,99.9 159.4,100.6 156,97 152.6,100.6 151.9,99.9 156,95.5 				"/>
+				<polygon fill="#8C8C8C" points="328.1,95.9 327.4,96.6 324,93 320.6,96.6 319.9,95.9 324,91.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="180.5" y1="96" x2="180.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="349" y1="91.5" x2="349" y2="114.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="176.9,115.6 177.6,114.9 181,118.5 184.4,114.9 185.1,115.6 181,120 				"/>
+				<polygon fill="#8C8C8C" points="344.9,111.6 345.6,110.9 349,114.5 352.4,110.9 353.1,111.6 349,116 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="288.5" y1="120" x2="288.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="457" y1="116" x2="457" y2="92.6"/>
 			<g>
-				<polygon fill="#8C8C8C" points="293.1,99.9 292.4,100.6 289,97 285.6,100.6 284.9,99.9 289,95.5 				"/>
+				<polygon fill="#8C8C8C" points="461.1,95.9 460.4,96.6 457,93 453.6,96.6 452.9,95.9 457,91.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="311.5" y1="96" x2="311.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="480" y1="91.5" x2="480" y2="114.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="307.9,115.6 308.6,114.9 312,118.5 315.4,114.9 316.1,115.6 312,120 				"/>
+				<polygon fill="#8C8C8C" points="475.9,111.6 476.6,110.9 480,114.5 483.4,110.9 484.1,111.6 480,116 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="419.5" y1="120" x2="419.5" y2="97"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="588" y1="116" x2="588" y2="92.6"/>
 			<g>
-				<polygon fill="#8C8C8C" points="424.1,99.9 423.4,100.6 420,97 416.6,100.6 415.9,99.9 420,95.5 				"/>
+				<polygon fill="#8C8C8C" points="592.1,95.9 591.4,96.6 588,93 584.6,96.6 583.9,95.9 588,91.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="443.5" y1="96" x2="443.5" y2="119"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="612" y1="91.5" x2="612" y2="114.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="439.9,115.6 440.6,114.9 444,118.5 447.4,114.9 448.1,115.6 444,120 				"/>
+				<polygon fill="#8C8C8C" points="607.9,111.6 608.6,110.9 612,114.5 615.4,110.9 616.1,111.6 612,116 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 713.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">x4</text>
+	<text transform="matrix(1 0 0 1 737.663 131.9998)" fill="#717171" font-family="'Helvetica'" font-size="12px">y4</text>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="720" y1="116" x2="720" y2="92.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="724.1,95.9 723.4,96.6 720,93 716.6,96.6 715.9,95.9 720,91.5 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="192" y1="72.5" x2="275" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="744" y1="91.5" x2="744" y2="114.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="271.6,76.6 270.9,75.9 274.5,72.5 270.9,69.1 271.6,68.4 276,72.5 				"/>
+				<polygon fill="#8C8C8C" points="739.9,111.6 740.6,110.9 744,114.5 747.4,110.9 748.1,111.6 744,116 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="324" y1="72.5" x2="407" y2="72.5"/>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="360" y1="68.5" x2="442.9" y2="68.5"/>
 			<g>
-				<polygon fill="#8C8C8C" points="403.6,76.6 402.9,75.9 406.5,72.5 402.9,69.1 403.6,68.4 408,72.5 				"/>
+				<polygon fill="#8C8C8C" points="439.6,72.6 438.9,71.9 442.5,68.5 438.9,65.1 439.6,64.4 444,68.5 				"/>
 			</g>
 		</g>
 	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="492" y1="68.5" x2="574.9" y2="68.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="571.6,72.6 570.9,71.9 574.5,68.5 570.9,65.1 571.6,64.4 576,68.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="624" y1="68.5" x2="706.9" y2="68.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="703.6,72.6 702.9,71.9 706.5,68.5 702.9,65.1 703.6,64.4 708,68.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="images">
 </g>
 </svg>

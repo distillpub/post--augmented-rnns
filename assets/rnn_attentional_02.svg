@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="492px" viewBox="0 0 792 492" enable-background="new 0 0 792 492" xml:space="preserve">
-<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
-		z"/>
-</symbol>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="492px" viewBox="0 0 984 492" enable-background="new 0 0 984 492" xml:space="preserve">
 <symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
 	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
 </symbol>
-<symbol  id="rnn-a_4_3_" viewBox="-21.5 -26.5 48 48">
+<symbol  id="op-dot" viewBox="-11.2 -12.8 22.5 24.7">
+	
+		<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 1 0 0.5977)" overflow="visible"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -2.3003 -5.1523)" fill="#FFFFFF" font-family="'Helvetica'" font-size="16px">•</text>
+	</g>
+</symbol>
+<symbol  id="op-wide-bg" viewBox="-25.3 -11.5 50.5 23">
+	<path fill="#596673" d="M13.8-11.5h-27.5c-6.3,0-11.5,5.2-11.5,11.5v0c0,6.3,5.2,11.5,11.5,11.5h27.5c6.3,0,11.5-5.2,11.5-11.5v0
+		C25.3-6.3,20.1-11.5,13.8-11.5z"/>
+</symbol>
+<symbol  id="op-x" viewBox="-11.2 -11.1 22.5 22.5">
+	
+		<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 1 6.640625e-02 0.1797)" overflow="visible"/>
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M-2.8-3.1l-1,1l2.6,2.6L-3.8,3l1,1l2.6-2.6L2.4,4l1-1L0.8,0.5l2.6-2.6l-1-1l-2.6,2.6L-2.8-3.1z"/>
+		</g>
+	</g>
+</symbol>
+<symbol  id="rnn-a" viewBox="-21.5 -26.5 48 48">
 	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
 	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
 </symbol>
-<symbol  id="rnn-a_5" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_23_" x="-21.5" y="-26.5" overflow="visible"/>
+<symbol  id="rnn-b" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_47_" x="-21.5" y="-26.5" overflow="visible"/>
 	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">B</text>
 </symbol>
 <symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
@@ -24,53 +40,134 @@
 <g id="background">
 	<g id="XMLID_4_">
 		<g>
-			<path fill="#E6EAF2" d="M540,90.3c0,3.2-2.9,5.7-6.5,5.7c0,0,0,0-9,0c-143.5,0-334.9,0-491,0c-11.6,0-11.6,0-11.6,0
-				C17,96,13,93.4,13,90.3c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
-				c156.1,0,347.5,0,491,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C540,90.3,540,90.3,540,90.3z"/>
+			<path fill="#E6EAF2" d="M695,66.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-144.9,0-336.1,0-491,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c154.9,0,346.1,0,491,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36C695,66.5,695,66.5,695,66.5z"
+				/>
 		</g>
 	</g>
 	<g id="XMLID_45_">
 		<g>
-			<path fill="#E6EAF2" d="M372,450.3c0,3.2-2.9,5.8-6.5,5.8c0,0,0,0-9,0c-94.4,0-220.3,0-323,0c-11.6,0-11.6,0-11.6,0
-				c-4.9,0-8.9-2.6-8.9-5.8c0,0,0,0,0-8.3c0-10.2,0-24.3,0-36c0-12.3,0-12.3,0-12.3c0-5.3,4-9.7,8.9-9.7c0,0,0,0,11.6,0
-				c102.7,0,228.6,0,323,0c9,0,9,0,9,0c3.6,0,6.5,4.4,6.5,9.7c0,0,0,0,0,12.3c0,11.7,0,25.8,0,36C372,450.3,372,450.3,372,450.3z"/>
+			<path fill="#E6EAF2" d="M527,426.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-95.3,0-221.1,0-323,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c101.9,0,227.7,0,323,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36
+				C527,426.5,527,426.5,527,426.5z"/>
 		</g>
 	</g>
 </g>
 <g id="edges">
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="491" y1="35.7" x2="537.9" y2="35.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="534.6,39.8 533.9,39.1 537.5,35.7 533.9,32.4 534.6,31.6 539,35.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="227" y1="35.7" x2="441.9" y2="35.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="438.6,39.8 437.9,39.1 441.5,35.7 437.9,32.4 438.6,31.6 443,35.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="587" y1="35.7" x2="633.9" y2="35.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="630.6,39.8 629.9,39.1 633.5,35.7 629.9,32.4 630.6,31.6 635,35.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="226.9" y1="395.7" x2="273.9" y2="395.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="270.6,399.8 269.9,399.1 273.5,395.7 269.9,392.4 270.6,391.6 275,395.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="322.9" y1="395.7" x2="369.9" y2="395.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="366.6,399.8 365.9,399.1 369.5,395.7 365.9,392.4 366.6,391.6 371,395.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="418.9" y1="395.7" x2="465.9" y2="395.7"/>
+			<g>
+				<polygon fill="#8C8C8C" points="462.6,399.8 461.9,399.1 465.5,395.7 461.9,392.4 462.6,391.6 467,395.7 				"/>
+			</g>
+		</g>
+	</g>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="253" y1="326.5" x2="544" y2="326.5"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="252.5" y1="325" x2="252.5" y2="22"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="298.5,285 298.5,298 316.5,315.5 316.5,334 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="289.5,266 289.5,299 262,326.5 239,326 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="395.5,285 395.5,298 413.5,315.5 413.5,334 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="386.5,266 386.5,299 359,326.5 336,326 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="492.5,285 492.5,298 510.5,315.5 510.5,334 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="483.5,266 483.5,299 456,326.5 433,326 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="589.5,285 589.5,298 607.5,315.5 607.5,334 	"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="580.5,266 580.5,299 553,326.5 530,326 	"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="315.5" y1="360" x2="315.5" y2="194"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="413.5" y1="360" x2="413.5" y2="194"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="511.5" y1="360" x2="511.5" y2="194"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="608.5" y1="360" x2="608.5" y2="194"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="293.5,219 293.5,201 308.5,186 	"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="293.5" y1="248" x2="293.5" y2="270"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="390.5,219 390.5,201 405.5,186 	"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="390.5" y1="248" x2="390.5" y2="270"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="487.5,219 487.5,201 502.5,186 	"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="487.5" y1="248" x2="487.5" y2="270"/>
+	<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="584.5,219 584.5,201 599.5,186 	"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="584.5" y1="248" x2="584.5" y2="270"/>
 </g>
 <g id="nodes">
-	<g id="New_Symbol">
+	
+		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 200.5012 33.4996)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 464.5012 33.4996)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 560.5012 33.4996)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 656.5012 33.4996)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 200.5012 393.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 296.5012 393.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 392.5012 393.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 488.5012 393.4997)" overflow="visible"/>
+	
+		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_58_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 294.0002 274.5976)" overflow="visible"/>
+	
+		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_57_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 488.0002 274.5976)" overflow="visible"/>
+	
+		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_56_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 585.0002 274.5976)" overflow="visible"/>
+	
+		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_40_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 392.0002 274.5976)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_12_" x="-25.3" y="-11.5" transform="matrix(6.4351 0 0 -1 441.3635 235.0001)" overflow="visible"/>
+	<g>
+		<text transform="matrix(1 0 0 1 289.8638 237.9931)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">softmax</text>
 	</g>
-	<g id="rnn-a_4_2_">
-		<g id="Deleted_Symbol_2_">
-		</g>
-	</g>
-	<g id="rnn-a_4_1_">
-		<g id="Deleted_Symbol_1_">
-		</g>
-	</g>
-	<g id="rnn-a_4">
-		<g id="Deleted_Symbol">
-		</g>
-	</g>
 	
-		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 45.501 57.4999)" overflow="visible"/>
+		<use xlink:href="#op-x"  width="22.5" height="22.5" x="-11.2" y="-11.1" transform="matrix(1 0 0 -1 313.9338 189.1794)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 309.501 57.4999)" overflow="visible"/>
+		<use xlink:href="#op-x"  width="22.5" height="22.5" x="-11.2" y="-11.1" transform="matrix(1 0 0 -1 418.1838 189.1794)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 405.501 57.4999)" overflow="visible"/>
+		<use xlink:href="#op-x"  width="22.5" height="22.5" x="-11.2" y="-11.1" transform="matrix(1 0 0 -1 522.4338 189.1794)" overflow="visible"/>
 	
-		<use xlink:href="#rnn-a_5"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 501.501 57.4999)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 45.501 417.4999)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 141.501 417.4999)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 237.501 417.4999)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a_4_3_"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 333.501 417.4999)" overflow="visible"/>
+		<use xlink:href="#op-x"  width="22.5" height="22.5" x="-11.2" y="-11.1" transform="matrix(1 0 0 -1 626.6838 189.1794)" overflow="visible"/>
 </g>
 <g id="text">
+</g>
+<g id="images">
 </g>
 </svg>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="912px" viewBox="0 0 792 912" enable-background="new 0 0 792 912" xml:space="preserve">
-<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
-		z"/>
-</symbol>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="756px" viewBox="0 0 984 756" enable-background="new 0 0 984 756" xml:space="preserve">
 <symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
 	<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24c3.3,0,6-2.7,6-6
 		v-24C18-15.3,15.3-18,12-18z"/>
@@ -45,178 +41,293 @@
 <g id="edges">
 	<g>
 		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M682,174.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1
-				l16.9,0.4"/>
+			<line fill="none" stroke="#919191" stroke-miterlimit="10" x1="743.5" y1="0" x2="743.5" y2="1"/>
+			
+				<line fill="none" stroke="#919191" stroke-miterlimit="10" stroke-dasharray="1.9974,1.9974" x1="743.5" y1="3" x2="743.5" y2="769"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="59.6" x2="431.5" y2="94.9"/>
 			<g>
-				<polygon fill="#8C8C8C" points="715.5,226.5 714.9,225.8 718.5,222.5 715,219 715.7,218.3 720,222.5 				"/>
+				<polygon fill="#8C8C8C" points="427.4,91.6 428.1,90.9 431.5,94.5 434.9,90.9 435.6,91.6 431.5,96 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="108" x2="468.6" y2="108"/>
+			<g>
+				<polygon fill="#8C8C8C" points="471.9,103.9 472.6,104.6 469,108 472.6,111.4 471.9,112.1 467.5,108 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="372" x2="468.6" y2="372"/>
+			<g>
+				<polygon fill="#8C8C8C" points="471.9,367.9 472.6,368.6 469,372 472.6,375.4 471.9,376.1 467.5,372 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="504" x2="468.6" y2="504"/>
+			<g>
+				<polygon fill="#8C8C8C" points="471.9,499.9 472.6,500.6 469,504 472.6,507.4 471.9,508.1 467.5,504 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="119.6" x2="431.5" y2="154.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,151.6 428.1,150.9 431.5,154.5 434.9,150.9 435.6,151.6 431.5,156 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="192.6" x2="431.5" y2="227.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,224.6 428.1,223.9 431.5,227.5 434.9,223.9 435.6,224.6 431.5,229 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="252.6" x2="431.5" y2="287.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,284.6 428.1,283.9 431.5,287.5 434.9,283.9 435.6,284.6 431.5,289 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="635.5" y1="228" x2="635.5" y2="263.3"/>
+			<g>
+				<polygon fill="#8C8C8C" points="631.4,260 632.1,259.3 635.5,262.9 638.9,259.3 639.6,260 635.5,264.4 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="323.6" x2="431.5" y2="358.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,355.6 428.1,354.9 431.5,358.5 434.9,354.9 435.6,355.6 431.5,360 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="383.6" x2="431.5" y2="418.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,415.6 428.1,414.9 431.5,418.5 434.9,414.9 435.6,415.6 431.5,420 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="453.6" x2="431.5" y2="488.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,485.6 428.1,484.9 431.5,488.5 434.9,484.9 435.6,485.6 431.5,490 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="515.6" x2="431.5" y2="550.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,547.6 428.1,546.9 431.5,550.5 434.9,546.9 435.6,547.6 431.5,552 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="588.6" x2="431.5" y2="623.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,620.6 428.1,619.9 431.5,623.5 434.9,619.9 435.6,620.6 431.5,625 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="431.5" y1="647.6" x2="431.5" y2="682.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="427.4,679.6 428.1,678.9 431.5,682.5 434.9,678.9 435.6,679.6 431.5,684 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#8C8C8C" stroke-miterlimit="10" points="635.5,324 635.5,360 468.6,360 			"/>
+			<g>
+				<polygon fill="#8C8C8C" points="471.9,355.9 472.6,356.6 469,360 472.6,363.4 471.9,364.1 467.5,360 				"/>
 			</g>
 		</g>
 	</g>
 </g>
 <g id="nodes">
-	<g id="New_Symbol">
-	</g>
-	<g id="rnn-a_4_2_">
-		<g id="Deleted_Symbol_2_">
-		</g>
-	</g>
-	<g id="rnn-a_4_1_">
-		<g id="Deleted_Symbol_1_">
-		</g>
-	</g>
-	<g id="rnn-a_4">
-		<g id="Deleted_Symbol">
-		</g>
-	</g>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 246)" overflow="visible"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 173)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 246)" overflow="visible"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 173)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 246)" overflow="visible"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 173)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 246)" overflow="visible"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 173)" overflow="visible"/>
 	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 246)" overflow="visible"/>
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 173)" overflow="visible"/>
 	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 245.5)" overflow="visible"/>
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 173.5)" overflow="visible"/>
 	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 101.5)" overflow="visible"/>
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 42.5)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_59_" x="-25.3" y="-11.5" transform="matrix(1.6618 0 0 -1 425.5 107.5)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_52_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 426 238.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 306)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 306)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 306)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 306)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 306)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 305.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 558 307)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 594 307)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 630 307)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 666 307)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 702 307)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 666 306.5)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_50_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 426 371.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 437)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 437)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 437)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 437)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 437)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 437.5)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_49_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 426 502.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 353.5 571)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 571)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 571)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 571)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 571)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 570.5)" overflow="visible"/>
+	
+		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_48_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 426 635.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 701)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 701)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 701)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 701)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 701)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 462 701.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 102.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 378.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_27_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 813.25 497.5)" overflow="visible"/>
 	<g>
-		<text transform="matrix(1 0 0 1 42.9811 171.9994)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">dot product</text>
-	</g>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_26_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 156.5)" overflow="visible"/>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_27_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 312.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 389.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 270.5 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 306.5 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 342.5 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 378.5 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 414.5 390)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 378.5 389.5)" overflow="visible"/>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_28_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 456.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 534)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 534)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 534)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 534)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 534)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 533.5)" overflow="visible"/>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_29_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 600.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 678)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 678)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 678)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 678)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 678)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 677.5)" overflow="visible"/>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_30_" x="-25.3" y="-11.5" transform="matrix(1.187 0 0 -1 126 744.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 822)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 822)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 822)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 822)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 822)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="180.5" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 162 821.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 497 162)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 497 462.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_31_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 537.75 534)" overflow="visible"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#919191" stroke-miterlimit="10" x1="419.1" y1="142" x2="419.1" y2="143"/>
-			
-				<line fill="none" stroke="#919191" stroke-miterlimit="10" stroke-dasharray="1.9974,1.9974" x1="419.1" y1="145" x2="419.1" y2="911"/>
-		</g>
+		<rect x="168" y="27" fill="none" width="144" height="159"/>
+		<text transform="matrix(1 0 0 1 167.9995 35.6279)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">First, the controller gives a </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">query vector and each </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">memory entry is scored for </tspan><tspan x="0" y="54" fill="#666666" font-family="'Helvetica'" font-size="12px">similarity with the query.</tspan></text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 111.6494 149.0006)" fill="#717171" font-family="'Helvetica'" font-size="11px">memory</text>
+		<rect x="169.5" y="232" fill="none" width="140.6" height="79"/>
+		<text transform="matrix(1 0 0 1 169.5 240.6279)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">The scores are then </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">converted into a </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">distribution using softmax.</tspan></text>
 	</g>
 	<g>
-		<rect x="231.4" y="307.5" fill="none" width="136.7" height="51.5"/>
-		<text transform="matrix(1 0 0 1 231.4189 316.9401)"><tspan x="0" y="0" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">Blue shows high similarity, </tspan><tspan x="0" y="15" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">pink high dissimilarity.</tspan></text>
+		<rect x="169.5" y="375" fill="none" width="141.3" height="98"/>
+		<text transform="matrix(1 0 0 1 169.5 383.6306)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">Next, we interpolate the </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">attention from the </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">previous time step. </tspan></text>
 	</g>
 	<g>
-		<rect x="139.4" y="269.5" fill="none" width="102.7" height="51.5"/>
-		<text transform="matrix(1 0 0 1 139.4194 278.9401)" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">(or cosine similarity)</text>
+		<rect x="169.5" y="513" fill="none" width="140.6" height="150"/>
+		<text transform="matrix(1 0 0 1 169.5 521.6279)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">We convolve the attention </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">with a shift filter — this </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">allows the controller to </tspan><tspan x="0" y="54" fill="#666666" font-family="'Helvetica'" font-size="12px">move its focus.</tspan></text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 444 505.1339)" fill="#717171" font-family="'Helvetica'" font-size="11px">interpolation amount</text>
+		<rect x="169.5" y="655" fill="none" width="142" height="125"/>
+		<text transform="matrix(1 0 0 1 169.5 663.6279)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">Finally, we sharpen the </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">attention distribution. This </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">final attention distribution </tspan><tspan x="0" y="54" fill="#666666" font-family="'Helvetica'" font-size="12px">is fed to the read or write </tspan><tspan x="0" y="72" fill="#666666" font-family="'Helvetica'" font-size="12px">operation.</tspan></text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 444.0001 641.0002)" fill="#717171" font-family="'Helvetica'" font-size="11px">shift filter</text>
+		<text transform="matrix(1 0 0 1 405.8155 371.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">interpolate</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 434.6494 150.0001)" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">RNN controller</text>
+		<text transform="matrix(1 0 0 1 409.7928 502.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">convolve</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 299.5479 150.0001)" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">attention mechanism</text>
+		<text transform="matrix(1 0 0 1 399.6238 635.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">sharpen</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 444 221.0001)" fill="#717171" font-family="'Helvetica'" font-size="11px">query vector</text>
+		<text transform="matrix(1 0 0 1 400.2447 238.0001)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">softmax</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 252.2454 436.1337)" fill="#717171" font-family="'Helvetica'" font-size="11px">attention from previous step</text>
-	</g>
-	<g>
-		<rect x="229.6" y="586.4" fill="none" width="106.5" height="54.6"/>
-		<text transform="matrix(1 0 0 1 229.6494 595.8483)"><tspan x="0" y="0" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">Strong values from </tspan><tspan x="0" y="15" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">previous attention </tspan><tspan x="0" y="30" fill="#717171" font-family="'Helvetica-LightOblique'" font-size="11px">show up faintly</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 104.9649 537.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">interpolate</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 108.9422 677.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">convolve</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 110.7737 819.0002)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">sharpen</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 111.3941 393.0001)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">softmax</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 103.1306 254.9996)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">dot product</text>
+		<text transform="matrix(1 0 0 1 403.9816 107.0001)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">dot product</text>
 	</g>
 </g>
 <g id="text">
+	<g>
+		<text transform="matrix(1 0 0 1 431.5 12.0001)" fill="#666666" font-family="'Helvetica'" font-size="12px">memory</text>
+	</g>
+	<g>
+		<rect x="527.5" y="158.5" fill="none" width="172.7" height="51.5"/>
+		<text transform="matrix(1 0 0 1 527.5 168.7948)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">Blue shows high similarity, pink </tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">high dissimilarity.</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 755.5 348.0001)" fill="#666666" font-family="'Helvetica'" font-size="12px">interpolation amount</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 755.5001 468.0002)" fill="#666666" font-family="'Helvetica'" font-size="12px">shift filter</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 755.5 12.0001)" fill="#666666" font-family="'Helvetica'" font-size="12px">RNN controller</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 620.7754 12.0001)" fill="#666666" font-family="'Helvetica'" font-size="12px">attention mechanism</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 755.5 72.0001)" fill="#666666" font-family="'Helvetica'" font-size="12px">query vector</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 635.4998 275.9999)" fill="#666666" font-family="'Helvetica'" font-size="12px">attention from previous step</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 364.2832 744.0002)" font-family="'Helvetica-Bold'" font-size="11px">new attention distribution</text>
+	</g>
+	<g>
+		<rect x="529" y="420" fill="none" width="142.5" height="54.6"/>
+		<text transform="matrix(1 0 0 1 529 430.3037)"><tspan x="0" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">Strong values from previ</tspan><tspan x="130.1" y="0" fill="#666666" font-family="'Helvetica'" font-size="12px">-</tspan><tspan x="0" y="18" fill="#666666" font-family="'Helvetica'" font-size="12px">ous attention show up </tspan><tspan x="0" y="36" fill="#666666" font-family="'Helvetica'" font-size="12px">faintly</tspan></text>
+	</g>
+</g>
+<g id="images">
 </g>
 </svg>

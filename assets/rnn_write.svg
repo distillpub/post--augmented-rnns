@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px"
-	 height="276px" viewBox="0 0 792 276" enable-background="new 0 0 792 276" xml:space="preserve">
-<symbol  id="Deleted_Symbol_3_" viewBox="-21.5 -21.5 43 43">
-	<path fill="#798294" d="M15.5-21.5h-31c-3.3,0-6,2.7-6,6v31c0,3.3,2.7,6,6,6h31c3.3,0,6-2.7,6-6v-31C21.5-18.8,18.8-21.5,15.5-21.5
-		z"/>
-</symbol>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="300px" viewBox="0 0 984 300" enable-background="new 0 0 984 300" xml:space="preserve">
 <symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
 	<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24c3.3,0,6-2.7,6-6
 		v-24C18-15.3,15.3-18,12-18z"/>
@@ -35,58 +31,45 @@
 <g id="background">
 </g>
 <g id="edges">
-	<g>
-		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M682,108.5h7.5c3.3,0,6,2.7,6.1,6l0.4,35.5c0,3.3,2.8,6.1,6.1,6.1
-				l16.9,0.4"/>
-			<g>
-				<polygon fill="#8C8C8C" points="715.5,160.5 714.9,159.8 718.5,156.5 715,153 715.7,152.3 720,156.5 				"/>
-			</g>
-		</g>
-	</g>
 </g>
 <g id="nodes">
-	<g id="New_Symbol">
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 293.5 18.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_26_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 125.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 197.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 269.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 186 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 222 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 258 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 294 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 330 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 366 125)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 402 125)" overflow="visible"/>
+	<g>
+		<text transform="matrix(1 0 0 1 500 183.5436)" fill="#666666" font-family="'Helvetica'" font-size="12px">memory</text>
 	</g>
-	<g id="rnn-a_4_2_">
-		<g id="Deleted_Symbol_2_">
-		</g>
+	<g>
+		<text transform="matrix(1 0 0 1 500 254.5436)" fill="#666666" font-family="'Helvetica'" font-size="12px">new memory</text>
 	</g>
-	<g id="rnn-a_4_1_">
-		<g id="Deleted_Symbol_1_">
-		</g>
+	<g>
+		<text transform="matrix(1 0 0 1 396 11.9996)" fill="#666666" font-family="'Helvetica'" font-size="12px">write value</text>
 	</g>
-	<g id="rnn-a_4">
-		<g id="Deleted_Symbol">
-		</g>
+	<g>
+		<text transform="matrix(1 0 0 1 500 113.9996)" fill="#666666" font-family="'Helvetica'" font-size="12px">attention</text>
 	</g>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 125.5 30.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_25_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 113.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 185.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 126.5 257.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 18 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 54 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 90 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 126 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 162 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 198 113)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 234 113)" overflow="visible"/>
-	<text transform="matrix(1 0 0 1 332 183.5436)" fill="#717171" font-family="'Helvetica'" font-size="12px">memory</text>
-	<text transform="matrix(1 0 0 1 332 254.5436)" fill="#717171" font-family="'Helvetica'" font-size="12px">new memory</text>
-	<text transform="matrix(1 0 0 1 228 11.9996)" fill="#717171" font-family="'Helvetica'" font-size="12px">write value</text>
-	<text transform="matrix(1 0 0 1 332 113.9996)" fill="#717171" font-family="'Helvetica'" font-size="12px">attention</text>
 </g>
 <g id="text">
+</g>
+<g id="images">
 </g>
 </svg>
