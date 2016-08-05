@@ -202,11 +202,12 @@ figure {
   margin-left: auto;
   margin-right: auto;
   width: 648px;
+  box-sizing: border-box;
 }
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 18px/30px georgia, serif;
+  font: 16px/30px "Open Sans", sans-serif;
 }
 
 
@@ -219,7 +220,7 @@ figure {
 }
 
 .post h1 {
-  font: 400 48px/1.3em "oswald", helvetica, sans-serif;
+  font: 700 48px/54px "Open Sans", helvetica, sans-serif;
   margin-bottom: 15px;
 }
 
@@ -233,7 +234,7 @@ figure {
 }
 
 .post h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 22px;
   line-height: 1.4em;
   font-family: "Open Sans", sans-serif;
@@ -257,6 +258,15 @@ figure {
   margin-bottom: 24px;
   /*text-align: justify;*/
   /*-webkit-font-smoothing: antialiased;*/
+}
+
+.post ul {
+  padding-left: 0;
+}
+
+.post li {
+  /*margin-bottom: 24px;*/
+
 }
 
 .post pre {
@@ -293,9 +303,9 @@ pre code {
 /* Byline */
 .post .byline {
   font: 500 12px/18px "Open Sans", helvetica, sans-serif;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 15px;
+  padding-top: 12px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -305,7 +315,7 @@ pre code {
 
 .post .byline .author {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 12px;
   /*padding-left: 20px;*/
   /*border-left: 1px solid #ddd;*/
 }

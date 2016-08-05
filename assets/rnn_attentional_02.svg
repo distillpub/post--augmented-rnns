@@ -12,10 +12,6 @@
 		<text transform="matrix(1 0 0 -1 -2.3003 -5.1523)" fill="#FFFFFF" font-family="'Helvetica'" font-size="16px">•</text>
 	</g>
 </symbol>
-<symbol  id="op-wide-bg" viewBox="-25.3 -11.5 50.5 23">
-	<path fill="#596673" d="M13.8-11.5h-27.5c-6.3,0-11.5,5.2-11.5,11.5v0c0,6.3,5.2,11.5,11.5,11.5h27.5c6.3,0,11.5-5.2,11.5-11.5v0
-		C25.3-6.3,20.1-11.5,13.8-11.5z"/>
-</symbol>
 <symbol  id="op-x" viewBox="-11.2 -11.1 22.5 22.5">
 	
 		<use xlink:href="#op-bg"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 1 6.640625e-02 0.1797)" overflow="visible"/>
@@ -152,10 +148,14 @@
 		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_56_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 585.0002 274.5976)" overflow="visible"/>
 	
 		<use xlink:href="#op-dot"  width="22.5" height="24.7" id="XMLID_40_" x="-11.2" y="-12.8" transform="matrix(1 0 0 -1 392.0002 274.5976)" overflow="visible"/>
-	
-		<use xlink:href="#op-wide-bg"  width="50.5" height="23" id="XMLID_12_" x="-25.3" y="-11.5" transform="matrix(6.4351 0 0 -1 441.3635 235.0001)" overflow="visible"/>
+	<g id="XMLID_12_">
+		<g>
+			<path fill="#596673" d="M604,235c0,6.6-5.4,12-12,12H290.7c-6.6,0-12-5.4-12-12s5.4-12,12-12H592C598.6,223,604,228.4,604,235
+				L604,235z"/>
+		</g>
+	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 289.8638 237.9931)" fill="#FFFFFF" font-family="'Helvetica'" font-size="11px">softmax</text>
+		<text transform="matrix(1 0 0 1 289.8638 237.9931)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">softmax</text>
 	</g>
 	
 		<use xlink:href="#op-x"  width="22.5" height="22.5" x="-11.2" y="-11.1" transform="matrix(1 0 0 -1 313.9338 189.1794)" overflow="visible"/>

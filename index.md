@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
 
 # Understanding Augmented Recurrent Neural Networks
 
@@ -34,11 +35,7 @@ MathJax.Hub.Config({
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
-<figure class="w-page">
-  <!--<figcaption style="top: 40px;">A basic recurrent neural network uses one cell several times to help understand sequences.</figcaption>-->
-  {{> assets/rnn_basic_rnn.svg}}
-</figure>
-
+{{> assets/rnn_basic_rnn.html}}
 
 The basic RNN design struggles with longer sequences, but if you use [LSTM networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a special kind of RNN, they can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.
 
@@ -55,26 +52,28 @@ Individually, these techniques are all potent extensions of RNNs, but the really
 
 Neural Turing Machines ([Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:
 
-<figure class="side-saddle-right w-page">
+<figure class="w-page">
+  <!--
   <figcaption>Memory is an array of vectors.</figcaption>
   <figcaption style="top: 100px;">At every time step, the RNN controller can read from and write to this external memory.</figcaption>
+  -->
+  <div id="rnn-memory">
   {{> assets/rnn_memory.svg}}
+  </div>
 </figure>
-
 
 But how does reading and writing work? The challenge is that we want to make them differentiable. In particular, we want to make them differentiable with respect to the location we read from or write to, so that we can learn where to read and write. This is tricky, because memory addresses seem to be fundamentally discrete.
 
 NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents. As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.
 
-<figure class="side-saddle-right w-page">
-  <figcaption style="top: 60px;"><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
-  {{> assets/rnn_read.svg}}
-</figure>
+{{> assets/rnn_read.html}}
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
-<figure class="side-saddle-right w-page">
+<figure class="w-page">
+  <!--
   <figcaption style="top: 130px;"><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
+  -->
   {{> assets/rnn_write.svg}}
 </figure>
 
@@ -82,7 +81,7 @@ But how do NTMs distribute their attention over positions in memory? They actual
 
 The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
 
-<figure class="side-saddle-left w-page">
+<figure class="w-page">
   <!--
   <figcaption style="top: 50px;">First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
   <figcaption style="top: 250px;">The scores are then converted into an attention distribution using softmax.</figcaption>
@@ -99,7 +98,6 @@ This capability to read and write allows NTMs to perform many simple algorithms,
   <figcaption style="top: 75px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
   <img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
-
 
 
 They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
