@@ -115,8 +115,6 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
   <img src="assets/rnn-attention.svg"></img>
 </figure>
 
-**TODO: Blue attention; small fading lines**
-
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.
 
 <img src="assets/old-rnn-attention-mechanism.png" style="width:60%; margin-left:22%; padding-top:20px; padding-bottom:17px;"></img>
@@ -128,7 +126,7 @@ Attention between two RNNs can be used in translation. A traditional sequence-to
   <img src="assets/old-rnn-attention-vis2.png" style="width:50%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
-This kind of attention between RNNs can also be used in translation. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
+This kind of attention between RNNs can also be used in voice recognition. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
 
 <figure class="side-saddle-right">
 <figcaption style="top: 150px;">Figure from<br> [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
@@ -136,6 +134,8 @@ This kind of attention between RNNs can also be used in translation. This allows
 </figure>
 
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step.
+
+(TODO: last sentence awkward)
 
 <img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
@@ -146,7 +146,10 @@ One popular use of this kind of attention is for image captioning. First, a conv
 <img src="assets/ShowAttendTell.png" style="width:90%; margin-left:5%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
-More broadly, attentional interfaces can be used whenever... **TODO**
+More broadly, attentional interfaces can be used whenever
+
+
+... **TODO**
 
 ### Adaptive Computation Time
 
@@ -187,9 +190,11 @@ The neural programmer ([Neelakantan, *et al.*, 2015](http://arxiv.org/abs/1511.0
 
 The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
 
-The program is generated one operation at a time by a controller RNN. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned and read from.
+The program is a sequence of operations. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned and read from.
 
-At each step, the controller RNN outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
+<img src="assets/old-np?.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+
+The program is generated one operation at a time by a controller RNN. At each step, the controller RNN outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
 
 <img src="assets/old-np1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
@@ -205,11 +210,14 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 * **Multiple Types:** Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) Only outputs of the same type get merged together. This is part way to having a type system.
 
-* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (discussed above). For example, the *Greater* operation allows the controller to select table entries where a previously selected column is greater than a value in the question that the controller selects by attending over the question. The exciting thing about this is that, while it's being used in a very limited way, it shows that pointer network-style attention can be used enable a kind of variable.
-
-
-One other ne
-
+* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (discussed above). For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. The exciting thing about this is that, while it's being used in a very limited way, it shows that pointer network-style attention can be used enable a kind of variable.
 
 
 ### Conclusion
+
+(TOD: add heirachal memory paper)
+
+
+Acknowledgments:
+
+Maithra, Dario, Natalie, Ian
