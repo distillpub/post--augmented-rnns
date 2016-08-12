@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="144px" viewBox="0 0 984 144" enable-background="new 0 0 984 144" xml:space="preserve">
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="rnn-a" viewBox="-21.5 -26.5 48 48">
+	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
+	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
+		z"/>
+</symbol>
+<g id="background">
+	<g id="XMLID_7_">
+		<g>
+			<path fill="#E6EAF2" d="M768,102.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-166.4,0-386.1,0-564,0c-11.3,0-11.3,0-11.3,0
+				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
+				c177.9,0,397.6,0,564,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36
+				C768,102.5,768,102.5,768,102.5z"/>
+		</g>
+	</g>
+</g>
+<g id="edges">
+</g>
+<g id="nodes">
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 201.5009 69.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 333.5009 69.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 465.5009 69.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" id="XMLID_30_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 597.5009 69.4997)" overflow="visible"/>
+	
+		<use xlink:href="#rnn-a"  width="48" height="48" id="XMLID_29_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 729.5009 69.4997)" overflow="visible"/>
+</g>
+<g id="text">
+	<text transform="matrix(1 0 0 1 185.4257 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">x0</text>
+	<text transform="matrix(1 0 0 1 209.5458 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">y0</text>
+	<text transform="matrix(1 0 0 1 317.4257 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">x1</text>
+	<text transform="matrix(1 0 0 1 341.5458 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">y1</text>
+	<text transform="matrix(1 0 0 1 449.4257 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">x2</text>
+	<text transform="matrix(1 0 0 1 473.5458 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">y2</text>
+	<text transform="matrix(1 0 0 1 581.4257 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">x3</text>
+	<text transform="matrix(1 0 0 1 605.5458 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">y3</text>
+	<g>
+		<text transform="matrix(1 0 0 1 176.6718 12.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">One cell...</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 283.5819 12.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">can be used over...</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 438.5096 12.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">and over...</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 570.5096 12.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">and over...</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 715.2421 12.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">again.</text>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="228" y1="72.5" x2="310.9" y2="72.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="307.6,76.6 306.9,75.9 310.5,72.5 306.9,69.1 307.6,68.4 312,72.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="192" y1="120" x2="192" y2="96.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="196.1,99.9 195.4,100.6 192,97 188.6,100.6 187.9,99.9 192,95.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="217" y1="95.5" x2="217" y2="118.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="212.9,115.6 213.6,114.9 217,118.5 220.4,114.9 221.1,115.6 217,120 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="324" y1="120" x2="324" y2="96.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="328.1,99.9 327.4,100.6 324,97 320.6,100.6 319.9,99.9 324,95.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="349" y1="95.5" x2="349" y2="118.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="344.9,115.6 345.6,114.9 349,118.5 352.4,114.9 353.1,115.6 349,120 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="457" y1="120" x2="457" y2="96.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="461.1,99.9 460.4,100.6 457,97 453.6,100.6 452.9,99.9 457,95.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="480" y1="95.5" x2="480" y2="118.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="475.9,115.6 476.6,114.9 480,118.5 483.4,114.9 484.1,115.6 480,120 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="588" y1="120" x2="588" y2="96.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="592.1,99.9 591.4,100.6 588,97 584.6,100.6 583.9,99.9 588,95.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="612" y1="95.5" x2="612" y2="118.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="607.9,115.6 608.6,114.9 612,118.5 615.4,114.9 616.1,115.6 612,120 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 713.4257 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">x4</text>
+	<text transform="matrix(1 0 0 1 737.5458 135.9995)" fill="#717171" font-family="'OpenSans'" font-size="12px">y4</text>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="720" y1="120" x2="720" y2="96.6"/>
+			<g>
+				<polygon fill="#8C8C8C" points="724.1,99.9 723.4,100.6 720,97 716.6,100.6 715.9,99.9 720,95.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="744" y1="95.5" x2="744" y2="118.9"/>
+			<g>
+				<polygon fill="#8C8C8C" points="739.9,115.6 740.6,114.9 744,118.5 747.4,114.9 748.1,115.6 744,120 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="360" y1="72.5" x2="442.9" y2="72.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="439.6,76.6 438.9,75.9 442.5,72.5 438.9,69.1 439.6,68.4 444,72.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="492" y1="72.5" x2="574.9" y2="72.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="571.6,76.6 570.9,75.9 574.5,72.5 570.9,69.1 571.6,68.4 576,72.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="624" y1="72.5" x2="706.9" y2="72.5"/>
+			<g>
+				<polygon fill="#8C8C8C" points="703.6,76.6 702.9,75.9 706.5,72.5 702.9,69.1 703.6,68.4 708,72.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="images">
+</g>
+</svg>

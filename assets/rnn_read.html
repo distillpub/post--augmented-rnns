@@ -1,0 +1,79 @@
+<figure class="w-page" id="rnn-read">
+  <!--
+  <figcaption style="top: 60px;"><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
+  -->
+  {{> assets/rnn_read.svg}}
+</figure>
+
+<script>
+(function() {
+  console.log("rnn_read")
+  let html = d3.selectAll("#rnn-read");
+  let svg = html.select("svg");
+  let svgBBox = svg.node().getBoundingClientRect();
+
+  let arrowhead = svg.append("marker")
+      .attr("id", "arrowhead")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 5)
+      .attr("refY", 0)
+      .attr("markerWidth", 10)
+      .attr("markerHeight", 10)
+      .attr("orient", "auto")
+    .append("path")
+      .attr("d", "M0,-5L5,0L0,5")
+      .style("fill", "none")
+      .style("stroke", "grey");
+
+  let memory = svg.selectAll("#memory use");
+  let length = memory.size();
+  let memoryData = d3.range(length).map(() => { return {x: Math.random(), y: Math.random()}; })
+  memory.data(memoryData)
+    .each(function(d) {
+      this.style.opacity = 0;
+      let bBox = this.getBoundingClientRect();
+      d.top = bBox.top - svgBBox.top;
+      d.left = bBox.left - svgBBox.left;
+      d.width = bBox.width;
+    });
+
+  let vectorScale = d3.scaleLinear()
+      .domain([0, 1])
+      .range([2, 14])
+
+  let memoryVectors = svg.selectAll(".vector")
+      .data(memoryData)
+    .enter().append("line")
+      .attr("class", "vector")
+      .attr("transform", (d) => `translate(${d.left + d.width / 2}, ${d.top + d.width / 2})`)
+      .attr("x2", (d) => vectorScale(d.x))
+      .attr("y2", (d) => vectorScale(d.y))
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+
+  let attention = svg.selectAll("#attention use");
+  let path = svg.selectAll("#paths path");
+  let attentionData = d3.range(length).map(() => Math.random());
+
+  attention.data(attentionData)
+      .style("opacity", (d) => d);
+
+  path.data(attentionData)
+      .style("stroke-width", (d) => d * 5 );
+
+  let result = svg.select("#read-result")
+      .style("opacity", 0);
+
+  let resultBBox = result.node().getBoundingClientRect();
+  let resultX = d3.sum(memoryData, (d, i) => d.x * attentionData[i]) / d3.sum(attentionData);
+  let resultY = d3.sum(memoryData, (d, i) => d.y * attentionData[i]) / d3.sum(attentionData);
+
+  svg.append("line")
+      .attr("transform",
+      `translate(${resultBBox.left + resultBBox.width / 2 - svgBBox.left}, ${resultBBox.top + resultBBox.width / 2 - svgBBox.top})`)
+      .attr("x2", (d) => vectorScale(resultX))
+      .attr("y2", (d) => vectorScale(resultY))
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+})();
+</script>

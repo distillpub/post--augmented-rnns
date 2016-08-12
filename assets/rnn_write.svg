@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
+	 height="276px" viewBox="0 0 984 276" enable-background="new 0 0 984 276" xml:space="preserve">
+<symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
+	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24
+		c3.3,0,6-2.7,6-6v-24C18-15.3,15.3-18,12-18z"/>
+</symbol>
+<symbol  id="array-7" viewBox="-126.5 -18.5 253 37">
+	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M120-18h-240c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h240
+		c3.3,0,6-2.7,6-6v-24C126-15.3,123.3-18,120-18z"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="17.5" y1="-18" x2="17.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="53.5" y1="-18" x2="53.5" y2="18"/>
+	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="89.5" y1="-18" x2="89.5" y2="18"/>
+</symbol>
+<symbol  id="array-positive-value" viewBox="-18 -18 36 36">
+	<polygon opacity="0" fill="#0080F7" points="18,-18 -18,-18 -18,18 18,18 	"/>
+	<path opacity="0.8" fill="#0080F7" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6
+		C13.6-10.9,10.9-13.6,7.6-13.6z"/>
+</symbol>
+<symbol  id="array-vector" viewBox="0 -36 36 36">
+	<polygon opacity="0" fill="#0080F7" points="36,-36 0,-36 0,0 36,0 	"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="18" y1="-24" x2="18" y2="-13.1"/>
+			<g>
+				<polygon fill="#8C8C8C" points="22.1,-16.4 21.4,-17.1 18,-13.5 14.6,-17.1 13.9,-16.4 18,-12 				"/>
+			</g>
+		</g>
+	</g>
+</symbol>
+<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
+	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
+</symbol>
+<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
+	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
+		z"/>
+</symbol>
+<g id="background">
+</g>
+<g id="edges">
+	<g>
+		
+			<path id="path24182_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M186,240V113.6c0.6-24,102-24.2,102-76.9"/>
+		
+			<path id="path24184_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M222,240V113.6c0.6-24,68-24.2,68-76.9"/>
+		
+			<path id="path24186_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M258,240V113.6c0.6-24,34-24.2,34-76.9"/>
+		
+			<path id="path24249_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M294,240V36"/>
+		
+			<path id="path24260_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M402,240V113.6c-0.6-24-102-24.2-102-76.9"/>
+		
+			<path id="path24262_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M366,240V113.6c-0.6-24-68-24.2-68-76.9"/>
+		
+			<path id="path24264_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			M329.9,240V113.6c-0.6-24-33.9-24.2-33.9-76.9"/>
+	</g>
+</g>
+<g id="nodes">
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 293.5 18.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_26_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 138.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 197.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 257.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 186 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 222 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 258 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 294 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 330 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 366 138)" overflow="visible"/>
+	
+		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 402 138)" overflow="visible"/>
+	<g>
+		<text transform="matrix(1 0 0 1 432 204.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">memory</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 432 264.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">new memory</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 324 24.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">write value</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 432 144.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">attention</text>
+	</g>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 168 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 204 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 240 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 276 180)" overflow="visible"/>
+	
+		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 276 2.041570e-07)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 312 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 348 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 384 180)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 168 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 204 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 240 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 276 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 312 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 348 240)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 384 240)" overflow="visible"/>
+</g>
+<g id="text">
+</g>
+<g id="images">
+</g>
+</svg>

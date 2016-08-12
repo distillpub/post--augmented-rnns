@@ -1,0 +1,385 @@
+html {
+  background-color: #fafafa;
+}
+
+body {
+  margin: 0;
+  min-width: 1024px;
+  -webkit-text-size-adjust: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.page {
+  overflow: hidden;
+  background-color: #fcfcfc;
+  padding-bottom: 120px;
+}
+
+/**
+ * Widths
+ */
+
+.w-screen,
+.post .w-screen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/*.w-page,
+.post .w-page {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
+}
+@media(min-width: 1280px) {*/
+  .w-page,
+  .post .w-page {
+    width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*}*/
+
+.w-body,
+.post .w-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 648px;
+}
+
+
+/**
+ * Columns
+ */
+
+.c-1-1 {
+  display: flex;
+}
+
+.c-1-1 > * {
+  flex-grow: 1;
+  position: relative;
+  width: 50%;
+}
+
+.c-equal {
+  display: flex;
+}
+
+.c-equal > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+  margin: 0 12px 0 0;
+}
+
+.c-equal > *:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.c-equal.c-divider > * {
+  border-right: 1px solid #ddd;
+}
+
+.c-equal.c-divider > *:last-child {
+  border-right: none;
+}
+
+/**
+ * Positions
+ */
+
+.p-right,
+.post .p-right {
+  float: right;
+  width: calc(40%);
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+@media(min-width: 1240px) {
+  .p-right,
+  .post .p-right {
+    /*width: calc(960px / 2 - 100px);*/
+    width: calc(1200px * 0.4);
+    margin-right: calc((100% - 1200px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  /*.p-right,
+  .post .p-right {
+    width: calc(1200px / 2 - 150px);
+    margin-right: calc((100vw - 1200px) / 2);
+  }*/
+}
+
+.p-right-margin,
+.post .p-right-margin {
+  float: right;
+  width: calc((768px - 620px) / 2);
+  margin-right: calc((100vw - 768px) / 2);
+  margin-top: 0;
+}
+@media(min-width: 920px) {
+  .p-right-margin,
+  .post .p-right-margin {
+    width: calc((960px - 620px) / 2);
+    margin-right: calc((100vw - 960px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  .p-right-margin,
+  .post .p-right-margin {
+    width: calc((1200px - 620px) / 2);
+    margin-right: calc((100vw - 1200px) / 2);
+  }
+}
+
+.p-left-margin,
+.post .p-left-margin {
+  float: left;
+  width: calc((768px - 620px) / 2);
+  margin-left: calc((100vw - 768px) / 2);
+  margin-top: 0;
+}
+@media(min-width: 920px) {
+  .p-left-margin,
+  .post .p-left-margin {
+    width: calc((960px - 620px) / 2);
+    margin-left: calc((100vw - 960px) / 2);
+  }
+}
+@media(min-width: 1280px) {
+  .p-left-margin,
+  .post .p-left-margin {
+    width: calc((1200px - 620px) / 2);
+    margin-left: calc((100vw - 1200px) / 2);
+  }
+}
+
+/**
+ * Figures and Captions
+ */
+
+.post figure.side-saddle-right,
+.post figure.side-saddle-left {
+  position: relative;
+}
+
+.post figure.side-saddle-right figcaption {
+  width: 150px;
+  position: absolute;
+  right: -170px;
+}
+
+.post figure.side-saddle-left figcaption {
+  width: 150px;
+  position: absolute;
+  left: -170px;
+}
+
+/* Post */
+
+/* If we have elements as direct descendent children of a .post, we should assume they are "w-body" */
+.post > h1,
+.post > h2,
+.post > h3,
+.post > h4,
+.post > h5,
+.post > ul,
+.post > ol,
+.post > figure,
+.post > pre,
+.post > p,
+.post > .byline {
+  margin-left: auto;
+  margin-right: auto;
+  width: 648px;
+  box-sizing: border-box;
+}
+
+.post {
+  color: rgba(0, 0, 0, 0.8);
+  font: 16px/30px "Open Sans", sans-serif;
+}
+
+
+.post section:first-of-type {
+  margin-top: 80px;
+}
+
+.post > h1:first-of-type {
+  margin-top: 80px;
+}
+
+.post h1 {
+  font: 700 48px/54px "Open Sans", helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+.post h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.45em;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.post h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.post a {
+  color: #004276;
+}
+
+.post p {
+  margin-bottom: 24px;
+  /*text-align: justify;*/
+  /*-webkit-font-smoothing: antialiased;*/
+}
+
+.post ul {
+  padding-left: 0;
+}
+
+.post li {
+  /*margin-bottom: 24px;*/
+
+}
+
+.post pre {
+  font-size: 14px;
+  margin-bottom: 20px;
+  /*padding-top: 15px;*/
+  /*padding-bottom: 15px;*/
+  /*border-top: 1px solid rgba(0, 0, 0, 0.05);*/
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+}
+
+pre code {
+  background: white;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+  margin-left: -12px;
+  margin-right: -12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.post hr {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.post section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Byline */
+.post .byline {
+  font: 500 12px/18px "Open Sans", helvetica, sans-serif;
+  margin-bottom: 60px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.post .byline .authors {
+  display: inline-block;
+}
+
+.post .byline .author {
+  display: inline-block;
+  margin-right: 12px;
+  /*padding-left: 20px;*/
+  /*border-left: 1px solid #ddd;*/
+}
+
+.post .byline .author:last-child {
+  margin-right: 0;
+}
+
+.post .byline .name {
+  text-transform: uppercase;
+}
+
+.post .byline .date {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 15px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.post .byline .citation {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 15px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+/* Figure */
+
+.post figure {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.post figure img {
+  width: 100%;
+}
+
+.post figure svg text,
+.post figure svg tspan {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.post figure figcaption {
+  font-family: "Open Sans";
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.post figure. figcaption {
+
+}
+
+/*.post figure figcaption::before {
+  position: relative;
+  display: block;
+  top: -20px;
+  content: "";
+  width: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+.post figure figcaption b {
+  color: rgba(0, 0, 0, 1.0);
+  font-weight: 600;
+}
