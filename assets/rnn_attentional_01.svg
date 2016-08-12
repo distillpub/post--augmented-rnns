@@ -190,8 +190,8 @@
 		<text transform="matrix(1 0 0 1 575.0002 106.2833)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">weighted </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">sum of the </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">outputs</tspan></text>
 	</g>
 	<g>
-		<rect x="718.3" y="96" fill="none" width="120.7" height="43.5"/>
-		<text transform="matrix(1 0 0 1 718.2698 106.2833)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">The same RNN A is </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">used at each step of </tspan></text>
+		<rect x="718.3" y="96" fill="none" width="156.7" height="43.5"/>
+		<text transform="matrix(1 0 0 1 718.2708 106.2833)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">The same RNN A is used at </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">each step of B</tspan></text>
 	</g>
 </g>
 <g id="text">
