@@ -77,7 +77,7 @@
 		<text transform="matrix(1 0 0 1 432 23.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">attention</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 432 83.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">memory</text>
+		<text transform="matrix(1 0 0 1 366 155.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">memory</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 324 203.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">read result</text>

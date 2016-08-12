@@ -176,6 +176,22 @@
 </g>
 <g id="nodes">
 	
+		<use xlink:href="#array-5"  width="181" height="37" id="XMLID_62_" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 305.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 666 306.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 437.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 570.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 701.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 372.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_27_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 813.25 503.5)" overflow="visible"/>
+	
+		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 173.5)" overflow="visible"/>
+	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 173)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 173)" overflow="visible"/>
@@ -185,8 +201,6 @@
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 173)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 173.5)" overflow="visible"/>
 	
 		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 42.5)" overflow="visible"/>
 	<g id="XMLID_59_">
@@ -212,8 +226,6 @@
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" id="XMLID_25_" x="-18" y="-18" transform="matrix(1 0 0 -1 498 306)" overflow="visible"/>
 	
-		<use xlink:href="#array-5"  width="181" height="37" id="XMLID_62_" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 305.5)" overflow="visible"/>
-	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 558 306)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 774 504)" overflow="visible"/>
@@ -231,8 +243,6 @@
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 666 306)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 702 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 666 306.5)" overflow="visible"/>
 	<g id="XMLID_50_">
 		<g>
 			<path fill="#596673" d="M468,372c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,360,468,365.4,468,372
@@ -249,8 +259,6 @@
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 437)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 437)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 437.5)" overflow="visible"/>
 	<g id="XMLID_49_">
 		<g>
 			<path fill="#596673" d="M468,504c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,492,468,497.4,468,504
@@ -267,8 +275,6 @@
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 571)" overflow="visible"/>
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 571)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 570.5)" overflow="visible"/>
 	<g id="XMLID_48_">
 		<g>
 			<path fill="#596673" d="M468,636c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,624,468,629.4,468,636
@@ -286,13 +292,7 @@
 	
 		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 701)" overflow="visible"/>
 	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 701.5)" overflow="visible"/>
-	
 		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 107.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 372.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_27_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 813.25 503.5)" overflow="visible"/>
 	<g>
 		<rect x="168" y="84" fill="none" width="144" height="93"/>
 		<text transform="matrix(1 0 0 1 168 93.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">First, the controller gives </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">a query vector and each </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">memory entry is scored </tspan><tspan x="0" y="54" fill="#666666" font-family="'OpenSans'" font-size="12px">for similarity with the </tspan><tspan x="0" y="72" fill="#666666" font-family="'OpenSans'" font-size="12px">query.</tspan></text>
