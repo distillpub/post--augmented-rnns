@@ -1,201 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
-	 height="312px" viewBox="0 0 984 312" enable-background="new 0 0 984 312" xml:space="preserve">
-<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
-</symbol>
-<symbol  id="op-sum" viewBox="-11.2 -11.2 22.5 22.5">
-	<use xlink:href="#op-bg"  width="22.5" height="22.5" id="XMLID_21_" x="-11.2" y="-11.2" overflow="visible"/>
-	<g>
-		<g>
-			<path fill="#FFFFFF" d="M-4.1-0.5v1.3h3.4v3.4h1.3V0.8H4v-1.3H0.6v-3.4h-1.3v3.4H-4.1z"/>
-		</g>
-	</g>
-</symbol>
-<symbol  id="rnn-a" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
-	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
-</symbol>
-<symbol  id="rnn-b" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_47_" x="-21.5" y="-26.5" overflow="visible"/>
-	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">B</text>
-</symbol>
-<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
-		z"/>
-</symbol>
-<g id="background">
-	<g id="XMLID_2_">
-		<g>
-			<path fill="#E6EAF2" d="M527,66.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-95.3,0-221.1,0-323,0c-11.3,0-11.3,0-11.3,0
-				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
-				c101.9,0,227.7,0,323,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36C527,66.5,527,66.5,527,66.5z"
-				/>
-		</g>
-	</g>
-	<g id="XMLID_18_">
-		<g>
-			<path fill="#E6EAF2" d="M527,258.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-95.3,0-221.1,0-323,0c-11.3,0-11.3,0-11.3,0
-				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
-				c101.9,0,227.7,0,323,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36
-				C527,258.5,527,258.5,527,258.5z"/>
-		</g>
-	</g>
-</g>
-<g id="edges">
-	
-		<path id="path24184_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-		M308.8,102.4c0,52.7,121.7,45.5,122.2,69.4V196"/>
-	
-		<path id="path24186_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-		M304.6,102.4c0,52.7,41.9,45.5,42.3,69.4V196"/>
-	
-		<path id="path24262_1_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-		M177.5,196v-24.1c0-24,120.1-16.8,120.1-69.4"/>
-	
-		<path id="path24264_1_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-		M260.5,196v-24.1c0-24,41.1-16.8,41.1-69.4"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="299" y1="83.8" x2="299" y2="60.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="303.1,64 302.4,64.7 299,61.1 295.6,64.7 294.9,64 299,59.6 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="204" y1="83.8" x2="204" y2="60.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="208.1,64 207.4,64.7 204,61.1 200.6,64.7 199.9,64 204,59.6 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="226.9" y1="36.7" x2="273.9" y2="36.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="270.6,40.8 269.9,40.1 273.5,36.7 269.9,33.4 270.6,32.6 275,36.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="226.9" y1="228.7" x2="273.9" y2="228.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="270.6,232.8 269.9,232.1 273.5,228.7 269.9,225.4 270.6,224.6 275,228.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="322.9" y1="228.7" x2="369.9" y2="228.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="366.6,232.8 365.9,232.1 369.5,228.7 365.9,225.4 366.6,224.6 371,228.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="418.9" y1="228.7" x2="465.9" y2="228.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="462.6,232.8 461.9,232.1 465.5,228.7 461.9,225.4 462.6,224.6 467,228.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="323.9" y1="36.7" x2="370.9" y2="36.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="367.6,40.8 366.9,40.1 370.5,36.7 366.9,33.4 367.6,32.6 372,36.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="418.9" y1="36.7" x2="465.9" y2="36.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="462.6,40.8 461.9,40.1 465.5,36.7 461.9,33.4 462.6,32.6 467,36.7 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="395" y1="83.8" x2="395" y2="60.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="399.1,64 398.4,64.7 395,61.1 391.6,64.7 390.9,64 395,59.6 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="491" y1="83.8" x2="491" y2="60.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="495.1,64 494.4,64.7 491,61.1 487.6,64.7 486.9,64 491,59.6 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		
-			<path id="path24182_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M600,366V239.6c0.6-24,102-24.2,102-76.9"/>
-		
-			<path id="path24184_4_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M636,366V239.6c0.6-24,68-24.2,68-76.9"/>
-		
-			<path id="path24186_4_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M672,366V239.6c0.6-24,34-24.2,34-76.9"/>
-		
-			<path id="path24249_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M708,366V162"/>
-		
-			<path id="path24260_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M816,366V239.6c-0.6-24-102-24.2-102-76.9"/>
-		
-			<path id="path24262_3_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M780,366V239.6c-0.6-24-68-24.2-68-76.9"/>
-		
-			<path id="path24264_3_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M743.9,366V239.6c-0.6-24-33.9-24.2-33.9-76.9"/>
-	</g>
-</g>
-<g id="nodes">
-	
-		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 200.5012 33.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 296.5012 33.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-b"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 392.5012 33.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-b"  width="48" height="48" id="XMLID_46_" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 488.5012 33.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 200.5012 225.4996)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 296.5012 225.4996)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 392.5012 225.4996)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 488.5012 225.4996)" overflow="visible"/>
-	
-		<use xlink:href="#op-sum"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 203.0002 96.75)" overflow="visible"/>
-	
-		<use xlink:href="#op-sum"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 299.0002 96.75)" overflow="visible"/>
-	
-		<use xlink:href="#op-sum"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 395.0002 96.75)" overflow="visible"/>
-	
-		<use xlink:href="#op-sum"  width="22.5" height="22.5" x="-11.2" y="-11.2" transform="matrix(1 0 0 -1 491.0002 96.75)" overflow="visible"/>
-	<g>
-		<rect x="575" y="96" fill="none" width="77.7" height="51.5"/>
-		<text transform="matrix(1 0 0 1 575.0002 106.2833)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">weighted </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">sum of the </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">outputs</tspan></text>
-	</g>
-	<g>
-		<rect x="718.3" y="96" fill="none" width="156.7" height="43.5"/>
-		<text transform="matrix(1 0 0 1 718.2708 106.2833)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">The same RNN A is used at </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">each step of B</tspan></text>
-	</g>
-</g>
-<g id="text">
-</g>
-<g id="images">
-</g>
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="312" viewBox="0 0 984 312">
+  <defs>
+    <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="6" ry="6" fill="#798294"/>
+    </symbol>
+    <symbol id="rnn-b" data-name="rnn-b" viewBox="0 0 48 48">
+      <use id="rnn-bg-3" data-name="rnn-bg" width="48" height="48" xlink:href="#rnn-bg"/>
+      <text transform="translate(16.74 31)" font-size="21.77" fill="#fff" font-family="Helvetica">B</text>
+    </symbol>
+    <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 48 48">
+      <use id="rnn-bg-15" data-name="rnn-bg" width="48" height="48" xlink:href="#rnn-bg"/>
+      <text transform="translate(17.33 31)" font-size="21.77" fill="#fff" font-family="Helvetica" letter-spacing="-1">A</text>
+    </symbol>
+    <symbol id="op-bg" data-name="op-bg" viewBox="0 0 22.5 22.5">
+      <circle cx="11.25" cy="11.25" r="11.25" fill="#798294"/>
+    </symbol>
+    <symbol id="op-sum" data-name="op-sum" viewBox="0 0 22.5 22.5">
+      <use id="op-bg-3" data-name="op-bg" width="22.5" height="22.5" xlink:href="#op-bg"/>
+      <path d="M7.13,11.75V10.43h3.41V7h1.34v3.43h3.41v1.31H11.87v3.42H10.54V11.75H7.13Z" fill="#fff"/>
+    </symbol>
+  </defs>
+  <title>rnn</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path d="M527,66.48c0,3-3,5.52-6.69,5.52H176.67c-4.77,0-8.67-2.48-8.67-5.52V10c0-5.49,3.9-10,8.67-10H520.31C524,0,527,4.49,527,10V66.48Z" fill="#e6eaf2"/>
+  </g>
+  <g id="_Group_2" data-name="&lt;Group&gt;">
+    <path d="M527,258.48c0,3-3,5.52-6.69,5.52H176.67c-4.77,0-8.67-2.48-8.67-5.52V202c0-5.49,3.9-10,8.67-10H520.31c3.68,0,6.69,4.49,6.69,10v56.51Z" fill="#e6eaf2"/>
+  </g>
+  <path id="path24184" d="M308.75,102.44c0,52.66,121.69,45.45,122.25,69.44V196" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  <path id="path24186" d="M304.55,102.44c0,52.66,41.87,45.45,42.32,69.44V196" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  <path id="path24262" d="M177.5,196V171.88c0-24,120.07-16.78,120.07-69.44" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  <path id="path24264" d="M260.5,196V171.88c0-24,41.15-16.78,41.15-69.44" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  <g>
+    <line x1="299" y1="83.81" x2="299" y2="60.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="303.09 64.04 302.36 64.73 299 61.12 295.64 64.73 294.91 64.04 299 59.65 303.09 64.04" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="204" y1="83.81" x2="204" y2="60.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="208.09 64.04 207.36 64.73 204 61.12 200.64 64.73 199.91 64.04 204 59.65 208.09 64.04" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="226.92" y1="36.73" x2="273.92" y2="36.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="270.6 40.82 269.92 40.09 273.53 36.73 269.92 33.37 270.6 32.64 275 36.73 270.6 40.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="226.92" y1="228.73" x2="273.92" y2="228.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="270.6 232.82 269.92 232.09 273.53 228.73 269.92 225.37 270.6 224.64 275 228.73 270.6 232.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="322.92" y1="228.73" x2="369.92" y2="228.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="366.6 232.82 365.92 232.09 369.53 228.73 365.92 225.37 366.6 224.64 371 228.73 366.6 232.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="418.92" y1="228.73" x2="465.92" y2="228.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="462.6 232.82 461.92 232.09 465.53 228.73 461.92 225.37 462.6 224.64 467 228.73 462.6 232.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="323.92" y1="36.73" x2="370.92" y2="36.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="367.6 40.82 366.92 40.09 370.53 36.73 366.92 33.37 367.6 32.64 372 36.73 367.6 40.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="418.92" y1="36.73" x2="465.92" y2="36.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="462.6 40.82 461.92 40.09 465.53 36.73 461.92 33.37 462.6 32.64 467 36.73 462.6 40.82" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="395" y1="83.81" x2="395" y2="60.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="399.09 64.04 398.36 64.73 395 61.12 391.64 64.73 390.91 64.04 395 59.65 399.09 64.04" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="491" y1="83.81" x2="491" y2="60.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="495.09 64.04 494.36 64.73 491 61.12 487.64 64.73 486.91 64.04 491 59.65 495.09 64.04" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path id="path24182" d="M600,366V239.58c0.56-24,102-24.22,102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24184-2" data-name="path24184" d="M636,366V239.58c0.56-24,68-24.22,68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24186-2" data-name="path24186" d="M672,366V239.58c0.56-24,34-24.22,34-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24249" d="M708,366V162" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24260" d="M816,366V239.58c-0.56-24-102-24.22-102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24262-2" data-name="path24262" d="M780,366V239.58c-0.56-24-68-24.22-68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24264-2" data-name="path24264" d="M743.93,366V239.58c-0.56-24-33.93-24.22-33.93-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  </g>
+  <use width="48" height="48" transform="translate(179 12)" xlink:href="#rnn-b"/>
+  <use width="48" height="48" transform="translate(275 12)" xlink:href="#rnn-b"/>
+  <use width="48" height="48" transform="translate(371 12)" xlink:href="#rnn-b"/>
+  <use id="rnn-b-9" data-name="rnn-b" width="48" height="48" transform="translate(467 12)" xlink:href="#rnn-b"/>
+  <use width="48" height="48" transform="translate(179 204)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(275 204)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(371 204)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(467 204)" xlink:href="#rnn-a"/>
+  <use width="22.5" height="22.5" transform="translate(191.75 85.5)" xlink:href="#op-sum"/>
+  <use width="22.5" height="22.5" transform="translate(287.75 85.5)" xlink:href="#op-sum"/>
+  <use width="22.5" height="22.5" transform="translate(383.75 85.5)" xlink:href="#op-sum"/>
+  <use width="22.5" height="22.5" transform="translate(479.75 85.5)" xlink:href="#op-sum"/>
+  <text transform="translate(575 106.28)" font-size="12" fill="#666" font-family="Open Sans">weighted <tspan x="0" y="18">sum of the </tspan><tspan x="0" y="36">outputs</tspan></text>
+  <text transform="translate(718.27 106.28)" font-size="12" fill="#666" font-family="Open Sans">The same RNN A is used at <tspan x="0" y="18">each step of B</tspan></text>
 </svg>

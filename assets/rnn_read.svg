@@ -1,118 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
-	 height="216px" viewBox="0 0 984 216" enable-background="new 0 0 984 216" xml:space="preserve">
-<symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24
-		c3.3,0,6-2.7,6-6v-24C18-15.3,15.3-18,12-18z"/>
-</symbol>
-<symbol  id="array-7" viewBox="-126.5 -18.5 253 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M120-18h-240c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h240
-		c3.3,0,6-2.7,6-6v-24C126-15.3,123.3-18,120-18z"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="17.5" y1="-18" x2="17.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="53.5" y1="-18" x2="53.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="89.5" y1="-18" x2="89.5" y2="18"/>
-</symbol>
-<symbol  id="array-positive-value" viewBox="-18 -18 36 36">
-	<polygon opacity="0" fill="#0080F7" points="18,-18 -18,-18 -18,18 18,18 	"/>
-	<path opacity="0.8" fill="#0080F7" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6
-		C13.6-10.9,10.9-13.6,7.6-13.6z"/>
-</symbol>
-<symbol  id="array-vector" viewBox="0 -36 36 36">
-	<polygon opacity="0" fill="#0080F7" points="36,-36 0,-36 0,0 36,0 	"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="18" y1="-24" x2="18" y2="-13.1"/>
-			<g>
-				<polygon fill="#8C8C8C" points="22.1,-16.4 21.4,-17.1 18,-13.5 14.6,-17.1 13.9,-16.4 18,-12 				"/>
-			</g>
-		</g>
-	</g>
-</symbol>
-<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
-</symbol>
-<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
-		z"/>
-</symbol>
-<g id="background">
-</g>
-<g id="edges">
-	<g id="paths">
-		
-			<path id="edge0" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M186,36v66.1c0.6,24,102,24.2,102,76.9"/>
-		
-			<path id="edge1" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M222,36v66.1c0.6,24,68,24.2,68,76.9"/>
-		
-			<path id="edge2" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M258.1,36v66.1c0.6,24,33.9,24.2,33.9,76.9"/>
-		
-			<path id="edge3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M294,36v144"/>
-		
-			<path id="edge4" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M330,36v66.1c-0.6,24-34,24.2-34,76.9"/>
-		
-			<path id="edge5" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M366,36v66.1c-0.6,24-68,24.2-68,76.9"/>
-		
-			<path id="edge6" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
-			M402,36v66.1c-0.6,24-102,24.2-102,76.9"/>
-	</g>
-</g>
-<g id="nodes">
-	
-		<use xlink:href="#array-7"  width="253" height="37" id="XMLID_24_" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 18.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-7"  width="253" height="37" x="-126.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 77.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 294.5 197.5)" overflow="visible"/>
-	<g>
-		<text transform="matrix(1 0 0 1 432 23.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">attention</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 366 155.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">memory</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 324 203.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">read result</text>
-	</g>
-	
-		<use xlink:href="#array-vector"  width="36" height="36" id="read-result" y="-36" transform="matrix(1 0 0 -1 276 180)" overflow="visible"/>
-	<g id="attention">
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 186 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 222 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 258 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 294 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 330 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 366 18)" overflow="visible"/>
-		
-			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 402 18)" overflow="visible"/>
-	</g>
-	<g id="memory">
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 168 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 204 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 240 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 276 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 312 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 348 60)" overflow="visible"/>
-		
-			<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_63_" y="-36" transform="matrix(1 0 0 -1 384 60)" overflow="visible"/>
-	</g>
-</g>
-<g id="text">
-</g>
-<g id="images">
-</g>
+<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="216" viewBox="0 0 984 216">
+  <defs>
+    <symbol id="array-7" data-name="array-7" viewBox="0 0 253 37">
+      <rect x="0.5" y="0.5" width="252" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="108" y1="36.5" x2="108" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="144" y1="36.5" x2="144" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="180" y1="36.5" x2="180" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="216" y1="36.5" x2="216" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-1" data-name="array-1" viewBox="0 0 37 37">
+      <rect x="0.5" y="0.5" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <g>
+        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      </g>
+    </symbol>
+    <symbol id="array-positive-value" data-name="array-positive-value" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#0080f7" opacity="0.8"/>
+    </symbol>
+  </defs>
+  <title>rnn</title>
+  <g id="paths">
+    <path id="edge0" d="M186,36v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge1" d="M222,36v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge2" d="M258.07,36v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge3" d="M294,36V180" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge4" d="M330,36v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge5" d="M366,36v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge6" d="M402,36v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  </g>
+  <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168)" xlink:href="#array-7"/>
+  <use width="253" height="37" transform="translate(168 59)" xlink:href="#array-7"/>
+  <use width="37" height="37" transform="translate(276 179)" xlink:href="#array-1"/>
+  <text transform="translate(432 24)" font-size="12" fill="#666" font-family="Open Sans">attention</text>
+  <text transform="translate(366 156)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
+  <text transform="translate(324 204)" font-size="12" fill="#666" font-family="Open Sans">read result</text>
+  <use id="read-result" width="36" height="36" transform="translate(276 180)" xlink:href="#array-vector"/>
+  <g id="attention">
+    <use width="36" height="36" transform="translate(168)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(204)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(240)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(276)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(312)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(348)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(384)" xlink:href="#array-positive-value"/>
+  </g>
+  <g id="memory">
+    <use width="36" height="36" transform="translate(168 60)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(204 60)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(240 60)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(276 60)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(312 60)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(348 60)" xlink:href="#array-vector"/>
+    <use id="array-vector-17" data-name="array-vector" width="36" height="36" transform="translate(384 60)" xlink:href="#array-vector"/>
+  </g>
 </svg>

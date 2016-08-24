@@ -1,186 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
-	 height="270px" viewBox="0 0 984 270" enable-background="new 0 0 984 270" xml:space="preserve">
-<symbol  id="array-5" viewBox="-126.8 -18.5 181 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M47.8-18h-168c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h168
-		c3.3,0,6-2.7,6-6v-24C53.8-15.3,51.1-18,47.8-18z"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="17.5" y1="-18" x2="17.5" y2="18"/>
-</symbol>
-<symbol  id="array-vector" viewBox="0 -36 36 36">
-	<polygon opacity="0" fill="#0080F7" points="36,-36 0,-36 0,0 36,0 	"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="18" y1="-24" x2="18" y2="-13.1"/>
-			<g>
-				<polygon fill="#8C8C8C" points="22.1,-16.4 21.4,-17.1 18,-13.5 14.6,-17.1 13.9,-16.4 18,-12 				"/>
-			</g>
-		</g>
-	</g>
-</symbol>
-<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
-</symbol>
-<symbol  id="rnn-a" viewBox="-21.5 -26.5 48 48">
-	<use xlink:href="#rnn-bg"  width="48" height="48" id="XMLID_33_" x="-21.5" y="-26.5" overflow="visible"/>
-	<text transform="matrix(1 0 0 -1 -4.7627 -9.5)" fill="#FFFFFF" font-family="'Helvetica'" font-size="21.7741px">A</text>
-</symbol>
-<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
-		z"/>
-</symbol>
-<g id="background">
-	<g id="XMLID_22_">
-		<g>
-			<path fill="#E6EAF2" d="M779,198.5c0,3-3,5.5-6.7,5.5c0,0,0,0-9.3,0c-169.6,0-393.6,0-575,0c-11.3,0-11.3,0-11.3,0
-				c-4.8,0-8.7-2.5-8.7-5.5c0,0,0,0,0-8c0-10.1,0-24.2,0-36c0-12.5,0-12.5,0-12.5c0-5.5,3.9-10,8.7-10c0,0,0,0,11.3,0
-				c181.4,0,405.4,0,575,0c9.3,0,9.3,0,9.3,0c3.7,0,6.7,4.5,6.7,10c0,0,0,0,0,12.5c0,11.8,0,25.9,0,36
-				C779,198.5,779,198.5,779,198.5z"/>
-		</g>
-	</g>
-</g>
-<g id="edges">
-</g>
-<g id="nodes">
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 498.5001 42.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 702.5001 42.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 200.5011 165.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 393.5011 165.5)" overflow="visible"/>
-	
-		<use xlink:href="#rnn-a"  width="48" height="48" x="-21.5" y="-26.5" transform="matrix(1 0 0 -1 597.5011 165.5)" overflow="visible"/>
-	<g>
-		<text transform="matrix(1 0 0 1 367.671 101.9995)" fill="#666666" font-family="'OpenSans'" font-size="12px">read</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 254.3819 101.9995)" fill="#666666" font-family="'OpenSans'" font-size="12px">write</text>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="264" y1="142.5" x2="358.9" y2="59.5"/>
-			<g>
-				<polygon fill="#8C8C8C" points="359.1,64.7 358.1,64.6 358.6,59.7 353.7,59.6 353.7,58.6 359.8,58.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="386.2" y1="58.1" x2="357.2" y2="122.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="354.9,118.2 355.8,117.8 357.4,122.5 361.9,120.6 362.3,121.5 356.8,123.9 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="517.5" y1="57" x2="517.5" y2="127.9"/>
-			<g>
-				<polygon fill="#B3B3B3" points="513.4,124.6 514.1,123.9 517.5,127.5 520.9,123.9 521.6,124.6 517.5,129 				"/>
-			</g>
-		</g>
-	</g>
-	<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M279,57c0,0,30,49,71,10"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="406" y1="142.5" x2="500.9" y2="59.5"/>
-			<g>
-				<polygon fill="#B3B3B3" points="501.1,64.7 500.1,64.6 500.6,59.7 495.7,59.6 495.7,58.6 501.8,58.8 				"/>
-			</g>
-		</g>
-	</g>
-	<path fill="none" stroke="#B3B3B3" stroke-miterlimit="10" d="M421,57c0,0,30,49,71,10"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 294.5001 42.5)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 168 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 204 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 240 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 276 24)" overflow="visible"/>
-	
-		<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_64_" y="-36" transform="matrix(1 0 0 -1 312 24)" overflow="visible"/>
-</g>
-<g id="text">
-	<g>
-		<text transform="matrix(1 0 0 1 197.8458 11.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">time step 0</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 391.9874 11.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">step 1</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 595.9874 11.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">step 2</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 186.4259 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">x0</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 210.546 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">y0</text>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="193" y1="218" x2="193" y2="194.6"/>
-			<g>
-				<polygon fill="#8C8C8C" points="197.1,197.9 196.4,198.6 193,195 189.6,198.6 188.9,197.9 193,193.5 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="218" y1="193.5" x2="218" y2="216.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="213.9,213.6 214.6,212.9 218,216.5 221.4,212.9 222.1,213.6 218,218 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 378.4259 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">x1</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 402.546 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">y1</text>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="385" y1="218" x2="385" y2="194.6"/>
-			<g>
-				<polygon fill="#8C8C8C" points="389.1,197.9 388.4,198.6 385,195 381.6,198.6 380.9,197.9 385,193.5 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="410" y1="193.5" x2="410" y2="216.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="405.9,213.6 406.6,212.9 410,216.5 413.4,212.9 414.1,213.6 410,218 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 582.4259 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">x2</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 606.546 256.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">y2</text>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="589" y1="218" x2="589" y2="194.6"/>
-			<g>
-				<polygon fill="#8C8C8C" points="593.1,197.9 592.4,198.6 589,195 585.6,198.6 584.9,197.9 589,193.5 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="614" y1="193.5" x2="614" y2="216.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="609.9,213.6 610.6,212.9 614,216.5 617.4,212.9 618.1,213.6 614,218 				"/>
-			</g>
-		</g>
-	</g>
-</g>
-<g id="images">
-</g>
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="270" viewBox="0 0 984 270">
+  <defs>
+    <symbol id="array-5" data-name="array-5" viewBox="0 0 181 37">
+      <rect x="0.5" y="0.5" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="36.25" y1="36.5" x2="36.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72.25" y1="36.5" x2="72.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="108.25" y1="36.5" x2="108.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="144.25" y1="36.5" x2="144.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="6" ry="6" fill="#798294"/>
+    </symbol>
+    <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 48 48">
+      <use id="rnn-bg-3" data-name="rnn-bg" width="48" height="48" xlink:href="#rnn-bg"/>
+      <text transform="translate(17.33 31)" font-size="21.77" fill="#fff" font-family="Helvetica" letter-spacing="-1">A</text>
+    </symbol>
+    <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <g>
+        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      </g>
+    </symbol>
+  </defs>
+  <title>rnn</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path d="M779,198.48c0,3-3,5.52-6.69,5.52H176.67c-4.77,0-8.67-2.48-8.67-5.52V142c0-5.49,3.9-10,8.67-10H772.31c3.68,0,6.69,4.49,6.69,10v56.51Z" fill="#e6eaf2"/>
+  </g>
+  <use width="181" height="37" transform="translate(371.75 24)" xlink:href="#array-5"/>
+  <use width="181" height="37" transform="translate(575.75 24)" xlink:href="#array-5"/>
+  <use width="48" height="48" transform="translate(179 144)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(372 144)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(576 144)" xlink:href="#rnn-a"/>
+  <text transform="translate(367.67 102)" font-size="12" fill="#666" font-family="Open Sans">read</text>
+  <text transform="translate(254.38 102)" font-size="12" fill="#666" font-family="Open Sans">write</text>
+  <g>
+    <line x1="264.04" y1="142.46" x2="358.93" y2="59.46" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="359.13 64.72 358.14 64.62 358.65 59.72 353.72 59.57 353.75 58.57 359.75 58.75 359.13 64.72" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="386.21" y1="58.14" x2="357.23" y2="122.87" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="354.85 118.17 355.8 117.85 357.39 122.52 361.93 120.59 362.32 121.51 356.79 123.86 354.85 118.17" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="517.5" y1="57" x2="517.5" y2="127.92" fill="none" stroke="#b3b3b3" stroke-miterlimit="10"/>
+    <polygon points="513.41 124.6 514.14 123.92 517.5 127.53 520.86 123.92 521.59 124.6 517.5 129 513.41 124.6" fill="#b3b3b3"/>
+  </g>
+  <path d="M279,57s30,49,71,10" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+  <g>
+    <line x1="406.04" y1="142.46" x2="500.93" y2="59.46" fill="none" stroke="#b3b3b3" stroke-miterlimit="10"/>
+    <polygon points="501.13 64.72 500.14 64.62 500.65 59.72 495.72 59.57 495.75 58.57 501.75 58.75 501.13 64.72" fill="#b3b3b3"/>
+  </g>
+  <path d="M421,57s30,49,71,10" fill="none" stroke="#b3b3b3" stroke-miterlimit="10"/>
+  <use width="181" height="37" transform="translate(167.75 24)" xlink:href="#array-5"/>
+  <use width="36" height="36" transform="translate(168 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(204 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(240 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(276 24)" xlink:href="#array-vector"/>
+  <use id="array-vector-11" data-name="array-vector" width="36" height="36" transform="translate(312 24)" xlink:href="#array-vector"/>
+  <text transform="translate(197.85 12)" font-size="12" fill="#666" font-family="Open Sans">time step 0</text>
+  <text transform="translate(391.99 12)" font-size="12" fill="#666" font-family="Open Sans">step 1</text>
+  <text transform="translate(595.99 12)" font-size="12" fill="#666" font-family="Open Sans">step 2</text>
+  <text transform="translate(186.43 257)" font-size="12" fill="#666" font-family="Open Sans">x0</text>
+  <text transform="translate(210.55 257)" font-size="12" fill="#666" font-family="Open Sans">y0</text>
+  <g>
+    <line x1="193" y1="218" x2="193" y2="194.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="197.09 197.9 196.36 198.58 193 194.97 189.64 198.58 188.91 197.9 193 193.5 197.09 197.9" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="218" y1="193.5" x2="218" y2="216.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="213.91 213.6 214.64 212.92 218 216.53 221.36 212.92 222.09 213.6 218 218 213.91 213.6" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(378.43 257)" font-size="12" fill="#666" font-family="Open Sans">x1</text>
+  <text transform="translate(402.55 257)" font-size="12" fill="#666" font-family="Open Sans">y1</text>
+  <g>
+    <line x1="385" y1="218" x2="385" y2="194.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="389.09 197.9 388.36 198.58 385 194.97 381.64 198.58 380.91 197.9 385 193.5 389.09 197.9" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="410" y1="193.5" x2="410" y2="216.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="405.91 213.6 406.64 212.92 410 216.53 413.36 212.92 414.09 213.6 410 218 405.91 213.6" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(582.43 257)" font-size="12" fill="#666" font-family="Open Sans">x2</text>
+  <text transform="translate(606.55 257)" font-size="12" fill="#666" font-family="Open Sans">y2</text>
+  <g>
+    <line x1="589" y1="218" x2="589" y2="194.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="593.09 197.9 592.36 198.58 589 194.97 585.64 198.58 584.91 197.9 589 193.5 593.09 197.9" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="614" y1="193.5" x2="614" y2="216.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="609.91 213.6 610.64 212.92 614 216.53 617.36 212.92 618.09 213.6 614 218 609.91 213.6" fill="#8c8c8c"/>
+  </g>
 </svg>

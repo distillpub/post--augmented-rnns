@@ -1,10 +1,6 @@
-<figure class="w-page" id="rnn-read">
-  <!--
-  <figcaption style="top: 60px;"><b>When reading</b>, The RNN reads from everywhere, just to different extents. the result of the read operation is a weighted sum.</figcaption>
-  -->
-  {{> assets/rnn_read.svg}}
+<figure class="w-page" id="rnn-write">
+  {{> assets/rnn_write.svg}}
 </figure>
-
 <script>
 (function() {
   let html = d3.selectAll("#rnn-read");
@@ -13,8 +9,7 @@
   let result = svg.select("#read-result").style("opacity", 0);
   let resultBBox = result.node().getBoundingClientRect();
   let resultArrow = svg.append("line")
-      .attr("class", "result")
-
+        .attr("class", "result-line")
         .attr("marker-end", "url(#arrowhead)")
         .style("stroke", "grey");
   let arrowhead = svg.append("marker")
@@ -32,7 +27,15 @@
 
   let memory = svg.selectAll("#memory use");
   let length = memory.size();
-  let memoryData = d3.range(length).map(() => { return {x: Math.random(), y: Math.random()}; })
+  let memoryData = [
+    {x: 0.4, y: 0.2},
+    {x: 0.2, y: 0.2},
+    {x: 0.1, y: 0.9},
+    {x: 0.9, y: 0.9},
+    {x: 0.4, y: 0.3},
+    {x: 0.1, y: 0.5},
+    {x: 0.3, y: 0.8}
+  ];
   memory.data(memoryData)
     .each(function(d) {
       this.style.opacity = 0;
@@ -81,9 +84,7 @@
   updateAttention(attentionData);
 
   html.on("mousemove", function() {
-    console.log("moving");
     let data = [];
-    console.log(d3.event.x)
     attention.each(function() {
       let bbox = this.getBoundingClientRect()
       let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);

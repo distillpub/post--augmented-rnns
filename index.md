@@ -66,16 +66,13 @@ But how does reading and writing work? The challenge is that we want to make the
 
 NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents. As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.
 
-{{> assets/rnn_read.html}}
+<figure class="w-page" id="rnn-read">
+  {{> assets/rnn_read.svg}}
+</figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
-<figure class="w-page">
-  <!--
-  <figcaption style="top: 130px;"><b>When writing</b> the RNN reads from everywhere, just to different extents</figcaption>
-  -->
-  {{> assets/rnn_write.svg}}
-</figure>
+{{> assets/rnn_write.html}}
 
 But how do NTMs distribute their attention over positions in memory? They actually combine together two different attention mechanisms: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and move to places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
 

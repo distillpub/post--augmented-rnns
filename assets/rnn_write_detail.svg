@@ -1,375 +1,180 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="984px"
-	 height="756px" viewBox="0 0 984 756" enable-background="new 0 0 984 756" xml:space="preserve">
-<symbol  id="array-1" viewBox="-18.5 -18.5 37 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M12-18h-24c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h24
-		c3.3,0,6-2.7,6-6v-24C18-15.3,15.3-18,12-18z"/>
-</symbol>
-<symbol  id="array-3" viewBox="-57.8 -18.5 108.5 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M44.2-18h-95.5c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h95.5
-		c3.3,0,6-2.7,6-6v-24C50.2-15.3,47.6-18,44.2-18z"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-21.8" y1="-18" x2="-21.8" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="14.2" y1="-18" x2="14.2" y2="18"/>
-</symbol>
-<symbol  id="array-5" viewBox="-126.8 -18.5 181 37">
-	<path fill="#FFFFFF" stroke="#8C8C8C" stroke-miterlimit="10" d="M47.8-18h-168c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h168
-		c3.3,0,6-2.7,6-6v-24C53.8-15.3,51.1-18,47.8-18z"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-90.5" y1="-18" x2="-90.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-54.5" y1="-18" x2="-54.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="-18.5" y1="-18" x2="-18.5" y2="18"/>
-	<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="17.5" y1="-18" x2="17.5" y2="18"/>
-</symbol>
-<symbol  id="array-positive-value" viewBox="-18 -18 36 36">
-	<polygon opacity="0" fill="#0080F7" points="18,-18 -18,-18 -18,18 18,18 	"/>
-	<path opacity="0.8" fill="#0080F7" d="M7.6-13.6H-7.6c-3.3,0-6,2.7-6,6V7.6c0,3.3,2.7,6,6,6H7.6c3.3,0,6-2.7,6-6V-7.6
-		C13.6-10.9,10.9-13.6,7.6-13.6z"/>
-</symbol>
-<symbol  id="array-vector" viewBox="0 -36 36 36">
-	<polygon opacity="0" fill="#0080F7" points="36,-36 0,-36 0,0 36,0 	"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="18" y1="-24" x2="18" y2="-13.1"/>
-			<g>
-				<polygon fill="#8C8C8C" points="22.1,-16.4 21.4,-17.1 18,-13.5 14.6,-17.1 13.9,-16.4 18,-12 				"/>
-			</g>
-		</g>
-	</g>
-</symbol>
-<symbol  id="op-bg" viewBox="-11.2 -11.2 22.5 22.5">
-	<path fill="#798294" d="M11.2,0c0-6.2-5-11.2-11.2-11.2S-11.2-6.2-11.2,0s5,11.2,11.2,11.2S11.2,6.2,11.2,0z"/>
-</symbol>
-<symbol  id="rnn-bg" viewBox="-21.5 -26.5 48 48">
-	<path fill="#798294" d="M20.5-26.5h-36c-3.3,0-6,2.7-6,6v36c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6v-36C26.5-23.8,23.8-26.5,20.5-26.5
-		z"/>
-</symbol>
-<g id="background">
-</g>
-<g id="edges">
-	<g>
-		<g>
-			<line fill="none" stroke="#919191" stroke-miterlimit="10" x1="743.5" y1="0" x2="743.5" y2="1"/>
-			
-				<line fill="none" stroke="#919191" stroke-miterlimit="10" stroke-dasharray="1.9974,1.9974" x1="743.5" y1="3" x2="743.5" y2="769"/>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="60" x2="426" y2="94.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,91.6 422.6,90.9 426,94.5 429.4,90.9 430.1,91.6 426,96 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="108" x2="468.6" y2="108"/>
-			<g>
-				<polygon fill="#8C8C8C" points="471.9,103.9 472.6,104.6 469,108 472.6,111.4 471.9,112.1 467.5,108 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="378" x2="468.6" y2="378"/>
-			<g>
-				<polygon fill="#8C8C8C" points="471.9,373.9 472.6,374.6 469,378 472.6,381.4 471.9,382.1 467.5,378 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="755.5" y1="504" x2="468.6" y2="504"/>
-			<g>
-				<polygon fill="#8C8C8C" points="471.9,499.9 472.6,500.6 469,504 472.6,507.4 471.9,508.1 467.5,504 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="119.8" x2="426" y2="154.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,151.4 422.6,150.7 426,154.4 429.4,150.7 430.1,151.4 426,155.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="191.8" x2="426" y2="226.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,223.4 422.6,222.7 426,226.4 429.4,222.7 430.1,223.4 426,227.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="252" x2="426" y2="286.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,283.6 422.6,282.9 426,286.5 429.4,282.9 430.1,283.6 426,288 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="630" y1="228" x2="630" y2="263.3"/>
-			<g>
-				<polygon fill="#8C8C8C" points="625.9,260 626.6,259.3 630,262.9 633.4,259.3 634.1,260 630,264.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="323.8" x2="426" y2="358.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,355.4 422.6,354.7 426,358.4 429.4,354.7 430.1,355.4 426,359.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="383.8" x2="426" y2="418.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,415.4 422.6,414.7 426,418.4 429.4,414.7 430.1,415.4 426,419.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="456" x2="426" y2="490.9"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,487.6 422.6,486.9 426,490.5 429.4,486.9 430.1,487.6 426,492 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="515.8" x2="426" y2="550.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,547.4 422.6,546.7 426,550.4 429.4,546.7 430.1,547.4 426,551.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="588.8" x2="426" y2="623.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,620.4 422.6,619.7 426,623.4 429.4,619.7 430.1,620.4 426,624.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#8C8C8C" stroke-miterlimit="10" x1="426" y1="647.8" x2="426" y2="682.7"/>
-			<g>
-				<polygon fill="#8C8C8C" points="421.9,679.4 422.6,678.7 426,682.4 429.4,678.7 430.1,679.4 426,683.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<g>
-			<path fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="M630,324v32c0,5.5-4.5,10-10,10H468.6"/>
-			<g>
-				<polygon fill="#8C8C8C" points="471.9,361.9 472.6,362.6 469,366 472.6,369.4 471.9,370.1 467.5,366 				"/>
-			</g>
-		</g>
-	</g>
-</g>
-<g id="nodes">
-	
-		<use xlink:href="#array-5"  width="181" height="37" id="XMLID_62_" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 305.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 666 306.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 437.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 570.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 701.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 372.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-3"  width="108.5" height="37" id="XMLID_27_" x="-57.8" y="-18.5" transform="matrix(1 0 0 -1 813.25 503.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 173.5)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 173)" overflow="visible"/>
-	
-		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 462 42.5)" overflow="visible"/>
-	<g id="XMLID_59_">
-		<g>
-			<path fill="#596673" d="M467.5,108c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.1,96,467.5,101.4,467.5,108
-				L467.5,108z"/>
-		</g>
-	</g>
-	<g id="XMLID_52_">
-		<g>
-			<path fill="#596673" d="M468,240c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,228,468,233.4,468,240
-				L468,240z"/>
-		</g>
-	</g>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" id="XMLID_25_" x="-18" y="-18" transform="matrix(1 0 0 -1 498 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 558 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 774 504)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 810 504)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 846 504)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 774 372)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 594 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 630 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 666 306)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 702 306)" overflow="visible"/>
-	<g id="XMLID_50_">
-		<g>
-			<path fill="#596673" d="M468,372c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,360,468,365.4,468,372
-				L468,372z"/>
-		</g>
-	</g>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 437)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 437)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 437)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 437)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 437)" overflow="visible"/>
-	<g id="XMLID_49_">
-		<g>
-			<path fill="#596673" d="M468,504c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,492,468,497.4,468,504
-				L468,504z"/>
-		</g>
-	</g>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 353.5 571)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 571)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 571)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 571)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 571)" overflow="visible"/>
-	<g id="XMLID_48_">
-		<g>
-			<path fill="#596673" d="M468,636c0,6.6-5.4,12-12,12h-60c-6.6,0-12-5.4-12-12s5.4-12,12-12h60C462.6,624,468,629.4,468,636
-				L468,636z"/>
-		</g>
-	</g>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 354 701)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 390 701)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 426 701)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 462 701)" overflow="visible"/>
-	
-		<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 498 701)" overflow="visible"/>
-	
-		<use xlink:href="#array-1"  width="37" height="37" x="-18.5" y="-18.5" transform="matrix(1 0 0 -1 774 107.5)" overflow="visible"/>
-	<g>
-		<rect x="168" y="84" fill="none" width="144" height="93"/>
-		<text transform="matrix(1 0 0 1 168 93.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">First, the controller gives </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">a query vector and each </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">memory entry is scored </tspan><tspan x="0" y="54" fill="#666666" font-family="'OpenSans'" font-size="12px">for similarity with the </tspan><tspan x="0" y="72" fill="#666666" font-family="'OpenSans'" font-size="12px">query.</tspan></text>
-	</g>
-	<g>
-		<rect x="169.5" y="215" fill="none" width="140.6" height="79"/>
-		<text transform="matrix(1 0 0 1 169.5 224.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">The scores are then </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">converted into a </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">distribution using </tspan><tspan x="0" y="54" fill="#666666" font-family="'OpenSans'" font-size="12px">softmax.</tspan></text>
-	</g>
-	<g>
-		<rect x="169.5" y="348" fill="none" width="141.3" height="98"/>
-		<text transform="matrix(1 0 0 1 169.5 357.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">Next, we interpolate the </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">attention from the </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">previous time step. </tspan></text>
-	</g>
-	<g>
-		<rect x="169.5" y="480" fill="none" width="140.6" height="150"/>
-		<text transform="matrix(1 0 0 1 169.5 489.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">We convolve the </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">attention with a shift </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">filter — this allows the </tspan><tspan x="0" y="54" fill="#666666" font-family="'OpenSans'" font-size="12px">controller to move its </tspan><tspan x="0" y="72" fill="#666666" font-family="'OpenSans'" font-size="12px">focus.</tspan></text>
-	</g>
-	<g>
-		<rect x="169.5" y="613" fill="none" width="142" height="125"/>
-		<text transform="matrix(1 0 0 1 169.5 622.1201)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">Finally, we sharpen the </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">attention distribution. </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">This final attention </tspan><tspan x="0" y="54" fill="#666666" font-family="'OpenSans'" font-size="12px">distribution is fed to the </tspan><tspan x="0" y="72" fill="#666666" font-family="'OpenSans'" font-size="12px">read or write operation.</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 397.7909 375.0002)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">interpolate</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 403.3739 507.0002)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">convolve</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 404.8647 639.0002)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">sharpen</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 405.1923 243.0001)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">softmax</text>
-	</g>
-	<g>
-		<rect x="383.5" y="102" fill="none" width="84" height="24"/>
-		<text transform="matrix(1 0 0 1 395.1931 110.4263)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">dot product</text>
-	</g>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 756 90)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 336 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 372 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 408 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 444 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 480 24)" overflow="visible"/>
-</g>
-<g id="text">
-	<g>
-		<text transform="matrix(1 0 0 1 528.375 42.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">memory</text>
-	</g>
-	<g>
-		<rect x="527.5" y="158.5" fill="none" width="172.7" height="51.5"/>
-		<text transform="matrix(1 0 0 1 527.5 168.7743)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">Blue shows high similarity, </tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">pink high dissimilarity.</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 755.5 342.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">interpolation amount</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 755.5001 474.0002)" fill="#666666" font-family="'OpenSans'" font-size="12px">shift filter</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 755.5 12.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">RNN controller</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 612.3203 12.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">attention mechanism</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 755.5 78.0001)" fill="#666666" font-family="'OpenSans'" font-size="12px">query vector</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 555.3641 281.9999)" fill="#666666" font-family="'OpenSans'" font-size="12px">attention from previous step</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 359.2295 738.0002)" font-family="'OpenSans'" font-size="11px">new attention distribution</text>
-	</g>
-	<g>
-		<rect x="529" y="420" fill="none" width="142.5" height="54.6"/>
-		<text transform="matrix(1 0 0 1 529 430.2832)"><tspan x="0" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">Strong values from previ</tspan><tspan x="137.2" y="0" fill="#666666" font-family="'OpenSans'" font-size="12px">-</tspan><tspan x="0" y="18" fill="#666666" font-family="'OpenSans'" font-size="12px">ous attention show up </tspan><tspan x="0" y="36" fill="#666666" font-family="'OpenSans'" font-size="12px">faintly</tspan></text>
-	</g>
-</g>
-<g id="images">
-</g>
+<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="756" viewBox="0 0 984 756">
+  <defs>
+    <symbol id="array-5" data-name="array-5" viewBox="0 0 181 37">
+      <rect x="0.5" y="0.5" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="36.25" y1="36.5" x2="36.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72.25" y1="36.5" x2="72.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="108.25" y1="36.5" x2="108.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="144.25" y1="36.5" x2="144.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-1" data-name="array-1" viewBox="0 0 37 37">
+      <rect x="0.5" y="0.5" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-3" data-name="array-3" viewBox="0 0 108.5 37">
+      <rect x="0.5" y="0.5" width="107.5" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-positive-value" data-name="array-positive-value" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#0080f7" opacity="0.8"/>
+    </symbol>
+    <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <g>
+        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      </g>
+    </symbol>
+  </defs>
+  <title>rnn</title>
+  <g>
+    <line x1="743.5" x2="743.5" y2="1" fill="none" stroke="#919191" stroke-miterlimit="10"/>
+    <line x1="743.5" y1="3" x2="743.5" y2="769" fill="none" stroke="#919191" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+  </g>
+  <g>
+    <line x1="426" y1="60" x2="426" y2="94.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 91.6 422.64 90.92 426 94.53 429.36 90.92 430.09 91.6 426 96 421.91 91.6" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="755.5" y1="108" x2="468.58" y2="108" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="471.9 103.91 472.58 104.64 468.97 108 472.58 111.36 471.9 112.09 467.5 108 471.9 103.91" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="755.5" y1="378" x2="468.58" y2="378" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="471.9 373.91 472.58 374.64 468.97 378 472.58 381.36 471.9 382.09 467.5 378 471.9 373.91" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="755.5" y1="504" x2="468.58" y2="504" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="471.9 499.91 472.58 500.64 468.97 504 472.58 507.36 471.9 508.09 467.5 504 471.9 499.91" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="119.82" x2="426" y2="154.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 151.43 422.64 150.74 426 154.35 429.36 150.74 430.09 151.43 426 155.82 421.91 151.43" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="191.82" x2="426" y2="226.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 223.43 422.64 222.74 426 226.35 429.36 222.74 430.09 223.43 426 227.82 421.91 223.43" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="252" x2="426" y2="286.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 283.6 422.64 282.92 426 286.53 429.36 282.92 430.09 283.6 426 288 421.91 283.6" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="630" y1="228" x2="630" y2="263.27" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="625.91 259.96 626.64 259.27 630 262.88 633.36 259.27 634.09 259.96 630 264.35 625.91 259.96" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="323.82" x2="426" y2="358.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 355.43 422.64 354.74 426 358.36 429.36 354.74 430.09 355.43 426 359.82 421.91 355.43" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="383.82" x2="426" y2="418.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 415.43 422.64 414.74 426 418.36 429.36 414.74 430.09 415.43 426 419.82 421.91 415.43" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="456" x2="426" y2="490.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 487.6 422.64 486.92 426 490.53 429.36 486.92 430.09 487.6 426 492 421.91 487.6" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="515.82" x2="426" y2="550.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 547.42 422.64 546.74 426 550.36 429.36 546.74 430.09 547.42 426 551.82 421.91 547.42" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="588.82" x2="426" y2="623.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 620.42 422.64 619.74 426 623.36 429.36 619.74 430.09 620.42 426 624.82 421.91 620.42" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="647.82" x2="426" y2="682.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="421.91 679.42 422.64 678.74 426 682.36 429.36 678.74 430.09 679.42 426 683.82 421.91 679.42" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M630,324v32a10,10,0,0,1-10,10H468.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <polygon points="471.9 361.91 472.58 362.64 468.97 366 472.58 369.36 471.9 370.09 467.5 366 471.9 361.91" fill="#8c8c8c"/>
+  </g>
+  <use id="array-5-3" data-name="array-5" width="181" height="37" transform="translate(335.25 287)" xlink:href="#array-5"/>
+  <use width="181" height="37" transform="translate(539.25 288)" xlink:href="#array-5"/>
+  <use width="181" height="37" transform="translate(335.25 419)" xlink:href="#array-5"/>
+  <use width="181" height="37" transform="translate(335.25 552)" xlink:href="#array-5"/>
+  <use width="181" height="37" transform="translate(335.25 683)" xlink:href="#array-5"/>
+  <use width="37" height="37" transform="translate(755.5 354)" xlink:href="#array-1"/>
+  <use id="array-3-3" data-name="array-3" width="108.5" height="37" transform="translate(755.5 485)" xlink:href="#array-3"/>
+  <use width="181" height="37" transform="translate(335.25 155)" xlink:href="#array-5"/>
+  <use width="36" height="36" transform="translate(336 155)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(372 155)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(408 155)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(444 155)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(480 155)" xlink:href="#array-positive-value"/>
+  <use width="181" height="37" transform="translate(335.25 24)" xlink:href="#array-5"/>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path d="M467.5,108a12,12,0,0,1-12,12h-60a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
+  </g>
+  <g id="_Group_2" data-name="&lt;Group&gt;">
+    <path d="M468,240a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
+  </g>
+  <use width="36" height="36" transform="translate(336 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(372 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(408 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(444 288)" xlink:href="#array-positive-value"/>
+  <use id="array-positive-value-21" data-name="array-positive-value" width="36" height="36" transform="translate(480 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(540 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(756 486)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(792 486)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(828 486)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(756 354)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(576 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(612 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(648 288)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(684 288)" xlink:href="#array-positive-value"/>
+  <g id="_Group_3" data-name="&lt;Group&gt;">
+    <path d="M468,372a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
+  </g>
+  <use width="36" height="36" transform="translate(336 419)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(372 419)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(408 419)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(444 419)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(480 419)" xlink:href="#array-positive-value"/>
+  <g id="_Group_4" data-name="&lt;Group&gt;">
+    <path d="M468,504a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
+  </g>
+  <use width="36" height="36" transform="translate(335.5 553)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(372 553)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(408 553)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(444 553)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(480 553)" xlink:href="#array-positive-value"/>
+  <g id="_Group_5" data-name="&lt;Group&gt;">
+    <path d="M468,636a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
+  </g>
+  <use width="36" height="36" transform="translate(336 683)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(372 683)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(408 683)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(444 683)" xlink:href="#array-positive-value"/>
+  <use width="36" height="36" transform="translate(480 683)" xlink:href="#array-positive-value"/>
+  <use width="37" height="37" transform="translate(755.5 89)" xlink:href="#array-1"/>
+  <text transform="translate(168 93.12)" font-size="12" fill="#666" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
+  <text transform="translate(169.5 224.12)" font-size="12" fill="#666" font-family="Open Sans">The scores are then <tspan x="0" y="18">converted into a </tspan><tspan x="0" y="36">distribution using </tspan><tspan x="0" y="54">softmax.</tspan></text>
+  <text transform="translate(169.5 357.12)" font-size="12" fill="#666" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="18">attention from the </tspan><tspan x="0" y="36">previous time step. </tspan></text>
+  <text transform="translate(169.5 489.12)" font-size="12" fill="#666" font-family="Open Sans">We convolve the <tspan x="0" y="18">attention with a shift </tspan><tspan x="0" y="36">filter — this allows the </tspan><tspan x="0" y="54">controller to move its </tspan><tspan x="0" y="72">focus.</tspan></text>
+  <text transform="translate(169.5 622.12)" font-size="12" fill="#666" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="18">attention distribution. </tspan><tspan x="0" y="36">This final attention </tspan><tspan x="0" y="54">distribution is fed to the </tspan><tspan x="0" y="72">read or write operation.</tspan></text>
+  <text transform="translate(397.79 375)" font-size="11" fill="#fff" font-family="Open Sans">interpolate</text>
+  <text transform="translate(403.37 507)" font-size="11" fill="#fff" font-family="Open Sans">convolve</text>
+  <text transform="translate(404.86 639)" font-size="11" fill="#fff" font-family="Open Sans">sharpen</text>
+  <text transform="translate(405.19 243)" font-size="11" fill="#fff" font-family="Open Sans">softmax</text>
+  <text transform="translate(395.19 110.43)" font-size="11" fill="#fff" font-family="Open Sans">dot product</text>
+  <use width="36" height="36" transform="translate(756 90)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(336 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(372 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(408 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(444 24)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(480 24)" xlink:href="#array-vector"/>
+  <text transform="translate(528.38 42)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
+  <text transform="translate(527.5 168.77)" font-size="12" fill="#666" font-family="Open Sans">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
+  <text transform="translate(755.5 342)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
+  <text transform="translate(755.5 474)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
+  <text transform="translate(755.5 12)" font-size="12" fill="#666" font-family="Open Sans">RNN controller</text>
+  <text transform="translate(612.32 12)" font-size="12" fill="#666" font-family="Open Sans">attention mechanism</text>
+  <text transform="translate(755.5 78)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
+  <text transform="translate(555.36 282)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
+  <text transform="translate(359.23 738)" font-size="11" font-family="Open Sans">new attention distribution</text>
+  <text transform="translate(529 430.28)" font-size="12" fill="#666" font-family="Open Sans">Strong values from previ<tspan x="137.21" y="0">-</tspan><tspan x="0" y="18">ous attention show up </tspan><tspan x="0" y="36">faintly</tspan></text>
 </svg>
