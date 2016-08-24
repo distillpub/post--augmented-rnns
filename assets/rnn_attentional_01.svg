@@ -45,16 +45,16 @@
 </g>
 <g id="edges">
 	
-		<path id="path24184_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+		<path id="path24184_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 		M308.8,102.4c0,52.7,121.7,45.5,122.2,69.4V196"/>
 	
-		<path id="path24186_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+		<path id="path24186_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 		M304.6,102.4c0,52.7,41.9,45.5,42.3,69.4V196"/>
 	
-		<path id="path24262_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+		<path id="path24262_1_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 		M177.5,196v-24.1c0-24,120.1-16.8,120.1-69.4"/>
 	
-		<path id="path24264_1_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+		<path id="path24264_1_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 		M260.5,196v-24.1c0-24,41.1-16.8,41.1-69.4"/>
 	<g>
 		<g>
@@ -138,25 +138,25 @@
 	</g>
 	<g>
 		
-			<path id="path24182_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24182_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M600,366V239.6c0.6-24,102-24.2,102-76.9"/>
 		
-			<path id="path24184_4_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24184_4_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M636,366V239.6c0.6-24,68-24.2,68-76.9"/>
 		
-			<path id="path24186_4_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24186_4_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M672,366V239.6c0.6-24,34-24.2,34-76.9"/>
 		
-			<path id="path24249_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24249_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M708,366V162"/>
 		
-			<path id="path24260_2_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24260_2_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M816,366V239.6c-0.6-24-102-24.2-102-76.9"/>
 		
-			<path id="path24262_3_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24262_3_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M780,366V239.6c-0.6-24-68-24.2-68-76.9"/>
 		
-			<path id="path24264_3_" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="path24264_3_" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M743.9,366V239.6c-0.6-24-33.9-24.2-33.9-76.9"/>
 	</g>
 </g>

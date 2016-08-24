@@ -329,12 +329,12 @@
 		<rect x="383.5" y="102" fill="none" width="84" height="24"/>
 		<text transform="matrix(1 0 0 1 395.1931 110.4263)" fill="#FFFFFF" font-family="'OpenSans'" font-size="11px">dot product</text>
 	</g>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 756 90)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 336 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 372 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 408 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 444 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 480 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 756 90)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 336 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 372 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 408 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 444 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 480 24)" overflow="visible"/>
 </g>
 <g id="text">
 	<g>

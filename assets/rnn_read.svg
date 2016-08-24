@@ -44,25 +44,25 @@
 <g id="edges">
 	<g id="paths">
 		
-			<path id="edge0" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge0" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M186,36v66.1c0.6,24,102,24.2,102,76.9"/>
 		
-			<path id="edge1" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge1" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M222,36v66.1c0.6,24,68,24.2,68,76.9"/>
 		
-			<path id="edge2" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge2" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M258.1,36v66.1c0.6,24,33.9,24.2,33.9,76.9"/>
 		
-			<path id="edge3" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M294,36v144"/>
 		
-			<path id="edge4" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge4" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M330,36v66.1c-0.6,24-34,24.2-34,76.9"/>
 		
-			<path id="edge5" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge5" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M366,36v66.1c-0.6,24-68,24.2-68,76.9"/>
 		
-			<path id="edge6" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
+			<path id="edge6" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" fill="none" stroke="#8C8C8C" stroke-miterlimit="10" d="
 			M402,36v66.1c-0.6,24-102,24.2-102,76.9"/>
 	</g>
 </g>
@@ -83,7 +83,7 @@
 		<text transform="matrix(1 0 0 1 324 203.9998)" fill="#666666" font-family="'OpenSans'" font-size="12px">read result</text>
 	</g>
 	
-		<use xlink:href="#array-vector"  width="36" height="36" id="read-result" x="0" y="-36" transform="matrix(1 0 0 -1 276 180)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" id="read-result" y="-36" transform="matrix(1 0 0 -1 276 180)" overflow="visible"/>
 	<g id="attention">
 		
 			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 186 18)" overflow="visible"/>
@@ -101,14 +101,14 @@
 			<use xlink:href="#array-positive-value"  width="36" height="36" x="-18" y="-18" transform="matrix(1 0 0 -1 402 18)" overflow="visible"/>
 	</g>
 	<g id="memory">
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 168 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 204 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 240 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 276 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 312 60)" overflow="visible"/>
-		<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 348 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 168 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 204 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 240 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 276 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 312 60)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 348 60)" overflow="visible"/>
 		
-			<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_63_" x="0" y="-36" transform="matrix(1 0 0 -1 384 60)" overflow="visible"/>
+			<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_63_" y="-36" transform="matrix(1 0 0 -1 384 60)" overflow="visible"/>
 	</g>
 </g>
 <g id="text">

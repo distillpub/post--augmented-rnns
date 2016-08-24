@@ -59,7 +59,7 @@
 		<text transform="matrix(1 0 0 1 367.671 101.9995)" fill="#666666" font-family="'OpenSans'" font-size="12px">read</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 254.382 101.9995)" fill="#666666" font-family="'OpenSans'" font-size="12px">write</text>
+		<text transform="matrix(1 0 0 1 254.3819 101.9995)" fill="#666666" font-family="'OpenSans'" font-size="12px">write</text>
 	</g>
 	<g>
 		<g>
@@ -97,12 +97,12 @@
 	<path fill="none" stroke="#B3B3B3" stroke-miterlimit="10" d="M421,57c0,0,30,49,71,10"/>
 	
 		<use xlink:href="#array-5"  width="181" height="37" x="-126.8" y="-18.5" transform="matrix(1 0 0 -1 294.5001 42.5)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 168 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 204 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 240 24)" overflow="visible"/>
-	<use xlink:href="#array-vector"  width="36" height="36" x="0" y="-36" transform="matrix(1 0 0 -1 276 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 168 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 204 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 240 24)" overflow="visible"/>
+	<use xlink:href="#array-vector"  width="36" height="36" y="-36" transform="matrix(1 0 0 -1 276 24)" overflow="visible"/>
 	
-		<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_64_" x="0" y="-36" transform="matrix(1 0 0 -1 312 24)" overflow="visible"/>
+		<use xlink:href="#array-vector"  width="36" height="36" id="XMLID_64_" y="-36" transform="matrix(1 0 0 -1 312 24)" overflow="visible"/>
 </g>
 <g id="text">
 	<g>
