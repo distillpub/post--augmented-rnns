@@ -7,11 +7,16 @@
 
 <script>
 (function() {
-  console.log("rnn_read")
   let html = d3.selectAll("#rnn-read");
   let svg = html.select("svg");
   let svgBBox = svg.node().getBoundingClientRect();
+  let result = svg.select("#read-result").style("opacity", 0);
+  let resultBBox = result.node().getBoundingClientRect();
+  let resultArrow = svg.append("line")
+      .attr("class", "result")
 
+        .attr("marker-end", "url(#arrowhead)")
+        .style("stroke", "grey");
   let arrowhead = svg.append("marker")
       .attr("id", "arrowhead")
       .attr("viewBox", "0 -5 10 10")
@@ -39,13 +44,15 @@
 
   let vectorScale = d3.scaleLinear()
       .domain([0, 1])
-      .range([2, 14])
+      .range([-14, 14])
 
   let memoryVectors = svg.selectAll(".vector")
       .data(memoryData)
     .enter().append("line")
       .attr("class", "vector")
-      .attr("transform", (d) => `translate(${d.left + d.width / 2}, ${d.top + d.width / 2})`)
+      .attr("transform", (d) => {
+        return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+      })
       .attr("x2", (d) => vectorScale(d.x))
       .attr("y2", (d) => vectorScale(d.y))
       .attr("marker-end", "url(#arrowhead)")
@@ -53,27 +60,37 @@
 
   let attention = svg.selectAll("#attention use");
   let path = svg.selectAll("#paths path");
+
+  function updateAttention(data) {
+    attention.data(data)
+        .style("opacity", (d) => d);
+
+    path.data(data)
+        .style("stroke-width", (d) => d * 5 );
+
+    let resultX = d3.sum(memoryData, (d, i) => d.x * data[i]) / d3.sum(data);
+    let resultY = d3.sum(memoryData, (d, i) => d.y * data[i]) / d3.sum(data);
+
+    resultArrow
+        .attr("transform",`translate(${resultBBox.left + resultBBox.width / 2 - svgBBox.left - vectorScale(resultX) / 2}, ${resultBBox.top + resultBBox.width / 2 - svgBBox.top - vectorScale(resultY) / 2})`)
+        .attr("x2", (d) => vectorScale(resultX))
+        .attr("y2", (d) => vectorScale(resultY));
+  }
+
   let attentionData = d3.range(length).map(() => Math.random());
+  updateAttention(attentionData);
 
-  attention.data(attentionData)
-      .style("opacity", (d) => d);
+  html.on("mousemove", function() {
+    console.log("moving");
+    let data = [];
+    console.log(d3.event.x)
+    attention.each(function() {
+      let bbox = this.getBoundingClientRect()
+      let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
+      data.push(3 / distance);
+    })
+    updateAttention(data)
+  });
 
-  path.data(attentionData)
-      .style("stroke-width", (d) => d * 5 );
-
-  let result = svg.select("#read-result")
-      .style("opacity", 0);
-
-  let resultBBox = result.node().getBoundingClientRect();
-  let resultX = d3.sum(memoryData, (d, i) => d.x * attentionData[i]) / d3.sum(attentionData);
-  let resultY = d3.sum(memoryData, (d, i) => d.y * attentionData[i]) / d3.sum(attentionData);
-
-  svg.append("line")
-      .attr("transform",
-      `translate(${resultBBox.left + resultBBox.width / 2 - svgBBox.left}, ${resultBBox.top + resultBBox.width / 2 - svgBBox.top})`)
-      .attr("x2", (d) => vectorScale(resultX))
-      .attr("y2", (d) => vectorScale(resultY))
-      .attr("marker-end", "url(#arrowhead)")
-      .style("stroke", "grey");
 })();
 </script>
