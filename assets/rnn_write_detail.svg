@@ -100,11 +100,13 @@
   <use width="37" height="37" transform="translate(755.5 354)" xlink:href="#array-1"/>
   <use id="array-3-3" data-name="array-3" width="108.5" height="37" transform="translate(755.5 485)" xlink:href="#array-3"/>
   <use width="181" height="37" transform="translate(335.25 155)" xlink:href="#array-5"/>
-  <use width="36" height="36" transform="translate(336 155)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(372 155)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(408 155)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(444 155)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(480 155)" xlink:href="#array-positive-value"/>
+  <g id="dot">
+    <use width="36" height="36" transform="translate(336 155)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(372 155)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(408 155)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(444 155)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(480 155)" xlink:href="#array-positive-value"/>
+  </g>
   <use width="181" height="37" transform="translate(335.25 24)" xlink:href="#array-5"/>
   <g id="_Group_" data-name="&lt;Group&gt;">
     <path d="M467.5,108a12,12,0,0,1-12,12h-60a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
@@ -112,44 +114,56 @@
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <path d="M468,240a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
   </g>
-  <use width="36" height="36" transform="translate(336 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(372 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(408 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(444 288)" xlink:href="#array-positive-value"/>
-  <use id="array-positive-value-21" data-name="array-positive-value" width="36" height="36" transform="translate(480 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(540 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(756 486)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(792 486)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(828 486)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(756 354)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(576 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(612 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(648 288)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(684 288)" xlink:href="#array-positive-value"/>
+  <g id="softmax">
+    <use width="36" height="36" transform="translate(336 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(372 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(408 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(444 288)" xlink:href="#array-positive-value"/>
+    <use id="array-positive-value-21" data-name="array-positive-value" width="36" height="36" transform="translate(480 288)" xlink:href="#array-positive-value"/>
+  </g>
+  <g id="shift">
+    <use width="36" height="36" transform="translate(756 486)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(792 486)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(828 486)" xlink:href="#array-positive-value"/>
+  </g>
+  <use id="interpolate-amount" width="36" height="36" transform="translate(756 354)" xlink:href="#array-positive-value"/>
+  <g id="previous">
+    <use width="36" height="36" transform="translate(540 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(576 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(612 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(648 288)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(684 288)" xlink:href="#array-positive-value"/>
+  </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <path d="M468,372a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
   </g>
-  <use width="36" height="36" transform="translate(336 419)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(372 419)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(408 419)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(444 419)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(480 419)" xlink:href="#array-positive-value"/>
+  <g id="interpolate">
+    <use width="36" height="36" transform="translate(336 419)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(372 419)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(408 419)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(444 419)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(480 419)" xlink:href="#array-positive-value"/>
+  </g>
   <g id="_Group_4" data-name="&lt;Group&gt;">
     <path d="M468,504a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
   </g>
-  <use width="36" height="36" transform="translate(335.5 553)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(372 553)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(408 553)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(444 553)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(480 553)" xlink:href="#array-positive-value"/>
+  <g id="convolve">
+    <use width="36" height="36" transform="translate(335.5 553)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(372 553)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(408 553)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(444 553)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(480 553)" xlink:href="#array-positive-value"/>
+  </g>
   <g id="_Group_5" data-name="&lt;Group&gt;">
     <path d="M468,636a12,12,0,0,1-12,12H396a12,12,0,0,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#596673"/>
   </g>
-  <use width="36" height="36" transform="translate(336 683)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(372 683)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(408 683)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(444 683)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(480 683)" xlink:href="#array-positive-value"/>
+  <g id="new-attention">
+    <use width="36" height="36" transform="translate(336 683)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(372 683)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(408 683)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(444 683)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(480 683)" xlink:href="#array-positive-value"/>
+  </g>
   <use width="37" height="37" transform="translate(755.5 89)" xlink:href="#array-1"/>
   <text transform="translate(168 93.12)" font-size="12" fill="#666" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
   <text transform="translate(169.5 224.12)" font-size="12" fill="#666" font-family="Open Sans">The scores are then <tspan x="0" y="18">converted into a </tspan><tspan x="0" y="36">distribution using </tspan><tspan x="0" y="54">softmax.</tspan></text>
@@ -160,13 +174,15 @@
   <text transform="translate(403.37 507)" font-size="11" fill="#fff" font-family="Open Sans">convolve</text>
   <text transform="translate(404.86 639)" font-size="11" fill="#fff" font-family="Open Sans">sharpen</text>
   <text transform="translate(405.19 243)" font-size="11" fill="#fff" font-family="Open Sans">softmax</text>
-  <text transform="translate(395.19 110.43)" font-size="11" fill="#fff" font-family="Open Sans">dot product</text>
-  <use width="36" height="36" transform="translate(756 90)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(336 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(372 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(408 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(444 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(480 24)" xlink:href="#array-vector"/>
+  <text transform="translate(395.69 111.17)" font-size="11" fill="#fff" font-family="Open Sans">dot product</text>
+  <use id="query" width="36" height="36" transform="translate(756 90)" xlink:href="#array-vector"/>
+  <g id="memory">
+    <use width="36" height="36" transform="translate(336 24)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(372 24)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(408 24)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(444 24)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(480 24)" xlink:href="#array-vector"/>
+  </g>
   <text transform="translate(528.38 42)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
   <text transform="translate(527.5 168.77)" font-size="12" fill="#666" font-family="Open Sans">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
   <text transform="translate(755.5 342)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
@@ -174,7 +190,7 @@
   <text transform="translate(755.5 12)" font-size="12" fill="#666" font-family="Open Sans">RNN controller</text>
   <text transform="translate(612.32 12)" font-size="12" fill="#666" font-family="Open Sans">attention mechanism</text>
   <text transform="translate(755.5 78)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
-  <text transform="translate(555.36 282)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
+  <text transform="translate(550.36 282)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
   <text transform="translate(359.23 738)" font-size="11" font-family="Open Sans">new attention distribution</text>
-  <text transform="translate(529 430.28)" font-size="12" fill="#666" font-family="Open Sans">Strong values from previ<tspan x="137.21" y="0">-</tspan><tspan x="0" y="18">ous attention show up </tspan><tspan x="0" y="36">faintly</tspan></text>
+  <text transform="translate(529 430.28)" font-size="12" fill="#666" font-family="Open Sans">Strong values from previous <tspan x="0" y="18">attention show up faintly</tspan></text>
 </svg>

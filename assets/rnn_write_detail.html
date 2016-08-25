@@ -2,5 +2,69 @@
   {{> assets/rnn_write_detail.svg}}
 </figure>
 <script>
+let vectorScale = d3.scaleLinear()
+    .domain([0, 1])
+    .range([-14, 14]);
+
+let memoryData = [
+  {x: 0.4, y: 0.2},
+  {x: 0.2, y: 0.2},
+  {x: 0.1, y: 0.9},
+  {x: 0.9, y: 0.9},
+  {x: 0.4, y: 0.3}
+];
+let queryData = [{x: 0.9, y: 0}];
+let interpolationData = 0.5;
+let shiftData = [0, 0.2, 0.8];
+let previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
+
+let html = d3.selectAll("#rnn-write-detail");
+let svg = html.select("svg");
+let svgBBox = svg.node().getBoundingClientRect();
+
+let query = svg.selectAll("#query").style("opacity", 0);
+let memory = svg.selectAll("#memory use").style("opacity", 0);
+
+// Store positions of vectors
+function cachePositions(selection) {
+  selection.each(function(d) {
+    let bBox = this.getBoundingClientRect();
+    d.top = bBox.top - svgBBox.top;
+    d.left = bBox.left - svgBBox.left;
+    d.width = bBox.width;
+  });
+}
+
+// Render new vector lines
+function renderVector(selection) {
+  selection
+      .attr("transform", (d) => {
+        return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+      })
+      .attr("x2", (d) => vectorScale(d.x))
+      .attr("y2", (d) => vectorScale(d.y))
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+}
+
+
+memory.data(memoryData);
+cachePositions(memory);
+let memoryVector = svg.selectAll(".memory-vector")
+      .data(memoryData)
+    .enter().append("line")
+      .attr("class", "memory-vector");
+renderVector(memoryVector);
+
+
+query.data(queryData);
+cachePositions(query);
+let queryVector = svg.selectAll(".query-vector")
+    .data(queryData)
+  .enter().append("line")
+    .attr("class", "query-vector");
+renderVector(queryVector);
+
+
 
 </script>
