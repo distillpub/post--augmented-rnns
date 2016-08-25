@@ -78,16 +78,7 @@ But how do NTMs distribute their attention over positions in memory? They actual
 
 The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
 
-<figure class="w-page">
-  <!--
-  <figcaption style="top: 50px;">First, the controller gives a query vector, describing what we should focus on. Each memory entry is scored for similarity with the query.</figcaption>
-  <figcaption style="top: 250px;">The scores are then converted into an attention distribution using softmax.</figcaption>
-  <figcaption style="top: 410px;">Next, we interpolate the attention from the previous time step. </figcaption>
-  <figcaption style="top: 530px;">We convolve the attention with a shift filter — this allows the controller to move relative to the position it is anchored to.</figcaption>
-  <figcaption style="top: 700px;">Finally, we sharpen the attention distribution to concentrate our focus. This final attention distribution is fed to the read or write operation.</figcaption>
-  -->
-  {{> assets/rnn_write_detail.svg}}
-</figure>
+{{> assets/rnn_write_detail.html}}
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
 
