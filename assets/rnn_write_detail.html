@@ -77,7 +77,7 @@ let queryVector = svg.selectAll(".query-vector")
 renderVector(queryVector);
 
 // Dot
-// TODO: Calculate this
+// TODO: Calculate this from memoryData[i] * queryData[0]
 let dotData = [0, 0, 0.2, 0.5, 0.8];
 svg.selectAll("#dot use").data(dotData)
   .style("opacity", d => d);
