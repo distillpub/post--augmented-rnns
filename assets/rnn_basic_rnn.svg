@@ -10,7 +10,7 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <path d="M768,102.48c0,3-3,5.52-6.69,5.52H176.67c-4.77,0-8.67-2.48-8.67-5.52V46c0-5.49,3.9-10,8.67-10H761.31C765,36,768,40.49,768,46v56.51Z" fill="#e6eaf2"/>
+    <rect x="168" y="36" width="600" height="72" rx="10" ry="10" fill="#e6eaf2"/>
   </g>
   <use width="48" height="48" transform="translate(180 48)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(312 48)" xlink:href="#rnn-a"/>
@@ -31,61 +31,61 @@
   <text transform="translate(570.51 13)" font-size="12" fill="#666" font-family="Open Sans">and over...</text>
   <text transform="translate(715.24 13)" font-size="12" fill="#666" font-family="Open Sans">again.</text>
   <g>
-    <line x1="228" y1="72.5" x2="310.92" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="307.6 76.59 306.92 75.86 310.53 72.5 306.92 69.14 307.6 68.41 312 72.5 307.6 76.59" fill="#8c8c8c"/>
+    <line x1="228" y1="72.5" x2="310.86" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="307.38 76.79 306.67 76.03 310.46 72.5 306.67 68.98 307.38 68.21 312 72.5 307.38 76.79" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="192" y1="120" x2="192" y2="96.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="196.09 99.9 195.36 100.58 192 96.97 188.64 100.58 187.91 99.9 192 95.5 196.09 99.9" fill="#8c8c8c"/>
+    <line x1="192" y1="120" x2="192" y2="96.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="196.29 100.12 195.53 100.83 192 97.04 188.47 100.83 187.71 100.12 192 95.5 196.29 100.12" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="217" y1="95.5" x2="217" y2="118.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="212.91 115.6 213.64 114.92 217 118.53 220.36 114.92 221.09 115.6 217 120 212.91 115.6" fill="#8c8c8c"/>
+    <line x1="217" y1="95.5" x2="217" y2="118.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="212.71 115.38 213.47 114.67 217 118.46 220.52 114.67 221.29 115.38 217 120 212.71 115.38" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="324" y1="120" x2="324" y2="96.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="328.09 99.9 327.36 100.58 324 96.97 320.64 100.58 319.91 99.9 324 95.5 328.09 99.9" fill="#8c8c8c"/>
+    <line x1="324" y1="120" x2="324" y2="96.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="328.29 100.12 327.52 100.83 324 97.04 320.48 100.83 319.71 100.12 324 95.5 328.29 100.12" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="349" y1="95.5" x2="349" y2="118.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="344.91 115.6 345.64 114.92 349 118.53 352.36 114.92 353.09 115.6 349 120 344.91 115.6" fill="#8c8c8c"/>
+    <line x1="349" y1="95.5" x2="349" y2="118.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="344.7 115.38 345.47 114.67 349 118.46 352.52 114.67 353.29 115.38 349 120 344.7 115.38" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="457" y1="120" x2="457" y2="96.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="461.09 99.9 460.36 100.58 457 96.97 453.64 100.58 452.91 99.9 457 95.5 461.09 99.9" fill="#8c8c8c"/>
+    <line x1="457" y1="120" x2="457" y2="96.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="461.29 100.12 460.52 100.83 457 97.04 453.48 100.83 452.71 100.12 457 95.5 461.29 100.12" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="480" y1="95.5" x2="480" y2="118.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="475.91 115.6 476.64 114.92 480 118.53 483.36 114.92 484.09 115.6 480 120 475.91 115.6" fill="#8c8c8c"/>
+    <line x1="480" y1="95.5" x2="480" y2="118.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="475.7 115.38 476.47 114.67 480 118.46 483.52 114.67 484.29 115.38 480 120 475.7 115.38" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="588" y1="120" x2="588" y2="96.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="592.09 99.9 591.36 100.58 588 96.97 584.64 100.58 583.91 99.9 588 95.5 592.09 99.9" fill="#8c8c8c"/>
+    <line x1="588" y1="120" x2="588" y2="96.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="592.29 100.12 591.52 100.83 588 97.04 584.48 100.83 583.71 100.12 588 95.5 592.29 100.12" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="612" y1="95.5" x2="612" y2="118.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="607.91 115.6 608.64 114.92 612 118.53 615.36 114.92 616.09 115.6 612 120 607.91 115.6" fill="#8c8c8c"/>
+    <line x1="612" y1="95.5" x2="612" y2="118.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="607.71 115.38 608.47 114.67 612 118.46 615.52 114.67 616.29 115.38 612 120 607.71 115.38" fill="#8c8c8c"/>
   </g>
   <text transform="translate(713.43 136)" font-size="12" fill="#717171" font-family="Open Sans">x4</text>
   <text transform="translate(737.55 136)" font-size="12" fill="#717171" font-family="Open Sans">y4</text>
   <g>
-    <line x1="720" y1="120" x2="720" y2="96.58" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="724.09 99.9 723.36 100.58 720 96.97 716.64 100.58 715.91 99.9 720 95.5 724.09 99.9" fill="#8c8c8c"/>
+    <line x1="720" y1="120" x2="720" y2="96.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="724.29 100.12 723.52 100.83 720 97.04 716.48 100.83 715.71 100.12 720 95.5 724.29 100.12" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="744" y1="95.5" x2="744" y2="118.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="739.91 115.6 740.64 114.92 744 118.53 747.36 114.92 748.09 115.6 744 120 739.91 115.6" fill="#8c8c8c"/>
+    <line x1="744" y1="95.5" x2="744" y2="118.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="739.71 115.38 740.47 114.67 744 118.46 747.52 114.67 748.29 115.38 744 120 739.71 115.38" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="360" y1="72.5" x2="442.92" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="439.6 76.59 438.92 75.86 442.53 72.5 438.92 69.14 439.6 68.41 444 72.5 439.6 76.59" fill="#8c8c8c"/>
+    <line x1="360" y1="72.5" x2="442.86" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="439.38 76.79 438.67 76.03 442.46 72.5 438.67 68.98 439.38 68.21 444 72.5 439.38 76.79" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="492" y1="72.5" x2="574.92" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="571.6 76.59 570.92 75.86 574.53 72.5 570.92 69.14 571.6 68.41 576 72.5 571.6 76.59" fill="#8c8c8c"/>
+    <line x1="492" y1="72.5" x2="574.86" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="571.38 76.79 570.67 76.03 574.46 72.5 570.67 68.98 571.38 68.21 576 72.5 571.38 76.79" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="624" y1="72.5" x2="706.92" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <polygon points="703.6 76.59 702.92 75.86 706.53 72.5 702.92 69.14 703.6 68.41 708 72.5 703.6 76.59" fill="#8c8c8c"/>
+    <line x1="624" y1="72.5" x2="706.86" y2="72.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polygon points="703.38 76.79 702.67 76.03 706.46 72.5 702.67 68.98 703.38 68.21 708 72.5 703.38 76.79" fill="#8c8c8c"/>
   </g>
 </svg>
