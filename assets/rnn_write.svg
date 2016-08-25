@@ -26,13 +26,13 @@
   </defs>
   <title>rnn</title>
   <g id="paths">
-    <path id="path24182" d="M186,240V113.58c0.56-24,102-24.22,102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24184" d="M222,240V113.58c0.56-24,68-24.22,68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24186" d="M258,240V113.58c0.56-24,34-24.22,34-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24249" d="M294,240V36" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24264" d="M329.93,240V113.58C329.37,89.59,296,89.36,296,36.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24262" d="M366,240V113.58c-0.56-24-68-24.22-68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24260" d="M402,240V113.58c-0.56-24-102-24.22-102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24182" d="M186,240V113.58c0.56-24,102-24.22,102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24184" d="M222,240V113.58c0.56-24,68-24.22,68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24186" d="M258,240V113.58c0.56-24,34-24.22,34-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24249" d="M294,240V36" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24264" d="M329.93,240V113.58C329.37,89.59,296,89.36,296,36.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24262" d="M366,240V113.58c-0.56-24-68-24.22-68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24260" d="M402,240V113.58c-0.56-24-102-24.22-102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <use width="37" height="37" transform="translate(275)" xlink:href="#array-1"/>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 120)" xlink:href="#array-7"/>

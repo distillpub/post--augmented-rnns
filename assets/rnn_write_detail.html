@@ -83,11 +83,11 @@ function redraw() {
 
   if (d3.event) {
     let bbox = svg.select("#query").node().getBoundingClientRect();
-    let x = d3.event.x - bbox.left;
-    let y = d3.event.y - bbox.top;
+    let x = d3.event.x - bbox.left - bbox.width / 2;
+    let y = d3.event.y - bbox.top - bbox.height / 2;
     //TODO: this clamping is awkward
-    queryData[0].x = clamp((x + 200) / 400);
-    queryData[0].y = clamp((y + 200) / 400);
+    queryData[0].x = clamp((x + 25) / 50);
+    queryData[0].y = clamp((y + 25) / 50);
   }
 
   renderVector(queryVector);
@@ -139,7 +139,7 @@ function redraw() {
     .style("opacity", d => d);
 }
 
-html.on("mousemove", redraw);
+svg.select("#query-hover").on("mousemove", redraw);
 redraw();
 
 </script>

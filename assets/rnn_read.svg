@@ -26,13 +26,13 @@
   </defs>
   <title>rnn</title>
   <g id="paths">
-    <path id="edge0" d="M186,36v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge1" d="M222,36v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge2" d="M258.07,36v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge3" d="M294,36V180" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge4" d="M330,36v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge5" d="M366,36v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="edge6" d="M402,36v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="edge0" d="M186,36v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge1" d="M222,36v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge2" d="M258.07,36v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge3" d="M294,36V180" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge4" d="M330,36v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge5" d="M366,36v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge6" d="M402,36v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168)" xlink:href="#array-7"/>
   <use width="253" height="37" transform="translate(168 59)" xlink:href="#array-7"/>

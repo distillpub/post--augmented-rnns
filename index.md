@@ -103,7 +103,6 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machiens use: we focus everywhere, just to different extents.
 
 <figure class="side-saddle-right w-page">
-  <figcaption>We use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.</figcaption>
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
