@@ -2,6 +2,9 @@
   {{> assets/rnn_write_detail.svg}}
 </figure>
 <script>
+//
+// Data
+//
 let vectorScale = d3.scaleLinear()
     .domain([0, 1])
     .range([-14, 14]);
@@ -14,9 +17,13 @@ let memoryData = [
   {x: 0.4, y: 0.3}
 ];
 let queryData = [{x: 0.9, y: 0}];
-let interpolationData = 0.5;
+let interpolationData = [0.5];
 let shiftData = [0, 0.2, 0.8];
 let previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
+
+//
+// DOM
+//
 
 let html = d3.selectAll("#rnn-write-detail");
 let svg = html.select("svg");
@@ -24,6 +31,10 @@ let svgBBox = svg.node().getBoundingClientRect();
 
 let query = svg.selectAll("#query").style("opacity", 0);
 let memory = svg.selectAll("#memory use").style("opacity", 0);
+
+//
+// Render
+//
 
 // Store positions of vectors
 function cachePositions(selection) {
@@ -47,7 +58,7 @@ function renderVector(selection) {
       .style("stroke", "grey");
 }
 
-
+// Memory
 memory.data(memoryData);
 cachePositions(memory);
 let memoryVector = svg.selectAll(".memory-vector")
@@ -56,7 +67,7 @@ let memoryVector = svg.selectAll(".memory-vector")
       .attr("class", "memory-vector");
 renderVector(memoryVector);
 
-
+// Query
 query.data(queryData);
 cachePositions(query);
 let queryVector = svg.selectAll(".query-vector")
@@ -65,6 +76,43 @@ let queryVector = svg.selectAll(".query-vector")
     .attr("class", "query-vector");
 renderVector(queryVector);
 
+// Dot
+// TODO: Calculate this
+let dotData = [0, 0, 0.2, 0.5, 0.8];
+svg.selectAll("#dot use").data(dotData)
+  .style("opacity", d => d);
 
+// Softmax
+// TODO: Calculate this
+let softmaxData = dotData;
+svg.selectAll("#softmax use").data(softmaxData)
+  .style("opacity", d => d);
+
+// Interpolate
+svg.selectAll("#previous use").data(previousAttentionData)
+  .style("opacity", d => d);
+
+svg.selectAll("#interpolate-amount").data(interpolationData)
+  .style("opacity", d => d);
+
+// TODO: Calculate this
+let interpolateData = dotData;
+svg.selectAll("#interpolate use").data(interpolateData)
+  .style("opacity", d => d);
+
+// Convolve
+svg.selectAll("#shift use").data(shiftData)
+  .style("opacity", d => d);
+
+// TODO: Calculate this
+let convolveData = dotData;
+svg.selectAll("#convolve use").data(convolveData)
+  .style("opacity", d => d);
+
+// Sharpen
+// TODO: Calculate this
+let sharpenData = dotData;
+svg.selectAll("#new-attention use").data(sharpenData)
+  .style("opacity", d => d);
 
 </script>
