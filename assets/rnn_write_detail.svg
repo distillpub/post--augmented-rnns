@@ -15,6 +15,10 @@
       <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
       <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
+    <symbol id="array-negative-value" data-name="array-negative-value" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#0080f7" opacity="0"/>
+      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#ff2bb6" opacity="0.8"/>
+    </symbol>
     <symbol id="array-positive-value" data-name="array-positive-value" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
       <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#0080f7" opacity="0.8"/>
@@ -101,7 +105,7 @@
   <use id="array-3-3" data-name="array-3" width="108.5" height="37" transform="translate(755.5 485)" xlink:href="#array-3"/>
   <use width="181" height="37" transform="translate(335.25 155)" xlink:href="#array-5"/>
   <g id="dot">
-    <use width="36" height="36" transform="translate(336 155)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(336 155.25)" xlink:href="#array-negative-value"/>
     <use width="36" height="36" transform="translate(372 155)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(408 155)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(444 155)" xlink:href="#array-positive-value"/>
@@ -119,7 +123,7 @@
     <use width="36" height="36" transform="translate(372 288)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(408 288)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(444 288)" xlink:href="#array-positive-value"/>
-    <use id="array-positive-value-21" data-name="array-positive-value" width="36" height="36" transform="translate(480 288)" xlink:href="#array-positive-value"/>
+    <use id="array-positive-value-19" data-name="array-positive-value" width="36" height="36" transform="translate(480 288)" xlink:href="#array-positive-value"/>
   </g>
   <g id="shift">
     <use width="36" height="36" transform="translate(756 486)" xlink:href="#array-positive-value"/>

@@ -16,7 +16,6 @@ let memoryData = [
   {x: 0.9, y: 0.9},
   {x: 0.4, y: 0.3}
 ];
-let queryData = [{x: 0.9, y: 0}];
 let interpolationData = [0.5];
 let shiftData = [0, 0.2, 0.8];
 let previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
@@ -67,52 +66,80 @@ let memoryVector = svg.selectAll(".memory-vector")
       .attr("class", "memory-vector");
 renderVector(memoryVector);
 
-// Query
+let queryData = [{x: 0.7, y: 0.8}];
 query.data(queryData);
 cachePositions(query);
+
 let queryVector = svg.selectAll(".query-vector")
     .data(queryData)
   .enter().append("line")
     .attr("class", "query-vector");
-renderVector(queryVector);
 
-// Dot
-// TODO: Calculate this from memoryData[i] * queryData[0]
-let dotData = [0, 0, 0.2, 0.5, 0.8];
-svg.selectAll("#dot use").data(dotData)
-  .style("opacity", d => d);
 
-// Softmax
-// TODO: Calculate this
-let softmaxData = dotData;
-svg.selectAll("#softmax use").data(softmaxData)
-  .style("opacity", d => d);
+let clamp = d3.scaleLinear()
+    .clamp(true);
 
-// Interpolate
-svg.selectAll("#previous use").data(previousAttentionData)
-  .style("opacity", d => d);
+function redraw() {
 
-svg.selectAll("#interpolate-amount").data(interpolationData)
-  .style("opacity", d => d);
+  if (d3.event) {
+    let bbox = svg.select("#query").node().getBoundingClientRect();
+    let x = d3.event.x - bbox.left;
+    let y = d3.event.y - bbox.top;
+    //TODO: this clamping is awkward
+    queryData[0].x = clamp((x + 200) / 400);
+    queryData[0].y = clamp((y + 200) / 400);
+  }
 
-// TODO: Calculate this
-let interpolateData = dotData;
-svg.selectAll("#interpolate use").data(interpolateData)
-  .style("opacity", d => d);
+  renderVector(queryVector);
 
-// Convolve
-svg.selectAll("#shift use").data(shiftData)
-  .style("opacity", d => d);
+  // Dot
+  let dotData = memoryData.map(v => 2*(v.x-0.5)*2*(queryData[0].x-0.5)+2*(v.y-0.5)*2*(queryData[0].y-0.5));
+  svg.selectAll("#dot use").data(dotData)
+    .attr("xlink:href", d => d < 0 ? "#array-negative-value" : "#array-positive-value")
+    .style("opacity", d => Math.abs(d));
 
-// TODO: Calculate this
-let convolveData = dotData;
-svg.selectAll("#convolve use").data(convolveData)
-  .style("opacity", d => d);
+  // Softmax
+  let expDotData = dotData.map(Math.exp);
+  let softmaxData = expDotData.map(x => x/d3.sum(expDotData));
+  svg.selectAll("#softmax use").data(softmaxData)
+    .style("opacity", d => d);
 
-// Sharpen
-// TODO: Calculate this
-let sharpenData = dotData;
-svg.selectAll("#new-attention use").data(sharpenData)
-  .style("opacity", d => d);
+  // Interpolate
+  svg.selectAll("#previous use").data(previousAttentionData)
+    .style("opacity", d => d);
+
+  svg.selectAll("#interpolate-amount").data(interpolationData)
+    .style("opacity", d => d);
+
+  let interpolateData = previousAttentionData.map((d,i) =>
+      interpolationData*d + (1-interpolationData)*softmaxData[i]);
+  svg.selectAll("#interpolate use").data(interpolateData)
+    .style("opacity", d => d);
+
+  // Convolve
+  svg.selectAll("#shift use").data(shiftData)
+    .style("opacity", d => d);
+
+  let convolveData = dotData.map(x => 0);
+  for (var n in shiftData){
+    for (var i in convolveData){
+      if (i - (1-n) >= 0){
+        convolveData[i-(1-n)] += shiftData[n]*interpolateData[i];
+      }
+    }
+  }
+  // = dotData;
+  svg.selectAll("#convolve use").data(convolveData)
+    .style("opacity", d => d);
+
+  // Sharpen
+  let sharpenData = convolveData.map(x => x*x);
+  sharpenData = sharpenData.map(x => x/d3.sum(sharpenData));
+  svg.selectAll("#new-attention use").data(sharpenData)
+    .style("opacity", d => d);
+}
+
+html.on("mousemove", redraw);
+redraw();
 
 </script>
