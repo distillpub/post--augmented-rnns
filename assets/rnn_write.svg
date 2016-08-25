@@ -25,43 +25,49 @@
     </symbol>
   </defs>
   <title>rnn</title>
-  <g>
+  <g id="paths">
     <path id="path24182" d="M186,240V113.58c0.56-24,102-24.22,102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     <path id="path24184" d="M222,240V113.58c0.56-24,68-24.22,68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     <path id="path24186" d="M258,240V113.58c0.56-24,34-24.22,34-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     <path id="path24249" d="M294,240V36" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24260" d="M402,240V113.58c-0.56-24-102-24.22-102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    <path id="path24262" d="M366,240V113.58c-0.56-24-68-24.22-68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     <path id="path24264" d="M329.93,240V113.58C329.37,89.59,296,89.36,296,36.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24262" d="M366,240V113.58c-0.56-24-68-24.22-68-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <path id="path24260" d="M402,240V113.58c-0.56-24-102-24.22-102-76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
   </g>
   <use width="37" height="37" transform="translate(275)" xlink:href="#array-1"/>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 120)" xlink:href="#array-7"/>
   <use width="253" height="37" transform="translate(168 179)" xlink:href="#array-7"/>
   <use width="253" height="37" transform="translate(168 239)" xlink:href="#array-7"/>
-  <use width="36" height="36" transform="translate(168 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(204 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(240 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(276 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(312 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(348 120)" xlink:href="#array-positive-value"/>
-  <use width="36" height="36" transform="translate(384 120)" xlink:href="#array-positive-value"/>
+  <g id="attention">
+    <use width="36" height="36" transform="translate(168 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(204 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(240 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(276 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(312 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(348 120)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(384 120)" xlink:href="#array-positive-value"/>
+  </g>
   <text transform="translate(432 204)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
   <text transform="translate(432 264)" font-size="12" fill="#666" font-family="Open Sans">new memory</text>
   <text transform="translate(324 24)" font-size="12" fill="#666" font-family="Open Sans">write value</text>
   <text transform="translate(432 144)" font-size="12" fill="#666" font-family="Open Sans">attention</text>
-  <use width="36" height="36" transform="translate(168 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(204 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(240 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(276 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(276)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(312 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(348 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(384 180)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(168 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(204 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(240 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(276 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(312 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(348 240)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(384 240)" xlink:href="#array-vector"/>
+  <use id="write-result" width="36" height="36" transform="translate(276)" xlink:href="#array-vector"/>
+  <g id="memory">
+    <use width="36" height="36" transform="translate(168 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(204 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(240 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(276 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(312 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(348 180)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(384 180)" xlink:href="#array-vector"/>
+  </g>
+  <g id="new-memory">
+    <use width="36" height="36" transform="translate(168 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(204 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(240 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(276 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(312 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(348 240)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(384 240)" xlink:href="#array-vector"/>
+  </g>
 </svg>

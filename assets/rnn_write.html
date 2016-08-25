@@ -3,30 +3,26 @@
 </figure>
 <script>
 (function() {
-  let html = d3.selectAll("#rnn-read");
-  let svg = html.select("svg");
-  let svgBBox = svg.node().getBoundingClientRect();
-  let result = svg.select("#read-result").style("opacity", 0);
-  let resultBBox = result.node().getBoundingClientRect();
-  let resultArrow = svg.append("line")
-        .attr("class", "result-line")
-        .attr("marker-end", "url(#arrowhead)")
-        .style("stroke", "grey");
-  let arrowhead = svg.append("marker")
-      .attr("id", "arrowhead")
-      .attr("viewBox", "0 -5 10 10")
-      .attr("refX", 5)
-      .attr("refY", 0)
-      .attr("markerWidth", 10)
-      .attr("markerHeight", 10)
-      .attr("orient", "auto")
-    .append("path")
-      .attr("d", "M0,-5L5,0L0,5")
-      .style("fill", "none")
-      .style("stroke", "grey");
 
-  let memory = svg.selectAll("#memory use");
-  let length = memory.size();
+  function appendArrowhead(selection) {
+    selection.append("marker")
+        .attr("id", "arrowhead")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 5)
+        .attr("refY", 0)
+        .attr("markerWidth", 10)
+        .attr("markerHeight", 10)
+        .attr("orient", "auto")
+      .append("path")
+        .attr("d", "M0,-5L5,0L0,5")
+        .style("fill", "none")
+        .style("stroke", "grey");
+  }
+
+  let vectorScale = d3.scaleLinear()
+      .domain([0, 1])
+      .range([-14, 14]);
+
   let memoryData = [
     {x: 0.4, y: 0.2},
     {x: 0.2, y: 0.2},
@@ -36,6 +32,29 @@
     {x: 0.1, y: 0.5},
     {x: 0.3, y: 0.8}
   ];
+
+  let writeData = {x: 0.4, y: 0.9};
+
+  //
+  // Read
+  //
+
+  let readHtml = d3.selectAll("#rnn-read");
+  let svg = readHtml.select("svg");
+  let svgBBox = svg.node().getBoundingClientRect();
+  let result = svg.select("#read-result").style("opacity", 0);
+  let resultBBox = result.node().getBoundingClientRect();
+  let memory = svg.selectAll("#memory use");
+  let attention = svg.selectAll("#attention use");
+  let path = svg.selectAll("#paths path");
+
+  appendArrowhead(svg);
+  let resultArrow = svg.append("line")
+      .attr("class", "result-line")
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+
+
   memory.data(memoryData)
     .each(function(d) {
       this.style.opacity = 0;
@@ -44,10 +63,6 @@
       d.left = bBox.left - svgBBox.left;
       d.width = bBox.width;
     });
-
-  let vectorScale = d3.scaleLinear()
-      .domain([0, 1])
-      .range([-14, 14])
 
   let memoryVectors = svg.selectAll(".vector")
       .data(memoryData)
@@ -61,10 +76,8 @@
       .attr("marker-end", "url(#arrowhead)")
       .style("stroke", "grey");
 
-  let attention = svg.selectAll("#attention use");
-  let path = svg.selectAll("#paths path");
 
-  function updateAttention(data) {
+  function updateReadAttention(data) {
     attention.data(data)
         .style("opacity", (d) => d);
 
@@ -80,17 +93,109 @@
         .attr("y2", (d) => vectorScale(resultY));
   }
 
+  let length = memory.size();
   let attentionData = d3.range(length).map(() => Math.random());
-  updateAttention(attentionData);
+  updateReadAttention(attentionData);
 
-  html.on("mousemove", function() {
+  readHtml.on("mousemove", function() {
     let data = [];
     attention.each(function() {
       let bbox = this.getBoundingClientRect()
       let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
       data.push(3 / distance);
-    })
-    updateAttention(data)
+    });
+    updateReadAttention(data);
+  });
+
+  //
+  // Write
+  //
+
+  let writeHtml = d3.selectAll("#rnn-write");
+  let writeSvg = writeHtml.select("svg");
+  let writeMemory = writeSvg.selectAll("#memory use");
+  let writeNewMemory = writeSvg.selectAll("#new-memory use");
+  let writeAttention = writeSvg.selectAll("#attention use");
+  let writePath = writeSvg.selectAll("#paths path");
+  let writeSvgBBox = writeSvg.node().getBoundingClientRect();
+  let writeResult = writeSvg.select("#write-result").style("opacity", 0);
+  let writeResultBBox = writeResult.node().getBoundingClientRect();
+  let newMemoryData = memoryData.map(d => { return {}; });
+
+  appendArrowhead(writeSvg);
+  let writeArrow = writeSvg.append("line")
+      .attr("class", "write-line")
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey")
+      .attr("transform",`translate(${writeResultBBox.left + writeResultBBox.width / 2 - writeSvgBBox.left - vectorScale(writeData.x) / 2}, ${writeResultBBox.top + writeResultBBox.width / 2 - writeSvgBBox.top - vectorScale(writeData.y) / 2})`)
+      .attr("x2", vectorScale(writeData.x))
+      .attr("y2", vectorScale(writeData.y));
+
+  writeMemory.data(memoryData)
+    .each(function(d) {
+      this.style.opacity = 0;
+      let bBox = this.getBoundingClientRect();
+      d.top = bBox.top - writeSvgBBox.top;
+      d.left = bBox.left - writeSvgBBox.left;
+      d.width = bBox.width;
+    });
+
+  let writeMemoryVectors = writeSvg.selectAll(".vector")
+      .data(memoryData)
+    .enter().append("line")
+      .attr("class", "vector")
+      .attr("transform", (d) => {
+        return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+      })
+      .attr("x2", (d) => vectorScale(d.x))
+      .attr("y2", (d) => vectorScale(d.y))
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+
+
+  writeNewMemory.data(newMemoryData)
+    .each(function(d) {
+      this.style.opacity = 0;
+      let bBox = this.getBoundingClientRect();
+      d.top = bBox.top - writeSvgBBox.top;
+      d.left = bBox.left - writeSvgBBox.left;
+      d.width = bBox.width;
+    });
+
+  let writeNewMemoryVectors = writeSvg.selectAll(".new-vector")
+      .data(newMemoryData)
+    .enter().append("line")
+      .attr("class", "new-vector")
+      .attr("marker-end", "url(#arrowhead)")
+      .style("stroke", "grey");
+
+  function updateWriteAttention(data) {
+    newMemoryData.forEach((d, i) => {
+      d.x = (memoryData[i].x + writeData.x * data[i]) / (1 + data[i]);
+      d.y = (memoryData[i].y + writeData.y * data[i]) / (1 + data[i]);
+    });
+    writeNewMemoryVectors
+        .attr("transform", (d) => {
+          return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+        })
+        .attr("x2", (d) => vectorScale(d.x))
+        .attr("y2", (d) => vectorScale(d.y));
+
+    writeAttention.data(data)
+        .style("opacity", (d) => d);
+
+    writePath.data(data)
+        .style("stroke-width", (d) => d * 5 );
+  }
+
+  writeHtml.on("mousemove", function() {
+    let data = [];
+    writeAttention.each(function() {
+      let bbox = this.getBoundingClientRect()
+      let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
+      data.push(3 / distance);
+    });
+    updateWriteAttention(data);
   });
 
 })();
