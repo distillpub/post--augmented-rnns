@@ -239,4 +239,6 @@
   <text transform="translate(359.23 738)" font-size="11" font-family="Open Sans">new attention distribution</text>
   <text transform="translate(529 430.28)" font-size="12" fill="#666" font-family="Open Sans">Strong values from previous <tspan x="0" y="18">attention show up faintly</tspan></text>
   <circle id="query-hover" cx="845.37" cy="107.44" r="87.04" fill="#fff" fill-opacity="0"/>
+  <circle id="interpolate-hover" cx="845.37" cy="369.04" r="41.37" fill="#fff" fill-opacity="0"/>
+  <rect id="shift-hover" x="798" y="462" width="168" height="84" fill="#fff" fill-opacity="0"/>
 </svg>
