@@ -68,6 +68,7 @@ NTMs take a very clever solution to this: every step, they read and write everyw
 
 <figure class="w-page" id="rnn-read">
   {{> assets/rnn_read.svg}}
+  <figcaption>$r \leftarrow \sum_i a_i M_i$</figcaption>
 </figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
@@ -126,13 +127,13 @@ This kind of attention between RNNs can also be used in voice recognition. This 
 <img src="assets/old-rnn-attention-vis1.png" style="width:60%; margin-left:18%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
-Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step.
 
+<!--
 (TODO: last sentence awkward)
 
 <img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
-
-One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
+-->
+Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
 <figure class="side-saddle-right">
   <figcaption style="top: 60px;">Figure from<br> [Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)</figcaption>
@@ -150,7 +151,7 @@ Standard RNNs do the same amount of computation each time step. This seems unint
 
 The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
-<figure class="side-saddle-right w-page">
+<figure class="w-page">
   {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
@@ -158,25 +159,33 @@ In order for the network to learn how many steps to do, we want the number of st
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
-<figure class="side-saddle-right w-page">
+<figure class="w-page">
   {{> assets/rnn_adaptive_02.svg}}
 </figure>
 
 That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:
 
-<img src="assets/old-act-step1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_adaptive_02_1.svg}}
+</figure>
 
 The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.
 
-<img src="assets/old-act-step2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_adaptive_02_2.svg}}
+</figure>
 
 We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.
 
-<img src="assets/old-act-step3.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_adaptive_02_3.svg}}
+</figure>
 
 When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it's being given to future steps but we don't want to compute those, so we attribute it to the last step.
 
-<img src="assets/old-act-step4.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_adaptive_02_4.svg}}
+</figure>
 
 ### Neural Programmer
 
@@ -188,17 +197,23 @@ The actual model in the paper answers questions about tables by generating SQL-l
 
 The program is a sequence of operations. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned and read from.
 
-<img src="assets/old-np?.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_programmer_1.svg}}
+</figure>
 
 The program is generated one operation at a time by a controller RNN. At each step, the controller RNN outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
 
-<img src="assets/old-np1.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_programmer_2.svg}}
+</figure>
 
 The resulting distribution over operations  can now be evaluated.
 
 Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
 
-<img src="assets/old-np2.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
+<figure class="w-page">
+  {{> assets/rnn_programmer_3.svg}}
+</figure>
 
 As long as we can define derivatives through the operations, the program's output is differentiable with respect to the probabilities. We can then define a loss, and train the neural net to produce programs that give the correct answer. In this way, the Neural Programmer learns to produce programs without examples of good programs. The only supervision is the answer the program should produce.
 

@@ -1,18 +1,28 @@
-<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="270" viewBox="0 0 984 270">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="372" viewBox="0 0 984 372">
   <defs>
-    <symbol id="array-5" data-name="array-5" viewBox="0 0 181 37">
-      <rect x="0.5" y="0.5" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="36.25" y1="36.5" x2="36.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="72.25" y1="36.5" x2="72.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="108.25" y1="36.5" x2="108.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="144.25" y1="36.5" x2="144.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-    </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 48 48">
       <rect width="48" height="48" rx="6" ry="6" fill="#798294"/>
     </symbol>
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 48 48">
       <use id="rnn-bg-3" data-name="rnn-bg" width="48" height="48" xlink:href="#rnn-bg"/>
       <text transform="translate(17.33 31)" font-size="21.77" fill="#fff" font-family="Helvetica" letter-spacing="-1">A</text>
+    </symbol>
+    <symbol id="op-read" data-name="op-read" viewBox="0 0 54 24">
+      <g id="_Group_6" data-name="&lt;Group&gt;">
+        <path d="M54,12A12,12,0,0,1,42,24H12A12,12,0,1,1,12,0H42A12,12,0,0,1,54,12h0Z" fill="#798294"/>
+      </g>
+      <text transform="translate(14.67 15.52)" font-size="12" fill="#fff" font-family="Open Sans">read</text>
+    </symbol>
+    <symbol id="op-write" data-name="op-write" viewBox="0 0 54 24">
+      <g id="_Group_7" data-name="&lt;Group&gt;">
+        <path d="M54,12A12,12,0,0,1,42,24H12A12,12,0,1,1,12,0H42A12,12,0,0,1,54,12h0Z" fill="#798294"/>
+      </g>
+      <text transform="translate(13.38 15.52)" font-size="12" fill="#fff" font-family="Open Sans">write</text>
+    </symbol>
+    <symbol id="array-3" data-name="array-3" viewBox="0 0 108.5 37">
+      <rect x="0.5" y="0.5" width="107.5" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
@@ -24,52 +34,158 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="132" width="611" height="72" rx="10" ry="10" fill="#e6eaf2"/>
+    <rect x="198" y="228.08" width="575" height="72" rx="10" ry="10" fill="#e6eaf2"/>
   </g>
-  <use width="181" height="37" transform="translate(371.75 24)" xlink:href="#array-5"/>
-  <use width="181" height="37" transform="translate(575.75 24)" xlink:href="#array-5"/>
-  <use width="48" height="48" transform="translate(179 144)" xlink:href="#rnn-a"/>
-  <use width="48" height="48" transform="translate(372 144)" xlink:href="#rnn-a"/>
-  <use width="48" height="48" transform="translate(576 144)" xlink:href="#rnn-a"/>
-  <text transform="translate(367.67 102)" font-size="12" fill="#666" font-family="Open Sans">read</text>
-  <text transform="translate(254.38 102)" font-size="12" fill="#666" font-family="Open Sans">write</text>
-  <use width="181" height="37" transform="translate(167.75 24)" xlink:href="#array-5"/>
-  <use width="36" height="36" transform="translate(168 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(204 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(240 24)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(276 24)" xlink:href="#array-vector"/>
-  <use id="array-vector-11" data-name="array-vector" width="36" height="36" transform="translate(312 24)" xlink:href="#array-vector"/>
-  <text transform="translate(197.85 12)" font-size="12" fill="#666" font-family="Open Sans">time step 0</text>
-  <text transform="translate(391.99 12)" font-size="12" fill="#666" font-family="Open Sans">step 1</text>
-  <text transform="translate(595.99 12)" font-size="12" fill="#666" font-family="Open Sans">step 2</text>
-  <text transform="translate(186.43 257)" font-size="12" fill="#666" font-family="Open Sans">x0</text>
-  <text transform="translate(210.55 257)" font-size="12" fill="#666" font-family="Open Sans">y0</text>
+  <g id="_Group_2" data-name="&lt;Group&gt;">
+    <rect x="168" y="45" width="131" height="57" rx="10" ry="10" fill="#e6eaf2"/>
+  </g>
+  <g id="_Group_3" data-name="&lt;Group&gt;">
+    <rect x="338" y="45" width="131" height="57" rx="10" ry="10" fill="#e6eaf2"/>
+  </g>
+  <g id="_Group_4" data-name="&lt;Group&gt;">
+    <rect x="505" y="45" width="131" height="57" rx="10" ry="10" fill="#e6eaf2"/>
+  </g>
+  <g id="_Group_5" data-name="&lt;Group&gt;">
+    <rect x="673" y="45" width="131" height="57" rx="10" ry="10" fill="#e6eaf2"/>
+  </g>
+  <use width="48" height="48" transform="translate(210 240)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(378 240)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(546 240)" xlink:href="#rnn-a"/>
+  <use width="48" height="48" transform="translate(714 240)" xlink:href="#rnn-a"/>
   <g>
-    <line x1="193" y1="218" x2="193" y2="194.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="197.29 198.12 196.53 198.83 193 195.04 189.48 198.83 188.71 198.12 193 193.5 197.29 198.12" fill="#8c8c8c"/>
+    <path d="M263,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M357,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,357,111.7Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="218" y1="193.5" x2="218" y2="216.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="213.71 213.38 214.47 212.67 218 216.46 221.52 212.67 222.29 213.38 218 218 213.71 213.38" fill="#8c8c8c"/>
-  </g>
-  <text transform="translate(378.43 257)" font-size="12" fill="#666" font-family="Open Sans">x1</text>
-  <text transform="translate(402.55 257)" font-size="12" fill="#666" font-family="Open Sans">y1</text>
-  <g>
-    <line x1="385" y1="218" x2="385" y2="194.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="389.29 198.12 388.52 198.83 385 195.04 381.48 198.83 380.71 198.12 385 193.5 389.29 198.12" fill="#8c8c8c"/>
+    <path d="M263,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M357,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,357,111.7Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="410" y1="193.5" x2="410" y2="216.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="405.71 213.38 406.48 212.67 410 216.46 413.52 212.67 414.29 213.38 410 218 405.71 213.38" fill="#8c8c8c"/>
-  </g>
-  <text transform="translate(582.43 257)" font-size="12" fill="#666" font-family="Open Sans">x2</text>
-  <text transform="translate(606.55 257)" font-size="12" fill="#666" font-family="Open Sans">y2</text>
-  <g>
-    <line x1="589" y1="218" x2="589" y2="194.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="593.29 198.12 592.52 198.83 589 195.04 585.48 198.83 584.71 198.12 589 193.5 593.29 198.12" fill="#8c8c8c"/>
+    <path d="M372,112c-25.42,22.91-39.35,80-7.28,122.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M369.33,239.67a36.27,36.27,0,0,0-10.89-4.37l5.73-2,3.13-5.2A36.23,36.23,0,0,0,369.33,239.67Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="614" y1="193.5" x2="614" y2="216.86" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="609.71 213.38 610.48 212.67 614 216.46 617.52 212.67 618.29 213.38 614 218 609.71 213.38" fill="#8c8c8c"/>
+    <path d="M253.33,240c-1.13-9.17,21.14-41,34.57-52.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M294,183.67a36.27,36.27,0,0,0-5.39,10.43l-1.43-5.9-4.87-3.61A36.24,36.24,0,0,0,294,183.67Z" fill="#8c8c8c"/>
   </g>
+  <use width="54" height="24" transform="translate(294 169.12)" xlink:href="#op-read"/>
+  <use width="54" height="24" transform="translate(282 138.62)" xlink:href="#op-write"/>
+  <g>
+    <path d="M244,240.67c-0.12-11.53,13.22-58.73,32.69-79.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M282,156a36.27,36.27,0,0,0-3.55,11.19L276,161.62l-5.42-2.74A36.23,36.23,0,0,0,282,156Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M431,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M525,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,525,111.7Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M431,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M525,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,525,111.7Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M540,112c-25.42,22.91-39.35,80-7.28,122.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M537.33,239.67a36.27,36.27,0,0,0-10.89-4.37l5.73-2,3.13-5.2A36.23,36.23,0,0,0,537.33,239.67Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M421.33,240c-1.13-9.17,21.14-41,34.57-52.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M462,183.67a36.27,36.27,0,0,0-5.39,10.43l-1.43-5.9-4.87-3.61A36.24,36.24,0,0,0,462,183.67Z" fill="#8c8c8c"/>
+  </g>
+  <use width="54" height="24" transform="translate(462 169.12)" xlink:href="#op-read"/>
+  <use width="54" height="24" transform="translate(450 138.62)" xlink:href="#op-write"/>
+  <g>
+    <path d="M412,240.67c-0.12-11.53,13.22-58.73,32.69-79.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M450,156a36.27,36.27,0,0,0-3.55,11.19L444,161.62l-5.42-2.74A36.23,36.23,0,0,0,450,156Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M587,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M681,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,681,111.7Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M587,111c41.09,51.38,75.61,19.63,88.61,5.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M681,111.7a36.27,36.27,0,0,0-3.75,11.12l-2.31-5.61-5.37-2.83A36.24,36.24,0,0,0,681,111.7Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M696,112c-25.42,22.91-39.35,80-7.28,122.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M693.33,239.67a36.27,36.27,0,0,0-10.89-4.37l5.73-2,3.13-5.2A36.23,36.23,0,0,0,693.33,239.67Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M577.33,240c-1.13-9.17,21.14-41,34.57-52.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M618,183.67a36.27,36.27,0,0,0-5.39,10.43l-1.43-5.9-4.87-3.61A36.24,36.24,0,0,0,618,183.67Z" fill="#8c8c8c"/>
+  </g>
+  <use width="54" height="24" transform="translate(618 169.12)" xlink:href="#op-read"/>
+  <use width="54" height="24" transform="translate(606 138.62)" xlink:href="#op-write"/>
+  <g>
+    <path d="M568,240.67c-0.12-11.53,13.22-58.73,32.69-79.74" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M606,156a36.27,36.27,0,0,0-3.55,11.19L600,161.62l-5.42-2.74A36.23,36.23,0,0,0,606,156Z" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(24 56.29)" font-size="12" fill="#666" font-family="Open Sans">Memory is an array of <tspan x="0" y="18">vectors.</tspan></text>
+  <text transform="translate(114 154.28)" font-size="12" fill="#666" font-family="Open Sans">each step the memory <tspan x="0" y="18">is read and written to.</tspan></text>
+  <g>
+    <line x1="258" y1="264" x2="364.76" y2="264" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M372,264a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.24,36.24,0,0,0,372,264Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="426" y1="264" x2="532.76" y2="264" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M540,264a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.24,36.24,0,0,0,540,264Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="594" y1="264" x2="700.76" y2="264" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M708,264a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.24,36.24,0,0,0,708,264Z" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(216.43 330)" font-size="12" fill="#666" font-family="Open Sans">x0</text>
+  <text transform="translate(240.55 330)" font-size="12" fill="#666" font-family="Open Sans">y0</text>
+  <g>
+    <line x1="220" y1="315.08" x2="220" y2="297.82" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M220,290.58a36.27,36.27,0,0,0,5.71,10.26L220,298.77l-5.71,2.06A36.23,36.23,0,0,0,220,290.58Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="245" y1="290.58" x2="245" y2="307.84" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M245,315.08a36.27,36.27,0,0,0-5.71-10.26l5.71,2.06,5.71-2.06A36.24,36.24,0,0,0,245,315.08Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="390.33" y1="316.41" x2="390.33" y2="299.16" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M390.33,291.91A36.27,36.27,0,0,0,396,302.17l-5.71-2.06-5.71,2.06A36.23,36.23,0,0,0,390.33,291.91Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="415.33" y1="291.91" x2="415.33" y2="309.17" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M415.33,316.41a36.27,36.27,0,0,0-5.71-10.26l5.71,2.06,5.71-2.06A36.24,36.24,0,0,0,415.33,316.41Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="558.33" y1="316.41" x2="558.33" y2="299.16" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M558.33,291.91A36.27,36.27,0,0,0,564,302.17l-5.71-2.06-5.71,2.06A36.24,36.24,0,0,0,558.33,291.91Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="583.33" y1="291.91" x2="583.33" y2="309.17" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M583.33,316.41a36.27,36.27,0,0,0-5.71-10.26l5.71,2.06,5.71-2.06A36.23,36.23,0,0,0,583.33,316.41Z" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(383.43 330)" font-size="12" fill="#666" font-family="Open Sans">x1</text>
+  <text transform="translate(407.55 330)" font-size="12" fill="#666" font-family="Open Sans">y1</text>
+  <text transform="translate(551.43 330)" font-size="12" fill="#666" font-family="Open Sans">x2</text>
+  <text transform="translate(575.55 330)" font-size="12" fill="#666" font-family="Open Sans">y2</text>
+  <g>
+    <line x1="726.33" y1="316.41" x2="726.33" y2="299.16" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M726.33,291.91A36.27,36.27,0,0,0,732,302.17l-5.71-2.06-5.71,2.06A36.24,36.24,0,0,0,726.33,291.91Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="751.33" y1="291.91" x2="751.33" y2="309.17" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M751.33,316.41a36.27,36.27,0,0,0-5.71-10.26l5.71,2.06,5.71-2.06A36.23,36.23,0,0,0,751.33,316.41Z" fill="#8c8c8c"/>
+  </g>
+  <text transform="translate(719.43 330)" font-size="12" fill="#666" font-family="Open Sans">x2</text>
+  <text transform="translate(743.55 330)" font-size="12" fill="#666" font-family="Open Sans">y2</text>
+  <use width="108.5" height="37" transform="translate(180.83 55.92)" xlink:href="#array-3"/>
+  <use width="36" height="36" transform="translate(180 56.25)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(216 56.25)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(252 56.25)" xlink:href="#array-vector"/>
+  <use width="108.5" height="37" transform="translate(348.83 55.92)" xlink:href="#array-3"/>
+  <use width="36" height="36" transform="translate(348 56.25)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(402 48.8) rotate(45)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(420 56.25)" xlink:href="#array-vector"/>
+  <use width="108.5" height="37" transform="translate(515.83 55.92)" xlink:href="#array-3"/>
+  <use width="36" height="36" transform="translate(515 56.25)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(569 48.8) rotate(45)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(605 48.8) rotate(45)" xlink:href="#array-vector"/>
+  <use width="108.5" height="37" transform="translate(683.83 55.92)" xlink:href="#array-3"/>
+  <use width="36" height="36" transform="translate(683 56.25)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(755 56.25) rotate(90)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(773 48.8) rotate(45)" xlink:href="#array-vector"/>
 </svg>

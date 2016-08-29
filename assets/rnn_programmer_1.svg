@@ -1,0 +1,43 @@
+<svg id="nodes" xmlns="http://www.w3.org/2000/svg" width="984" height="66" viewBox="0 0 984 66">
+  <title>rnn</title>
+  <g>
+    <ellipse cx="203.95" cy="42" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(192.05 45.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
+  </g>
+  <g>
+    <ellipse cx="336" cy="42" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(324.1 45.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
+  </g>
+  <g>
+    <ellipse cx="467.95" cy="42" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(456.05 45.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
+  </g>
+  <g>
+    <ellipse cx="600" cy="42" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(588.1 45.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+  </g>
+  <g>
+    <line x1="228" y1="42" x2="304.76" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M312,42a36.27,36.27,0,0,0-10.26,5.71L303.81,42l-2.06-5.71A36.23,36.23,0,0,0,312,42Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="360" y1="42" x2="436.76" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M444,42a36.27,36.27,0,0,0-10.26,5.71L435.81,42l-2.06-5.71A36.23,36.23,0,0,0,444,42Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="492" y1="42" x2="568.76" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M576,42a36.27,36.27,0,0,0-10.26,5.71L567.81,42l-2.06-5.71A36.23,36.23,0,0,0,576,42Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <line x1="624" y1="42" x2="700.76" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M708,42a36.27,36.27,0,0,0-10.26,5.71L699.81,42l-2.06-5.71A36.23,36.23,0,0,0,708,42Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M360,42s48-30,108-30c46.45,0,86.19,14.62,101.39,21" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M576,36a36.27,36.27,0,0,0-11.69,1.07l4.2-4.38,0.42-6.05A36.23,36.23,0,0,0,576,36Z" fill="#8c8c8c"/>
+  </g>
+  <g>
+    <path d="M227.5,42s48-30,108-30c46.45,0,86.19,14.62,101.39,21" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M443.5,36a36.27,36.27,0,0,0-11.69,1.07l4.2-4.38,0.42-6.05A36.23,36.23,0,0,0,443.5,36Z" fill="#8c8c8c"/>
+  </g>
+</svg>
