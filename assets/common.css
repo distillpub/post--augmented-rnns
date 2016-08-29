@@ -366,6 +366,12 @@ pre code {
   line-height: 18px;
 }
 
+.post figure.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
 .post figure. figcaption {
 
 }

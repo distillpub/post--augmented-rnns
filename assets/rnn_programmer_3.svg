@@ -22,7 +22,10 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="#e6eaf2"/>
+    <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="#f0f4f5"/>
+    <g opacity="0.1">
+      <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <path d="M367.26,24H330c-6.6,0-16.05-2.93-21-6.5S294.6,11,288,11H264.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
   <g clip-path="url(#clip-path)">

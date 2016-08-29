@@ -10,7 +10,10 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="138" width="468" height="72" rx="10" ry="10" fill="#e6eaf2"/>
+    <rect x="168" y="138" width="468" height="72" rx="10" ry="10" fill="#f0f4f5"/>
+    <g opacity="0.1">
+      <rect x="168" y="138" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <use width="48" height="48" transform="translate(180 150)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(312 150)" xlink:href="#rnn-a"/>

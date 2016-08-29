@@ -47,7 +47,7 @@
   </defs>
   <title>rnn</title>
   <g>
-    <rect x="168" y="13.25" width="600" height="238.75" rx="10" ry="10" fill="#e6eaf2"/>
+    <rect x="168" y="13.25" width="600" height="238.75" rx="10" ry="10" fill="#f0f4f5"/>
     <line x1="336" y1="39" x2="336" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     <line x1="528" y1="39" x2="528" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     <line x1="720" y1="39" x2="720" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
