@@ -1,4 +1,9 @@
-<svg id="nodes" xmlns="http://www.w3.org/2000/svg" width="984" height="66" viewBox="0 0 984 66">
+<svg id="nodes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="66" viewBox="0 0 984 66">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M362.12,45.39l-4.24-6.78c1.8-1.13,40.7-25.08,92.62-29.8V4.5H212.25V75.75H450.5V16.86C400.63,21.67,362.54,45.13,362.12,45.39Z" fill="none"/>
+    </clipPath>
+  </defs>
   <title>rnn</title>
   <g>
     <ellipse cx="203.95" cy="42" rx="24" ry="12" fill="#7a8297"/>
@@ -36,8 +41,10 @@
     <path d="M360,42s48-30,108-30c46.45,0,86.19,14.62,101.39,21" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
     <path d="M576,36a36.27,36.27,0,0,0-11.69,1.07l4.2-4.38,0.42-6.05A36.23,36.23,0,0,0,576,36Z" fill="#8c8c8c"/>
   </g>
-  <g>
-    <path d="M227.5,42s48-30,108-30c46.45,0,86.19,14.62,101.39,21" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M443.5,36a36.27,36.27,0,0,0-11.69,1.07l4.2-4.38,0.42-6.05A36.23,36.23,0,0,0,443.5,36Z" fill="#8c8c8c"/>
+  <g clip-path="url(#clip-path)">
+    <g>
+      <path d="M227.5,42s48-30,108-30c46.45,0,86.19,14.62,101.39,21" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+      <path d="M443.5,36a36.27,36.27,0,0,0-11.69,1.07l4.2-4.38,0.42-6.05A36.23,36.23,0,0,0,443.5,36Z" fill="#8c8c8c"/>
+    </g>
   </g>
 </svg>

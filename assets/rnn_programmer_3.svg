@@ -1,5 +1,17 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="246" viewBox="0 0 984 246">
   <defs>
+    <clipPath id="clip-path">
+      <rect x="228" y="12" width="84" height="138" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <polygon points="480 12 306 12 306 36 360 36 360 138 444 138 444 36 480 36 480 12" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <polygon points="612 12 438 12 438 36 492 36 492 138 576 138 576 36 612 36 612 12" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect x="624" y="12" width="60" height="114" fill="none"/>
+    </clipPath>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 48 48">
       <rect width="48" height="48" rx="6" ry="6" fill="#798294"/>
     </symbol>
@@ -12,100 +24,167 @@
   <g id="_Group_" data-name="&lt;Group&gt;">
     <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="#e6eaf2"/>
   </g>
-  <g>
-    <path d="M222,120h11c6.05,0,11-5.4,11-12V24a12,12,0,0,1,12-12h25.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M222,84h10c5.51,0,10-5.4,10-12V24a12,12,0,0,1,12-12h27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M222,48h9c5,0,9-5.4,9-12V23a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M367.26,30H330c-6.6,0-16.05-2.93-21-6.5S294.6,17,288,17H264.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+  <g clip-path="url(#clip-path)">
+    <g opacity="0.9">
+      <path d="M222,120h9c4.95,0,9-5.4,9-12V29a12,12,0,0,1,12-12h29.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M222,84h9c4.95,0,9-5.4,9-12V29a12,12,0,0,1,12-12h29.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.4">
+      <path d="M222,48h9c5,0,9-5.4,9-12V29a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M318,120h-9c-4.95,0-9-5.4-9-12V29a12,12,0,0,0-12-12H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M318,84h-9c-4.95,0-9-5.4-9-12V29a12,12,0,0,0-12-12H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M318,48h-9c-4.95,0-9-5.4-9-12V29a12,12,0,0,0-12-12H258.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
   </g>
-  <g>
-    <path d="M318,120H307c-6.05,0-11-5.4-11-12V24a12,12,0,0,0-12-12H258.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M318,84H308c-5.51,0-10-5.4-10-12V24a12,12,0,0,0-12-12h-27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M318,48h-9c-5,0-9-5.4-9-12V24a12,12,0,0,0-12-12h-29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+  <g clip-path="url(#clip-path-2)">
+    <g opacity="0.2">
+      <path d="M354,120h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M354,84h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M354,48h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M367.26,30H336" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M451.05,122H432a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M367.26,30H336" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M451.05,86H432a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M367.26,30H336" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M451.05,49H432c-6.6,0-12-4.27-12-9.5S414.6,30,408,30H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M450.25,119h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M450.25,83h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M450.25,47h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <path d="M492,30H461.75c-6.6,0-16-2.7-20.87-6S426.6,18,420,18H396.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
   </g>
-  <g>
-    <path d="M354,120h11c6.05,0,11-5.4,11-12V24a12,12,0,0,1,12-12h25.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M354,84h10c5.51,0,10-5.4,10-12V24a12,12,0,0,1,12-12h27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M354,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+  <g clip-path="url(#clip-path-3)">
+    <g opacity="0.9">
+      <path d="M486,120h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M486,84h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M486,48h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M499.33,30H468" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M583.05,122H564a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H509.2" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M499.33,30H468" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M583.05,86H564a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H509.2" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M499.33,30H468" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M583.05,50H564c-6.6,0-12-4.5-12-10s-5.4-10-12-10H509.2" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M582.25,119h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M582.25,83h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.9">
+      <path d="M582.25,47h-9.12c-5,0-9.12-5.4-9.12-12V30a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
   </g>
-  <g>
-    <path d="M583,122H560a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H444" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M583,86H561.95a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H444" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M583,50H563.95c-6.6,0-12-4.5-12-10s-5.4-10-12-10H444" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  </g>
-  <g>
-    <path d="M451.05,122h-23a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12h-92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M451.05,86H430a12,12,0,0,1-12-12V42a12,12,0,0,0-12-12H312.05" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M451.05,50H432c-6.6,0-12-4.5-12-10s-5.4-10-12-10H312.05" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  </g>
-  <g>
-    <path d="M486,120h11c6.05,0,11-5.4,11-12V24a12,12,0,0,1,12-12h25.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M486,84h10c5.51,0,10-5.4,10-12V24a12,12,0,0,1,12-12h27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M486,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  </g>
-  <g>
-    <path d="M582,120H571c-6,0-11-5.4-11-12V24a12,12,0,0,0-12-12H522.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M582,84H572c-5.51,0-10-5.4-10-12V24a12,12,0,0,0-12-12h-27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M582,48h-9c-5,0-9-5.4-9-12V24a12,12,0,0,0-12-12h-29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  </g>
-  <path d="M450.25,120h-11c-6.05,0-11-5.4-11-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  <path d="M450.25,84h-10c-5.51,0-10-5.4-10-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  <path d="M450.25,48h-9c-5,0-9-5.4-9-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  <path d="M450.25,30h-8.12C437.67,30,434,26,434,21s-5.4-9-12-9H396.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  <path d="M318,30h-8.12c-4.47,0-8.12-4.28-8.12-9.5s-5.4-9.5-12-9.5H264.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-  <g>
-    <path d="M618,120h11c6,0,11-5.4,11-12V24a12,12,0,0,1,12-12h25.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M618,84h10c5.51,0,10-5.4,10-12V24a12,12,0,0,1,12-12h27.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M618,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+  <g clip-path="url(#clip-path-4)">
+    <g opacity="0.9">
+      <g>
+        <path d="M618,48h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12h22.46" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+        <path d="M677.75,18a36.27,36.27,0,0,0-10.26,5.71L669.56,18l-2.06-5.71A36.24,36.24,0,0,0,677.75,18Z" fill="#8c8c8c"/>
+      </g>
+    </g>
+    <g opacity="0.2">
+      <path d="M618,120h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g opacity="0.2">
+      <path d="M618,84h9c5,0,9-5.4,9-12V30a12,12,0,0,1,12-12H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
   </g>
   <use width="48" height="48" transform="translate(180 174)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(312 174)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(444 174)" xlink:href="#rnn-a"/>
   <use id="rnn-a-9" data-name="rnn-a" width="48" height="48" transform="translate(576 174)" xlink:href="#rnn-a"/>
-  <g>
+  <g opacity="0.9">
     <ellipse cx="203.95" cy="120" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(192.05 123.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="203.95" cy="84" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(192.05 87.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
-  <g>
+  <g opacity="0.4">
     <ellipse cx="204" cy="48" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(192.1 51.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="336" cy="120" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(324.1 123.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="336" cy="84" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(324.1 87.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
-  <g>
+  <g opacity="0.9">
     <ellipse cx="336.05" cy="48" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(324.15 51.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
-  <g>
+  <g opacity="0.9">
     <ellipse cx="467.95" cy="120" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(456.05 123.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="467.95" cy="84" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(456.05 87.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="468" cy="48" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(456.1 51.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="599.95" cy="120" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(588.05 123.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
-  <g>
+  <g opacity="0.2">
     <ellipse cx="599.95" cy="84" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(588.05 87.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
-  <g>
+  <g opacity="0.9">
     <ellipse cx="600" cy="48" rx="24" ry="12" fill="#7a8297"/>
     <text transform="translate(588.1 51.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
