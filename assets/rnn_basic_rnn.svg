@@ -12,16 +12,6 @@
   <g id="_Group_" data-name="&lt;Group&gt;">
     <rect x="168" y="36.93" width="600" height="72" rx="10" ry="10" fill="#e6eaf2"/>
   </g>
-  <rect width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="336" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="168" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="168" y="36" width="480" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="504" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="672" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="840" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect y="36" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect x="840" y="36" width="144" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-  <rect y="72" width="984" height="12" fill="#8c8c8c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
   <use width="48" height="48" transform="translate(180 48.93)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(312 48.93)" xlink:href="#rnn-a"/>
   <use width="48" height="48" transform="translate(444 48.93)" xlink:href="#rnn-a"/>
