@@ -4,7 +4,7 @@
       <circle cx="15.73" cy="15.73" r="14.73" fill="#e6eaf2" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     </symbol>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#798294" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum_5" data-name="op-sum 5" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>

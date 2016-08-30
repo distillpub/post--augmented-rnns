@@ -138,6 +138,62 @@
     <path d="M665.75,312v32a10,10,0,0,1-10,10H468.64" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     <polygon points="472.12 349.71 472.83 350.48 469.04 354 472.83 357.52 472.12 358.29 467.5 354 472.12 349.71" fill="#8c8c8c"/>
   </g>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g>
+      <path d="M468,624a12,12,0,0,1-12,12H396a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
+      <path d="M468.83,624.5a12,12,0,0,1-12,12H395.17a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.83A11.79,11.79,0,0,0,384.83,624Z" fill="#666"/>
+    </g>
+  </g>
+  <g>
+    <g opacity="0.1">
+      <rect x="385" y="614" width="84" height="24" rx="12" ry="12"/>
+      <rect x="385" y="614" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="384" y="612" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="384" y="612" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g>
+    <g opacity="0.1">
+      <rect x="385" y="482" width="84" height="24" rx="12" ry="12"/>
+      <rect x="385" y="482" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="384" y="480" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="384" y="480" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g>
+    <g opacity="0.1">
+      <rect x="385" y="350" width="84" height="24" rx="12" ry="12"/>
+      <rect x="385" y="350" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="384" y="348" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="384" y="348" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g>
+    <g opacity="0.1">
+      <rect x="385" y="218" width="84" height="24" rx="12" ry="12"/>
+      <rect x="385" y="218" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="384" y="216" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="384" y="216" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g>
+    <g opacity="0.1">
+      <rect x="385" y="86" width="84" height="24" rx="12" ry="12"/>
+      <rect x="385" y="86" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="384" y="84" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="384" y="84" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
   <use id="array-5-3" data-name="array-5" width="181" height="37" transform="translate(335.25 275)" xlink:href="#array-5"/>
   <use width="181" height="37" transform="translate(575 276)" xlink:href="#array-5"/>
   <use width="181" height="37" transform="translate(335.25 407)" xlink:href="#array-5"/>
@@ -154,18 +210,6 @@
     <use width="36" height="36" transform="translate(480 143)" xlink:href="#array-positive-value"/>
   </g>
   <use width="181" height="37" transform="translate(335.25 12)" xlink:href="#array-5"/>
-  <g id="_Group_" data-name="&lt;Group&gt;">
-    <g>
-      <path d="M467.5,96a12,12,0,0,1-12,12h-60a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
-      <path d="M468.33,96.5a12,12,0,0,1-12,12H394.67a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.33A11.79,11.79,0,0,0,384.33,96Z" fill="#666"/>
-    </g>
-  </g>
-  <g id="_Group_2" data-name="&lt;Group&gt;">
-    <g>
-      <path d="M468,228a12,12,0,0,1-12,12H396a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
-      <path d="M468.83,228.5a12,12,0,0,1-12,12H395.17a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.83A11.79,11.79,0,0,0,384.83,228Z" fill="#666"/>
-    </g>
-  </g>
   <g id="softmax">
     <use width="36" height="36" transform="translate(336 276)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(372 276)" xlink:href="#array-positive-value"/>
@@ -186,12 +230,6 @@
     <use width="36" height="36" transform="translate(683.75 276)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(719.75 276)" xlink:href="#array-positive-value"/>
   </g>
-  <g id="_Group_3" data-name="&lt;Group&gt;">
-    <g>
-      <path d="M468,360a12,12,0,0,1-12,12H396a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
-      <path d="M468.83,360.5a12,12,0,0,1-12,12H395.17a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.83A11.79,11.79,0,0,0,384.83,360Z" fill="#666"/>
-    </g>
-  </g>
   <g id="interpolate">
     <use width="36" height="36" transform="translate(336 407)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(372 407)" xlink:href="#array-positive-value"/>
@@ -199,24 +237,12 @@
     <use width="36" height="36" transform="translate(444 407)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(480 407)" xlink:href="#array-positive-value"/>
   </g>
-  <g id="_Group_4" data-name="&lt;Group&gt;">
-    <g>
-      <path d="M468,492a12,12,0,0,1-12,12H396a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
-      <path d="M468.83,492.5a12,12,0,0,1-12,12H395.17a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.83A11.79,11.79,0,0,0,384.83,492Z" fill="#666"/>
-    </g>
-  </g>
   <g id="convolve">
     <use width="36" height="36" transform="translate(335.5 541)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(372 541)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(408 541)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(444 541)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(480 541)" xlink:href="#array-positive-value"/>
-  </g>
-  <g id="_Group_5" data-name="&lt;Group&gt;">
-    <g>
-      <path d="M468,624a12,12,0,0,1-12,12H396a12,12,0,1,1,0-24h60a12,12,0,0,1,12,12h0Z" fill="#fff"/>
-      <path d="M468.83,624.5a12,12,0,0,1-12,12H395.17a12,12,0,0,1-12-12v-1a12,12,0,0,1,12-12h61.66a12,12,0,0,1,12,12v1Zm-84-.5a11.79,11.79,0,0,0,12,11.5h58.34a11.51,11.51,0,1,0,0-23H396.83A11.79,11.79,0,0,0,384.83,624Z" fill="#666"/>
-    </g>
   </g>
   <g id="new-attention">
     <use width="36" height="36" transform="translate(336 671)" xlink:href="#array-positive-value"/>

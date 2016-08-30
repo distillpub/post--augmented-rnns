@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="192" viewBox="0 0 984 192">
   <defs>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#798294" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum_2" data-name="op-sum 2" viewBox="0 0 24 24">
       <use width="24" height="24" xlink:href="#op-bg"/>
