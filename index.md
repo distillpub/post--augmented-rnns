@@ -68,7 +68,6 @@ NTMs take a very clever solution to this: every step, they read and write everyw
 
 <figure class="w-page" id="rnn-read">
   {{> assets/rnn_read.svg}}
-  <figcaption>$r \leftarrow \sum_i a_i M_i$</figcaption>
 </figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
@@ -83,7 +82,7 @@ The addressing process starts with the generating the content-based focus. First
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
 
-<figure class="side-saddle-right">
+<figure class="side-saddle-right external">
   <figcaption style="top: 75px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
   <img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>

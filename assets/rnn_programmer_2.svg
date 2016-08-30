@@ -1,98 +1,98 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="222" viewBox="0 0 984 222">
   <defs>
-    <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 48 48">
-      <rect width="48" height="48" rx="6" ry="6" fill="#798294"/>
+    <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
     </symbol>
-    <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 48 48">
-      <use id="rnn-bg-3" data-name="rnn-bg" width="48" height="48" xlink:href="#rnn-bg"/>
-      <text transform="translate(17.33 31)" font-size="21.77" fill="#fff" font-family="Helvetica" letter-spacing="-1">A</text>
+    <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
+      <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
+      <text transform="translate(18.08 31.75)" font-size="21.77" fill="#515151" font-family="Helvetica" letter-spacing="-1">A</text>
     </symbol>
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="138" width="468" height="72" rx="10" ry="10" fill="#f0f4f5"/>
+    <rect x="168" y="138" width="468" height="72" rx="10" ry="10" opacity="0.04"/>
     <g opacity="0.1">
       <rect x="168" y="138" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
   </g>
-  <use width="48" height="48" transform="translate(180 150)" xlink:href="#rnn-a"/>
-  <use width="48" height="48" transform="translate(312 150)" xlink:href="#rnn-a"/>
-  <use width="48" height="48" transform="translate(444 150)" xlink:href="#rnn-a"/>
-  <use id="rnn-a-9" data-name="rnn-a" width="48" height="48" transform="translate(576 150)" xlink:href="#rnn-a"/>
+  <use width="49.5" height="49.5" transform="translate(179.25 149.25)" xlink:href="#rnn-a"/>
+  <use width="49.5" height="49.5" transform="translate(311.25 149.25)" xlink:href="#rnn-a"/>
+  <use width="49.5" height="49.5" transform="translate(443.25 149.25)" xlink:href="#rnn-a"/>
+  <use id="rnn-a-9" data-name="rnn-a" width="49.5" height="49.5" transform="translate(575.25 149.25)" xlink:href="#rnn-a"/>
   <g opacity="0.9">
-    <ellipse cx="203.95" cy="96" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(192.05 99.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
+    <ellipse cx="203.95" cy="100" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(192.05 103.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
   <g opacity="0.2">
-    <ellipse cx="203.95" cy="60" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(192.05 63.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
+    <ellipse cx="203.95" cy="64" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(192.05 67.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
   <g opacity="0.4">
-    <ellipse cx="204" cy="24" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(192.1 27.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+    <ellipse cx="204" cy="28" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(192.1 31.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
   <g opacity="0.2">
-    <ellipse cx="336" cy="96" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(324.1 99.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
-  </g>
-  <g opacity="0.2">
-    <ellipse cx="336" cy="60" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(324.1 63.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
+    <ellipse cx="336" cy="100" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(324.1 103.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
   <g opacity="0.9">
-    <ellipse cx="336.05" cy="24" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(324.15 27.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+    <ellipse cx="336" cy="64" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(324.1 67.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
+  </g>
+  <g opacity="0.2">
+    <ellipse cx="336.05" cy="28" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(324.15 31.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
   <g opacity="0.9">
-    <ellipse cx="467.95" cy="96" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(456.05 99.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
+    <ellipse cx="467.95" cy="100" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(456.05 103.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
   </g>
   <g opacity="0.2">
-    <ellipse cx="467.95" cy="60" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(456.05 63.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
+    <ellipse cx="467.95" cy="64" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(456.05 67.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
   <g opacity="0.2">
-    <ellipse cx="468" cy="24" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(456.1 27.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+    <ellipse cx="468" cy="28" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(456.1 31.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+  </g>
+  <g opacity="0.2">
+    <ellipse cx="599.95" cy="100" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(588.05 103.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
+  </g>
+  <g opacity="0.2">
+    <ellipse cx="599.95" cy="64" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(588.05 67.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
   </g>
   <g opacity="0.9">
-    <ellipse cx="599.95" cy="96" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(588.05 99.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 1</text>
-  </g>
-  <g opacity="0.4">
-    <ellipse cx="599.95" cy="60" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(588.05 63.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 2</text>
-  </g>
-  <g opacity="0.2">
-    <ellipse cx="600" cy="24" rx="24" ry="12" fill="#7a8297"/>
-    <text transform="translate(588.1 27.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
+    <ellipse cx="600" cy="28" rx="24" ry="12" fill="#7a8297"/>
+    <text transform="translate(588.1 31.52)" font-size="12" fill="#fff" font-family="Myriad Pro">Op 3</text>
   </g>
   <g>
-    <line x1="204" y1="150" x2="204" y2="121.24" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M204,114a36.27,36.27,0,0,0,5.71,10.26L204,122.19l-5.71,2.06A36.23,36.23,0,0,0,204,114Z" fill="#8c8c8c"/>
+    <line x1="204" y1="150" x2="204" y2="119.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M204,114a27.2,27.2,0,0,0,4.28,7.69L204,120.14l-4.28,1.55A27.17,27.17,0,0,0,204,114Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="336" y1="150" x2="336" y2="121.24" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M336,114a36.27,36.27,0,0,0,5.71,10.26L336,122.19l-5.71,2.06A36.23,36.23,0,0,0,336,114Z" fill="#8c8c8c"/>
+    <line x1="336" y1="150" x2="336" y2="119.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M336,114a27.2,27.2,0,0,0,4.28,7.69L336,120.14l-4.28,1.55A27.17,27.17,0,0,0,336,114Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="468" y1="150" x2="468" y2="121.24" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M468,114a36.27,36.27,0,0,0,5.71,10.26L468,122.19l-5.71,2.06A36.23,36.23,0,0,0,468,114Z" fill="#8c8c8c"/>
+    <line x1="468" y1="150" x2="468" y2="119.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M468,114a27.2,27.2,0,0,0,4.28,7.69L468,120.14l-4.28,1.55A27.17,27.17,0,0,0,468,114Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="600" y1="150" x2="600" y2="121.24" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M600,114a36.27,36.27,0,0,0,5.71,10.26L600,122.19l-5.71,2.06A36.23,36.23,0,0,0,600,114Z" fill="#8c8c8c"/>
+    <line x1="600" y1="150" x2="600" y2="119.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M600,114a27.2,27.2,0,0,0,4.28,7.69L600,120.14l-4.28,1.55A27.17,27.17,0,0,0,600,114Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="228" y1="174.5" x2="304.76" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M312,174.5a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.23,36.23,0,0,0,312,174.5Z" fill="#8c8c8c"/>
+    <line x1="228" y1="174.5" x2="306.57" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M312,174.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,312,174.5Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="360" y1="174.5" x2="436.76" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M444,174.5a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.23,36.23,0,0,0,444,174.5Z" fill="#8c8c8c"/>
+    <line x1="360" y1="174.5" x2="438.57" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M444,174.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,444,174.5Z" fill="#8c8c8c"/>
   </g>
   <g>
-    <line x1="492" y1="174.5" x2="568.76" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M576,174.5a36.27,36.27,0,0,0-10.26,5.71l2.06-5.71-2.06-5.71A36.23,36.23,0,0,0,576,174.5Z" fill="#8c8c8c"/>
+    <line x1="492" y1="174.5" x2="570.57" y2="174.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M576,174.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,576,174.5Z" fill="#8c8c8c"/>
   </g>
 </svg>
