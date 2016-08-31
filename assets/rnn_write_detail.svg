@@ -53,109 +53,109 @@
   <g>
     <line x1="815.5" x2="816" y2="741" fill="#fff"/>
     <g>
-      <line x1="815.5" x2="815.5" y2="1" fill="none" stroke="#919191" stroke-miterlimit="10" stroke-width="1.5"/>
-      <line x1="815.5" y1="3" x2="816" y2="739" fill="none" stroke="#919191" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="2 2"/>
-      <line x1="816" y1="740" x2="816" y2="741" fill="none" stroke="#919191" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="815.5" x2="815.5" y2="1" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
+      <line x1="815.5" y1="3" x2="816" y2="739" fill="none" stroke="#aaa" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <line x1="816" y1="740" x2="816" y2="741" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
     </g>
   </g>
   <g>
     <g opacity="0">
       <g>
-        <line x1="665.75" y1="204" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="204" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.17">
       <g>
-        <line x1="665.75" y1="209" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="209" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.33">
       <g>
-        <line x1="665.75" y1="214" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="214" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.5">
       <g>
-        <line x1="665.75" y1="219" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="219" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.67">
       <g>
-        <line x1="665.75" y1="224" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="224" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.83">
       <g>
-        <line x1="665.75" y1="229" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+        <line x1="665.75" y1="229" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
       </g>
     </g>
     <g>
-      <line x1="665.75" y1="234" x2="665.75" y2="246.92" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#8c8c8c"/>
+      <line x1="665.75" y1="234" x2="665.75" y2="246.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M665.75,252.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,665.75,252.35Z" fill="#666"/>
     </g>
   </g>
   <g>
     <g>
-      <line x1="426" y1="48" x2="426" y2="72.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,78.18a27.2,27.2,0,0,0-4.28-7.69L426,72l4.28-1.55A27.17,27.17,0,0,0,426,78.18Z" fill="#8c8c8c"/>
+      <line x1="426" y1="48" x2="426" y2="72.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,78.18a27.2,27.2,0,0,0-4.28-7.69L426,72l4.28-1.55A27.17,27.17,0,0,0,426,78.18Z" fill="#666"/>
     </g>
     <g>
-      <line x1="827.5" y1="96" x2="479.43" y2="96" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M474,96a27.2,27.2,0,0,0,7.69-4.28L480.14,96l1.55,4.28A27.18,27.18,0,0,0,474,96Z" fill="#8c8c8c"/>
+      <line x1="827.5" y1="96" x2="479.43" y2="96" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M474,96a27.2,27.2,0,0,0,7.69-4.28L480.14,96l1.55,4.28A27.18,27.18,0,0,0,474,96Z" fill="#666"/>
     </g>
     <g>
-      <line x1="827.5" y1="366" x2="479.43" y2="366" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M474,366a27.2,27.2,0,0,0,7.69-4.28L480.14,366l1.55,4.28A27.18,27.18,0,0,0,474,366Z" fill="#8c8c8c"/>
+      <line x1="827.5" y1="366" x2="479.43" y2="366" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M474,366a27.2,27.2,0,0,0,7.69-4.28L480.14,366l1.55,4.28A27.18,27.18,0,0,0,474,366Z" fill="#666"/>
     </g>
     <g>
-      <line x1="827.5" y1="492" x2="479.43" y2="492" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M474,492a27.2,27.2,0,0,0,7.69-4.28L480.14,492l1.55,4.28A27.18,27.18,0,0,0,474,492Z" fill="#8c8c8c"/>
+      <line x1="827.5" y1="492" x2="479.43" y2="492" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M474,492a27.2,27.2,0,0,0,7.69-4.28L480.14,492l1.55,4.28A27.18,27.18,0,0,0,474,492Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="107.82" x2="426" y2="132.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,138a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,138Z" fill="#8c8c8c"/>
+      <line x1="426" y1="107.82" x2="426" y2="132.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,138a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,138Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="179.82" x2="426" y2="204.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,210a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.17,27.17,0,0,0,426,210Z" fill="#8c8c8c"/>
+      <line x1="426" y1="179.82" x2="426" y2="204.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,210a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.17,27.17,0,0,0,426,210Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="240" x2="426" y2="264.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,270.18a27.2,27.2,0,0,0-4.28-7.69L426,264l4.28-1.55A27.18,27.18,0,0,0,426,270.18Z" fill="#8c8c8c"/>
+      <line x1="426" y1="240" x2="426" y2="264.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,270.18a27.2,27.2,0,0,0-4.28-7.69L426,264l4.28-1.55A27.18,27.18,0,0,0,426,270.18Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="311.82" x2="426" y2="336.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,342a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,342Z" fill="#8c8c8c"/>
+      <line x1="426" y1="311.82" x2="426" y2="336.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,342a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,342Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="371.82" x2="426" y2="396.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,402a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,402Z" fill="#8c8c8c"/>
+      <line x1="426" y1="371.82" x2="426" y2="396.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,402a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,402Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="444" x2="426" y2="468.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,474.18a27.2,27.2,0,0,0-4.28-7.69L426,468l4.28-1.55A27.18,27.18,0,0,0,426,474.18Z" fill="#8c8c8c"/>
+      <line x1="426" y1="444" x2="426" y2="468.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,474.18a27.2,27.2,0,0,0-4.28-7.69L426,468l4.28-1.55A27.18,27.18,0,0,0,426,474.18Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="503.82" x2="426" y2="528.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,534a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,534Z" fill="#8c8c8c"/>
+      <line x1="426" y1="503.82" x2="426" y2="528.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,534a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,534Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="576.82" x2="426" y2="601.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,607a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,607Z" fill="#8c8c8c"/>
+      <line x1="426" y1="576.82" x2="426" y2="601.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,607a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,607Z" fill="#666"/>
     </g>
     <g>
-      <line x1="426" y1="635.82" x2="426" y2="660.57" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M426,666a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,666Z" fill="#8c8c8c"/>
+      <line x1="426" y1="635.82" x2="426" y2="660.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M426,666a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,426,666Z" fill="#666"/>
     </g>
     <g>
-      <path d="M665.75,312v32a10,10,0,0,1-10,10H479.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M474,354a27.2,27.2,0,0,0,7.69-4.28L480.14,354l1.55,4.28A27.18,27.18,0,0,0,474,354Z" fill="#8c8c8c"/>
+      <path d="M665.75,312v32a10,10,0,0,1-10,10H479.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M474,354a27.2,27.2,0,0,0,7.69-4.28L480.14,354l1.55,4.28A27.18,27.18,0,0,0,474,354Z" fill="#666"/>
     </g>
   </g>
   <g>
@@ -271,11 +271,11 @@
   <text transform="translate(169.5 345.12)" font-size="12" fill="#666" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="18">attention from the </tspan><tspan x="0" y="36">previous time step. </tspan></text>
   <text transform="translate(169.5 477.12)" font-size="12" fill="#666" font-family="Open Sans">We convolve the <tspan x="0" y="18">attention with a shift </tspan><tspan x="0" y="36">filter — this allows the </tspan><tspan x="0" y="54">controller to move its </tspan><tspan x="0" y="72">focus.</tspan></text>
   <text transform="translate(169.5 610.12)" font-size="12" fill="#666" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="18">attention distribution. </tspan><tspan x="0" y="36">This final attention </tspan><tspan x="0" y="54">distribution is fed to the </tspan><tspan x="0" y="72">read or write operation.</tspan></text>
-  <text transform="translate(395.05 363)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">interpolate</text>
-  <text transform="translate(401.56 495)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">convolve</text>
-  <text transform="translate(403.49 627)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">sharpen</text>
-  <text transform="translate(403.44 231)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">softmax</text>
-  <text transform="translate(393.6 99.17)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">dot product</text>
+  <text transform="translate(396.43 363)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">interpolate</text>
+  <text transform="translate(402.48 495)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">convolve</text>
+  <text transform="translate(404.18 627)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">sharpen</text>
+  <text transform="translate(404.33 231)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">softmax</text>
+  <text transform="translate(394.66 99.17)" font-size="11" fill="#666" font-family="Open Sans" font-weight="700">dot product</text>
   <use id="query" width="36" height="36" transform="translate(828 78)" xlink:href="#array-vector"/>
   <g id="memory">
     <use width="36" height="36" transform="translate(336 12)" xlink:href="#array-vector"/>
@@ -285,12 +285,12 @@
     <use width="36" height="36" transform="translate(480 12)" xlink:href="#array-vector"/>
   </g>
   <text transform="translate(528.38 33)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
-  <text transform="translate(527.5 156.77)" font-size="12" fill="#666" font-family="Open Sans">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
-  <text transform="translate(827.5 330)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
-  <text transform="translate(827.5 462)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
+  <text transform="translate(529.5 155.77)" font-size="12" fill="#666" font-family="Open Sans">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
+  <text transform="translate(827.5 328)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
+  <text transform="translate(827.5 460)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
   <text transform="translate(827.5 12)" font-size="12" fill="#666" font-family="Open Sans">RNN controller</text>
-  <text transform="translate(684.32 12)" font-size="12" fill="#666" font-family="Open Sans">attention mechanism</text>
-  <text transform="translate(827.5 66)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
+  <text transform="translate(683.32 12)" font-size="12" fill="#666" font-family="Open Sans">attention mechanism</text>
+  <text transform="translate(827.5 64)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
   <text transform="translate(586.11 270)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
   <text transform="translate(359.23 726)" font-size="11" font-family="Open Sans">new attention distribution</text>
   <circle id="query-hover" cx="845.37" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>

@@ -97,7 +97,7 @@
 
   readHtml.on("mousemove", function() {
     let data = [];
-    writeAttention.each(function() {
+    attention.each(function() {
       let bbox = this.getBoundingClientRect()
       let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
       data.push(Math.exp(-distance / 25));
@@ -105,6 +105,10 @@
     data = data.map((d) => d / d3.sum(data));
     updateReadAttention(data);
   });
+
+  let initReadData = d3.range(attention.size()).map((d) => Math.exp(-d));
+  initReadData = initReadData.map((d) => d / d3.sum(initReadData));
+  updateReadAttention(initReadData);
 
   //
   // Write
@@ -196,6 +200,10 @@
     data = data.map((d) => d / d3.sum(data));
     updateWriteAttention(data);
   });
+
+  let initWriteData = d3.range(writeAttention.size()).map((d) => Math.exp(-d));
+  initWriteData = initWriteData.map((d) => d / d3.sum(initWriteData));
+  updateWriteAttention(initWriteData);
 
 })();
 </script>
