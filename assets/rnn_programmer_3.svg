@@ -19,6 +19,45 @@
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
       <text transform="translate(18.08 31.75)" font-size="21.77" fill="#515151" font-family="Helvetica" letter-spacing="-1">A</text>
     </symbol>
+    <symbol id="op-1" data-name="op-1" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.36 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
+    </symbol>
+    <symbol id="op-2" data-name="op-2" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.36 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
+    </symbol>
+    <symbol id="op-3" data-name="op-3" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.41 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
+    </symbol>
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
@@ -27,98 +66,98 @@
       <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
   </g>
-  <path d="M367.26,24H330c-6.6,0-16.05-2.93-21-6.5S294.6,11,288,11H264.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M367.26,24h-103" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
   <g clip-path="url(#clip-path)">
     <g opacity="0.9">
-      <path d="M222,120h9c4.95,0,9-5.4,9-12V23a12,12,0,0,1,12-12h29.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M222,120h9c4.95,0,9-4.5,9-10V34a10,10,0,0,1,10-10h31.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M222,84h9c4.95,0,9-5.4,9-12V23a12,12,0,0,1,12-12h29.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M222,84h9c4.95,0,9-4.5,9-10V34a10,10,0,0,1,10-10h31.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.4">
-      <path d="M222,48h9c5,0,9-5.4,9-12V23a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M222,48h9c5,0,9-4.5,9-10V34a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M318,120h-9c-4.95,0-9-5.4-9-12V23a12,12,0,0,0-12-12H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,120h-9c-4.95,0-9-4.5-9-10V34a10,10,0,0,0-10-10H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M318,84h-9c-4.95,0-9-5.4-9-12V23a12,12,0,0,0-12-12H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,84h-9c-4.95,0-9-4.5-9-10V34a10,10,0,0,0-10-10H262.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M318,48h-9c-4.95,0-9-5.4-9-12V23a12,12,0,0,0-12-12H258.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,48h-9c-4.95,0-9-4.5-9-10V34a10,10,0,0,0-10-10H258.25" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g clip-path="url(#clip-path-2)">
     <g opacity="0.2">
-      <path d="M354,120h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M354,120h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M354,84h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M354,84h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M354,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M354,48h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M451.05,122H432a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M451.05,122H430a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M451.05,86H432a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M451.05,86H430a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M451.05,49H432a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M451.05,49H430a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H376.65" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M450.25,119h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M450.25,119h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M450.25,83h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M450.25,83h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M450.25,46h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M450.25,46h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H390.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
-    <path d="M500.17,24H461.75c-6.6,0-16-2.7-20.87-6S426.6,12,420,12H396.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M500.17,24H459.75a38.44,38.44,0,0,1-18.28-5.6l-1.18-.8A38.44,38.44,0,0,0,422,12H396.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <g clip-path="url(#clip-path-3)">
     <g opacity="0.9">
-      <path d="M486,120h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M486,120h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M486,84h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M486,84h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M486,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h29.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M486,48h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h31.7" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M583.05,122H564a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M583.05,122H562a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M583.05,86H564a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M583.05,86H562a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M583.05,50H564a12,12,0,0,1-12-12V36a12,12,0,0,0-12-12H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M583.05,50H562a10,10,0,0,1-10-10V34a10,10,0,0,0-10-10H507.83" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M582.25,119h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M582.25,119h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M582.25,83h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M582.25,83h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M582.25,47h-9.12c-5,0-9.12-5.4-9.12-12V24a12,12,0,0,0-12-12H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M582.25,47h-9.12c-5,0-9.12-4.5-9.12-10V22a10,10,0,0,0-10-10H522.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g clip-path="url(#clip-path-4)">
     <g opacity="0.9">
       <g>
-        <path d="M618,48h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12h24.27" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M618,48h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10h26.27" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
         <path d="M677.75,12a27.2,27.2,0,0,0-7.69,4.28L671.61,12l-1.55-4.28A27.18,27.18,0,0,0,677.75,12Z" fill="#8c8c8c"/>
       </g>
     </g>
     <g opacity="0.2">
-      <path d="M618,120h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M618,120h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M618,84h9c5,0,9-5.4,9-12V24a12,12,0,0,1,12-12H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M618,84h9c5,0,9-4.5,9-10V22a10,10,0,0,1,10-10H666" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g>
@@ -149,152 +188,46 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(575.25 173.25)" xlink:href="#rnn-a"/>
   </g>
-  <g opacity="0.9">
-    <g opacity="0.1">
-      <ellipse cx="204.95" cy="122" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(191.66 125.52)" font-size="12" font-family="Open Sans">Op 1</text>
-    </g>
-    <g>
-      <ellipse cx="203.95" cy="120" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(190.66 123.52)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="204.95" cy="86" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(191.66 89.52)" font-size="12" font-family="Open Sans">Op 2</text>
-    </g>
-    <g>
-      <ellipse cx="203.95" cy="84" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(190.66 87.52)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
-    </g>
-  </g>
-  <g opacity="0.4">
-    <g opacity="0.1">
-      <ellipse cx="205" cy="50" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(191.71 53.52)" font-size="12" font-family="Open Sans">Op 3</text>
-    </g>
-    <g>
-      <ellipse cx="204" cy="48" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(190.71 51.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="337" cy="122" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(323.71 125.52)" font-size="12" font-family="Open Sans">Op 1</text>
-    </g>
-    <g>
-      <ellipse cx="336" cy="120" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(322.71 123.52)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
-    </g>
-  </g>
-  <g opacity="0.9">
-    <g opacity="0.1">
-      <ellipse cx="337" cy="86" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(323.71 89.52)" font-size="12" font-family="Open Sans">Op 2</text>
-    </g>
-    <g>
-      <ellipse cx="336" cy="84" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(322.71 87.52)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="337.05" cy="50" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(323.76 53.52)" font-size="12" font-family="Open Sans">Op 3</text>
-    </g>
-    <g>
-      <ellipse cx="336.05" cy="48" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(322.76 51.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
-    </g>
-  </g>
-  <g opacity="0.9">
-    <g opacity="0.1">
-      <ellipse cx="468.95" cy="122" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(455.66 125.52)" font-size="12" font-family="Open Sans">Op 1</text>
-    </g>
-    <g>
-      <ellipse cx="467.95" cy="120" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(454.66 123.52)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="468.95" cy="86" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(455.66 89.52)" font-size="12" font-family="Open Sans">Op 2</text>
-    </g>
-    <g>
-      <ellipse cx="467.95" cy="84" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(454.66 87.52)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="469" cy="50" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(455.71 53.52)" font-size="12" font-family="Open Sans">Op 3</text>
-    </g>
-    <g>
-      <ellipse cx="468" cy="48" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(454.71 51.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="600.95" cy="122" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(587.66 125.52)" font-size="12" font-family="Open Sans">Op 1</text>
-    </g>
-    <g>
-      <ellipse cx="599.95" cy="120" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(586.66 123.52)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <g opacity="0.1">
-      <ellipse cx="600.95" cy="86" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(587.66 89.52)" font-size="12" font-family="Open Sans">Op 2</text>
-    </g>
-    <g>
-      <ellipse cx="599.95" cy="84" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(586.66 87.52)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
-    </g>
-  </g>
-  <g opacity="0.9">
-    <g opacity="0.1">
-      <ellipse cx="601" cy="50" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(587.71 53.52)" font-size="12" font-family="Open Sans">Op 3</text>
-    </g>
-    <g>
-      <ellipse cx="600" cy="48" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(586.71 51.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
-    </g>
-  </g>
+  <use width="50.5" height="27.5" transform="translate(180 108)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(180 72)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(180 36)" xlink:href="#op-3"/>
+  <use width="50.5" height="27.5" transform="translate(312 108)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(312 72)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(312 36)" xlink:href="#op-3"/>
+  <use width="50.5" height="27.5" transform="translate(444 108)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(444 72)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(444 36)" xlink:href="#op-3"/>
+  <use width="50.5" height="27.5" transform="translate(576 108)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(576 72)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(576 36)" xlink:href="#op-3"/>
   <g>
-    <line x1="228" y1="196.5" x2="306.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M312,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,312,196.5Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="204" y1="172" x2="204" y2="141.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M204,136a27.2,27.2,0,0,0,4.28,7.69L204,142.14l-4.28,1.55A27.17,27.17,0,0,0,204,136Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="336" y1="172" x2="336" y2="141.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M336,136a27.2,27.2,0,0,0,4.28,7.69L336,142.14l-4.28,1.55A27.17,27.17,0,0,0,336,136Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="468" y1="172" x2="468" y2="141.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M468,136a27.2,27.2,0,0,0,4.28,7.69L468,142.14l-4.28,1.55A27.17,27.17,0,0,0,468,136Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="600" y1="172" x2="600" y2="141.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M600,136a27.2,27.2,0,0,0,4.28,7.69L600,142.14l-4.28,1.55A27.17,27.17,0,0,0,600,136Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="360" y1="196.5" x2="438.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M444,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,444,196.5Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="492" y1="196.5" x2="570.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M576,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,576,196.5Z" fill="#8c8c8c"/>
+    <g>
+      <line x1="228" y1="196.5" x2="300.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M306,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,306,196.5Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="204" y1="172" x2="204" y2="143.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M204,138a27.2,27.2,0,0,0,4.28,7.69L204,144.14l-4.28,1.55A27.17,27.17,0,0,0,204,138Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="336" y1="172" x2="336" y2="143.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M336,138a27.2,27.2,0,0,0,4.28,7.69L336,144.14l-4.28,1.55A27.17,27.17,0,0,0,336,138Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="468" y1="172" x2="468" y2="143.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M468,138a27.2,27.2,0,0,0,4.28,7.69L468,144.14l-4.28,1.55A27.17,27.17,0,0,0,468,138Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="600" y1="172" x2="600" y2="143.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M600,138a27.2,27.2,0,0,0,4.28,7.69L600,144.14l-4.28,1.55A27.17,27.17,0,0,0,600,138Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="360" y1="196.5" x2="432.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M438,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,438,196.5Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="492" y1="196.5" x2="564.57" y2="196.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M570,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,570,196.5Z" fill="#8c8c8c"/>
+    </g>
   </g>
 </svg>

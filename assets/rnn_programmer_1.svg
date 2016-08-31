@@ -1,68 +1,73 @@
-<svg id="nodes" xmlns="http://www.w3.org/2000/svg" width="984" height="66" viewBox="0 0 984 66">
+<svg id="nodes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="66" viewBox="0 0 984 66">
+  <defs>
+    <symbol id="op-1" data-name="op-1" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.36 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
+    </symbol>
+    <symbol id="op-3" data-name="op-3" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.41 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
+    </symbol>
+    <symbol id="op-2" data-name="op-2" viewBox="0 0 50.5 27.5">
+      <g>
+        <g opacity="0.1">
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12"/>
+          <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text transform="translate(11.36 16.27)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
+    </symbol>
+  </defs>
   <title>rnn</title>
+  <use width="50.5" height="27.5" transform="translate(180 30)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(312 30)" xlink:href="#op-3"/>
+  <use width="50.5" height="27.5" transform="translate(444 30)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(576 30)" xlink:href="#op-3"/>
+  <path d="M440.77,36a27.2,27.2,0,0,0-8.77.77l3.16-3.28L435.49,29A27.18,27.18,0,0,0,440.77,36Z" fill="#8c8c8c"/>
   <g>
-    <g opacity="0.1">
-      <ellipse cx="204.95" cy="44" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(191.66 47.52)" font-size="12" font-family="Open Sans">Op 1</text>
+    <g>
+      <line x1="228" y1="42" x2="300.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M306,42a27.2,27.2,0,0,0-7.69,4.28L299.86,42l-1.55-4.28A27.18,27.18,0,0,0,306,42Z" fill="#8c8c8c"/>
     </g>
     <g>
-      <ellipse cx="203.95" cy="42" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(190.66 45.52)" font-size="12" fill="#666" font-family="Open Sans">Op 1</text>
-    </g>
-  </g>
-  <g>
-    <g opacity="0.1">
-      <ellipse cx="337" cy="44" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(323.71 47.52)" font-size="12" font-family="Open Sans">Op 3</text>
+      <line x1="360" y1="42" x2="432.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M438,42a27.2,27.2,0,0,0-7.69,4.28L431.86,42l-1.55-4.28A27.18,27.18,0,0,0,438,42Z" fill="#8c8c8c"/>
     </g>
     <g>
-      <ellipse cx="336" cy="42" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(322.71 45.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
-    </g>
-  </g>
-  <g>
-    <g opacity="0.1">
-      <ellipse cx="468.95" cy="44" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(455.66 47.52)" font-size="12" font-family="Open Sans">Op 2</text>
+      <line x1="492" y1="42" x2="564.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M570,42a27.2,27.2,0,0,0-7.69,4.28L563.86,42l-1.55-4.28A27.18,27.18,0,0,0,570,42Z" fill="#8c8c8c"/>
     </g>
     <g>
-      <ellipse cx="467.95" cy="42" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(454.66 45.52)" font-size="12" fill="#666" font-family="Open Sans">Op 2</text>
-    </g>
-  </g>
-  <g>
-    <g opacity="0.1">
-      <ellipse cx="601" cy="44" rx="24" ry="12" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(587.71 47.52)" font-size="12" font-family="Open Sans">Op 3</text>
+      <line x1="624" y1="42" x2="696.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M702,42a27.2,27.2,0,0,0-7.69,4.28L695.86,42l-1.55-4.28A27.18,27.18,0,0,0,702,42Z" fill="#8c8c8c"/>
     </g>
     <g>
-      <ellipse cx="600" cy="42" rx="24" ry="12" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <text transform="translate(586.71 45.52)" font-size="12" fill="#666" font-family="Open Sans">Op 3</text>
+      <path d="M360,42s48-30,108-30c47.67,0,84.43,15.41,97.16,21.53" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M570,36a27.21,27.21,0,0,0-8.79.38l3.3-3.13L565,28.73A27.18,27.18,0,0,0,570,36Z" fill="#8c8c8c"/>
     </g>
   </g>
-  <g>
-    <line x1="228" y1="42" x2="306.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M312,42a27.2,27.2,0,0,0-7.69,4.28L305.86,42l-1.55-4.28A27.18,27.18,0,0,0,312,42Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="360" y1="42" x2="438.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M444,42a27.2,27.2,0,0,0-7.69,4.28L437.86,42l-1.55-4.28A27.18,27.18,0,0,0,444,42Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="492" y1="42" x2="570.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M576,42a27.2,27.2,0,0,0-7.69,4.28L569.86,42l-1.55-4.28A27.18,27.18,0,0,0,576,42Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="624" y1="42" x2="702.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M708,42a27.2,27.2,0,0,0-7.69,4.28L701.86,42l-1.55-4.28A27.18,27.18,0,0,0,708,42Z" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <path d="M360,42s48-30,108-30c48.26,0,89.28,15.79,103.06,21.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M576,36a27.2,27.2,0,0,0-8.77.77l3.16-3.28L570.72,29A27.18,27.18,0,0,0,576,36Z" fill="#8c8c8c"/>
-  </g>
-  <path d="M445.33,36a27.2,27.2,0,0,0-8.77.77l3.16-3.28L440.05,29A27.18,27.18,0,0,0,445.33,36Z" fill="#8c8c8c"/>
-  <g>
-    <path d="M401.78,19.84a258.27,258.27,0,0,0-64.45-8.59c-59.53,0-107.92,29.81-108.4,30.11l0.79,1.27c0.48-.3,48.5-29.89,107.6-29.89a255.54,255.54,0,0,1,61.76,7.95Z" fill="#8c8c8c"/>
-    <path d="M414.5,23.46l-2.5.8a262.66,262.66,0,0,1,28.1,10.18l0.6-1.38A262,262,0,0,0,414.5,23.46Z" fill="#8c8c8c"/>
-  </g>
+  <path d="M401.78,19.84a258.27,258.27,0,0,0-64.45-8.59c-59.53,0-107.92,29.81-108.4,30.11l0.79,1.27c0.48-.3,48.5-29.89,107.6-29.89a255.54,255.54,0,0,1,61.76,7.95Z" fill="#8c8c8c"/>
+  <path d="M410.5,24l-2.5.8c12.49,3.77,22.21,7.09,28.1,9.64l0.6-1.38C431.1,30.65,422.07,27.58,410.5,24Z" fill="#8c8c8c"/>
 </svg>

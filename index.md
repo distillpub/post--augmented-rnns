@@ -106,7 +106,7 @@ We'd like attention to be differentiable, so that we can learn where to focus. T
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
-The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how welll it matches the query. The scores are fed into a softmax to create the attention distribution.
+The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how well it matches the query. The scores are fed into a softmax to create the attention distribution.
 
 <figure class="w-page">
   {{> assets/rnn_attentional_02.svg}}

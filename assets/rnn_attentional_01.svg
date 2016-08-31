@@ -21,50 +21,58 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="479" y="12" width="359" height="72" rx="10" ry="10" opacity="0.04"/>
+    <rect x="479.56" y="12" width="360.44" height="72" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="479.56" y="12" width="360.44" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
-    <rect x="168" y="168" width="359" height="72" rx="10" ry="10" opacity="0.04"/>
+    <rect x="167.56" y="168" width="360.44" height="72" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="167.56" y="168" width="360.44" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <g>
-    <line x1="611" y1="108.81" x2="611" y2="72.79" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="615.29 76.26 614.52 76.98 611 73.19 607.48 76.98 606.71 76.26 611 71.65 615.29 76.26" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="515" y1="108.81" x2="515" y2="72.79" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="519.29 76.26 518.52 76.98 515 73.19 511.48 76.98 510.71 76.26 515 71.65 519.29 76.26" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="537.92" y1="48.73" x2="584.86" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="581.38 53.02 580.67 52.26 584.46 48.73 580.67 45.2 581.38 44.44 586 48.73 581.38 53.02" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="225.92" y1="204" x2="272.86" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="269.38 208.29 268.67 207.53 272.46 204 268.67 200.47 269.38 199.71 274 204 269.38 208.29" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="321.92" y1="204" x2="368.86" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="365.38 208.29 364.67 207.53 368.46 204 364.67 200.47 365.38 199.71 370 204 365.38 208.29" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="417.92" y1="204" x2="464.86" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="461.38 208.29 460.67 207.53 464.46 204 460.67 200.47 461.38 199.71 466 204 461.38 208.29" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="634.92" y1="48.73" x2="681.86" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="678.38 53.02 677.67 52.26 681.46 48.73 677.67 45.2 678.38 44.44 683 48.73 678.38 53.02" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="729.92" y1="48.73" x2="776.86" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="773.38 53.02 772.67 52.26 776.46 48.73 772.67 45.2 773.38 44.44 778 48.73 773.38 53.02" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="707" y1="108.81" x2="707" y2="72.79" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="711.29 76.26 710.52 76.98 707 73.19 703.48 76.98 702.71 76.26 707 71.65 711.29 76.26" fill="#8c8c8c"/>
-  </g>
-  <g>
-    <line x1="803" y1="108.81" x2="803" y2="72.79" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <polygon points="807.29 76.26 806.52 76.98 803 73.19 799.48 76.98 798.71 76.26 803 71.65 807.29 76.26" fill="#8c8c8c"/>
+    <g>
+      <line x1="611" y1="108.81" x2="611" y2="83.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M611,78a27.2,27.2,0,0,0,4.28,7.69L611,84.14l-4.28,1.55A27.18,27.18,0,0,0,611,78Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="515" y1="108.81" x2="515" y2="83.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M515,78a27.2,27.2,0,0,0,4.28,7.69L515,84.14l-4.28,1.55A27.18,27.18,0,0,0,515,78Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="537.92" y1="48.73" x2="576.57" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M582,48.73A27.2,27.2,0,0,0,574.31,53l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,582,48.73Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="225.92" y1="204" x2="264.57" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M270,204a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,270,204Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="321.92" y1="204" x2="360.57" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M366,204a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,366,204Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="417.92" y1="204" x2="456.57" y2="204" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M462,204a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,462,204Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="634.92" y1="48.73" x2="672.57" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M678,48.73A27.2,27.2,0,0,0,670.31,53l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,678,48.73Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="729.92" y1="48.73" x2="768.57" y2="48.73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M774,48.73A27.2,27.2,0,0,0,766.31,53l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,774,48.73Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="707" y1="108.81" x2="707" y2="83.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M707,78a27.2,27.2,0,0,0,4.28,7.69L707,84.14l-4.28,1.55A27.18,27.18,0,0,0,707,78Z" fill="#8c8c8c"/>
+    </g>
+    <g>
+      <line x1="803" y1="108.81" x2="803" y2="83.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M803,78a27.2,27.2,0,0,0,4.28,7.69L803,84.14l-4.28,1.55A27.18,27.18,0,0,0,803,78Z" fill="#8c8c8c"/>
+    </g>
   </g>
   <g>
     <g opacity="0.2">
@@ -331,7 +339,7 @@
     </g>
     <use width="24" height="24" transform="translate(791 95.75)" xlink:href="#op-sum"/>
   </g>
-  <text transform="translate(168 15.12)" font-size="12" fill="#666" font-family="Open Sans">Network B focuses on <tspan x="0" y="18">different information from </tspan><tspan x="0" y="36">network A at every step.</tspan></text>
+  <text transform="translate(278 35.12)" font-size="12" fill="#666" font-family="Open Sans">Network B focuses on <tspan x="0" y="18">different information from </tspan><tspan x="0" y="36">network A at every step.</tspan></text>
   <g>
     <g opacity="0.1">
       <circle cx="612.25" cy="109.75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
