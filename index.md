@@ -83,7 +83,7 @@ The addressing process starts with the generating the content-based focus. First
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a sequence in memory, and then loop over it, repeating it back. As they do this, we can watch where they read and write, to better understand what they're doing:
 
 <figure class="side-saddle-right external">
-  <figcaption style="top: 75px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
+  <figcaption style="bottom: 0px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
   <img src="assets/NTM-Copy-ReadWrite.svg" style="width:70%; margin-left:17%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
@@ -115,14 +115,14 @@ The attention distribution is usually generated with content-based attention. Th
 Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
 <figure class="side-saddle-right external">
-  <figcaption style="top: 170px;">Figure from<br> [Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf)</figcaption>
+  <figcaption style="bottom: 0px;">Figure from<br> [Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf)</figcaption>
   <img src="assets/old-rnn-attention-vis2.png" style="width:50%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
 This kind of attention between RNNs can also be used in voice recognition. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
 
 <figure class="side-saddle-right external">
-<figcaption style="top: 150px;">Figure from<br> [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
+<figcaption style="bottom: 0px;">Figure from<br> [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
 <img src="assets/old-rnn-attention-vis1.png" style="width:60%; margin-left:18%; padding-top:20px; padding-bottom:17px;"></img>
 </figure>
 
@@ -135,8 +135,8 @@ This kind of attention between RNNs can also be used in voice recognition. This 
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
 <figure class="side-saddle-right external">
-  <figcaption style="top: 60px;">Figure from<br> [Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)</figcaption>
-  <img src="assets/ShowAttendTell.png" style="width:90%; margin-left:5%; padding-top:20px; padding-bottom:17px;">
+  <figcaption style="bottom: 0px;">Figure from<br> [Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)</figcaption>
+  <img src="assets/ShowAttendTell.png" style="width:90%; margin-left:5%; padding-top:20px; padding-bottom:0px;">
 </figure>
 
 More broadly, attentional interfaces can be used whenever
