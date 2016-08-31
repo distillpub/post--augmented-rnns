@@ -16,7 +16,7 @@ let memoryData = [
   {x: 0.9, y: 0.9},
   {x: 0.4, y: 0.3}
 ];
-let interpolationData = [0.5];
+let interpolationData = [0.3];
 let shiftData = [0, 0.2, 0.8];
 let previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
 
@@ -146,10 +146,10 @@ svg.select("#interpolate-hover")
     interpolationData = [Math.min(1, (d3.event.x - bbox.left) / bbox.width)];
     redraw()
   })
-  .on("mouseout", function() {
-    interpolationData = [0.5];
-    redraw();
-  });
+  // .on("mouseout", function() {
+  //   interpolationData = [0.3];
+  //   redraw();
+  // });
 
 svg.select("#shift-hover")
   .on("mousemove", function() {
