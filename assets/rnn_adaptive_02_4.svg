@@ -162,13 +162,6 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(575.24 155.25)" xlink:href="#rnn-s"/>
   </g>
-  <g id="_Group_2" data-name="&lt;Group&gt;">
-    <g opacity="0.1">
-      <circle cx="757.75" cy="75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M753.63,75.49V74.18H757V70.75h1.34v3.43h3.41v1.31h-3.41v3.42H757V75.49h-3.41Z"/>
-    </g>
-    <use width="24" height="24" transform="translate(744.75 61)" xlink:href="#op-sum"/>
-  </g>
   <g>
     <g>
       <line x1="762" y1="73" x2="786.57" y2="73" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -178,5 +171,12 @@
       <line x1="652" y1="96" x2="666.57" y2="96.12" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
       <path d="M672,96.16a27.2,27.2,0,0,0-7.73,4.22l1.58-4.27-1.51-4.29A27.18,27.18,0,0,0,672,96.16Z" fill="#8c8c8c"/>
     </g>
+  </g>
+  <g id="_Group_2" data-name="&lt;Group&gt;">
+    <g opacity="0.1">
+      <circle cx="757.75" cy="75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M753.63,75.49V74.18H757V70.75h1.34v3.43h3.41v1.31h-3.41v3.42H757V75.49h-3.41Z"/>
+    </g>
+    <use width="24" height="24" transform="translate(744.75 61)" xlink:href="#op-sum"/>
   </g>
 </svg>

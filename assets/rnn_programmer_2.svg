@@ -82,18 +82,42 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(575.25 149.25)" xlink:href="#rnn-a"/>
   </g>
-  <use width="50.5" height="27.5" transform="translate(180 89.25)" xlink:href="#op-1"/>
-  <use width="50.5" height="27.5" transform="translate(180 53.25)" xlink:href="#op-2"/>
-  <use width="50.5" height="27.5" transform="translate(180 17.25)" xlink:href="#op-3"/>
-  <use width="50.5" height="27.5" transform="translate(312 89.25)" xlink:href="#op-1"/>
-  <use width="50.5" height="27.5" transform="translate(312 53.25)" xlink:href="#op-2"/>
-  <use width="50.5" height="27.5" transform="translate(312 17.25)" xlink:href="#op-3"/>
-  <use width="50.5" height="27.5" transform="translate(444 89.25)" xlink:href="#op-1"/>
-  <use width="50.5" height="27.5" transform="translate(444 53.25)" xlink:href="#op-2"/>
-  <use width="50.5" height="27.5" transform="translate(444 17.25)" xlink:href="#op-3"/>
-  <use width="50.5" height="27.5" transform="translate(576 89.25)" xlink:href="#op-1"/>
-  <use width="50.5" height="27.5" transform="translate(576 53.25)" xlink:href="#op-2"/>
-  <use width="50.5" height="27.5" transform="translate(576 17.25)" xlink:href="#op-3"/>
+  <g opacity="0.9">
+    <use width="50.5" height="27.5" transform="translate(180 90)" xlink:href="#op-1"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(180 54)" xlink:href="#op-2"/>
+  </g>
+  <g opacity="0.4">
+    <use width="50.5" height="27.5" transform="translate(180 18)" xlink:href="#op-3"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(312 90)" xlink:href="#op-1"/>
+  </g>
+  <g opacity="0.9">
+    <use width="50.5" height="27.5" transform="translate(312 54)" xlink:href="#op-2"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(312 18)" xlink:href="#op-3"/>
+  </g>
+  <g opacity="0.9">
+    <use width="50.5" height="27.5" transform="translate(444 90)" xlink:href="#op-1"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(444 54)" xlink:href="#op-2"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(444 18)" xlink:href="#op-3"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(576 90)" xlink:href="#op-1"/>
+  </g>
+  <g opacity="0.2">
+    <use width="50.5" height="27.5" transform="translate(576 54)" xlink:href="#op-2"/>
+  </g>
+  <g opacity="0.9">
+    <use width="50.5" height="27.5" transform="translate(576 18)" xlink:href="#op-3"/>
+  </g>
   <g>
     <g>
       <line x1="204" y1="150" x2="204" y2="125.43" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
