@@ -1,4 +1,4 @@
-<svg id="nodes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="66" viewBox="0 0 984 66">
+<svg id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="66" viewBox="0 0 984 66">
   <defs>
     <symbol id="op-1" data-name="op-1" viewBox="0 0 50.5 27.5">
       <g>
@@ -41,11 +41,6 @@
     </symbol>
   </defs>
   <title>rnn</title>
-  <use width="50.5" height="27.5" transform="translate(180 30)" xlink:href="#op-1"/>
-  <use width="50.5" height="27.5" transform="translate(312 30)" xlink:href="#op-3"/>
-  <use width="50.5" height="27.5" transform="translate(444 30)" xlink:href="#op-2"/>
-  <use width="50.5" height="27.5" transform="translate(576 30)" xlink:href="#op-3"/>
-  <path d="M440.77,36a27.2,27.2,0,0,0-8.77.77l3.16-3.28L435.49,29A27.18,27.18,0,0,0,440.77,36Z" fill="#8c8c8c"/>
   <g>
     <g>
       <line x1="228" y1="42" x2="300.57" y2="42" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -64,10 +59,16 @@
       <path d="M702,42a27.2,27.2,0,0,0-7.69,4.28L695.86,42l-1.55-4.28A27.18,27.18,0,0,0,702,42Z" fill="#8c8c8c"/>
     </g>
     <g>
-      <path d="M360,42s48-30,108-30c47.67,0,84.43,15.41,97.16,21.53" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M570,36a27.21,27.21,0,0,0-8.79.38l3.3-3.13L565,28.73A27.18,27.18,0,0,0,570,36Z" fill="#8c8c8c"/>
+      <path d="M336,42s52-30,117-30c52.7,0,97.43,16,112,21.89" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M570,36a27.2,27.2,0,0,0-8.74,1l3.06-3.37,0.2-4.55A27.17,27.17,0,0,0,570,36Z" fill="#8c8c8c"/>
     </g>
   </g>
-  <path d="M401.78,19.84a258.27,258.27,0,0,0-64.45-8.59c-59.53,0-107.92,29.81-108.4,30.11l0.79,1.27c0.48-.3,48.5-29.89,107.6-29.89a255.54,255.54,0,0,1,61.76,7.95Z" fill="#8c8c8c"/>
-  <path d="M410.5,24l-2.5.8c12.49,3.77,22.21,7.09,28.1,9.64l0.6-1.38C431.1,30.65,422.07,27.58,410.5,24Z" fill="#8c8c8c"/>
+  <g>
+    <path d="M384.48,18.38A298.3,298.3,0,0,0,321,11.25c-64.46,0-116.85,29.8-117.37,30.1l0.75,1.3c0.52-.3,52.59-29.9,116.63-29.9a295.48,295.48,0,0,1,60.43,6.5Z" fill="#8c8c8c"/>
+    <path d="M432.52,29.11l-0.17,3.72a306,306,0,0,0-33.49-11l-2.81.81A306,306,0,0,1,431.8,34.23L429.26,37A27.2,27.2,0,0,1,438,36,27.17,27.17,0,0,1,432.52,29.11Z" fill="#8c8c8c"/>
+  </g>
+  <use width="50.5" height="27.5" transform="translate(180 30)" xlink:href="#op-1"/>
+  <use width="50.5" height="27.5" transform="translate(312 30)" xlink:href="#op-3"/>
+  <use width="50.5" height="27.5" transform="translate(444 30)" xlink:href="#op-2"/>
+  <use width="50.5" height="27.5" transform="translate(576 30)" xlink:href="#op-3"/>
 </svg>
