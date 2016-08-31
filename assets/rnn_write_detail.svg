@@ -1,4 +1,4 @@
-<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="744" viewBox="0 0 984 744">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="744" viewBox="0 0 984 744">
   <defs>
     <symbol id="array-5" data-name="array-5" viewBox="0 0 181 37">
       <rect x="0.5" y="0.5" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
@@ -32,6 +32,24 @@
     </symbol>
   </defs>
   <title>rnn</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect x="822" y="72" width="48" height="48" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.2">
+      <rect x="822" y="72" width="48" height="48" rx="10" ry="10" fill="#ff0"/>
+    </g>
+  </g>
+  <g id="_Group_2" data-name="&lt;Group&gt;">
+    <rect x="822" y="336" width="48" height="48" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.2">
+      <rect x="822" y="336" width="48" height="48" rx="10" ry="10" fill="#ff0"/>
+    </g>
+  </g>
+  <g id="_Group_3" data-name="&lt;Group&gt;">
+    <rect x="822" y="468" width="120" height="48" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.2">
+      <rect x="822" y="468" width="120" height="48" rx="10" ry="10" fill="#ff0"/>
+    </g>
+  </g>
   <g>
     <line x1="815.5" x2="816" y2="741" fill="#fff"/>
     <g>
@@ -266,7 +284,7 @@
     <use width="36" height="36" transform="translate(444 12)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(480 12)" xlink:href="#array-vector"/>
   </g>
-  <text transform="translate(528.38 30)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
+  <text transform="translate(528.38 33)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
   <text transform="translate(527.5 156.77)" font-size="12" fill="#666" font-family="Open Sans">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
   <text transform="translate(827.5 330)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
   <text transform="translate(827.5 462)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
@@ -275,7 +293,6 @@
   <text transform="translate(827.5 66)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
   <text transform="translate(586.11 270)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
   <text transform="translate(359.23 726)" font-size="11" font-family="Open Sans">new attention distribution</text>
-  <text transform="translate(529 418.28)" font-size="12" fill="#666" font-family="Open Sans">Strong values from previous <tspan x="0" y="18">attention show up faintly</tspan></text>
   <circle id="query-hover" cx="845.37" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>
   <circle id="interpolate-hover" cx="845.37" cy="357.04" r="41.37" fill="#fff" fill-opacity="0"/>
   <rect id="shift-hover" x="798" y="450" width="168" height="84" fill="#fff" fill-opacity="0"/>

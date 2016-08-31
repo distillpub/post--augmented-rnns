@@ -80,7 +80,7 @@
         .style("opacity", (d) => d + 0.05);
 
     path.data(data)
-        .style("stroke-width", (d) => d * 5 + 0.2);
+        .style("stroke-opacity", (d) => d + 0.1);
 
     let resultX = d3.sum(memoryData, (d, i) => d.x * data[i]) / d3.sum(data);
     let resultY = d3.sum(memoryData, (d, i) => d.y * data[i]) / d3.sum(data);
@@ -183,7 +183,7 @@
         .style("opacity", (d) => d + 0.05);
 
     writePath.data(data)
-        .style("stroke-width", (d) => d * 5 + 0.2);
+        .style("stroke-opacity", (d) => d + 0.1);
   }
 
   writeHtml.on("mousemove", function() {

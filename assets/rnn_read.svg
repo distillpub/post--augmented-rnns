@@ -1,4 +1,4 @@
-<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="240" viewBox="0 0 984 240">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="240" viewBox="0 0 984 240">
   <defs>
     <symbol id="array-7" data-name="array-7" viewBox="0 0 253 37">
       <rect x="0.5" y="0.5" width="252" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
@@ -25,19 +25,26 @@
     </symbol>
   </defs>
   <title>rnn</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect x="162" y="6" width="264" height="48" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.2">
+      <rect x="162" y="6" width="264" height="48" rx="10" ry="10" fill="#ff0"/>
+    </g>
+  </g>
   <g id="paths">
-    <path id="edge0" d="M186,48v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge1" d="M222,48v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge2" d="M258.07,48v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge3" d="M294,48V192" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge4" d="M330,48v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge5" d="M366,48v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge6" d="M402,48v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge0" d="M186,48v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge1" d="M222,48v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge2" d="M258.07,48v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge3" d="M294,48V192" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge4" d="M330,48v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge5" d="M366,48v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge6" d="M402,48v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 12)" xlink:href="#array-7"/>
   <use width="253" height="37" transform="translate(168 71)" xlink:href="#array-7"/>
   <use width="37" height="37" transform="translate(276 191)" xlink:href="#array-1"/>
   <text transform="translate(432 36)" font-size="12" fill="#666" font-family="Open Sans">attention</text>
+  <text transform="translate(57.03 24)" font-size="12" fill="#aaa" font-family="Open Sans" font-style="italic">Hover to explore<tspan x="-14.23" y="18">different attentions</tspan></text>
   <text transform="translate(432 96)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
   <text transform="translate(324 216)" font-size="12" fill="#666" font-family="Open Sans">read result</text>
   <use id="read-result" width="36" height="36" transform="translate(276 192)" xlink:href="#array-vector"/>

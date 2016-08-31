@@ -48,18 +48,30 @@
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <rect x="169" y="30" width="143" height="54" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="169" y="30" width="143" height="54" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <use width="145" height="37" transform="translate(180 41) scale(0.83)" xlink:href="#array-4"/>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <rect x="361" y="30" width="143" height="54" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="361" y="30" width="143" height="54" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <use width="145" height="37" transform="translate(372 41) scale(0.83)" xlink:href="#array-4"/>
   <g id="_Group_4" data-name="&lt;Group&gt;">
     <rect x="553" y="30" width="143" height="54" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="553" y="30" width="143" height="54" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <use width="145" height="37" transform="translate(564 41) scale(0.83)" xlink:href="#array-4"/>
   <g id="_Group_5" data-name="&lt;Group&gt;">
     <rect x="745" y="30" width="143" height="54" rx="10" ry="10" opacity="0.04"/>
+    <g opacity="0.1">
+      <rect x="745" y="30" width="143" height="54" rx="10" ry="10" fill="none" stroke="#231f20"/>
+    </g>
   </g>
   <use width="145" height="37" transform="translate(756 41) scale(0.83)" xlink:href="#array-4"/>
   <g>
@@ -220,7 +232,7 @@
     </g>
   </g>
   <text transform="translate(169 12)" font-size="12" fill="#666" font-family="Open Sans">Memory is an array of vectors</text>
-  <text transform="translate(169 124.28)" font-size="12" fill="#666" font-family="Open Sans">Network A writes to <tspan x="0" y="18">and reads from the </tspan><tspan x="0" y="36">memory each step</tspan></text>
+  <text transform="translate(168 118.28)" font-size="12" fill="#666" font-family="Open Sans">Network A <tspan x="0" y="18">writes to and reads </tspan><tspan x="0" y="36">from the memory </tspan><tspan x="0" y="54">each step</tspan></text>
   <g>
     <line x1="265" y1="240" x2="398.32" y2="240" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     <path d="M403.75,240a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,403.75,240Z" fill="#8c8c8c"/>
