@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="252" viewBox="0 0 984 252">
   <defs>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-b" data-name="rnn-b" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -254,7 +254,9 @@
   </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="492" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="492" y="26" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="492" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="492" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <rect x="492" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M511.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,516.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -262,7 +264,9 @@
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="588" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="588" y="26" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="588" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="588" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <rect x="588" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M607.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,612.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -270,7 +274,9 @@
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="684" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="684" y="26" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="684" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="684" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <rect x="684" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M703.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,708.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -278,7 +284,9 @@
   </g>
   <g id="_Group_4" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="780" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="780" y="26" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="780" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="780" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <rect x="780" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M799.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,804.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -286,28 +294,32 @@
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="180" y="182" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="180" y="182" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="180" y="182" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M209,213l-1.93-4.94h-6.23L198.94,213h-1.83l6.14-15.61h1.52L210.89,213H209Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(178.25 179.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="276" y="182" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="276" y="182" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="276" y="182" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M305,213l-1.93-4.94h-6.23L294.94,213h-1.83l6.14-15.61h1.52L306.89,213H305Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(274.25 179.25)" xlink:href="#rnn-a"/>
   </g>
   <g id="_Group_5" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="372" y="182" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="372" y="182" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="372" y="182" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M401,213l-1.93-4.94h-6.23L390.94,213h-1.83l6.14-15.61h1.52L402.89,213H401Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(370.25 179.25)" xlink:href="#rnn-a"/>
   </g>
   <g id="_Group_6" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="468" y="182" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="468" y="182" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="468" y="182" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M497,213l-1.93-4.94h-6.23L486.94,213h-1.83l6.14-15.61h1.52L498.89,213H497Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(466.25 179.25)" xlink:href="#rnn-a"/>
@@ -333,12 +345,19 @@
     </g>
     <use width="24" height="24" transform="translate(791 95.75)" xlink:href="#op-sum"/>
   </g>
-  <text transform="translate(278 35.12)" font-size="12" fill="#666" font-family="Open Sans">Network B focuses on <tspan x="0" y="18">different information from </tspan><tspan x="0" y="36">network A at every step.</tspan></text>
+  <text transform="translate(167 35.12)" font-size="12" fill="#666" font-family="Open Sans">Network B focuses on different <tspan x="0" y="18">information from network A at </tspan><tspan x="0" y="36">every step.</tspan></text>
   <g>
     <g opacity="0.1">
       <circle cx="612.25" cy="109.75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
       <path d="M608.13,110.25v-1.31h3.41V105.5h1.34v3.43h3.41v1.31h-3.41v3.42h-1.34v-3.42h-3.41Z"/>
     </g>
     <use width="24" height="24" transform="translate(599.25 95.75)" xlink:href="#op-sum"/>
+  </g>
+  <g opacity="0.4">
+    <g>
+      <line x1="287" y1="135" x2="287" y2="134" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line x1="287" y1="131.97" x2="287" y2="68.02" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2.03 2.03"/>
+      <line x1="287" y1="67" x2="287" y2="66" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
   </g>
 </svg>

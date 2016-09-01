@@ -12,7 +12,7 @@
       <path d="M9.16,15.28l-1-1,2.56-2.56L8.16,9.16l1-1,2.58,2.58L14.3,8.17l1,1-2.56,2.56,2.57,2.57-1,1-2.57-2.57Z" fill="#666"/>
     </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-s" data-name="rnn-s" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>

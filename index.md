@@ -48,6 +48,8 @@ As this happened, we’ve seen a growing number of attempts to augment RNNs with
 
 Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together. My guess is that these "augmented RNNs" will radically extend what deep learning is capable of in the coming years.
 
+---
+
 ### Neural Turing Machines
 
 Neural Turing Machines ([Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:
@@ -93,6 +95,8 @@ They can also learn to mimic a lookup table, or even learn to sort numbers (alth
 Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015](http://arxiv.org/pdf/1511.08228v3.pdf)) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016](http://arxiv.org/pdf/1505.00521.pdf) train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]( http://arxiv.org/pdf/1511.06392.pdf)) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015](http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf); [Joulin & Mikolov, 2015](https://arxiv.org/pdf/1503.01007v4.pdf)). And memory networks ([Weston *et al.*, 2014](http://arxiv.org/abs/1410.3916); [Kumar *et al.*, 2015](http://arxiv.org/abs/1506.07285)) are another approach to attacking similar problems.
 
 *(TODO: make above more readable)*
+
+---
 
 ### Attentional Interfaces
 
@@ -144,6 +148,8 @@ More broadly, attentional interfaces can be used whenever
 
 ... **TODO**
 
+---
+
 ### Adaptive Computation Time
 
 Standard RNNs do the same amount of computation each time step. This seems unintuitive -- surely, one should think more when things are hard? -- and limits RNNs to doing $O(n)$ operations. Adaptive Computation Time ([Graves, 2016](https://arxiv.org/pdf/1603.08983v4.pdf)), or ACT, is a way for RNNs to do variable amounts of computation each step.
@@ -186,6 +192,8 @@ When we stop, might have some left over halting budget because we stop when it g
   {{> assets/rnn_adaptive_02_4.svg}}
 </figure>
 
+---
+
 ### Neural Programmer
 
 Neural nets are excellent at many tasks, but they also struggle to do some basic things like arithmetic, which are trivial in normal approaches to computing. It would be really nice to have a way to fuse neural nets with normal programming, and get the best of both worlds.
@@ -222,6 +230,7 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 * **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (discussed above). For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. The exciting thing about this is that, while it's being used in a very limited way, it shows that pointer network-style attention can be used enable a kind of variable.
 
+---
 
 ### Conclusion
 

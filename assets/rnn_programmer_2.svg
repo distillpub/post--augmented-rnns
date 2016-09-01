@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="222" viewBox="0 0 984 222">
   <defs>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -68,28 +68,32 @@
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="181" y="152" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="181" y="152" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="181" y="152" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M210,183l-1.93-4.94h-6.23L199.94,183h-1.83l6.14-15.61h1.52L211.89,183H210Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(179.25 149.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="313" y="152" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="313" y="152" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="313" y="152" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M342,183l-1.93-4.94h-6.23L331.94,183h-1.83l6.14-15.61h1.52L343.89,183H342Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(311.25 149.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="445" y="152" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="445" y="152" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="445" y="152" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M474,183l-1.93-4.94h-6.23L463.94,183h-1.83l6.14-15.61h1.52L475.89,183H474Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(443.25 149.25)" xlink:href="#rnn-a"/>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="577" y="152" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
+      <rect x="577" y="152" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="577" y="152" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M606,183l-1.93-4.94h-6.23L595.94,183h-1.83l6.14-15.61h1.52L607.89,183H606Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
     <use width="49.5" height="49.5" transform="translate(575.25 149.25)" xlink:href="#rnn-a"/>
