@@ -366,14 +366,16 @@ pre code {
   line-height: 18px;
 }
 
-.post figure.external {
+.post figure.external img {
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  box-sizing: border-box;
 }
 
-.post figure. figcaption {
-
+.post figure figcaption a {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /*.post figure figcaption::before {
