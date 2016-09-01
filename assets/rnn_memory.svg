@@ -1,14 +1,12 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="330" viewBox="0 0 984 330">
   <defs>
     <symbol id="array-small" data-name="array-small" viewBox="0 0 181.58 31.16">
-      <g>
-        <rect x="0.5" y="0.5" width="180.58" height="30.16" rx="6" ry="6" fill="#d8c2f2" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <line x1="30.45" y1="30.66" x2="30.45" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <line x1="60.61" y1="30.66" x2="60.61" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <line x1="90.78" y1="30.66" x2="90.78" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <line x1="120.94" y1="30.66" x2="120.94" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <line x1="151.08" y1="30.66" x2="151.08" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      </g>
+      <rect x="0.5" y="0.5" width="180.58" height="30.16" rx="6" ry="6" fill="#fff" fill-opacity="0.4" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="30.45" y1="30.66" x2="30.45" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="60.61" y1="30.66" x2="60.61" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="90.78" y1="30.66" x2="90.78" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="120.94" y1="30.66" x2="120.94" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="151.08" y1="30.66" x2="151.08" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
       <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
@@ -20,7 +18,7 @@
     <symbol id="op-read" data-name="op-read" viewBox="0 0 49.54 25.5">
       <g id="_Group_4" data-name="&lt;Group&gt;">
         <g>
-          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#d8c2f2"/>
+          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#fff"/>
           <path d="M49.54,13.5a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V12A12,12,0,0,1,12,0H37.54a12,12,0,0,1,12,12v1.5ZM1.43,12.75c0,6.19,5.4,11.25,12,11.25H36.12c6.6,0,12-5.06,12-11.25S42.72,1.5,36.12,1.5H13.43C6.83,1.5,1.43,6.56,1.43,12.75Z" fill="#666"/>
         </g>
       </g>
@@ -34,7 +32,7 @@
     <symbol id="op-write" data-name="op-write" viewBox="0 0 49.54 25.5">
       <g id="_Group_6" data-name="&lt;Group&gt;">
         <g>
-          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#d8c2f2"/>
+          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#fff"/>
           <path d="M49.54,13.5a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V12A12,12,0,0,1,12,0H37.54a12,12,0,0,1,12,12v1.5ZM1.43,12.75c0,6.19,5.4,11.25,12,11.25H36.12c6.6,0,12-5.06,12-11.25S42.72,1.5,36.12,1.5H13.43C6.83,1.5,1.43,6.56,1.43,12.75Z" fill="#666"/>
         </g>
       </g>
@@ -228,8 +226,12 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(179.89 215.25)" xlink:href="#rnn-a"/>
   </g>
-  <text transform="translate(115 36)" font-size="12" fill="#666" font-family="Open Sans">Memory is an array of vectors</text>
-  <text transform="translate(114 118.28)" font-size="12" fill="#666" font-family="Open Sans">Network A <tspan x="0" y="18">writes and reads </tspan><tspan x="0" y="36">from this memory </tspan><tspan x="0" y="54">each step</tspan></text>
+  <g opacity="0.6">
+    <text transform="translate(115 33)" font-size="12" font-family="Open Sans">Memory is an array of vectors</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(114 118.28)" font-size="12" font-family="Open Sans">Network A <tspan x="0" y="18">writes and reads </tspan><tspan x="0" y="36">from this memory </tspan><tspan x="0" y="54">each step</tspan></text>
+  </g>
   <g>
     <line x1="228.89" y1="240" x2="362.21" y2="240" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     <path d="M367.64,240a27.2,27.2,0,0,0-7.69,4.28L361.5,240l-1.55-4.28A27.18,27.18,0,0,0,367.64,240Z" fill="#666"/>
@@ -285,7 +287,7 @@
   <use width="36" height="36" transform="translate(114 47.96) scale(0.83)" xlink:href="#array-vector"/>
   <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(144.04 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(174.08 48.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(204.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-10" data-name="array-vector" width="36" height="36" transform="translate(204.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 321.02, 42)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(336.04 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(366.08 48.22) scale(0.83)" xlink:href="#array-vector"/>
@@ -301,7 +303,7 @@
   <use width="36" height="36" transform="translate(234 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(426 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(456 48.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use id="array-vector-42" data-name="array-vector" width="36" height="36" transform="translate(264 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-43" data-name="array-vector" width="36" height="36" transform="translate(264 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(618 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(648 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(810 48.22) scale(0.83)" xlink:href="#array-vector"/>

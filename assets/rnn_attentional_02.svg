@@ -103,7 +103,9 @@
     <use width="49.5" height="49.5" transform="translate(468.25 365.25)" xlink:href="#rnn-a"/>
   </g>
   <text transform="translate(168 25.12)" font-size="12" fill="#666" font-family="Open Sans">The attending RNN generates <tspan x="0" y="18">a query describing what it </tspan><tspan x="0" y="36">wants to focus on</tspan></text>
-  <text transform="translate(540 223.12)" font-size="12" fill="#666" font-family="Open Sans">Each item is dot producted with <tspan x="0" y="18">the query to produce a score, </tspan><tspan x="0" y="36">describing how well it matches </tspan><tspan x="0" y="54">the query. The scores are fed </tspan><tspan x="0" y="72">into a softmax to create the </tspan><tspan x="0" y="90">attention distribution.</tspan></text>
+  <g opacity="0.6">
+    <text transform="translate(540 223.12)" font-size="12" font-family="Open Sans">Each item is dot producted with <tspan x="0" y="18">the query to produce a score, </tspan><tspan x="0" y="36">describing how well it matches </tspan><tspan x="0" y="54">the query. The scores are fed </tspan><tspan x="0" y="72">into a softmax to create the </tspan><tspan x="0" y="90">attention distribution.</tspan></text>
+  </g>
   <path d="M201,330H155a10,10,0,0,1-10-10V118a10,10,0,0,1,10-10H555a10,10,0,0,0,10-10V58a10,10,0,0,0-10-10H541" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
     <g>

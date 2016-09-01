@@ -262,11 +262,21 @@
     <use width="36" height="36" transform="translate(480 671)" xlink:href="#array-positive-value"/>
   </g>
   <use width="37" height="37" transform="translate(827.5 77)" xlink:href="#array-1"/>
-  <text transform="translate(168 81.12)" font-size="12" fill="#666" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
-  <text transform="translate(169.5 212.12)" font-size="12" fill="#666" font-family="Open Sans">The scores are then <tspan x="0" y="18">converted into a </tspan><tspan x="0" y="36">distribution using </tspan><tspan x="0" y="54">softmax.</tspan></text>
-  <text transform="translate(169.5 345.12)" font-size="12" fill="#666" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="18">attention from the </tspan><tspan x="0" y="36">previous time step. </tspan></text>
-  <text transform="translate(169.5 477.12)" font-size="12" fill="#666" font-family="Open Sans">We convolve the <tspan x="0" y="18">attention with a shift </tspan><tspan x="0" y="36">filter — this allows the </tspan><tspan x="0" y="54">controller to move its </tspan><tspan x="0" y="72">focus.</tspan></text>
-  <text transform="translate(169.5 610.12)" font-size="12" fill="#666" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="18">attention distribution. </tspan><tspan x="0" y="36">This final attention </tspan><tspan x="0" y="54">distribution is fed to the </tspan><tspan x="0" y="72">read or write operation.</tspan></text>
+  <g opacity="0.6">
+    <text transform="translate(168 81.12)" font-size="12" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(169.5 212.12)" font-size="12" font-family="Open Sans">The scores are then <tspan x="0" y="18">converted into a </tspan><tspan x="0" y="36">distribution using </tspan><tspan x="0" y="54">softmax.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(169.5 345.12)" font-size="12" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="18">attention from the </tspan><tspan x="0" y="36">previous time step. </tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(169.5 477.12)" font-size="12" font-family="Open Sans">We convolve the <tspan x="0" y="18">attention with a shift </tspan><tspan x="0" y="36">filter — this allows the </tspan><tspan x="0" y="54">controller to move its </tspan><tspan x="0" y="72">focus.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(169.5 610.12)" font-size="12" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="18">attention distribution. </tspan><tspan x="0" y="36">This final attention </tspan><tspan x="0" y="54">distribution is fed to the </tspan><tspan x="0" y="72">read or write operation.</tspan></text>
+  </g>
   <g>
     <path d="M397.26,355.49a0.7,0.7,0,0,1,.19-0.52,0.72,0.72,0,0,1,.53-0.18,0.71,0.71,0,0,1,.52.18,0.7,0.7,0,0,1,.19.52,0.68,0.68,0,0,1-.19.51,0.7,0.7,0,0,1-.52.19,0.71,0.71,0,0,1-.53-0.19A0.68,0.68,0,0,1,397.26,355.49ZM398.6,363h-1.26v-5.94h1.26V363Z" fill="#666"/>
     <path d="M405.63,363h-1.27v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47,2.61,2.61,0,0,0-.37,1.58v3H400.4v-5.94h1l0.18,0.78h0.06a1.75,1.75,0,0,1,.76-0.66,2.55,2.55,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V363Z" fill="#666"/>
@@ -328,16 +338,32 @@
     <use width="36" height="36" transform="translate(444 12)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(480 12)" xlink:href="#array-vector"/>
   </g>
-  <text transform="translate(528.38 33)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
-  <text transform="translate(529.5 155.77)" font-size="12" fill="#aaa" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
-  <text transform="translate(827.5 328)" font-size="12" fill="#666" font-family="Open Sans">interpolation amount</text>
+  <g opacity="0.6">
+    <text transform="translate(528.38 33)" font-size="12" font-family="Open Sans">memory</text>
+  </g>
+  <g opacity="0.4">
+    <text transform="translate(529.5 155.77)" font-size="12" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(827.5 328)" font-size="12" font-family="Open Sans">interpolation amount</text>
+  </g>
   <text transform="translate(827.5 460)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
-  <text transform="translate(827.5 12)" font-size="12" fill="#666" font-family="Open Sans">RNN controller</text>
-  <text transform="translate(683.32 12)" font-size="12" fill="#666" font-family="Open Sans">attention mechanism</text>
-  <text transform="translate(827.5 64)" font-size="12" fill="#666" font-family="Open Sans">query vector</text>
-  <text transform="translate(586.11 266)" font-size="12" fill="#666" font-family="Open Sans">attention from previous step</text>
-  <text transform="translate(353.16 728)" font-size="12" fill="#666" font-family="Open Sans">new attention distribution</text>
+  <g opacity="0.4">
+    <text transform="translate(827.5 12)" font-size="12" font-family="Open Sans" font-style="italic">RNN controller</text>
+  </g>
+  <g opacity="0.4">
+    <text transform="translate(690.32 12)" font-size="12" font-family="Open Sans" font-style="italic">attention mechanism</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(827.5 64)" font-size="12" font-family="Open Sans">query vector</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(586.11 266)" font-size="12" font-family="Open Sans">attention from previous step</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(353.16 728)" font-size="12" font-family="Open Sans">new attention distribution</text>
+  </g>
   <circle id="query-hover" cx="845.37" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>
   <circle id="interpolate-hover" cx="845.37" cy="357.04" r="41.37" fill="#fff" fill-opacity="0"/>
-  <rect id="shift-hover" x="798" y="450" width="168" height="84" fill="#fff" fill-opacity="0"/>
+  <rect id="shift-hover" x="798" y="450" width="168" height="84" fill-opacity="0" opacity="0.6"/>
 </svg>

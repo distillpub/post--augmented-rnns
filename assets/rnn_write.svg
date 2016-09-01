@@ -53,10 +53,18 @@
     <use width="36" height="36" transform="translate(348 132)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(384 132)" xlink:href="#array-positive-value"/>
   </g>
-  <text transform="translate(432 216)" font-size="12" fill="#666" font-family="Open Sans">memory</text>
-  <text transform="translate(432 276)" font-size="12" fill="#666" font-family="Open Sans">new memory</text>
-  <text transform="translate(324 36)" font-size="12" fill="#666" font-family="Open Sans">write value</text>
-  <text transform="translate(432 156)" font-size="12" fill="#666" font-family="Open Sans">attention</text>
+  <g opacity="0.6">
+    <text transform="translate(432 216)" font-size="12" font-family="Open Sans">memory</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(432 276)" font-size="12" font-family="Open Sans">new memory</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(324 36)" font-size="12" font-family="Open Sans">write value</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(432 156)" font-size="12" font-family="Open Sans">attention</text>
+  </g>
   <use id="write-result" width="36" height="36" transform="translate(276 12)" xlink:href="#array-vector"/>
   <g id="memory">
     <use width="36" height="36" transform="translate(168 192)" xlink:href="#array-vector"/>

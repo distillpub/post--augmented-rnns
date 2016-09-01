@@ -50,7 +50,9 @@
   <line x1="348" y1="39" x2="348" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="540" y1="39" x2="540" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="732" y1="39" x2="732" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
-  <text transform="translate(67.62 134)" font-size="12" fill="#666" font-family="Open Sans">halting neuron</text>
+  <g opacity="0.6">
+    <text transform="translate(67.62 134)" font-size="12" font-family="Open Sans">halting neuron</text>
+  </g>
   <g opacity="0.4">
     <g>
       <line x1="157" y1="132" x2="158" y2="132" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>

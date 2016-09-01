@@ -58,9 +58,15 @@
     </g>
     <use width="24" height="24" transform="translate(886.75 75.39)" xlink:href="#op-sum"/>
   </g>
-  <text transform="translate(65 15.12)" font-size="12" fill="#666" font-family="Open Sans">For every time step the RNN can <tspan x="0" y="18">do multiple computation steps.</tspan></text>
-  <text transform="translate(335.67 15.12)" font-size="12" fill="#666" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="18">of the computation step outputs</tspan></text>
-  <text transform="translate(639.67 15.12)" font-size="12" fill="#666" font-family="Open Sans">The process is repeated <tspan x="0" y="18">for each time step</tspan></text>
+  <g opacity="0.6">
+    <text transform="translate(65 15.12)" font-size="12" font-family="Open Sans">For every time step the RNN can <tspan x="0" y="18">do multiple computation steps.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(335.67 15.12)" font-size="12" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="18">of the computation step outputs</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(639.67 15.12)" font-size="12" font-family="Open Sans">The process is repeated <tspan x="0" y="18">for each time step</tspan></text>
+  </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <rect x="468" y="63" width="275.67" height="156" rx="10" ry="10" fill="#f0f0f5"/>
   </g>
@@ -246,7 +252,9 @@
     </g>
     <use width="24" height="24" transform="translate(376.75 75.39)" xlink:href="#op-sum"/>
   </g>
-  <text transform="translate(66 250.28)" font-size="12" fill="#666" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="18">the first computation step</tspan></text>
+  <g opacity="0.6">
+    <text transform="translate(66 250.28)" font-size="12" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="18">the first computation step</tspan></text>
+  </g>
   <g opacity="0.4">
     <g>
       <line x1="108" y1="48" x2="108" y2="49" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
