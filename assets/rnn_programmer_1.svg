@@ -7,7 +7,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -24,7 +24,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -41,7 +41,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -54,26 +54,24 @@
   </defs>
   <title>rnn</title>
   <g>
-    <g>
-      <line x1="228" y1="42" x2="300.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M306,42a27.2,27.2,0,0,0-7.69,4.28L299.86,42l-1.55-4.28A27.18,27.18,0,0,0,306,42Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="360" y1="42" x2="432.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M438,42a27.2,27.2,0,0,0-7.69,4.28L431.86,42l-1.55-4.28A27.18,27.18,0,0,0,438,42Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="492" y1="42" x2="564.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M570,42a27.2,27.2,0,0,0-7.69,4.28L563.86,42l-1.55-4.28A27.18,27.18,0,0,0,570,42Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="624" y1="42" x2="696.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M702,42a27.2,27.2,0,0,0-7.69,4.28L695.86,42l-1.55-4.28A27.18,27.18,0,0,0,702,42Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M336,42s52-30,117-30c52.7,0,97.43,16,112,21.89" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M570,36a27.2,27.2,0,0,0-8.74,1l3.06-3.37,0.2-4.55A27.17,27.17,0,0,0,570,36Z" fill="#666"/>
-    </g>
+    <line x1="228" y1="42" x2="300.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M306,42a27.2,27.2,0,0,0-7.69,4.28L299.86,42l-1.55-4.28A27.18,27.18,0,0,0,306,42Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="360" y1="42" x2="432.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M438,42a27.2,27.2,0,0,0-7.69,4.28L431.86,42l-1.55-4.28A27.18,27.18,0,0,0,438,42Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="492" y1="42" x2="564.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M570,42a27.2,27.2,0,0,0-7.69,4.28L563.86,42l-1.55-4.28A27.18,27.18,0,0,0,570,42Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="624" y1="42" x2="696.57" y2="42" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M702,42a27.2,27.2,0,0,0-7.69,4.28L695.86,42l-1.55-4.28A27.18,27.18,0,0,0,702,42Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M336,42s52-30,117-30c52.7,0,97.43,16,112,21.89" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M570,36a27.2,27.2,0,0,0-8.74,1l3.06-3.37,0.2-4.55A27.17,27.17,0,0,0,570,36Z" fill="#666"/>
   </g>
   <g>
     <path d="M384.48,18.38A298.3,298.3,0,0,0,321,11.25c-64.46,0-116.85,29.8-117.37,30.1l0.75,1.3c0.52-.3,52.59-29.9,116.63-29.9a295.48,295.48,0,0,1,60.43,6.5Z" fill="#666"/>

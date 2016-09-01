@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="438" viewBox="0 0 984 438">
   <defs>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -12,7 +12,7 @@
       <path d="M19.83,16.21h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25,6,6,0,0,1-3.94,1.17H19.83V16.21Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58H21.64v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68H21.64Z" fill="#666"/>
     </symbol>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum" data-name="op-sum" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -29,7 +29,7 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="479.56" y="12" width="360.44" height="72" rx="10" ry="10" opacity="0.04"/>
+    <rect x="479.56" y="12" width="360.44" height="72" rx="10" ry="10" fill="#f0f0f5"/>
     <g opacity="0.1">
       <rect x="479.56" y="12" width="360.44" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
@@ -54,18 +54,18 @@
   <line x1="305" y1="330" x2="393" y2="330" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
     <g opacity="0.2">
-      <path d="M208.13,206V170.5a11,11,0,0,1,10-10.8l381.56-30.63c5.48-.44,10-3.79,10-7.44V115" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M205,206V170.5a11,11,0,0,1,10-10.79l384.69-30.64c5.48-.44,10-3.78,10-7.43V115" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.4">
-      <path d="M303.63,206V174.29a11.37,11.37,0,0,1,9.95-11L602.68,133.1c5.47-.57,9.95-4.88,9.95-9.57V115" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M300.5,206V174.29a11.36,11.36,0,0,1,9.95-11l292.23-30.17c5.47-.56,9.95-4.87,9.95-9.56V115" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
-    <path d="M399.63,206V178.08a12,12,0,0,1,9.89-11.48l196.22-29.28a12,12,0,0,0,9.89-11.48V115" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M396.5,206V178.08a12,12,0,0,1,9.89-11.46l199.34-29.32a12,12,0,0,0,9.89-11.46V115" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
     <g opacity="0.2">
-      <path d="M495.13,206V178.08a13.19,13.19,0,0,1,9.75-12.24l104.38-24A13.19,13.19,0,0,0,619,129.65V115" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M492,206V178.08a13.1,13.1,0,0,1,9.76-12.19l107.48-24.07A13.1,13.1,0,0,0,619,129.65V115" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
-    <rect x="168" y="354" width="360.44" height="72" rx="10" ry="10" opacity="0.04"/>
+    <rect x="168" y="354" width="360.44" height="72" rx="10" ry="10" fill="#f0f0f5"/>
     <g opacity="0.1">
       <rect x="168" y="354" width="360.44" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
@@ -98,7 +98,8 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(468.25 365.25)" xlink:href="#rnn-a"/>
   </g>
-  <text transform="translate(278 35.12)" font-size="12" fill="#666" font-family="Open Sans">The attending RNN <tspan x="0" y="18">generates a query </tspan><tspan x="0" y="36">describing what it wants to </tspan><tspan x="0" y="54">focus on</tspan></text>
+  <text transform="translate(168 25.12)" font-size="12" fill="#666" font-family="Open Sans">The attending RNN generates <tspan x="0" y="18">a query describing what it </tspan><tspan x="0" y="36">wants to focus on</tspan></text>
+  <text transform="translate(540 223.12)" font-size="12" fill="#666" font-family="Open Sans">Each item is dot producted with <tspan x="0" y="18">the query to produce a score, </tspan><tspan x="0" y="36">describing how well it matches </tspan><tspan x="0" y="54">the query. The scores are fed </tspan><tspan x="0" y="72">into a softmax to create the </tspan><tspan x="0" y="90">attention distribution.</tspan></text>
   <path d="M201,330H155a10,10,0,0,1-10-10V118a10,10,0,0,1,10-10H555a10,10,0,0,0,10-10V58a10,10,0,0,0-10-10H541" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
     <g>
@@ -165,7 +166,6 @@
   <g id="_Group_5" data-name="&lt;Group&gt;">
     <g opacity="0.1">
       <rect x="493" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
-      <rect x="493" y="26" width="48" height="48" rx="6" ry="6"/>
       <rect x="493" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M512.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,517.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -174,7 +174,6 @@
   <g id="_Group_6" data-name="&lt;Group&gt;">
     <g opacity="0.1">
       <rect x="589" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
-      <rect x="589" y="26" width="48" height="48" rx="6" ry="6"/>
       <rect x="589" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M608.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,613.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -183,7 +182,6 @@
   <g>
     <g opacity="0.1">
       <rect x="685" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
-      <rect x="685" y="26" width="48" height="48" rx="6" ry="6"/>
       <rect x="685" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M704.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,709.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -192,7 +190,6 @@
   <g id="_Group_7" data-name="&lt;Group&gt;">
     <g opacity="0.1">
       <rect x="781" y="26" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
-      <rect x="781" y="26" width="48" height="48" rx="6" ry="6"/>
       <rect x="781" y="26" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M800.08,41.46h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25A6,6,0,0,1,805.5,57h-5.42V41.46Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58h-2.66v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68h-3.09Z"/>
     </g>
@@ -211,7 +208,7 @@
       <rect x="169" y="236" width="318" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g>
-      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="#d8c2f2"/>
       <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
@@ -254,30 +251,37 @@
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="206.75" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M203.91,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L207.47,205l2.57,2.57-1,1L206.47,206Z"/>
+      <circle cx="205" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M202.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L205.72,205l2.57,2.57-1,1L204.72,206Z"/>
     </g>
-    <use width="24" height="24" transform="translate(193.75 191.25)" xlink:href="#op-x"/>
+    <use width="24" height="24" transform="translate(192 191.25)" xlink:href="#op-x"/>
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="302.75" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M299.91,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L303.47,205l2.57,2.57-1,1L302.47,206Z"/>
+      <circle cx="301" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M298.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L301.72,205l2.57,2.57-1,1L300.72,206Z"/>
     </g>
-    <use width="24" height="24" transform="translate(289.75 191.25)" xlink:href="#op-x"/>
+    <use width="24" height="24" transform="translate(288 191.25)" xlink:href="#op-x"/>
   </g>
   <g id="_Group_12" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="398.75" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M395.91,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L399.47,205l2.57,2.57-1,1L398.47,206Z"/>
+      <circle cx="397" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M394.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L397.72,205l2.57,2.57-1,1L396.72,206Z"/>
     </g>
-    <use width="24" height="24" transform="translate(385.75 191.25)" xlink:href="#op-x"/>
+    <use width="24" height="24" transform="translate(384 191.25)" xlink:href="#op-x"/>
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="494.75" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M491.91,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L495.47,205l2.57,2.57-1,1L494.47,206Z"/>
+      <circle cx="493" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M490.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L493.72,205l2.57,2.57-1,1L492.72,206Z"/>
     </g>
-    <use width="24" height="24" transform="translate(481.75 191.25)" xlink:href="#op-x"/>
+    <use width="24" height="24" transform="translate(480 191.25)" xlink:href="#op-x"/>
+  </g>
+  <g opacity="0.4">
+    <g>
+      <line x1="222" y1="72" x2="222" y2="73" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="222" y1="75" x2="222" y2="106" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <line x1="222" y1="107" x2="222" y2="108" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    </g>
   </g>
 </svg>

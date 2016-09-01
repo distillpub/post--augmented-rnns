@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="264" viewBox="0 0 984 264">
   <defs>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum" data-name="op-sum" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -12,7 +12,7 @@
       <path d="M9.16,15.28l-1-1,2.56-2.56L8.16,9.16l1-1,2.58,2.58L14.3,8.17l1,1-2.56,2.56,2.57,2.57-1,1-2.57-2.57Z" fill="#666"/>
     </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-s" data-name="rnn-s" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -41,12 +41,12 @@
       <path d="M7.51,11.21h9v1.15h-9V11.21Z" fill="#666"/>
     </symbol>
     <symbol id="rnn-sigma" data-name="rnn-sigma" viewBox="0 0 25.17 25.17">
-      <rect x="0.75" y="0.75" width="23.67" height="23.67" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="23.67" height="23.67" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
       <path d="M19,8.67H16.48a5.39,5.39,0,0,1,1.41,3.87,6.62,6.62,0,0,1-1.37,4.36,5.13,5.13,0,0,1-4.11,1.73,5,5,0,0,1-4.09-1.78,6.66,6.66,0,0,1-1.37-4.32,5.73,5.73,0,0,1,1.5-4.07,5.22,5.22,0,0,1,4-1.58,6.18,6.18,0,0,1,1.67.21H19V8.67ZM15.8,12.78a5.89,5.89,0,0,0-.74-2.92,2.87,2.87,0,0,0-2.65-1.41A2.86,2.86,0,0,0,9.8,9.79a5.53,5.53,0,0,0-.77,3,4.82,4.82,0,0,0,.91,3,2.89,2.89,0,0,0,2.47,1.26A2.88,2.88,0,0,0,15,15.74,5.37,5.37,0,0,0,15.8,12.78Z" fill="#666"/>
     </symbol>
   </defs>
   <title>rnn</title>
-  <rect x="168" y="13.25" width="612" height="238.75" rx="10" ry="10" opacity="0.04"/>
+  <rect x="168" y="13.25" width="612" height="238.75" rx="10" ry="10" fill="#f0f0f5"/>
   <line x1="348" y1="39" x2="348" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="540" y1="39" x2="540" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="732" y1="39" x2="732" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -152,30 +152,28 @@
     <use width="24" height="24" transform="translate(720.74 12.75)" xlink:href="#op-sum_5"/>
   </g>
   <g>
-    <g>
-      <line x1="264" y1="132" x2="264" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M264,60a27.2,27.2,0,0,0,4.28,7.69L264,66.14l-4.28,1.55A27.17,27.17,0,0,0,264,60Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="456" y1="132" x2="456" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M456,60a27.2,27.2,0,0,0,4.28,7.69L456,66.14l-4.28,1.55A27.18,27.18,0,0,0,456,60Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="648" y1="132" x2="648" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M648,60a27.2,27.2,0,0,0,4.28,7.69L648,66.14l-4.28,1.55A27.18,27.18,0,0,0,648,60Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M264,48.5h18a16.83,16.83,0,0,0,10.26-4.22L308,28.72a16.83,16.83,0,0,1,10.26-4.22h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M333,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,333,24.5Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M456,48h18a17.11,17.11,0,0,0,10.31-4.18l15.63-15.15a17.11,17.11,0,0,1,10.31-4.18h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M525,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,525,24.5Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M648,48.5h18a16.83,16.83,0,0,0,10.26-4.22L692,28.72a16.83,16.83,0,0,1,10.26-4.22h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M717,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,717,24.5Z" fill="#666"/>
-    </g>
+    <line x1="264" y1="132" x2="264" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M264,60a27.2,27.2,0,0,0,4.28,7.69L264,66.14l-4.28,1.55A27.17,27.17,0,0,0,264,60Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="456" y1="132" x2="456" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M456,60a27.2,27.2,0,0,0,4.28,7.69L456,66.14l-4.28,1.55A27.18,27.18,0,0,0,456,60Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="648" y1="132" x2="648" y2="65.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M648,60a27.2,27.2,0,0,0,4.28,7.69L648,66.14l-4.28,1.55A27.18,27.18,0,0,0,648,60Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M264,48.5h18a16.83,16.83,0,0,0,10.26-4.22L308,28.72a16.83,16.83,0,0,1,10.26-4.22h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M333,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,333,24.5Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M456,48h18a17.11,17.11,0,0,0,10.31-4.18l15.63-15.15a17.11,17.11,0,0,1,10.31-4.18h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M525,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,525,24.5Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M648,48.5h18a16.83,16.83,0,0,0,10.26-4.22L692,28.72a16.83,16.83,0,0,1,10.26-4.22h9.32" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M717,24.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.17,27.17,0,0,0,717,24.5Z" fill="#666"/>
   </g>
   <g>
     <g opacity="0.1">

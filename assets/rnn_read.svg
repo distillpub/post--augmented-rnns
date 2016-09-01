@@ -14,14 +14,16 @@
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <g>
-        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      <g opacity="0.4">
+        <g>
+          <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>
+        </g>
       </g>
     </symbol>
     <symbol id="array-positive-value" data-name="array-positive-value" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#0080f7" opacity="0.8"/>
+      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#8359b2" opacity="0.8"/>
     </symbol>
   </defs>
   <title>rnn</title>
@@ -30,13 +32,13 @@
     <rect x="162" y="42" width="264" height="48" rx="10" ry="10" fill="#ff0"/>
   </g>
   <g id="paths">
-    <path id="edge0" d="M186,84v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge1" d="M222,84v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge2" d="M258.07,84v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge3" d="M294,84V228" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge4" d="M330,84v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge5" d="M366,84v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="edge6" d="M402,84v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge0" d="M186,84v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge1" d="M222,84v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge2" d="M258.07,84v66.12c0.56,24,33.93,24.22,33.93,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge3" d="M294,84V228" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge4" d="M330,84v66.12c-0.56,24-34,24.22-34,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge5" d="M366,84v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="edge6" d="M402,84v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <rect x="200.95" y="18" width="37.55" height="18" fill="#ffffcd"/>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 48)" xlink:href="#array-7"/>
@@ -48,7 +50,7 @@
   <text transform="translate(324 252)" font-size="12" fill="#666" font-family="Open Sans">read result</text>
   <use id="read-result" width="36" height="36" transform="translate(276 228)" xlink:href="#array-vector"/>
   <g id="attention">
-    <use width="36" height="36" transform="translate(168 48)" xlink:href="#array-positive-value"/>
+    <use id="array-positive-value-3" data-name="array-positive-value" width="36" height="36" transform="translate(168 48)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(204 48)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(240 48)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(276 48)" xlink:href="#array-positive-value"/>

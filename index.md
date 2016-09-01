@@ -154,7 +154,7 @@ The big picture idea is simple: allow the RNN to do multiple steps of computatio
   {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
-In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weigthed combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.
+In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weighted combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 

@@ -4,7 +4,7 @@
       <circle cx="15.73" cy="15.73" r="14.73" fill="#e6eaf2" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     </symbol>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum_5" data-name="op-sum 5" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -26,7 +26,7 @@
       <path d="M9.16,15.28l-1-1,2.56-2.56L8.16,9.16l1-1,2.58,2.58L14.3,8.17l1,1-2.56,2.56,2.57,2.57-1,1-2.57-2.57Z" fill="#666"/>
     </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-s" data-name="rnn-s" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -37,7 +37,7 @@
       <path d="M9.88,9.08a1.77,1.77,0,0,1,.69-1.47,3,3,0,0,1,1.89-.54,4.84,4.84,0,0,1,1.87.38v1.1a5.22,5.22,0,0,0-1.88-.4,1.57,1.57,0,0,0-.93.25,0.78,0.78,0,0,0-.35.67q0,0.74,1.51,1.26a4.6,4.6,0,0,1,2.22,1.44A3.75,3.75,0,0,1,15.64,14v0.27a4.23,4.23,0,0,1-.4,1.87,3,3,0,0,1-1.15,1.28,3.29,3.29,0,0,1-1.74.45,3.08,3.08,0,0,1-2.42-1A3.86,3.86,0,0,1,9,14.22V14.13a3.42,3.42,0,0,1,.64-2A2.76,2.76,0,0,1,11.29,11v0a2.36,2.36,0,0,1-1-.75A1.76,1.76,0,0,1,9.88,9.08Zm0.42,5.2a3,3,0,0,0,.55,1.89,1.8,1.8,0,0,0,1.49.69,1.79,1.79,0,0,0,1.48-.69,3.23,3.23,0,0,0,.55-2,2.67,2.67,0,0,0-.58-1.67,2.35,2.35,0,0,0-1.43-.92,1.81,1.81,0,0,0-1.49.7A3.19,3.19,0,0,0,10.3,14.28Z" fill="#666"/>
     </symbol>
     <symbol id="rnn-sigma" data-name="rnn-sigma" viewBox="0 0 25.17 25.17">
-      <rect x="0.75" y="0.75" width="23.67" height="23.67" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="23.67" height="23.67" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
       <path d="M19,8.67H16.48a5.39,5.39,0,0,1,1.41,3.87,6.62,6.62,0,0,1-1.37,4.36,5.13,5.13,0,0,1-4.11,1.73,5,5,0,0,1-4.09-1.78,6.66,6.66,0,0,1-1.37-4.32,5.73,5.73,0,0,1,1.5-4.07,5.22,5.22,0,0,1,4-1.58,6.18,6.18,0,0,1,1.67.21H19V8.67ZM15.8,12.78a5.89,5.89,0,0,0-.74-2.92,2.87,2.87,0,0,0-2.65-1.41A2.86,2.86,0,0,0,9.8,9.79a5.53,5.53,0,0,0-.77,3,4.82,4.82,0,0,0,.91,3,2.89,2.89,0,0,0,2.47,1.26A2.88,2.88,0,0,0,15,15.74,5.37,5.37,0,0,0,15.8,12.78Z" fill="#666"/>
     </symbol>
     <symbol id="op-sum" data-name="op-sum" viewBox="0 0 24 24">
@@ -46,10 +46,18 @@
     </symbol>
   </defs>
   <title>rnn</title>
-  <rect x="168" y="13.25" width="612" height="238.75" rx="10" ry="10" opacity="0.04"/>
+  <rect x="168" y="13.25" width="612" height="238.75" rx="10" ry="10" fill="#f0f0f5"/>
   <line x1="348" y1="39" x2="348" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="540" y1="39" x2="540" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <line x1="732" y1="39" x2="732" y2="264" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+  <text transform="translate(67.62 134)" font-size="12" fill="#666" font-family="Open Sans">halting neuron</text>
+  <g opacity="0.4">
+    <g>
+      <line x1="157" y1="132" x2="158" y2="132" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="159.98" y1="132" x2="250.01" y2="132" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="1.98 1.98"/>
+      <line x1="251" y1="132" x2="252" y2="132" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+  </g>
   <g opacity="0.2">
     <g>
       <path d="M396,240H593.5a6,6,0,0,0,6-6V206" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -136,22 +144,20 @@
   </g>
   <path d="M240,180h54a6,6,0,0,0,6-6V108" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
-    <g>
-      <line x1="156" y1="180" x2="186.57" y2="180" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M192,180a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,192,180Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="762" y1="73" x2="786.57" y2="73" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M792,73a27.2,27.2,0,0,0-7.69,4.28L785.86,73l-1.55-4.28A27.17,27.17,0,0,0,792,73Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M240,180h18a6,6,0,0,0,6-6V149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M264,144a27.2,27.2,0,0,0,4.28,7.69L264,150.14l-4.28,1.55A27.17,27.17,0,0,0,264,144Z" fill="#666"/>
-    </g>
-    <g>
-      <path d="M264,132V102a6,6,0,0,1,6-6h12.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M288,96a27.2,27.2,0,0,0-7.69,4.28L281.86,96l-1.55-4.28A27.17,27.17,0,0,0,288,96Z" fill="#666"/>
-    </g>
+    <line x1="156" y1="180" x2="186.57" y2="180" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M192,180a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,192,180Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="762" y1="73" x2="786.57" y2="73" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M792,73a27.2,27.2,0,0,0-7.69,4.28L785.86,73l-1.55-4.28A27.17,27.17,0,0,0,792,73Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M240,180h18a6,6,0,0,0,6-6V149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M264,144a27.2,27.2,0,0,0,4.28,7.69L264,150.14l-4.28,1.55A27.17,27.17,0,0,0,264,144Z" fill="#666"/>
+  </g>
+  <g>
+    <path d="M264,132V102a6,6,0,0,1,6-6h12.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M288,96a27.2,27.2,0,0,0-7.69,4.28L281.86,96l-1.55-4.28A27.17,27.17,0,0,0,288,96Z" fill="#666"/>
   </g>
   <path d="M299.49,84V75.5a6,6,0,0,1,6-6H756" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g id="_Group_" data-name="&lt;Group&gt;">
@@ -171,7 +177,6 @@
   <g>
     <g opacity="0.1">
       <rect x="193" y="158" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
-      <rect x="193" y="158" width="48" height="48" rx="6" ry="6"/>
       <rect x="193" y="158" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
       <path d="M221.93,184.86a3.81,3.81,0,0,1-1.49,3.2,6.46,6.46,0,0,1-4,1.15,10.1,10.1,0,0,1-4.25-.71v-1.74a11.16,11.16,0,0,0,2.08.64,10.92,10.92,0,0,0,2.23.23,4.49,4.49,0,0,0,2.72-.69,2.25,2.25,0,0,0,.92-1.91,2.45,2.45,0,0,0-.32-1.32,3,3,0,0,0-1.08-1,15.14,15.14,0,0,0-2.31-1,7.38,7.38,0,0,1-3.1-1.84,4.06,4.06,0,0,1-.93-2.77,3.45,3.45,0,0,1,1.35-2.86,5.61,5.61,0,0,1,3.57-1.06,10.54,10.54,0,0,1,4.26.85L221,175.66a9.63,9.63,0,0,0-3.74-.81,3.62,3.62,0,0,0-2.24.62,2,2,0,0,0-.81,1.71,2.62,2.62,0,0,0,.3,1.32,2.8,2.8,0,0,0,1,.95,12.47,12.47,0,0,0,2.16,1,8.56,8.56,0,0,1,3.37,1.87A3.68,3.68,0,0,1,221.93,184.86Z"/>
     </g>

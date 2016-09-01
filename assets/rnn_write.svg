@@ -14,13 +14,15 @@
     </symbol>
     <symbol id="array-positive-value" data-name="array-positive-value" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#0080f7" opacity="0.8"/>
+      <rect x="4.42" y="4.42" width="27.17" height="27.17" rx="6" ry="6" fill="#8359b2" opacity="0.8"/>
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <g>
-        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      <g opacity="0.4">
+        <g>
+          <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>
+        </g>
       </g>
     </symbol>
   </defs>
@@ -30,13 +32,13 @@
     <rect x="162" y="126" width="264" height="48" rx="10" ry="10" fill="#ff0"/>
   </g>
   <g id="paths">
-    <path id="path24182" d="M288,48.7c0,52.66-101.44,52.89-102,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24184" d="M290,48.7c0,52.66-67.44,52.89-68,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24186" d="M292,48.7c0,52.66-33.44,52.89-34,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24249" d="M294,48V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24264" d="M296,48.7c0,52.66,33.37,52.89,33.93,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24262" d="M298,48.7c0,52.66,67.44,52.89,68,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="path24260" d="M300,48.7c0,52.66,101.44,52.89,102,76.88V251" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24182" d="M288,48.7c0,52.66-101.44,52.89-102,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24184" d="M290,48.7c0,52.66-67.44,52.89-68,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24186" d="M292,48.7c0,52.66-33.44,52.89-34,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24249" d="M294,48V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24264" d="M296,48.7c0,52.66,33.37,52.89,33.93,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24262" d="M298,48.7c0,52.66,67.44,52.89,68,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="path24260" d="M300,48.7c0,52.66,101.44,52.89,102,76.88V251" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <use width="37" height="37" transform="translate(275 12)" xlink:href="#array-1"/>
   <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 132)" xlink:href="#array-7"/>

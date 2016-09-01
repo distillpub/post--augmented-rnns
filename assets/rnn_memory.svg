@@ -2,7 +2,7 @@
   <defs>
     <symbol id="array-small" data-name="array-small" viewBox="0 0 181.58 31.16">
       <g>
-        <rect x="0.5" y="0.5" width="180.58" height="30.16" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+        <rect x="0.5" y="0.5" width="180.58" height="30.16" rx="6" ry="6" fill="#d8c2f2" stroke="#8c8c8c" stroke-miterlimit="10"/>
         <line x1="30.45" y1="30.66" x2="30.45" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
         <line x1="60.61" y1="30.66" x2="60.61" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
         <line x1="90.78" y1="30.66" x2="90.78" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
@@ -11,7 +11,7 @@
       </g>
     </symbol>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -20,7 +20,7 @@
     <symbol id="op-read" data-name="op-read" viewBox="0 0 49.54 25.5">
       <g id="_Group_4" data-name="&lt;Group&gt;">
         <g>
-          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#fff"/>
+          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#d8c2f2"/>
           <path d="M49.54,13.5a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V12A12,12,0,0,1,12,0H37.54a12,12,0,0,1,12,12v1.5ZM1.43,12.75c0,6.19,5.4,11.25,12,11.25H36.12c6.6,0,12-5.06,12-11.25S42.72,1.5,36.12,1.5H13.43C6.83,1.5,1.43,6.56,1.43,12.75Z" fill="#666"/>
         </g>
       </g>
@@ -34,7 +34,7 @@
     <symbol id="op-write" data-name="op-write" viewBox="0 0 49.54 25.5">
       <g id="_Group_6" data-name="&lt;Group&gt;">
         <g>
-          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#fff"/>
+          <path d="M48.83,12.75a12,12,0,0,1-12,12H12.71a12,12,0,1,1,0-24H36.83a12,12,0,0,1,12,12h0Z" fill="#d8c2f2"/>
           <path d="M49.54,13.5a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V12A12,12,0,0,1,12,0H37.54a12,12,0,0,1,12,12v1.5ZM1.43,12.75c0,6.19,5.4,11.25,12,11.25H36.12c6.6,0,12-5.06,12-11.25S42.72,1.5,36.12,1.5H13.43C6.83,1.5,1.43,6.56,1.43,12.75Z" fill="#666"/>
         </g>
       </g>
@@ -48,30 +48,26 @@
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <g>
-        <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-        <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4" fill="#8c8c8c"/>
+      <g opacity="0.4">
+        <g>
+          <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>
+        </g>
       </g>
     </symbol>
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="102" y="30" width="780" height="54" rx="10" ry="10" opacity="0.04"/>
+    <rect x="168" y="204" width="648" height="72" rx="10" ry="10" fill="#f0f0f5"/>
     <g opacity="0.1">
-      <rect x="102" y="30" width="780" height="54" rx="10" ry="10" fill="none" stroke="#231f20"/>
+      <rect x="168" y="204" width="648" height="72" rx="10" ry="10" fill="none" stroke="#667780"/>
     </g>
   </g>
+  <use id="array-small-3" data-name="array-small" width="181.58" height="31.16" transform="translate(112.92 47.69)" xlink:href="#array-small"/>
+  <use width="181.58" height="31.16" transform="translate(306 47.69)" xlink:href="#array-small"/>
+  <use width="181.58" height="31.16" transform="translate(498 47.69)" xlink:href="#array-small"/>
+  <use width="181.58" height="31.16" transform="translate(690 47.69)" xlink:href="#array-small"/>
   <g id="_Group_2" data-name="&lt;Group&gt;">
-    <rect x="168" y="204" width="648" height="72" rx="10" ry="10" opacity="0.04"/>
-    <g opacity="0.1">
-      <rect x="168" y="204" width="648" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
-    </g>
-  </g>
-  <use id="array-small-3" data-name="array-small" width="181.58" height="31.16" transform="translate(112.92 40.92)" xlink:href="#array-small"/>
-  <use width="181.58" height="31.16" transform="translate(306 40.92)" xlink:href="#array-small"/>
-  <use width="181.58" height="31.16" transform="translate(498 40.92)" xlink:href="#array-small"/>
-  <use width="181.58" height="31.16" transform="translate(690 40.92)" xlink:href="#array-small"/>
-  <g>
     <g opacity="0.1">
       <rect x="757.64" y="218" width="48" height="48" rx="6" ry="6" stroke="#000" stroke-width="1.5"/>
       <path d="M786.66,249l-1.93-4.94h-6.23L776.58,249h-1.83l6.14-15.61h1.52L788.53,249h-1.87Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
@@ -79,8 +75,8 @@
     <use width="49.5" height="49.5" transform="translate(755.89 215.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
-    <path d="M222,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.26,16.89-7.24l26.47-27.82" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M357,81a27.2,27.2,0,0,0-2.2,8.52l-2-4.07-4.17-1.83A27.17,27.17,0,0,0,357,81Z" fill="#666"/>
+    <path d="M222,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.27,16.88-7.26l23.5-24.8" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M354,84a27.2,27.2,0,0,0-2.18,8.53l-2-4.07-4.17-1.82A27.18,27.18,0,0,0,354,84Z" fill="#666"/>
   </g>
   <g>
     <path d="M372,84l-34.93,34.93C333.18,122.82,330,130.5,330,136v46c0,5.5,3.18,13.18,7.07,17.07l25.09,25.09" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -116,8 +112,8 @@
     </g>
   </g>
   <g>
-    <path d="M414,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.26,16.89-7.24l26.47-27.82" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M549,81a27.2,27.2,0,0,0-2.2,8.52l-2-4.07-4.17-1.83A27.17,27.17,0,0,0,549,81Z" fill="#666"/>
+    <path d="M414,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.27,16.88-7.26l23.5-24.8" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M546,84a27.2,27.2,0,0,0-2.18,8.53l-2-4.07-4.17-1.82A27.18,27.18,0,0,0,546,84Z" fill="#666"/>
   </g>
   <g>
     <path d="M564,84l-34,34.84c-3.84,3.94-7,11.66-7,17.16v46c0,5.5,3.14,13.23,7,17.17l24.24,24.94" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -153,8 +149,8 @@
     </g>
   </g>
   <g>
-    <path d="M606,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.26,16.89-7.24l26.47-27.82" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M741,81a27.2,27.2,0,0,0-2.2,8.52l-2-4.07-4.17-1.83A27.17,27.17,0,0,0,741,81Z" fill="#666"/>
+    <path d="M606,84l29.83,29c3.94,3.84,11.67,7,17.17,7h40.89c5.5,0,13.1-3.27,16.88-7.26l23.5-24.8" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M738,84a27.2,27.2,0,0,0-2.18,8.53l-2-4.07-4.17-1.82A27.18,27.18,0,0,0,738,84Z" fill="#666"/>
   </g>
   <g>
     <path d="M756,84l-34.93,34.93C717.18,122.82,714,130.5,714,136v46c0,5.5,3.18,13.18,7.07,17.07l25.09,25.09" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -228,8 +224,8 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(179.89 215.25)" xlink:href="#rnn-a"/>
   </g>
-  <text transform="translate(103 12)" font-size="12" fill="#666" font-family="Open Sans">Memory is an array of vectors</text>
-  <text transform="translate(102 118.28)" font-size="12" fill="#666" font-family="Open Sans">Network A <tspan x="0" y="18">writes and reads </tspan><tspan x="0" y="36">from this memory </tspan><tspan x="0" y="54">each step</tspan></text>
+  <text transform="translate(115 36)" font-size="12" fill="#666" font-family="Open Sans">Memory is an array of vectors</text>
+  <text transform="translate(114 118.28)" font-size="12" fill="#666" font-family="Open Sans">Network A <tspan x="0" y="18">writes and reads </tspan><tspan x="0" y="36">from this memory </tspan><tspan x="0" y="54">each step</tspan></text>
   <g>
     <line x1="228.89" y1="240" x2="362.21" y2="240" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     <path d="M367.64,240a27.2,27.2,0,0,0-7.69,4.28L361.5,240l-1.55-4.28A27.18,27.18,0,0,0,367.64,240Z" fill="#666"/>
@@ -282,28 +278,28 @@
   </g>
   <text transform="translate(760.32 306)" font-size="12" fill="#666" font-family="Open Sans">x2</text>
   <text transform="translate(784.44 306)" font-size="12" fill="#666" font-family="Open Sans">y2</text>
-  <use width="36" height="36" transform="translate(114 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(144.04 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(174.08 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(204.13 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 321.02, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(336.04 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(366.08 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(396.13 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 513.02, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 543.06, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(558.08 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(588.13 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 705.02, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 735.06, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 765.1, 35.23)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(780.13 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(234 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(426 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(456 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(264 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(618 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(648 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(810 41.45) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(840 41.45) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(114 47.96) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(144.04 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(174.08 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(204.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 321.02, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(336.04 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(366.08 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(396.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 513.02, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 543.06, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(558.08 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(588.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 705.02, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 735.06, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 765.1, 42)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(780.13 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(234 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(426 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(456 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-42" data-name="array-vector" width="36" height="36" transform="translate(264 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(618 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(648 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(810 48.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(840 48.22) scale(0.83)" xlink:href="#array-vector"/>
 </svg>

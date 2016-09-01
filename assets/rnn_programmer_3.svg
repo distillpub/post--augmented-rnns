@@ -13,7 +13,7 @@
       <rect x="624" y="6" width="60" height="120" fill="none"/>
     </clipPath>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
-      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" stroke="#666" stroke-width="1.5"/>
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#f0f0f5" stroke="#666" stroke-width="1.5"/>
     </symbol>
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
@@ -26,7 +26,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -43,7 +43,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -60,7 +60,7 @@
           <rect x="1.75" y="2.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
         <g>
-          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#fff"/>
+          <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="#d8c2f2"/>
           <rect x="0.75" y="0.75" width="48" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
         </g>
       </g>
@@ -73,7 +73,7 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="162" width="468" height="72" rx="10" ry="10" opacity="0.04"/>
+    <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="#f0f0f5"/>
     <g opacity="0.1">
       <rect x="168" y="162" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
@@ -237,33 +237,31 @@
     <use width="50.5" height="27.5" transform="translate(576 36)" xlink:href="#op-3"/>
   </g>
   <g>
-    <g>
-      <line x1="228" y1="196.5" x2="300.57" y2="196.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M306,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,306,196.5Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="204" y1="172" x2="204" y2="143.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M204,138a27.2,27.2,0,0,0,4.28,7.69L204,144.14l-4.28,1.55A27.17,27.17,0,0,0,204,138Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="336" y1="172" x2="336" y2="143.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M336,138a27.2,27.2,0,0,0,4.28,7.69L336,144.14l-4.28,1.55A27.17,27.17,0,0,0,336,138Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="468" y1="172" x2="468" y2="143.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M468,138a27.2,27.2,0,0,0,4.28,7.69L468,144.14l-4.28,1.55A27.17,27.17,0,0,0,468,138Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="600" y1="172" x2="600" y2="143.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M600,138a27.2,27.2,0,0,0,4.28,7.69L600,144.14l-4.28,1.55A27.17,27.17,0,0,0,600,138Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="360" y1="196.5" x2="432.57" y2="196.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M438,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,438,196.5Z" fill="#666"/>
-    </g>
-    <g>
-      <line x1="492" y1="196.5" x2="564.57" y2="196.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M570,196.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,570,196.5Z" fill="#666"/>
-    </g>
+    <line x1="228" y1="198.5" x2="300.57" y2="198.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M306,198.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,306,198.5Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="204" y1="174" x2="204" y2="145.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M204,140a27.2,27.2,0,0,0,4.28,7.69L204,146.14l-4.28,1.55A27.17,27.17,0,0,0,204,140Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="336" y1="174" x2="336" y2="145.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M336,140a27.2,27.2,0,0,0,4.28,7.69L336,146.14l-4.28,1.55A27.17,27.17,0,0,0,336,140Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="468" y1="174" x2="468" y2="145.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M468,140a27.2,27.2,0,0,0,4.28,7.69L468,146.14l-4.28,1.55A27.17,27.17,0,0,0,468,140Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="600" y1="174" x2="600" y2="145.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M600,140a27.2,27.2,0,0,0,4.28,7.69L600,146.14l-4.28,1.55A27.17,27.17,0,0,0,600,140Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="360" y1="198.5" x2="432.57" y2="198.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M438,198.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,438,198.5Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="492" y1="198.5" x2="564.57" y2="198.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M570,198.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,570,198.5Z" fill="#666"/>
   </g>
 </svg>
