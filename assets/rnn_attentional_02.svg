@@ -98,6 +98,7 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(468.25 365.25)" xlink:href="#rnn-a"/>
   </g>
+  <text transform="translate(278 35.12)" font-size="12" fill="#666" font-family="Open Sans">The attending RNN <tspan x="0" y="18">generates a query </tspan><tspan x="0" y="36">describing what it wants to </tspan><tspan x="0" y="54">focus on</tspan></text>
   <path d="M201,330H155a10,10,0,0,1-10-10V118a10,10,0,0,1,10-10H555a10,10,0,0,0,10-10V58a10,10,0,0,0-10-10H541" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
     <g>
