@@ -2,35 +2,36 @@
   {{> assets/rnn_write_detail.svg}}
 </figure>
 <script>
+"use strict";
 //
 // Data
 //
-let vectorScale = d3.scaleLinear()
+var vectorScale = d3.scaleLinear()
     .domain([0, 1])
     .range([-14, 14]);
 
-let memoryData = [
+var memoryData = [
   {x: 0.4, y: 0.2},
   {x: 0.2, y: 0.2},
   {x: 0.1, y: 0.9},
   {x: 0.9, y: 0.9},
   {x: 0.4, y: 0.3}
 ];
-let interpolationData = [0.3];
-let shiftData = [0, 0.2, 0.8];
-let previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
+var interpolationData = [0.3];
+var shiftData = [0, 0.2, 0.8];
+var previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
 
 //
 // DOM
 //
 
-let html = d3.selectAll("#rnn-write-detail");
-let svg = html.select("svg");
-let svgBBox = svg.node().getBoundingClientRect();
+var html = d3.selectAll("#rnn-write-detail");
+var svg = html.select("svg");
+var svgBBox = svg.node().getBoundingClientRect();
 
-let query = svg.selectAll("#query").style("opacity", 0);
-let memory = svg.selectAll("#memory use").style("opacity", 0);
-let shift = svg.selectAll("#shift use");
+var query = svg.selectAll("#query").style("opacity", 0);
+var memory = svg.selectAll("#memory use").style("opacity", 0);
+var shift = svg.selectAll("#shift use");
 
 //
 // Render
@@ -39,7 +40,7 @@ let shift = svg.selectAll("#shift use");
 // Store positions of vectors
 function cachePositions(selection) {
   selection.each(function(d) {
-    let bBox = this.getBoundingClientRect();
+    var bBox = this.getBoundingClientRect();
     d.top = bBox.top - svgBBox.top;
     d.left = bBox.left - svgBBox.left;
     d.width = bBox.width;
@@ -61,22 +62,22 @@ function renderVector(selection) {
 // Memory
 memory.data(memoryData);
 cachePositions(memory);
-let memoryVector = svg.selectAll(".memory-vector")
+var memoryVector = svg.selectAll(".memory-vector")
       .data(memoryData)
     .enter().append("line")
       .attr("class", "memory-vector");
 renderVector(memoryVector);
 
-let queryData = [{x: 0.7, y: 0.8}];
+var queryData = [{x: 0.7, y: 0.8}];
 query.data(queryData);
 cachePositions(query);
 
-let queryVector = svg.selectAll(".query-vector")
+var queryVector = svg.selectAll(".query-vector")
     .data(queryData)
   .enter().append("line")
     .attr("class", "query-vector");
 
-let clamp = d3.scaleLinear()
+var clamp = d3.scaleLinear()
     .clamp(true);
 
 function redraw() {
@@ -84,14 +85,14 @@ function redraw() {
   renderVector(queryVector);
 
   // Dot
-  let dotData = memoryData.map(v => 2*(v.x-0.5)*2*(queryData[0].x-0.5)+2*(v.y-0.5)*2*(queryData[0].y-0.5));
+  var dotData = memoryData.map(v => 2*(v.x-0.5)*2*(queryData[0].x-0.5)+2*(v.y-0.5)*2*(queryData[0].y-0.5));
   svg.selectAll("#dot use").data(dotData)
     .attr("xlink:href", d => d < 0 ? "#array-negative-value" : "#array-positive-value")
     .style("opacity", d => Math.abs(d));
 
   // Softmax
-  let expDotData = dotData.map(Math.exp);
-  let softmaxData = expDotData.map(x => x/d3.sum(expDotData));
+  var expDotData = dotData.map(Math.exp);
+  var softmaxData = expDotData.map(x => x/d3.sum(expDotData));
   svg.selectAll("#softmax use").data(softmaxData)
     .style("opacity", d => d);
 
@@ -102,7 +103,7 @@ function redraw() {
   svg.selectAll("#interpolate-amount").data(interpolationData)
     .style("opacity", d => d);
 
-  let interpolateData = previousAttentionData.map((d,i) =>
+  var interpolateData = previousAttentionData.map((d,i) =>
       interpolationData*d + (1-interpolationData)*softmaxData[i]);
   svg.selectAll("#interpolate use").data(interpolateData)
     .style("opacity", d => d);
@@ -111,7 +112,7 @@ function redraw() {
   shift.data(shiftData)
     .style("opacity", d => d);
 
-  let convolveData = dotData.map(x => 0);
+  var convolveData = dotData.map(x => 0);
   for (var n in shiftData){
     for (var i in convolveData){
       if (i - (1-n) >= 0){
@@ -124,7 +125,7 @@ function redraw() {
     .style("opacity", d => d);
 
   // Sharpen
-  let sharpenData = convolveData.map(x => x*x);
+  var sharpenData = convolveData.map(x => x*x);
   sharpenData = sharpenData.map(x => x/d3.sum(sharpenData));
   svg.selectAll("#new-attention use").data(sharpenData)
     .style("opacity", d => d);
@@ -132,9 +133,9 @@ function redraw() {
 
 svg.select("#query-hover")
   .on("mousemove", function() {
-    let bbox = svg.select("#query").node().getBoundingClientRect();
-    let x = d3.event.x - bbox.left - bbox.width / 2;
-    let y = d3.event.y - bbox.top - bbox.height / 2;
+    var bbox = svg.select("#query").node().getBoundingClientRect();
+    var x = d3.event.x - bbox.left - bbox.width / 2;
+    var y = d3.event.y - bbox.top - bbox.height / 2;
     //TODO: this clamping is awkward
     queryData[0].x = clamp((x + 25) / 50);
     queryData[0].y = clamp((y + 25) / 50);
@@ -142,7 +143,7 @@ svg.select("#query-hover")
   });
 svg.select("#interpolate-hover")
   .on("mousemove", function() {
-    let bbox = svg.select("#interpolate-amount").node().getBoundingClientRect();
+    var bbox = svg.select("#interpolate-amount").node().getBoundingClientRect();
     interpolationData = [Math.min(1, (d3.event.x - bbox.left) / bbox.width)];
     redraw()
   })
@@ -156,8 +157,8 @@ svg.select("#shift-hover")
     //  shiftData = [0, 0.2, 0.8];
     shiftData = [];
     shift.each(function() {
-      let bbox = this.getBoundingClientRect()
-      let distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
+      var bbox = this.getBoundingClientRect()
+      var distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
       shiftData.push(Math.exp(-distance / 25));
     });
     shiftData = shiftData.map((d) => d / d3.sum(shiftData));

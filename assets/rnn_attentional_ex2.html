@@ -1,0 +1,226 @@
+
+<figure id="attentional-ex2" class="w-page">
+</figure>
+
+<style>
+#attentional-ex2 .background {
+  fill: rgb(240, 240, 245);
+  stroke: black;
+  stroke-opacity: 0.1;
+}
+
+#attentional-ex2 .node {
+  fill: white;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-opacity: 0.6;
+}
+
+#attentional-ex2 .cell text {
+  font-size: 13px;
+  fill-opacity: 0.5;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
+#attentional-ex2 .cell text.label {
+  font-size: 12px;
+  fill-opacity: 0.6;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
+#attentional-ex2 .link {
+  fill: none;
+  stroke: purple;
+  stroke-width: 2px;
+}
+</style>
+
+<script>
+(function() {
+
+var labelsA = [
+  "the",
+  "agreement",
+  "on",
+  "the",
+  "European",
+  "Economic",
+  "Area",
+  "was",
+  "signed",
+  "in",
+  "August",
+  "1992",
+  ".",
+  "<end>"
+];
+
+var labelsB = [
+  "l’",
+  "accord",
+  "sur",
+  "la",
+  "zone",
+  "économique",
+  "européenne",
+  "a",
+  "été",
+  "signé",
+  "en",
+  "août",
+  "1992",
+  ".",
+  "<end>"
+];
+
+
+var data = [
+  [0.6, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.6, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.2, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6],
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6]
+];
+
+var dataA = labelsA.map(function(d, i) {
+  return {
+    label: d,
+    values: data[i].map(function(d) { return {value: d, pi: i}; })
+  };
+});
+
+var linkData = [];
+data.forEach(function(b, bi) {
+  b.forEach(function(a, ai) {
+    linkData.push({
+      ai: ai,
+      bi: bi,
+      v: data[bi][ai]
+    })
+  })
+})
+var html = d3.select("#attentional-ex2");
+var outerWidth = html.node().getBoundingClientRect().width;
+var outerHeight = 300;
+var margin = {top: 36, right: 24, bottom: 24, left: 24};
+var width = outerWidth - margin.left - margin.right;
+var height = outerHeigh = margin.top - margin.bottom;
+
+var nodeSize = 34;
+var nodeMargin = 12;
+var networkMargin = 100;
+
+var xa = d3.scaleLinear()
+    .domain([0, labelsA.length])
+    .range([0, width]);
+
+var xb = d3.scaleLinear()
+    .domain([0, labelsB.length])
+    .range([0, width]);
+
+var link = function(d) {
+  return "M" + (xa(d.ai) + nodeSize / 2) + "," + nodeSize
+      + "C" + (xa(d.ai) + nodeSize / 2) + "," + (nodeSize + networkMargin / 3)
+      + " " + (xb(d.bi) + nodeSize / 2) + "," + (networkMargin - networkMargin / 3)
+      + " " + (xb(d.bi) + nodeSize / 2) + "," + networkMargin;
+};
+
+
+var svg = html.append("svg")
+    .attr("width", outerWidth)
+    .attr("height", outerHeight)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var networkA = svg.append("g");
+
+networkA.append("rect")
+    .attr("x", -12)
+    .attr("y", -12)
+    .attr("class", "background")
+    .attr("width", width)
+    .attr("height", nodeSize + 24)
+    .attr("rx", 8)
+    .attr("ry", 8);
+
+var cellA = networkA.selectAll(".cell")
+    .data(labelsA)
+  .enter().append("g")
+    .attr("class", "cell")
+    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", 0)"; });
+
+cellA.append("rect")
+    .attr("class", "node")
+    .attr("width", nodeSize)
+    .attr("height", nodeSize)
+    .attr("rx", 5)
+    .attr("ry", 5);
+
+cellA.append("text")
+    .text("A")
+    .attr("dx", nodeSize / 2)
+    .attr("dy", nodeSize / 2 + 1);
+
+cellA.append("text")
+    .attr("class", "label")
+    .attr("dx", nodeSize / 2)
+    .attr("dy", - 24)
+    .text(function(d) { return d; });
+
+var networkB = svg.append("g")
+    .attr("transform", "translate(0, " + networkMargin + ")")
+
+networkB.append("rect")
+    .attr("x", -12)
+    .attr("y", -12)
+    .attr("class", "background")
+    .attr("width", width)
+    .attr("height", nodeSize + 24)
+    .attr("rx", 8)
+    .attr("ry", 8);
+
+var cellB = networkB.selectAll(".cell")
+    .data(labelsB)
+  .enter().append("g")
+    .attr("class", "cell")
+    .attr("transform", function(d, i) { return "translate(" + xb(i) + ", 0)"; });
+
+cellB.append("rect")
+    .attr("class", "node")
+    .attr("width", nodeSize)
+    .attr("height", nodeSize)
+    .attr("rx", 4)
+    .attr("ry", 4);
+
+cellB.append("text")
+    .text("B")
+    .attr("dx", nodeSize / 2)
+    .attr("dy", nodeSize / 2 + 1);
+
+cellB.append("text")
+    .attr("class", "label")
+    .attr("dx", nodeSize / 2)
+    .attr("dy", nodeSize + 24)
+    .text(function(d) { return d; });
+
+var linkA = svg.selectAll(".link")
+    .data(linkData)
+  .enter().append("path")
+    .attr("class", "link")
+    .attr("d", link)
+    .style("opacity", function(d) { return d.v; });
+
+})();
+</script>

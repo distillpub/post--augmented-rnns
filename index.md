@@ -106,6 +106,7 @@ This kind of attention between RNNs can also be used in voice recognition. This 
 </figure>
 -->
 
+{{> assets/rnn_attentional_ex2.html}}
 
 (TODO: last sentence awkward)
 
