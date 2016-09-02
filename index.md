@@ -1,37 +1,11 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
-# Understanding Augmented Recurrent Neural Networks
+<h1>{{ typewriter.headline }}</h1>
 
-<div class="byline">
-  <div class="authors">
-    <div class="author">
-      <div class="name">Chris Olah</div>
-      <div class="affiliation">Google Brain</div>
-    </div>
-    <div class="author">
-      <div class="name">Shan Carter</div>
-      <div class="affiliation">Google Brain</div>
-    </div>
-  </div>
-  <div class="date">
-    <div class="month">Jan. 1</div>
-    <div class="year">2016</div>
-  </div>
-  <div class="citation">
-    <div>Olah & Carter, 2016</div>
-    <div>BibTeX</div> <!-- This should be a link. -->
-  </div>
-</div>
+{{> byline.html}}
 
-<script type="text/javascript" async
-  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
+{{> mathjax.html}}
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
