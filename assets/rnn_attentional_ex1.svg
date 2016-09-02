@@ -513,23 +513,23 @@
       <use width="49.5" height="49.5" transform="translate(886.71 155.64) scale(0.66)" xlink:href="#rnn-a"/>
     </g>
   </g>
-  <text transform="translate(62.25 228)" font-size="12" font-family="Myriad Pro">the</text>
-  <text transform="translate(107.27 228)" font-size="12" font-family="Myriad Pro">a<tspan x="5.78" y="0">g</tspan><tspan x="12.42" y="0">r</tspan><tspan x="16.22" y="0">eeme</tspan><tspan x="44.27" y="0">n</tspan><tspan x="50.88" y="0">t</tspan></text>
-  <text transform="translate(192.19 228)" font-size="12" font-family="Myriad Pro">on</text>
-  <text transform="translate(254.61 228)" font-size="12" font-family="Myriad Pro">the</text>
-  <text transform="translate(303 228)" font-size="12" font-family="Myriad Pro">E<tspan x="5.82" y="0">u</tspan><tspan x="12.43" y="0">r</tspan><tspan x="16.24" y="0">opean</tspan></text>
-  <text transform="translate(366.58 228)" font-size="12" font-family="Myriad Pro">E<tspan x="5.86" y="0">c</tspan><tspan x="11.16" y="0">onomic</tspan></text>
-  <text transform="translate(443.84 228)" font-size="12" font-family="Myriad Pro">A<tspan x="7.31" y="0">r</tspan><tspan x="11.11" y="0">ea</tspan></text>
-  <text transform="translate(509.75 228)" font-size="12" font-family="Myriad Pro">w<tspan x="8.78" y="0">as</tspan></text>
-  <text transform="translate(566.71 228)" font-size="12" font-family="Myriad Pro">si<tspan x="7.56" y="0">g</tspan><tspan x="14.2" y="0">ned</tspan></text>
-  <text transform="translate(642.91 228)" font-size="12" font-family="Myriad Pro">in</text>
-  <text transform="translate(693.84 228)" font-size="12" font-family="Myriad Pro">A<tspan x="7.2" y="0">ugust</tspan></text>
-  <text transform="translate(804.2 18) scale(0.91 1)" font-size="13.23" font-family="Myriad Pro">1992</text>
-  <text transform="translate(763.57 227.89) scale(0.91 1)" font-size="13.23" font-family="Myriad Pro">1992</text>
-  <text transform="translate(838.76 228)" font-size="12" font-family="Myriad Pro">.</text>
-  <text transform="translate(887.25 228)" font-size="12" font-family="Myriad Pro">&lt;end&gt;</text>
-  <text transform="translate(878.86 18.31)" font-size="12" font-family="Myriad Pro">.</text>
-  <text transform="translate(926.82 18.31)" font-size="12" font-family="Myriad Pro">&lt;end&gt;</text>
+  <text transform="translate(62.25 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">the</text>
+  <text transform="translate(107.27 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">a<tspan x="5.78" y="0">g</tspan><tspan x="12.42" y="0">r</tspan><tspan x="16.22" y="0">eeme</tspan><tspan x="44.27" y="0">n</tspan><tspan x="50.88" y="0">t</tspan></text>
+  <text transform="translate(192.19 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">on</text>
+  <text transform="translate(254.61 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">the</text>
+  <text transform="translate(303 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">E<tspan x="5.82" y="0">u</tspan><tspan x="12.43" y="0">r</tspan><tspan x="16.24" y="0">opean</tspan></text>
+  <text transform="translate(366.58 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">E<tspan x="5.86" y="0">c</tspan><tspan x="11.16" y="0">onomic</tspan></text>
+  <text transform="translate(443.84 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">A<tspan x="7.31" y="0">r</tspan><tspan x="11.11" y="0">ea</tspan></text>
+  <text transform="translate(509.75 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">w<tspan x="8.78" y="0">as</tspan></text>
+  <text transform="translate(566.71 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">si<tspan x="7.56" y="0">g</tspan><tspan x="14.2" y="0">ned</tspan></text>
+  <text transform="translate(642.91 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">in</text>
+  <text transform="translate(693.84 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">A<tspan x="7.2" y="0">ugust</tspan></text>
+  <text transform="translate(804.2 18) scale(0.91 1)" opacity="0.6" font-size="13.23" font-family="Myriad Pro">1992</text>
+  <text transform="translate(763.57 228.89) scale(0.91 1)" opacity="0.6" font-size="13.23" font-family="Myriad Pro">1992</text>
+  <text transform="translate(838.76 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">.</text>
+  <text transform="translate(887.25 227.86)" opacity="0.6" font-size="12" font-family="Myriad Pro">&lt;end&gt;</text>
+  <text transform="translate(878.86 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">.</text>
+  <text transform="translate(926.82 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">&lt;end&gt;</text>
   <line x1="70.85" y1="157.06" x2="47.49" y2="80.72" fill="none" stroke="#7b56af" stroke-width="2"/>
   <line x1="133.01" y1="157.06" x2="49.46" y2="80.72" fill="none" stroke="#7b56af" stroke-width="1.5" opacity="0.15"/>
   <line x1="134" y1="157.06" x2="110.65" y2="80.72" fill="none" stroke="#7b56af" stroke-width="2"/>
@@ -551,18 +551,18 @@
   <line x1="526.09" y1="157.06" x2="563.92" y2="80.72" fill="none" stroke="#7b56af" stroke-width="1.8" opacity="0.5"/>
   <line x1="587.93" y1="157.06" x2="625.76" y2="80.72" fill="none" stroke="#7b56af" stroke-width="2"/>
   <line x1="652.4" y1="157.06" x2="690.23" y2="80.72" fill="none" stroke="#7b56af" stroke-width="2"/>
-  <text transform="translate(50.83 18.31)" font-size="12" font-family="Myriad Pro">l<tspan x="2.9" y="0" letter-spacing="-1">’</tspan></text>
-  <text transform="translate(100.2 18.31)" font-size="12" font-family="Myriad Pro">a<tspan x="5.78" y="0">cc</tspan><tspan x="16.39" y="0">o</tspan><tspan x="22.98" y="0">r</tspan><tspan x="26.78" y="0">d</tspan></text>
-  <text transform="translate(172.93 18.31)" font-size="12" font-family="Myriad Pro">sur</text>
-  <text transform="translate(239.85 18.31)" font-size="12" font-family="Myriad Pro">la</text>
-  <text transform="translate(295.6 18.31)" font-size="12" font-family="Myriad Pro">z<tspan x="5.05" y="0">one</tspan></text>
-  <text transform="translate(334 18.31)" font-size="12" font-family="Myriad Pro">é<tspan x="6.01" y="0">c</tspan><tspan x="11.32" y="0">onomique</tspan></text>
-  <text transform="translate(408 18.31)" font-size="12" font-family="Myriad Pro">eu<tspan x="12.62" y="0">r</tspan><tspan x="16.43" y="0">opéenne</tspan></text>
-  <text transform="translate(495.65 18.31)" font-size="12" font-family="Myriad Pro">a</text>
-  <text transform="translate(554.17 18.31)" font-size="12" font-family="Myriad Pro">é<tspan x="6.01" y="0">t</tspan><tspan x="9.91" y="0">é</tspan></text>
-  <text transform="translate(612.29 18.31)" font-size="12" font-family="Myriad Pro">si<tspan x="7.56" y="0">g</tspan><tspan x="14.2" y="0">né</tspan></text>
-  <text transform="translate(682.98 18.31)" font-size="12" font-family="Myriad Pro">en</text>
-  <text transform="translate(741.44 18.31)" font-size="12" font-family="Myriad Pro">août</text>
+  <text transform="translate(50.83 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">l<tspan x="2.9" y="0" letter-spacing="-1">’</tspan></text>
+  <text transform="translate(100.2 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">a<tspan x="5.78" y="0">cc</tspan><tspan x="16.39" y="0">o</tspan><tspan x="22.98" y="0">r</tspan><tspan x="26.78" y="0">d</tspan></text>
+  <text transform="translate(172.93 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">sur</text>
+  <text transform="translate(239.85 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">la</text>
+  <text transform="translate(295.6 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">z<tspan x="5.05" y="0">one</tspan></text>
+  <text transform="translate(338.99 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">é<tspan x="6.01" y="0">c</tspan><tspan x="11.32" y="0">onomique</tspan></text>
+  <text transform="translate(417.4 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">eu<tspan x="12.62" y="0">r</tspan><tspan x="16.43" y="0">opéenne</tspan></text>
+  <text transform="translate(495.65 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">a</text>
+  <text transform="translate(554.17 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">é<tspan x="6.01" y="0">t</tspan><tspan x="9.91" y="0">é</tspan></text>
+  <text transform="translate(612.29 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">si<tspan x="7.56" y="0">g</tspan><tspan x="14.2" y="0">né</tspan></text>
+  <text transform="translate(682.98 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">en</text>
+  <text transform="translate(741.44 18.31)" opacity="0.6" font-size="12" font-family="Myriad Pro">août</text>
   <line x1="584.64" y1="157.06" x2="49.46" y2="80.72" fill="none" stroke="#7b56af" opacity="0.05"/>
   <line x1="880.35" y1="77.72" x2="522.47" y2="154.72" fill="none" stroke="#7b56af" opacity="0.07"/>
   <line x1="878.71" y1="77.72" x2="585.63" y2="153.72" fill="none" stroke="#7b56af" opacity="0.07"/>
