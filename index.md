@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
-<h1>{{ typewriter.headline }}</h1>
+<h1>{{ typewriter.title }}</h1>
 
 {{> byline.html}}
 
