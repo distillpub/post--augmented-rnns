@@ -228,9 +228,9 @@
     <use id="array-positive-value-19" data-name="array-positive-value" width="36" height="36" transform="translate(430 276)" xlink:href="#array-positive-value"/>
   </g>
   <g id="shift">
-    <use width="36" height="36" transform="translate(778 474)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(814 474)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(850 474)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(776 416)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(812 416)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(848 416)" xlink:href="#array-positive-value"/>
   </g>
   <use id="interpolate-amount" width="36" height="36" transform="translate(778 342)" xlink:href="#array-positive-value"/>
   <g id="previous">
@@ -331,13 +331,6 @@
     <path d="M406.13,98.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06A1.63,1.63,0,0,1,404,97.38v-3.2h-0.81V93.62l0.87-.46,0.43-1.26h0.78v1.32H407v1H405.3v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,406.13,98.25Z" fill="#666"/>
   </g>
   <use id="query" width="36" height="36" transform="translate(778 78)" xlink:href="#array-vector"/>
-  <g id="memory">
-    <use width="36" height="36" transform="translate(286 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(322 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(358 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(394 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(430 12)" xlink:href="#array-vector"/>
-  </g>
   <g opacity="0.6">
     <text transform="translate(478.38 33)" font-size="12" font-family="Open Sans">memory</text>
   </g>
@@ -365,5 +358,5 @@
   </g>
   <circle id="query-hover" cx="845.37" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>
   <circle id="interpolate-hover" cx="795.37" cy="357.04" r="41.37" fill="#fff" fill-opacity="0"/>
-  <rect id="shift-hover" x="748" y="450" width="168" height="84" fill-opacity="0" opacity="0.6"/>
+  <rect id="shift-hover" x="746" y="392" width="168" height="84" fill-opacity="0" opacity="0.6"/>
 </svg>

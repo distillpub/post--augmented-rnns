@@ -303,9 +303,7 @@
   <use width="36" height="36" transform="translate(234 49.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(426 49.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(456 49.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use id="array-vector-43" data-name="array-vector" width="36" height="36" transform="translate(264 48.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(618 49.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(648 49.22) scale(0.83)" xlink:href="#array-vector"/>
   <use width="36" height="36" transform="translate(810 49.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(840 49.22) scale(0.83)" xlink:href="#array-vector"/>
 </svg>

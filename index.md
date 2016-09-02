@@ -92,8 +92,8 @@ The attention distribution is usually generated with content-based attention. Th
 
 Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
-<figure class="external" style="width: calc(28 * 12px); margin: 48px auto;">
-  <img src="assets/old-rnn-attention-vis2.png" style=""></img>
+<figure class="w-page">
+  {{> assets/rnn_attentional_ex1.svg}}
   <figcaption>Figure from [Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf)</figcaption>
 </figure>
 

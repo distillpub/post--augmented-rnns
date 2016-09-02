@@ -7,6 +7,15 @@
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
       <path d="M29.77,31.75l-1.93-4.94H21.6l-1.91,4.94H17.86L24,16.14h1.52l6.11,15.61H29.77Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z" fill="#666"/>
     </symbol>
+    <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#d8c2f2" opacity="0"/>
+      <g opacity="0.5">
+        <g>
+          <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>
+        </g>
+      </g>
+    </symbol>
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
@@ -113,4 +122,6 @@
       <path d="M570,73.43a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,570,73.43Z" fill="#666"/>
     </g>
   </g>
+  <use id="array-vector-3" data-name="array-vector" width="36" height="36" transform="translate(262 118.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(838 119.22) scale(0.83)" xlink:href="#array-vector"/>
 </svg>
