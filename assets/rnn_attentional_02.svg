@@ -12,7 +12,7 @@
       <path d="M19.83,16.21h4.39a8.29,8.29,0,0,1,4.48.92,3.27,3.27,0,0,1,1.38,2.92,3.38,3.38,0,0,1-.77,2.28,3.72,3.72,0,0,1-2.25,1.16v0.11q3.54,0.6,3.54,3.72a4,4,0,0,1-1.41,3.25,6,6,0,0,1-3.94,1.17H19.83V16.21Zm1.81,6.66h3a4.85,4.85,0,0,0,2.75-.6,2.32,2.32,0,0,0,.84-2,2,2,0,0,0-.94-1.89,5.84,5.84,0,0,0-3-.58H21.64v5.09Zm0,1.53v5.82h3.24a4.62,4.62,0,0,0,2.83-.73,2.69,2.69,0,0,0,1-2.28,2.42,2.42,0,0,0-1-2.13,5.2,5.2,0,0,0-3-.68H21.64Z" fill="#666"/>
     </symbol>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#e0cef5" stroke="#000" stroke-miterlimit="10" stroke-opacity="0.5" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum" data-name="op-sum" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -209,9 +209,10 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(779.25 23.25)" xlink:href="#rnn-b"/>
   </g>
-  <g>
+  <g id="_Group_8" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="614.75" cy="109.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="614.75" cy="109.25" r="11.25"/>
+      <circle cx="614.75" cy="109.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M610.63,109.75v-1.31H614V105h1.34v3.43h3.41v1.31h-3.41v3.42H614v-3.42h-3.41Z"/>
     </g>
     <use width="24" height="24" transform="translate(601.75 95.25)" xlink:href="#op-sum"/>
@@ -219,11 +220,11 @@
   <g>
     <g opacity="0.1">
       <rect x="169" y="236" width="318" height="24" rx="12" ry="12"/>
-      <rect x="169" y="236" width="318" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="169" y="236" width="318" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.4"/>
     </g>
     <g>
-      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="#d8c2f2"/>
-      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="#e0cef5"/>
+      <rect x="168" y="234" width="318" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.4"/>
     </g>
   </g>
   <g>
@@ -235,58 +236,66 @@
     <path d="M341.49,250l-0.25-.83h0a2.44,2.44,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.9,1.9,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.93,3.93,0,0,1,2.08-.51l1,0V246a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.87,2.87,0,0,0-.88.13,6.61,6.61,0,0,0-.81.32l-0.41-.9a4.33,4.33,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49,1.93,1.93,0,0,1,.58,1.55v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.62A1,1,0,0,0,339.61,249.13Z" fill="#666"/>
     <path d="M345.47,247l-2-2.91h1.44l1.35,2.08,1.36-2.08h1.43l-2,2.91,2.1,3h-1.43l-1.47-2.22L344.81,250h-1.43Z" fill="#666"/>
   </g>
-  <g id="_Group_8" data-name="&lt;Group&gt;">
+  <g id="_Group_9" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="181.75" cy="296" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="181.75" cy="296" r="11.25"/>
+      <circle cx="181.75" cy="296" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M184.21,296.51a2.33,2.33,0,0,1-.67,1.71,2.48,2.48,0,0,1-3.41,0,2.32,2.32,0,0,1-.67-1.71,2.29,2.29,0,0,1,.67-1.7A2.37,2.37,0,0,1,184.21,296.51Z"/>
     </g>
     <use width="24" height="24" transform="translate(168.75 282)" xlink:href="#op-dot"/>
   </g>
-  <g id="_Group_9" data-name="&lt;Group&gt;">
+  <g id="_Group_10" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="373.75" cy="296" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="373.75" cy="296" r="11.25"/>
+      <circle cx="373.75" cy="296" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M376.21,296.51a2.33,2.33,0,0,1-.67,1.71,2.48,2.48,0,0,1-3.41,0,2.32,2.32,0,0,1-.67-1.71,2.29,2.29,0,0,1,.67-1.7A2.37,2.37,0,0,1,376.21,296.51Z"/>
     </g>
     <use width="24" height="24" transform="translate(360.75 282)" xlink:href="#op-dot"/>
   </g>
-  <g id="_Group_10" data-name="&lt;Group&gt;">
+  <g id="_Group_11" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="469.75" cy="296" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="469.75" cy="296" r="11.25"/>
+      <circle cx="469.75" cy="296" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M472.21,296.51a2.33,2.33,0,0,1-.67,1.71,2.48,2.48,0,0,1-3.41,0,2.32,2.32,0,0,1-.67-1.71,2.29,2.29,0,0,1,.67-1.7A2.37,2.37,0,0,1,472.21,296.51Z"/>
     </g>
     <use width="24" height="24" transform="translate(456.75 282)" xlink:href="#op-dot"/>
   </g>
-  <g id="_Group_11" data-name="&lt;Group&gt;">
+  <g id="_Group_12" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="277.75" cy="296" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="277.75" cy="296" r="11.25"/>
+      <circle cx="277.75" cy="296" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M280.21,296.51a2.33,2.33,0,0,1-.67,1.71,2.48,2.48,0,0,1-3.41,0,2.32,2.32,0,0,1-.67-1.71,2.29,2.29,0,0,1,.67-1.7A2.37,2.37,0,0,1,280.21,296.51Z"/>
     </g>
     <use width="24" height="24" transform="translate(264.75 282)" xlink:href="#op-dot"/>
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="205" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="205" cy="205.25" r="11.25"/>
+      <circle cx="205" cy="205.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M202.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L205.72,205l2.57,2.57-1,1L204.72,206Z"/>
     </g>
     <use width="24" height="24" transform="translate(192 191.25)" xlink:href="#op-x"/>
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="301" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="301" cy="205.25" r="11.25"/>
+      <circle cx="301" cy="205.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M298.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L301.72,205l2.57,2.57-1,1L300.72,206Z"/>
     </g>
     <use width="24" height="24" transform="translate(288 191.25)" xlink:href="#op-x"/>
   </g>
-  <g id="_Group_12" data-name="&lt;Group&gt;">
+  <g id="_Group_13" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="397" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="397" cy="205.25" r="11.25"/>
+      <circle cx="397" cy="205.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M394.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L397.72,205l2.57,2.57-1,1L396.72,206Z"/>
     </g>
     <use width="24" height="24" transform="translate(384 191.25)" xlink:href="#op-x"/>
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="493" cy="205.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="493" cy="205.25" r="11.25"/>
+      <circle cx="493" cy="205.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M490.16,208.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L493.72,205l2.57,2.57-1,1L492.72,206Z"/>
     </g>
     <use width="24" height="24" transform="translate(480 191.25)" xlink:href="#op-x"/>

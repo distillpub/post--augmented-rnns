@@ -1,7 +1,7 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="264" viewBox="0 0 984 264">
   <defs>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#e0cef5" stroke="#000" stroke-miterlimit="10" stroke-opacity="0.5" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-x" data-name="op-x" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -58,7 +58,8 @@
   <path d="M684,96V83.5a6,6,0,0,1,6-6h66" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
     <g opacity="0.1">
-      <circle cx="301.01" cy="97.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="301.01" cy="97.25" r="11.25"/>
+      <circle cx="301.01" cy="97.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M298.17,100.53l-1-1L299.75,97l-2.58-2.58,1-1L300.75,96l2.56-2.56,1,1L301.74,97l2.57,2.57-1,1L300.73,98Z"/>
     </g>
     <use width="24" height="24" transform="translate(288.01 83.25)" xlink:href="#op-x"/>
@@ -75,7 +76,8 @@
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="493.01" cy="97.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="493.01" cy="97.25" r="11.25"/>
+      <circle cx="493.01" cy="97.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M490.17,100.53l-1-1L491.74,97l-2.58-2.58,1-1L492.74,96l2.56-2.56,1,1L493.73,97l2.57,2.57-1,1L492.73,98Z"/>
     </g>
     <use width="24" height="24" transform="translate(480.01 83.25)" xlink:href="#op-x"/>
@@ -92,7 +94,8 @@
   </g>
   <g id="_Group_" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="685" cy="97.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="685" cy="97.25" r="11.25"/>
+      <circle cx="685" cy="97.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M682.16,100.53l-1-1L683.73,97l-2.58-2.58,1-1L684.74,96l2.56-2.56,1,1L685.72,97l2.57,2.57-1,1L684.72,98Z"/>
     </g>
     <use width="24" height="24" transform="translate(672 83.25)" xlink:href="#op-x"/>
@@ -139,14 +142,16 @@
   </g>
   <g>
     <g opacity="0.1">
-      <circle cx="216.75" cy="226.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="216.75" cy="226.25" r="11.25"/>
+      <circle cx="216.75" cy="226.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M214.63,223.33a1.77,1.77,0,0,1,.69-1.47,3,3,0,0,1,1.89-.54,4.84,4.84,0,0,1,1.87.38v1.1a5.22,5.22,0,0,0-1.88-.4,1.57,1.57,0,0,0-.93.25,0.78,0.78,0,0,0-.35.67q0,0.74,1.51,1.26a4.6,4.6,0,0,1,2.22,1.44,3.75,3.75,0,0,1,.74,2.26v0.27a4.23,4.23,0,0,1-.4,1.87,3,3,0,0,1-1.15,1.28,3.29,3.29,0,0,1-1.74.45,3.08,3.08,0,0,1-2.42-1,3.86,3.86,0,0,1-.9-2.66v-0.09a3.42,3.42,0,0,1,.64-2,2.76,2.76,0,0,1,1.63-1.14v0a2.36,2.36,0,0,1-1-.75A1.76,1.76,0,0,1,214.63,223.33Zm0.42,5.2a3,3,0,0,0,.55,1.89,1.94,1.94,0,0,0,3,0,3.23,3.23,0,0,0,.55-2,2.67,2.67,0,0,0-.58-1.67,2.35,2.35,0,0,0-1.43-.92,1.81,1.81,0,0,0-1.49.7A3.19,3.19,0,0,0,215.05,228.53Z"/>
     </g>
     <use width="24" height="24" transform="translate(203.75 212.25)" xlink:href="#op-sum_2"/>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="757.75" cy="75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="757.75" cy="75" r="11.25"/>
+      <circle cx="757.75" cy="75" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M753.63,75.49V74.18H757V70.75h1.34v3.43h3.41v1.31h-3.41v3.42H757V75.49h-3.41Z"/>
     </g>
     <use width="24" height="24" transform="translate(744.75 61)" xlink:href="#op-sum"/>

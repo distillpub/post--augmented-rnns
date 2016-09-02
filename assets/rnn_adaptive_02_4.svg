@@ -4,7 +4,7 @@
       <circle cx="15.73" cy="15.73" r="14.73" fill="#e6eaf2" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     </symbol>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="11.25" fill="#d8c2f2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="11.25" fill="#e0cef5" stroke="#000" stroke-miterlimit="10" stroke-opacity="0.5" stroke-width="1.5"/>
     </symbol>
     <symbol id="op-sum_5" data-name="op-sum 5" viewBox="0 0 24 24">
       <use id="op-bg-3" data-name="op-bg" width="24" height="24" xlink:href="#op-bg"/>
@@ -148,7 +148,8 @@
   <path d="M540,48h66a6,6,0,0,1,6,6V65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g id="_Group_" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="685" cy="97.25" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="685" cy="97.25" r="11.25"/>
+      <circle cx="685" cy="97.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M682.16,100.53l-1-1L683.73,97l-2.58-2.58,1-1L684.74,96l2.56-2.56,1,1L685.72,97l2.57,2.57-1,1L684.72,98Z"/>
     </g>
     <use width="24" height="24" transform="translate(672 83.25)" xlink:href="#op-x"/>
@@ -173,7 +174,8 @@
   </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="757.75" cy="75" r="11.25" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="757.75" cy="75" r="11.25"/>
+      <circle cx="757.75" cy="75" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
       <path d="M753.63,75.49V74.18H757V70.75h1.34v3.43h3.41v1.31h-3.41v3.42H757V75.49h-3.41Z"/>
     </g>
     <use width="24" height="24" transform="translate(744.75 61)" xlink:href="#op-sum"/>
