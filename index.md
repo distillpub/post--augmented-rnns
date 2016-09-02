@@ -128,7 +128,7 @@ More broadly, attentional interfaces can be used whenever
 
 Standard RNNs do the same amount of computation each time step. This seems unintuitive -- surely, one should think more when things are hard? -- and limits RNNs to doing $O(n)$ operations. Adaptive Computation Time ([Graves, 2016](https://arxiv.org/pdf/1603.08983v4.pdf)), or ACT, is a way for RNNs to do variable amounts of computation each step.
 
-The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
+<!--The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.-->
 
 <figure class="w-page">
   {{> assets/rnn_adaptive_01.svg}}

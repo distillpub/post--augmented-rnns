@@ -1,19 +1,19 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="744" viewBox="0 0 984 744">
   <defs>
-    <symbol id="array-5" data-name="array-5" viewBox="0 0 181 37">
-      <rect x="0.5" y="0.5" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="36.25" y1="36.5" x2="36.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="72.25" y1="36.5" x2="72.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="108.25" y1="36.5" x2="108.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="144.25" y1="36.5" x2="144.25" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <symbol id="array-5" data-name="array-5" viewBox="0 0 181.5 37.5">
+      <rect x="0.75" y="0.75" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="36.5" y1="36.75" x2="36.5" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72.5" y1="36.75" x2="72.5" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="108.5" y1="36.75" x2="108.5" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="144.5" y1="36.75" x2="144.5" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
-    <symbol id="array-1" data-name="array-1" viewBox="0 0 37 37">
-      <rect x="0.5" y="0.5" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <symbol id="array-1" data-name="array-1" viewBox="0 0 37.5 37.5">
+      <rect x="0.75" y="0.75" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
-    <symbol id="array-3" data-name="array-3" viewBox="0 0 108.5 37">
-      <rect x="0.5" y="0.5" width="107.5" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <symbol id="array-3" data-name="array-3" viewBox="0 0 109 37.5">
+      <rect x="0.75" y="0.75" width="107.5" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="36.25" y1="36.75" x2="36.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72.25" y1="36.75" x2="72.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
     <symbol id="array-negative-value" data-name="array-negative-value" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
@@ -204,14 +204,14 @@
       <rect x="334" y="84" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
-  <use id="array-5-3" data-name="array-5" width="181" height="37" transform="translate(285.25 275)" xlink:href="#array-5"/>
-  <use width="181" height="37" transform="translate(525 276)" xlink:href="#array-5"/>
-  <use width="181" height="37" transform="translate(285.25 407)" xlink:href="#array-5"/>
-  <use width="181" height="37" transform="translate(285.25 540)" xlink:href="#array-5"/>
-  <use width="181" height="37" transform="translate(285.25 671)" xlink:href="#array-5"/>
-  <use width="37" height="37" transform="translate(777.5 342)" xlink:href="#array-1"/>
-  <use id="array-3-3" data-name="array-3" width="108.5" height="37" transform="translate(777.5 473)" xlink:href="#array-3"/>
-  <use width="181" height="37" transform="translate(285.25 143)" xlink:href="#array-5"/>
+  <use id="array-5-3" data-name="array-5" width="181.5" height="37.5" transform="translate(285 274.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(524.75 275.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(285 406.75)" xlink:href="#array-5"/>
+  <use id="array-5-10" data-name="array-5" width="181.5" height="37.5" transform="translate(285 539.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(285 670.75)" xlink:href="#array-5"/>
+  <use width="37.5" height="37.5" transform="translate(777.25 341.75)" xlink:href="#array-1"/>
+  <use id="array-3-3" data-name="array-3" width="109" height="37.5" transform="translate(777.25 472.75)" xlink:href="#array-3"/>
+  <use width="181.5" height="37.5" transform="translate(285 142.75)" xlink:href="#array-5"/>
   <g id="dot">
     <use width="36" height="36" transform="translate(286 143.25)" xlink:href="#array-negative-value"/>
     <use width="36" height="36" transform="translate(322 143)" xlink:href="#array-positive-value"/>
@@ -219,7 +219,7 @@
     <use width="36" height="36" transform="translate(394 143)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(430 143)" xlink:href="#array-positive-value"/>
   </g>
-  <use width="181" height="37" transform="translate(285.25 12)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(285 11.75)" xlink:href="#array-5"/>
   <g id="softmax">
     <use width="36" height="36" transform="translate(286 276)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(322 276)" xlink:href="#array-positive-value"/>
@@ -261,7 +261,7 @@
     <use width="36" height="36" transform="translate(394 671)" xlink:href="#array-positive-value"/>
     <use width="36" height="36" transform="translate(430 671)" xlink:href="#array-positive-value"/>
   </g>
-  <use width="37" height="37" transform="translate(777.5 77)" xlink:href="#array-1"/>
+  <use width="37.5" height="37.5" transform="translate(777.25 76.75)" xlink:href="#array-1"/>
   <g opacity="0.6">
     <text transform="translate(118 81.12)" font-size="12" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
   </g>

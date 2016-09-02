@@ -1,16 +1,16 @@
 <svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="276" viewBox="0 0 984 276">
   <defs>
-    <symbol id="array-7" data-name="array-7" viewBox="0 0 253 37">
-      <rect x="0.5" y="0.5" width="252" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="36" y1="36.5" x2="36" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="72" y1="36.5" x2="72" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="108" y1="36.5" x2="108" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="144" y1="36.5" x2="144" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="180" y1="36.5" x2="180" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="216" y1="36.5" x2="216" y2="0.5" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <symbol id="array-7" data-name="array-7" viewBox="0 0 253.5 37.5">
+      <rect x="0.75" y="0.75" width="252" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="36.25" y1="36.75" x2="36.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="72.25" y1="36.75" x2="72.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="108.25" y1="36.75" x2="108.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="144.25" y1="36.75" x2="144.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="180.25" y1="36.75" x2="180.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="216.25" y1="36.75" x2="216.25" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
-    <symbol id="array-1" data-name="array-1" viewBox="0 0 37 37">
-      <rect x="0.5" y="0.5" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    <symbol id="array-1" data-name="array-1" viewBox="0 0 37.5 37.5">
+      <rect x="0.75" y="0.75" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
@@ -41,9 +41,9 @@
     <path id="edge6" d="M402,84v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#8359b2" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <rect x="200.95" y="18" width="37.55" height="18" fill="#ffffcd"/>
-  <use id="array-7-3" data-name="array-7" width="253" height="37" transform="translate(168 48)" xlink:href="#array-7"/>
-  <use width="253" height="37" transform="translate(168 107)" xlink:href="#array-7"/>
-  <use width="37" height="37" transform="translate(276 227)" xlink:href="#array-1"/>
+  <use id="array-7-3" data-name="array-7" width="253.5" height="37.5" transform="translate(167.75 47.75)" xlink:href="#array-7"/>
+  <use id="array-7-6" data-name="array-7" width="253.5" height="37.5" transform="translate(167.75 106.75)" xlink:href="#array-7"/>
+  <use id="array-1-3" data-name="array-1" width="37.5" height="37.5" transform="translate(275.75 226.75)" xlink:href="#array-1"/>
   <g opacity="0.6">
     <text transform="translate(432 72)" font-size="12" font-family="Open Sans">attention</text>
   </g>
