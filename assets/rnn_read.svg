@@ -14,7 +14,7 @@
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#0080f7" opacity="0"/>
-      <g opacity="0.4">
+      <g opacity="0.5">
         <g>
           <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
           <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>

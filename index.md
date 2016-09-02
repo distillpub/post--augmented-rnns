@@ -188,9 +188,7 @@ The program is generated one operation at a time by a controller RNN. At each st
   {{> assets/rnn_programmer_2.svg}}
 </figure>
 
-The resulting distribution over operations  can now be evaluated.
-
-Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
+The resulting distribution over operations can now be evaluated. Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
 
 <figure class="w-page">
   {{> assets/rnn_programmer_3.svg}}
