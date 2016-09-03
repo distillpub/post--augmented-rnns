@@ -7,18 +7,29 @@
 
 {{> mathjax.html}}
 
+<!--
+Some things we might want to think about adding somewhere:
+* List of article translations -- my LSTM article has at least 7 translations
+* Licensing Info (CC-BY?)
+* FAQ: https://docs.google.com/a/google.com/document/d/17d0iIq55dKX4Czo_r7iVZu3iG9WHfAO-namQCCr3FJc/edit?usp=sharing
+* Diagram source?
+-->
+
+<style>p {text-align: justify;}</style>
+
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
+<!-- Comment on inputs/outputs in figure? -->
 {{> assets/rnn_basic_rnn.html}}
 
-The basic RNN design struggles with longer sequences, but if you use [LSTM networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a special kind of RNN, they can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.
+The basic RNN design struggles with longer sequences, but a special variant -- ["long short-term memory" networks][olah2015lstm] -- can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years.
 
 As this happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions stand out as particularly exciting:
 
-* *Neural Turing Machines* have external memory that they can read and write to.
-* *Attentional Interfaces* allow RNNs to focus on parts of their input.
-* *Adaptive Computation Time* allows for varying amounts of computation per step.
-* *Neural Programmers* can call functions, building programs as they run.
+* [*Neural Turing Machines*](#neural-turing-machines) have external memory that they can read and write to.
+* [*Attentional Interfaces*](#attentional-interfaces) allow RNNs to focus on parts of their input.
+* [*Adaptive Computation Time*](#adaptive-computation-time) allows for varying amounts of computation per step.
+* [*Neural Programmers*](#neural-programmer) can call functions, building programs as they run.
 
 Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together. My guess is that these "augmented RNNs" will radically extend what deep learning is capable of in the coming years.
 
@@ -26,7 +37,7 @@ Individually, these techniques are all potent extensions of RNNs, but the really
 
 ### Neural Turing Machines
 
-Neural Turing Machines ([Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf)) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:
+Neural Turing Machines ([Graves, *et al.*, 2014]) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is arranged as an array of vectors:
 
 <figure class="w-page">
   <!--
@@ -60,13 +71,13 @@ This capability to read and write allows NTMs to perform many simple algorithms,
 
 <figure class="p-right-margin external" style="width: 396px; margin-left: 48px;">
   <img src="assets/NTM-Copy-ReadWrite.svg"></img>
-  <figcaption style="bottom: 0px;">See more experiments in [Graves, *et al.*, 2014](https://arxiv.org/pdf/1410.5401v2.pdf). This figure is based on the Repeat Copy experiment.</figcaption>
+  <figcaption style="bottom: 0px;">See more experiments in [Graves, *et al.*, 2014]. This figure is based on the Repeat Copy experiment.</figcaption>
 </figure>
 
 
 They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
 
-Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015](http://arxiv.org/pdf/1511.08228v3.pdf)) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016](http://arxiv.org/pdf/1505.00521.pdf) train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]( http://arxiv.org/pdf/1511.06392.pdf)) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015](http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf); [Joulin & Mikolov, 2015](https://arxiv.org/pdf/1503.01007v4.pdf)). And memory networks ([Weston *et al.*, 2014](http://arxiv.org/abs/1410.3916); [Kumar *et al.*, 2015](http://arxiv.org/abs/1506.07285)) are another approach to attacking similar problems.
+Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015]) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016] train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015]; [Joulin & Mikolov, 2015]). And memory networks ([Weston *et al.*, 2014]; [Kumar *et al.*, 2015]) are another approach to attacking similar problems.
 
 *(TODO: make above more readable)*
 
@@ -78,7 +89,7 @@ When I’m translating a sentence, I pay special attention to the word I’m pre
 
 Neural networks can achieve this same behavior using *attention*, focusing on part of a subset of the information they're given. For example, an RNN can attend over the output of another RNN. At every time step, it focuses on different positions in the other RNN.
 
-We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machiens use: we focus everywhere, just to different extents.
+We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.
 
 <figure class="side-saddle-right w-page">
   {{> assets/rnn_attentional_01.svg}}
@@ -94,10 +105,12 @@ Attention between two RNNs can be used in translation. A traditional sequence-to
 
 <figure class="w-page">
   {{> assets/rnn_attentional_ex1.svg}}
-  <figcaption>Figure from [Bahdanau, *et al.* 2014](https://arxiv.org/pdf/1409.0473.pdf)</figcaption>
+  <figcaption>Figure from [Bahdanau, *et al.* 2014]</figcaption>
 </figure>
 
-This kind of attention between RNNs can also be used in voice recognition. This allows one RNN to process the audio, and then another to skim through it, focusing on the relevant parts to generate a transcript.
+{{> assets/rnn_attentional_ex2.html}}
+
+This kind of attention between RNNs has a number of other applications. It can be used in voice recognition ([Chan, *et al.* 2015]), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript. This kind of attention can also be use to parse text ([Vinyals, *et al.*, 2014]), allowing the model to glance at a sentence as it generates the parse tree, and for conversational modeling ([Vinyals & Le, 2015]), allowing the model to focus on previous parts of the conversation as it generates its response.
 
 <!--
 <figure class=" external" >
@@ -106,37 +119,35 @@ This kind of attention between RNNs can also be used in voice recognition. This 
 </figure>
 -->
 
-{{> assets/rnn_attentional_ex2.html}}
-
-(TODO: last sentence awkward)
 
 <img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
+*TODO* Rewrite above
+
 <figure class="external">
   <img src="assets/ShowAttendTell.png">
-  <figcaption style="bottom: 0px;">Figure from [Xu, *et al.*, 2015](https://arxiv.org/pdf/1502.03044.pdf)</figcaption>
+  <figcaption style="bottom: 0px;">Figure from [Xu, *et al.*, 2015]</figcaption>
 </figure>
 
-More broadly, attentional interfaces can be used whenever
-
-
-... **TODO**
+More broadly, attentional interfaces can be used whenever... **TODO**
 
 ---
 
 ### Adaptive Computation Time
 
-Standard RNNs do the same amount of computation each time step. This seems unintuitive -- surely, one should think more when things are hard? -- and limits RNNs to doing $O(n)$ operations. Adaptive Computation Time ([Graves, 2016](https://arxiv.org/pdf/1603.08983v4.pdf)), or ACT, is a way for RNNs to do variable amounts of computation each step.
+Standard RNNs do the same amount of computation each time step. This seems unintuitive. Surely, one should think more when things are hard? It also limits RNNs to doing $O(n)$ operations for a list of length $n$.
 
-<!--The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.-->
+Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
 <figure class="w-page">
   {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
-In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: we consider an attention distribution over computation steps, and have the output be a weighted combination of the states at each step. We also want the RNN to know when it has moved on to a new step, so we set a special bit on the input for the first computation step of each time step.
+In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
+
+we consider an attention distribution over computation steps, and have the output be a weighted combination of the states at each step.
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
@@ -174,7 +185,7 @@ When we stop, might have some left over halting budget because we stop when it g
 
 Neural nets are excellent at many tasks, but they also struggle to do some basic things like arithmetic, which are trivial in normal approaches to computing. It would be really nice to have a way to fuse neural nets with normal programming, and get the best of both worlds.
 
-The neural programmer ([Neelakantan, *et al.*, 2015](http://arxiv.org/abs/1511.04834)) is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs *without needing examples of correct programs*. It discovers how to produce programs as a means to the end of accomplishing some task.
+The neural programmer ([Neelakantan, *et al.*, 2015]) is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs *without needing examples of correct programs*. It discovers how to produce programs as a means to the end of accomplishing some task.
 
 The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
 
@@ -208,8 +219,26 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 ### Conclusion
 
-(TOD: add heirachal memory paper)
+(TODO: add heirachal memory paper, pointer networks)
 
+
+<!-- We could write up a bibliography section citing these: -->
+[olah2015lstm]: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+[Graves, *et al.*, 2014]: https://arxiv.org/pdf/1410.5401.pdf
+[Kaiser & Sutskever, 2015]: http://arxiv.org/pdf/1511.08228.pdf
+[Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
+[Kurach *et al.*, 2015]: http://arxiv.org/pdf/1511.06392.pdf
+[Grefenstette *et al*. 2015]: http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf
+[Joulin & Mikolov, 2015]: https://arxiv.org/pdf/1503.01007.pdf
+[Weston *et al.*, 2014]: http://arxiv.org/abs/1410.3916
+[Kumar *et al.*, 2015]: http://arxiv.org/abs/1506.07285
+[Bahdanau, *et al.* 2014]: https://arxiv.org/pdf/1409.0473.pdf
+[Chan, *et al.* 2015]: https://arxiv.org/pdf/1508.01211.pdf
+[Vinyals, *et al.*, 2014]: https://arxiv.org/pdf/1412.7449.pdf
+[Vinyals & Le, 2015]: http://arxiv.org/pdf/1506.05869.pdf
+[Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
+[Graves, 2016]: https://arxiv.org/pdf/1603.08983v4.pdf
+[Neelakantan, *et al.*, 2015]: http://arxiv.org/abs/1511.04834
 
 Acknowledgments:
 
