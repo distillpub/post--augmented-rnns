@@ -116,6 +116,8 @@ Attention between two RNNs can be used in translation ([Bahdanau, *et al.* 2014]
 
 <!-- {{> assets/rnn_attentional_ex2.html}} -->
 
+{{> assets/rnn_attentional_ex3.html}}
+
 This kind of attention between RNNs has a number of other applications. It can be used in voice recognition ([Chan, *et al.* 2015]), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript. This kind of attention can also be use to parse text ([Vinyals, *et al.*, 2014]), allowing the model to glance at a sentence as it generates the parse tree, and for conversational modeling ([Vinyals & Le, 2015]), allowing the model to focus on previous parts of the conversation as it generates its response.
 
 <!--

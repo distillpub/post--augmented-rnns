@@ -150,7 +150,7 @@ networkA.append("rect")
     .attr("x", -12)
     .attr("y", -12)
     .attr("class", "background")
-    .attr("width", width)
+    .attr("width", width + 24)
     .attr("height", nodeSize + 24)
     .attr("rx", 8)
     .attr("ry", 8);
@@ -165,8 +165,8 @@ cellA.append("rect")
     .attr("class", "node")
     .attr("width", nodeSize)
     .attr("height", nodeSize)
-    .attr("rx", 5)
-    .attr("ry", 5);
+    .attr("rx", 4)
+    .attr("ry", 4);
 
 cellA.append("text")
     .text("A")
@@ -186,7 +186,7 @@ networkB.append("rect")
     .attr("x", -12)
     .attr("y", -12)
     .attr("class", "background")
-    .attr("width", width)
+    .attr("width", width + 24)
     .attr("height", nodeSize + 24)
     .attr("rx", 8)
     .attr("ry", 8);
