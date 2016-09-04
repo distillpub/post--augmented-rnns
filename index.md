@@ -9,11 +9,16 @@
 
 <!--
 Some things we might want to think about adding somewhere:
+* Hyperlink author names and instituion
+* Select a canonical picture for the diagram, when displaying it?
 * List of article translations -- my LSTM article has at least 7 translations
 * Licensing Info (CC-BY?)
 * FAQ: https://docs.google.com/a/google.com/document/d/17d0iIq55dKX4Czo_r7iVZu3iG9WHfAO-namQCCr3FJc/edit?usp=sharing
 * Diagram source?
+* Source code for models?
 -->
+
+<!-- Maybe rename "Attention and Augmented RNNs?" -->
 
 <style>p {text-align: justify;}</style>
 
@@ -61,9 +66,7 @@ Similarly, we write everywhere at once to different extents. Again, an attention
 
 {{> assets/rnn_write.html}}
 
-But how do NTMs distribute their attention over positions in memory? They actually combine together two different attention mechanisms: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and move to places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
-
-The addressing process starts with the generating the content-based focus. First, the controller gives a “query” vector, describing what we should focus on. Each memory entry is scored for similarity with the query, using either a dot product or cosine similarity. The scores are then converted into an attention distribution using softmax.
+But how do NTMs decide which positions in memory to focus their attention on? They actually use a combination of two different methods: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and focus on places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
 
 {{> assets/rnn_write_detail.html}}
 
@@ -91,24 +94,27 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.
 
+<!-- Diagram slightly unaligned on right side -->
 <figure class="side-saddle-right w-page">
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how well it matches the query. The scores are fed into a softmax to create the attention distribution.
 
+<!-- Diagram slightly unaligned on right side -->
+<!-- Add a clearer break on the left side? Alternatively, shift softmax and improve alignment -->
 <figure class="w-page">
   {{> assets/rnn_attentional_02.svg}}
 </figure>
 
-Attention between two RNNs can be used in translation. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
+Attention between two RNNs can be used in translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
 <figure class="w-page">
   {{> assets/rnn_attentional_ex1.svg}}
-  <figcaption>Figure from [Bahdanau, *et al.* 2014]</figcaption>
+  <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
 </figure>
 
-{{> assets/rnn_attentional_ex2.html}}
+<!-- {{> assets/rnn_attentional_ex2.html}} -->
 
 This kind of attention between RNNs has a number of other applications. It can be used in voice recognition ([Chan, *et al.* 2015]), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript. This kind of attention can also be use to parse text ([Vinyals, *et al.*, 2014]), allowing the model to glance at a sentence as it generates the parse tree, and for conversational modeling ([Vinyals & Le, 2015]), allowing the model to focus on previous parts of the conversation as it generates its response.
 
@@ -120,18 +126,20 @@ This kind of attention between RNNs has a number of other applications. It can b
 -->
 
 
+Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step.
+
 <img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
 
-Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
-
-*TODO* Rewrite above
+One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
 <figure class="external">
   <img src="assets/ShowAttendTell.png">
   <figcaption style="bottom: 0px;">Figure from [Xu, *et al.*, 2015]</figcaption>
 </figure>
 
-More broadly, attentional interfaces can be used whenever... **TODO**
+More broadly, attentional interfaces can be used whenever one wants to interface with a neural network that has a repeating structure in its output.
+
+Attentional interfaces have been found to be an extremely general and powerful technique, and are becoming increasingly widespread.
 
 ---
 
@@ -146,8 +154,6 @@ Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to different amoun
 </figure>
 
 In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
-
-we consider an attention distribution over computation steps, and have the output be a weighted combination of the states at each step.
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
@@ -178,6 +184,8 @@ When we stop, might have some left over halting budget because we stop when it g
 <figure class="w-page">
   {{> assets/rnn_adaptive_02_4.svg}}
 </figure>
+
+Adaptive Computation Time is a very new idea, but we believe that it, along with similar ideas, will be very important.
 
 ---
 
@@ -211,9 +219,11 @@ As long as we can define derivatives through the operations, the program's outpu
 
 That's the core idea of Neural Programmer, but the version in the paper answers questions about tables, rather than arithmetic expressions. There's a few additional neat tricks:
 
-* **Multiple Types:** Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) Only outputs of the same type get merged together. This is part way to having a type system.
+* **Multiple Types:** Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. <!-- footnote? (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) --> Only outputs of the same type get merged together.
 
-* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (discussed above). For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. The exciting thing about this is that, while it's being used in a very limited way, it shows that pointer network-style attention can be used enable a kind of variable.
+* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks ([Vinyals, *et al*, 2015]). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. -->
+
+
 
 ---
 
@@ -239,6 +249,7 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Graves, 2016]: https://arxiv.org/pdf/1603.08983v4.pdf
 [Neelakantan, *et al.*, 2015]: http://arxiv.org/abs/1511.04834
+[Vinyals, *et al*, 2015]: https://arxiv.org/pdf/1506.03134.pdf
 
 Acknowledgments:
 
