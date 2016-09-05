@@ -3,6 +3,7 @@
   <svg></svg>
   <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
   <img src="assets/rnn-attention-waveform.png">
+  <figcaption>Figure derived from [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
 </figure>
 
 <style>
@@ -15,7 +16,7 @@
 }
 #attentional-ex3 svg {
   width: 100%;
-  height: 200px;
+  height: 170px;
 }
 #attentional-ex3 .background {
   fill: rgb(240, 240, 245);
@@ -45,6 +46,10 @@
   stroke: rgb(131, 89, 178);
   stroke-width: 2px;
 }
+#attentional-ex3 .arrow {
+  stroke: black;
+  stroke-opacity: 0.6;
+}
 </style>
 
 <script>
@@ -56,7 +61,7 @@
 var data = d3.csvParseRows(d3.select("#attentional-ex3-data").text());
 console.log(data);
 console.log(data[0].length)
-var labelsB = ["h","o","w","<space>","m","u","c","h","<space>","w","o","u","l","d","<space>","a","<space>","w","o","o","d","c","h","u","c","k","<space>","c","h","u","c","k","<end>"];
+var labelsB = ["h","o","w","_","m","u","c","h","_","w","o","u","l","d","_","a","_","w","o","o","d","c","h","u","c","k","_","c","h","u","c","k","<end>"];
 var labelsA = d3.range(data[0].length);
 
 var linkData = [];
@@ -69,23 +74,25 @@ data.forEach(function(b, bi) {
     })
   })
 })
+var nodeSize = 14;
+var nodeMargin = 8;
+var networkMargin = 100;
+
 var html = d3.select("#attentional-ex3");
 var outerWidth = html.node().getBoundingClientRect().width;
-var outerHeight = 200;
-var margin = {top: 36, right: 12, bottom: 24, left: 12};
+var outerHeight = html.node().getBoundingClientRect().height;
+var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeigh = margin.top - margin.bottom;
 
-var nodeSize = 12;
-var networkMargin = 100;
 
 var xa = d3.scaleLinear()
-    .domain([0, labelsA.length])
-    .range([0, width]);
+    .domain([0, labelsA.length - 1])
+    .range([0, width - nodeSize]);
 
 var xb = d3.scaleLinear()
-    .domain([0, labelsB.length])
-    .range([0, width]);
+    .domain([0, labelsB.length - 1])
+    .range([0, width - nodeSize]);
 
 var link = function(d) {
   return "M" + (xb(d.bi) + nodeSize / 2) + "," + nodeSize
@@ -104,13 +111,13 @@ var networkA = svg.append("g")
     .attr("transform", "translate(0, " + networkMargin + ")");
 
 networkA.append("rect")
-    .attr("x", -12)
-    .attr("y", -12)
+    .attr("x", -nodeMargin)
+    .attr("y", -nodeMargin)
     .attr("class", "background")
-    .attr("width", width + 12)
-    .attr("height", nodeSize + 24)
-    .attr("rx", 8)
-    .attr("ry", 8);
+    .attr("width", width + nodeMargin * 2)
+    .attr("height", nodeSize + nodeMargin * 2)
+    .attr("rx", 6)
+    .attr("ry", 6);
 
 var cellA = networkA.selectAll(".cell")
     .data(labelsA)
@@ -125,27 +132,40 @@ cellA.append("rect")
     .attr("rx", 2)
     .attr("ry", 2);
 
+cellA.append("line")
+    .attr("class", "arrow")
+    .attr("x1", nodeSize)
+    .attr("x2", nodeSize + nodeMargin)
+    .attr("y1", nodeSize / 2)
+    .attr("y2", nodeSize / 2);
+
+cellA.append("line")
+    .attr("class", "arrow")
+    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
+    .attr("y1", nodeSize + nodeMargin * 2)
+    .attr("y2", nodeSize);
+
 // cellA.append("text")
 //     .text("A")
 //     .attr("dx", nodeSize / 2)
 //     .attr("dy", nodeSize / 2 + 1);
 
-cellA.append("text")
-    .attr("class", "label")
-    .attr("dx", nodeSize / 2)
-    .attr("dy", nodeSize + 24)
-    .text(function(d) { return d; });
+// cellA.append("text")
+//     .attr("class", "label")
+//     .attr("dx", nodeSize / 2)
+//     .attr("dy", nodeSize + nodeMargin * 2)
+//     .text(function(d) { return d; });
 
 var networkB = svg.append("g");
 
 networkB.append("rect")
-    .attr("x", -12)
-    .attr("y", -12)
+    .attr("x", -nodeMargin)
+    .attr("y", -nodeMargin)
     .attr("class", "background")
-    .attr("width", width + 12)
-    .attr("height", nodeSize + 24)
-    .attr("rx", 8)
-    .attr("ry", 8);
+    .attr("width", width + nodeMargin * 2)
+    .attr("height", nodeSize + nodeMargin * 2)
+    .attr("rx", 6)
+    .attr("ry", 6);
 
 var cellB = networkB.selectAll(".cell")
     .data(labelsB)
@@ -160,6 +180,19 @@ cellB.append("rect")
     .attr("rx", 2)
     .attr("ry", 2);
 
+cellB.append("line")
+    .attr("class", "arrow")
+    .attr("x1", nodeSize)
+    .attr("x2", nodeSize + nodeMargin)
+    .attr("y1", nodeSize / 2)
+    .attr("y2", nodeSize / 2);
+
+cellB.append("line")
+    .attr("class", "arrow")
+    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
+    .attr("y1", 0)
+    .attr("y2", -nodeMargin * 2 + 4);
+
 // cellB.append("text")
 //     .text("B")
 //     .attr("dx", nodeSize / 2)
@@ -168,7 +201,7 @@ cellB.append("rect")
 cellB.append("text")
     .attr("class", "label")
     .attr("dx", nodeSize / 2)
-    .attr("dy", - 24)
+    .attr("dy", - nodeMargin * 2 - 8)
     .text(function(d) { return d; });
 
 var linkA = svg.selectAll(".link")

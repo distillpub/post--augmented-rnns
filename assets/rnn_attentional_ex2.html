@@ -1,40 +1,46 @@
 
 <figure id="attentional-ex2" class="w-page">
   <div id="attentional-ex2-data" style="display: none;">{{> assets/rnn_attentional_ex2.csv}}</div>
+  <svg></svg>
+  <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
 </figure>
 
 <style>
+  #attentional-ex2 svg {
+  width: 100%;
+  height: 220px;
+  }
 #attentional-ex2 .background {
   fill: rgb(240, 240, 245);
   stroke: black;
   stroke-opacity: 0.1;
 }
-
 #attentional-ex2 .node {
   fill: white;
   stroke: black;
   stroke-width: 1px;
   stroke-opacity: 0.6;
 }
-
 #attentional-ex2 .cell text {
   font-size: 13px;
   fill-opacity: 0.5;
   text-anchor: middle;
   alignment-baseline: middle;
 }
-
 #attentional-ex2 .cell text.label {
   font-size: 12px;
   fill-opacity: 0.6;
   text-anchor: middle;
   alignment-baseline: middle;
 }
-
 #attentional-ex2 .link {
   fill: none;
   stroke: rgb(131, 89, 178);
   stroke-width: 2px;
+}
+#attentional-ex2 .arrow {
+  stroke: black;
+  stroke-opacity: 0.6;
 }
 </style>
 
@@ -95,40 +101,41 @@ data.forEach(function(b, bi) {
     })
   })
 })
-var html = d3.select("#attentional-ex2");
-var outerWidth = html.node().getBoundingClientRect().width;
-var outerHeight = 300;
-var margin = {top: 36, right: 24, bottom: 24, left: 24};
-var width = outerWidth - margin.left - margin.right;
-var height = outerHeigh = margin.top - margin.bottom;
 
-var nodeSize = 34;
+var nodeSize = 32;
 var nodeMargin = 12;
 var networkMargin = 100;
 
+var html = d3.select("#attentional-ex2");
+var outerWidth = html.node().getBoundingClientRect().width;
+var outerHeight = html.node().getBoundingClientRect().height;
+var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
+var width = outerWidth - margin.left - margin.right;
+var height = outerHeigh = margin.top - margin.bottom;
+
 var xa = d3.scaleLinear()
-    .domain([0, labelsA.length])
-    .range([0, width]);
+    .domain([0, labelsA.length - 1])
+    .range([0, width - nodeSize]);
 
 var xb = d3.scaleLinear()
-    .domain([0, labelsB.length])
-    .range([0, width]);
+    .domain([0, labelsB.length -1])
+    .range([0, width - nodeSize]);
 
 var link = function(d) {
-  return "M" + (xa(d.ai) + nodeSize / 2) + "," + nodeSize
-      + "C" + (xa(d.ai) + nodeSize / 2) + "," + (nodeSize + networkMargin / 3)
-      + " " + (xb(d.bi) + nodeSize / 2) + "," + (networkMargin - networkMargin / 3)
-      + " " + (xb(d.bi) + nodeSize / 2) + "," + networkMargin;
+  return "M" + (xb(d.bi) + nodeSize / 2) + "," + nodeSize
+      + "C" + (xb(d.bi) + nodeSize / 2) + "," + (nodeSize + networkMargin / 3)
+      + " " + (xa(d.ai) + nodeSize / 2) + "," + (networkMargin - networkMargin / 3)
+      + " " + (xa(d.ai) + nodeSize / 2) + "," + networkMargin;
 };
 
-
-var svg = html.append("svg")
+var svg = html.select("svg")
     .attr("width", outerWidth)
     .attr("height", outerHeight)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var networkA = svg.append("g");
+var networkA = svg.append("g")
+    .attr("transform", "translate(0, " + networkMargin + ")");
 
 networkA.append("rect")
     .attr("x", -12)
@@ -152,6 +159,19 @@ cellA.append("rect")
     .attr("rx", 4)
     .attr("ry", 4);
 
+cellA.append("line")
+    .attr("class", "arrow")
+    .attr("x1", nodeSize)
+    .attr("x2", nodeSize + nodeMargin)
+    .attr("y1", nodeSize / 2)
+    .attr("y2", nodeSize / 2);
+
+cellA.append("line")
+    .attr("class", "arrow")
+    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
+    .attr("y1", nodeSize + nodeMargin * 2 - 5)
+    .attr("y2", nodeSize);
+
 cellA.append("text")
     .text("A")
     .attr("dx", nodeSize / 2)
@@ -160,11 +180,12 @@ cellA.append("text")
 cellA.append("text")
     .attr("class", "label")
     .attr("dx", nodeSize / 2)
-    .attr("dy", - 24)
+    .attr("dy", nodeSize + 24 + 8)
     .text(function(d) { return d; });
 
-var networkB = svg.append("g")
-    .attr("transform", "translate(0, " + networkMargin + ")")
+
+
+var networkB = svg.append("g");
 
 networkB.append("rect")
     .attr("x", -12)
@@ -188,6 +209,19 @@ cellB.append("rect")
     .attr("rx", 4)
     .attr("ry", 4);
 
+cellB.append("line")
+    .attr("class", "arrow")
+    .attr("x1", nodeSize)
+    .attr("x2", nodeSize + nodeMargin)
+    .attr("y1", nodeSize / 2)
+    .attr("y2", nodeSize / 2);
+
+cellB.append("line")
+    .attr("class", "arrow")
+    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
+    .attr("y1", 0)
+    .attr("y2", -nodeMargin * 2 + 5);
+
 cellB.append("text")
     .text("B")
     .attr("dx", nodeSize / 2)
@@ -195,8 +229,8 @@ cellB.append("text")
 
 cellB.append("text")
     .attr("class", "label")
-    .attr("dx", nodeSize / 2)
-    .attr("dy", nodeSize + 24)
+    .attr("dx", function(d) { return d === "européenne" ? nodeSize / 2 + 15 : nodeSize / 2; })
+    .attr("dy", - 24 - 5)
     .text(function(d) { return d; });
 
 var linkA = svg.selectAll(".link")
