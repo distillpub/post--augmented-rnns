@@ -1,5 +1,43 @@
 <!doctype html>
 <meta charset="utf8">
-<script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<style>
+  img {
+    border: 1px solid cyan;
+  }
+</style>
 
+<div id="root"><div>
+
+<script>
+  var columns = 20;
+  var rows = 30;
+  var margin = {top: 140, left: 74, right: 10, bottom: 8};
+  var imageUrl = "old-rnn-attention-vis1.png";
+  var width;
+  var height;
+
+  var root = document.getElementById("root");
+  var canvas = document.createElement("canvas");
+  var context = canvas.getContext("2d");
+  var image = new Image();
+  root.appendChild(canvas);
+  // root.appendChild(image);
+  image.onload = function() {
+    width = image.width - margin.left - margin.right;
+    height = image.height - margin.top - margin.bottom;
+    canvas.width = width;
+    canvas.height = height;
+    context.drawImage(image, margin.left, margin.top, width, height, 0, 0, width, height);
+
+    // var idata = context.getImageData(x, y, 1, 1);
+    // var data = idata.data;
+    //r, g, b, a
+
+    //ctx.strokeStyle = "magenta";
+    //ctx.strokeRect(x, y, 5, 5);
+
+    console.log("loaded");
+  }
+  image.src = "../assets/" + imageUrl;
 </script>
