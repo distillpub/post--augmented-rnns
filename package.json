@@ -18,5 +18,8 @@
         "affiliation": "Google Brain"
       }
     ]
+  },
+  "dependencies": {
+    "d3": "^4.2.2"
   }
 }
