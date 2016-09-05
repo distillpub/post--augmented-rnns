@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="assets/d3.min.js"></script>
 
 <h1>{{ typewriter.title }}</h1>
 
