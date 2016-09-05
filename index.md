@@ -114,7 +114,7 @@ Attention between two RNNs can be used in translation ([Bahdanau, *et al.* 2014]
   <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
 </figure>
 
-<!-- {{> assets/rnn_attentional_ex2.html}} -->
+{{> assets/rnn_attentional_ex2.html}}
 
 {{> assets/rnn_attentional_ex3.html}}
 
