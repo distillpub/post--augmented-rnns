@@ -20,7 +20,7 @@ Some things we might want to think about adding somewhere:
 
 <!-- Maybe rename "Attention and Augmented RNNs?" -->
 
-<style>p {text-align: justify;}</style>
+<style>p {text-align: justify; }</style>
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
@@ -82,7 +82,7 @@ They can also learn to mimic a lookup table, or even learn to sort numbers (alth
 
 Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015]) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016] train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015]; [Joulin & Mikolov, 2015]). And memory networks ([Weston *et al.*, 2014]; [Kumar *et al.*, 2015]) are another approach to attacking similar problems.
 
-*(TODO: make above more readable)*
+<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> There are a number of open source implementations of these models. Open source implementations of the Neural Turing Machine include [Taehoon Kim's](https://github.com/carpedm20/NTM-tensorflow) (TensorFlow), [Shawn Tan's](https://github.com/shawntan/neural-turing-machines) (Thenao), [Fumin's](https://github.com/fumin/ntm) (Go), [Kai Sheng Tai's](https://github.com/kaishengtai/torch-ntm) (Torch), and [Snip's](https://github.com/snipsco/ntm-lasagne) (Lasagne). Code for the Neural GPU publication was open sourced and put in the [TensorFlow Models repository](https://github.com/tensorflow/models/tree/master/neural_gpu). Open source implementations of Memory Networks include [Facebook's](https://github.com/facebook/MemNN) (Torch/Matlab), [YerevaNN's](https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano) (Theano), and [Taehoon Kim's](https://github.com/carpedm20/MemN2N-tensorflow) (TensorFlow). </span></p>
 
 ---
 
@@ -107,7 +107,7 @@ The attention distribution is usually generated with content-based attention. Th
   {{> assets/rnn_attentional_02.svg}}
 </figure>
 
-Attention between two RNNs can be used in translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
+One use of attention between RNNs is translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
 <figure class="w-page">
   {{> assets/rnn_attentional_ex1.svg}}
@@ -189,6 +189,8 @@ When we stop, might have some left over halting budget because we stop when it g
 
 Adaptive Computation Time is a very new idea, but we believe that it, along with similar ideas, will be very important.
 
+<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> The only open source implementation of Adaptive Computation Time at the moment seems to be [Mark Neumann's](https://github.com/DeNeutoy/act-tensorflow) (TensorFlow). </span></p>
+
 ---
 
 ### Neural Programmer
@@ -225,11 +227,15 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 * **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks ([Vinyals, *et al*, 2015]). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. -->
 
+The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter ([]) which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.
 
+We think that this general space, of bridging the gap between more traditional programming and neural networks is extremely important. While the Neural Programmer is clearly not the final solution, we think there are a lot of important lessons to be learned from it.
 
 ---
 
 ### Conclusion
+
+The Human capacity to think has been extended by media.
 
 (TODO: add heirachal memory paper, pointer networks)
 
