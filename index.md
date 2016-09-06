@@ -20,7 +20,7 @@ Some things we might want to think about adding somewhere:
 
 <!-- Maybe rename "Attention and Augmented RNNs?" -->
 
-<style>p {text-align: justify;}</style>
+<style>p {text-align: justify; }</style>
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
@@ -36,7 +36,7 @@ As this happened, we’ve seen a growing number of attempts to augment RNNs with
 * [*Adaptive Computation Time*](#adaptive-computation-time) allows for varying amounts of computation per step.
 * [*Neural Programmers*](#neural-programmer) can call functions, building programs as they run.
 
-Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together. My guess is that these "augmented RNNs" will radically extend what deep learning is capable of in the coming years.
+Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together. Further, they all rely on the same underlying trick -- something called attention -- to work. Our guess is that these "augmented RNNs" will radically extend what deep learning is capable of in the coming years.
 
 ---
 
@@ -80,9 +80,9 @@ This capability to read and write allows NTMs to perform many simple algorithms,
 
 They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.
 
-Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015]) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016] train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]) work based on pointers. Some papers have explored differntiable data structures, like stacks and queues ([Grefenstette *et al*. 2015]; [Joulin & Mikolov, 2015]). And memory networks ([Weston *et al.*, 2014]; [Kumar *et al.*, 2015]) are another approach to attacking similar problems.
+Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU ([Kaiser & Sutskever, 2015]) overcomes the NTM's inability to add and multiply numbers.  [Zaremba & Sutskever, 2016] train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines ([Kurach *et al.*, 2015]) work based on pointers. Some papers have explored differentiable data structures, like stacks and queues ([Grefenstette *et al*. 2015]; [Joulin & Mikolov, 2015]). And memory networks ([Weston *et al.*, 2014]; [Kumar *et al.*, 2015]) are another approach to attacking similar problems.
 
-*(TODO: make above more readable)*
+<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> There are a number of open source implementations of these models. Open source implementations of the Neural Turing Machine include [Taehoon Kim's](https://github.com/carpedm20/NTM-tensorflow) (TensorFlow), [Shawn Tan's](https://github.com/shawntan/neural-turing-machines) (Thenao), [Fumin's](https://github.com/fumin/ntm) (Go), [Kai Sheng Tai's](https://github.com/kaishengtai/torch-ntm) (Torch), and [Snip's](https://github.com/snipsco/ntm-lasagne) (Lasagne). Code for the Neural GPU publication was open sourced and put in the [TensorFlow Models repository](https://github.com/tensorflow/models/tree/master/neural_gpu). Open source implementations of Memory Networks include [Facebook's](https://github.com/facebook/MemNN) (Torch/Matlab), [YerevaNN's](https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano) (Theano), and [Taehoon Kim's](https://github.com/carpedm20/MemN2N-tensorflow) (TensorFlow). </span></p>
 
 ---
 
@@ -107,7 +107,7 @@ The attention distribution is usually generated with content-based attention. Th
   {{> assets/rnn_attentional_02.svg}}
 </figure>
 
-Attention between two RNNs can be used in translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
+One use of attention between RNNs is translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
 <!--
 <figure class="w-page">
@@ -191,7 +191,11 @@ When we stop, might have some left over halting budget because we stop when it g
   {{> assets/rnn_adaptive_02_4.svg}}
 </figure>
 
+When training Adaptive Computation Time models, one adds a "ponder cost" term to the cost function. This penalizes the model for the amount of computation it uses. The bigger you make this term, the more it will trade-off performance for lowering compute time.
+
 Adaptive Computation Time is a very new idea, but we believe that it, along with similar ideas, will be very important.
+
+<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> The only open source implementation of Adaptive Computation Time at the moment seems to be [Mark Neumann's](https://github.com/DeNeutoy/act-tensorflow) (TensorFlow). </span></p>
 
 ---
 
@@ -229,34 +233,73 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 * **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks ([Vinyals, *et al*, 2015]). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. -->
 
+The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter ([]) which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.
 
+We think that this general space, of bridging the gap between more traditional programming and neural networks is extremely important. While the Neural Programmer is clearly not the final solution, we think there are a lot of important lessons to be learned from it.
 
 ---
 
-### Conclusion
+### The Big Picture
+
+A human with a piece of paper is, in some sense, much smarter than a human without. A human with mathematical notation can solve problems far beyond us normally. Access to computers makes us capable of incredible feats that would otherwise be far beyond us.
+
+In general, it seems like a lot of interesting forms of intelligence are an interaction between the creative heuristic intuition of humans and some more crisp and careful media, like language or equations. Sometimes, the media is something that physically exists, and stores information for us, prevents us from making mistakes, or does computational heavy lifting. In other cases, the media is a model in our head that we manipulate. Either way, it seems deeply fundamental to intelligence.
+
+Recent results in machine learning have started to have this flavor, combining the intuition of neural networks with something else. One approach is what one might call "heuristic search." For example, AlphaGo ([Silver, *et al*, 2016]) has a model of how Go works and explores how the game could play out guided by neural network intuition. Similarly, DeepMath ([Alemi, *et al*, 2016]) uses neural networks as intuition for manipulating mathematical expressions. The "augmented RNNs" we've talked about in this article are another approach, where we connect RNNs to engineered media, in order to extend their abilities.
+
+Interacting with a media naturally involves making a sequence of taking an action, observing, and taking more actions. The challenge
 
 (TODO: add heirachal memory paper, pointer networks)
 
+---
+
+### Acknowledgments
+
+Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian Goodfellow for their feedback and encouragement.
+
+### References
 
 <!-- We could write up a bibliography section citing these: -->
-[olah2015lstm]: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
-[Graves, *et al.*, 2014]: https://arxiv.org/pdf/1410.5401.pdf
-[Kaiser & Sutskever, 2015]: http://arxiv.org/pdf/1511.08228.pdf
-[Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
-[Kurach *et al.*, 2015]: http://arxiv.org/pdf/1511.06392.pdf
-[Grefenstette *et al*. 2015]: http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf
-[Joulin & Mikolov, 2015]: https://arxiv.org/pdf/1503.01007.pdf
-[Weston *et al.*, 2014]: http://arxiv.org/abs/1410.3916
-[Kumar *et al.*, 2015]: http://arxiv.org/abs/1506.07285
+
+
+[Alemi, *et al*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
 [Bahdanau, *et al.* 2014]: https://arxiv.org/pdf/1409.0473.pdf
 [Chan, *et al.* 2015]: https://arxiv.org/pdf/1508.01211.pdf
+[Graves, *et al.*, 2014]: https://arxiv.org/pdf/1410.5401.pdf
+[Graves, 2016]: https://arxiv.org/pdf/1603.08983v4.pdf
+[Grefenstette *et al*. 2015]: http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf
+[Joulin & Mikolov, 2015]: https://arxiv.org/pdf/1503.01007.pdf
+[Kaiser & Sutskever, 2015]: http://arxiv.org/pdf/1511.08228.pdf
+[Kumar *et al.*, 2015]: http://arxiv.org/abs/1506.07285
+[Kurach *et al.*, 2015]: http://arxiv.org/pdf/1511.06392.pdf
+[Neelakantan, *et al.*, 2015]: http://arxiv.org/abs/1511.04834
+[olah2015lstm]: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+[Silver, *et al*, 2016]: http://willamette.edu/~levenick/cs448/goNature.pdf
 [Vinyals, *et al.*, 2014]: https://arxiv.org/pdf/1412.7449.pdf
 [Vinyals & Le, 2015]: http://arxiv.org/pdf/1506.05869.pdf
-[Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
-[Graves, 2016]: https://arxiv.org/pdf/1603.08983v4.pdf
-[Neelakantan, *et al.*, 2015]: http://arxiv.org/abs/1511.04834
 [Vinyals, *et al*, 2015]: https://arxiv.org/pdf/1506.03134.pdf
+[Weston *et al.*, 2014]: http://arxiv.org/abs/1410.3916
+[Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
+[Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
-Acknowledgments:
-
-Maithra, Dario, Natalie, Ian
+<ul style="font-size: 65%; line-height: 155%;">
+<li>Alemi, A. A., Chollet, F., Irving, G., Szegedy, C., & Urban, J. (2016). DeepMath-Deep Sequence Models for Premise Selection. arXiv preprint arXiv:1606.04442.</li>
+<li>Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.</li>
+<li>Chan, W., Jaitly, N., Le, Q. V., & Vinyals, O. (2015). Listen, attend and spell. arXiv preprint arXiv:1508.01211.</li>
+<li>Graves, A., Wayne, G., & Danihelka, I. (2014). Neural turing machines. arXiv preprint arXiv:1410.5401.</li>
+<li>Graves, A. (2016). Adaptive Computation Time for Recurrent Neural Networks. arXiv preprint arXiv:1603.08983.</li>
+<li>Grefenstette, E., Hermann, K. M., Suleyman, M., & Blunsom, P. (2015). Learning to transduce with unbounded memory. In Advances in Neural Information Processing Systems (pp. 1828-1836).</li>
+<li>Joulin, A., & Mikolov, T. (2015). Inferring algorithmic patterns with stack-augmented recurrent nets. In Advances in Neural Information Processing Systems (pp. 190-198).</li>
+<li>Kaiser, Ł., & Sutskever, I. (2015). Neural gpus learn algorithms. arXiv preprint arXiv:1511.08228.</li>
+<li>Kumar, A., Irsoy, O., Su, J., Bradbury, J., English, R., Pierce, B., Ondruska, P., Gulrajani, I. & Socher, R., (2015). Ask me anything: Dynamic memory networks for natural language processing. arXiv preprint arXiv:1506.07285.</li>
+<li>Kurach, K., Andrychowicz, M., & Sutskever, I. (2015). Neural random-access machines. arXiv preprint arXiv:1511.06392.</li>
+<li>Neelakantan, A., Le, Q. V., & Sutskever, I. (2015). Neural programmer: Inducing latent programs with gradient descent. arXiv preprint arXiv:1511.04834.</li>
+<li>Olah, C. (2015). Understanding LSTM Networks.</li>
+<li>Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M. & Dieleman, S. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587), 484-489.</li>
+<li>Vinyals, O., Kaiser, Ł., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. (2015). Grammar as a foreign language. In Advances in Neural Information Processing Systems (pp. 2773-2781).</li>
+<li>Vinyals, O., & Le, Q. (2015). A neural conversational model. arXiv preprint arXiv:1506.05869.</li>
+<li>Vinyals, O., Fortunato, M., & Jaitly, N. (2015). Pointer networks. In Advances in Neural Information Processing Systems (pp. 2692-2700).</li>
+<li>Weston, J., Chopra, S., & Bordes, A. (2014). Memory networks. arXiv preprint arXiv:1410.3916.</li>
+<li>Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R.S. & Bengio, Y., 2015. (2015). Show, attend and tell: Neural image caption generation with visual attention. arXiv preprint arXiv:1502.03044, 2(3), 5.</li>
+<li>Zaremba, W., & Sutskever, I. (2015). Reinforcement learning neural Turing machines. arXiv preprint arXiv:1505.00521, 362.</li>
+</ul>
