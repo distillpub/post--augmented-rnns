@@ -8,7 +8,7 @@
       </marker>
     </defs>
   </svg>
-  <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
+  <figcaption>Diagram derived from Fig. 3 of <a>Bahdanau, <i>et al.</i> 2014</a></figcaption>
 </figure>
 
 <style>
@@ -117,13 +117,13 @@ data.forEach(function(b, bi) {
 })
 
 var nodeSize = 32;
-var nodeMargin = 12;
+var nodeMargin = 10;
 var networkMargin = 100;
 
 var html = d3.select("#attentional-ex2");
 var outerWidth = html.node().getBoundingClientRect().width;
 var outerHeight = html.node().getBoundingClientRect().height;
-var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
+var margin = {top: 36, right: nodeMargin + 2, bottom: 24, left: nodeMargin + 2};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeigh = margin.top - margin.bottom;
 
@@ -157,8 +157,8 @@ networkA.append("rect")
     .attr("class", "background")
     .attr("width", width + 24)
     .attr("height", nodeSize + 24)
-    .attr("rx", 8)
-    .attr("ry", 8);
+    .attr("rx", nodeMargin * 0.7)
+    .attr("ry", nodeMargin * 0.7);
 
 var cellA = networkA.selectAll(".cell")
     .data(labelsA)
@@ -217,8 +217,8 @@ networkB.append("rect")
     .attr("class", "background")
     .attr("width", width + 24)
     .attr("height", nodeSize + 24)
-    .attr("rx", 8)
-    .attr("ry", 8);
+    .attr("rx", nodeMargin * 0.7)
+    .attr("ry", nodeMargin * 0.7);
 
 var cellB = networkB.selectAll(".cell")
     .data(labelsB)

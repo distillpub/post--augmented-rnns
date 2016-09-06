@@ -1,4 +1,4 @@
-<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="276" viewBox="0 0 984 276">
+<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="276" viewBox="0 0 984 276">
   <defs>
     <symbol id="array-7" data-name="array-7" viewBox="0 0 253.5 37.5">
       <rect x="0.75" y="0.75" width="252" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -27,10 +27,6 @@
     </symbol>
   </defs>
   <title>rnn</title>
-  <g id="_Group_" data-name="&lt;Group&gt;" opacity="0.2">
-    <rect x="162" y="42" width="264" height="48" rx="10" ry="10" opacity="0.04"/>
-    <rect x="162" y="42" width="264" height="48" rx="10" ry="10" fill="#ff0"/>
-  </g>
   <g id="paths">
     <path id="edge0" d="M186,84v66.12c0.56,24,102,24.22,102,76.88" fill="none" stroke="#2a71d8" stroke-miterlimit="10" stroke-width="1.5"/>
     <path id="edge1" d="M222,84v66.12c0.56,24,68,24.22,68,76.88" fill="none" stroke="#2a71d8" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -40,14 +36,13 @@
     <path id="edge5" d="M366,84v66.12c-0.56,24-68,24.22-68,76.88" fill="none" stroke="#2a71d8" stroke-miterlimit="10" stroke-width="1.5"/>
     <path id="edge6" d="M402,84v66.12c-0.56,24-102,24.22-102,76.88" fill="none" stroke="#2a71d8" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
-  <rect x="200.95" y="18" width="37.55" height="18" fill="#ffffcd"/>
   <use id="array-7-3" data-name="array-7" width="253.5" height="37.5" transform="translate(167.75 47.75)" xlink:href="#array-7"/>
   <use id="array-7-6" data-name="array-7" width="253.5" height="37.5" transform="translate(167.75 106.75)" xlink:href="#array-7"/>
   <use id="array-1-3" data-name="array-1" width="37.5" height="37.5" transform="translate(275.75 226.75)" xlink:href="#array-1"/>
   <g opacity="0.6">
     <text transform="translate(432 72)" font-size="12" font-family="Open Sans">attention</text>
   </g>
-  <text transform="translate(168.42 29.28)" font-size="12" fill="#aaa" font-family="Open Sans" font-style="italic">Hover yellow objects to change values</text>
+  <text transform="translate(190.42 31.28)" font-size="12" fill="#aaa" font-family="Open Sans" font-style="italic">Hover to change values</text>
   <g opacity="0.6">
     <text transform="translate(432 132)" font-size="12" font-family="Open Sans">memory</text>
   </g>
@@ -72,6 +67,18 @@
     <use width="36" height="36" transform="translate(312 108)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(348 108)" xlink:href="#array-vector"/>
     <use id="array-vector-17" data-name="array-vector" width="36" height="36" transform="translate(384 108)" xlink:href="#array-vector"/>
+  </g>
+  <g id="LwC7Nw" opacity="0.3">
+    <g>
+      <path d="M170.32,26.38c0-.12,0-0.25,0-0.37s0-.27,0-0.41h-2.41V28h0.8V26.39h1.18l0.43,0V27.2h0.79V28h0.8V27.9q0-3.15,0-6.3,0-1.21,0-2.42h1.59V18.39h-1.59v0.78h-0.8v7.19h-0.79Zm5.62-3.2a0.59,0.59,0,0,1,0-.1c0-.2,0-0.39,0-0.59,0,0,0-.06,0-0.1h-1.59V19.2h-0.8v7.18h0.8v-3.2h1.62s0,0.08,0,.12q0,1.48,0,3s0,0.09,0,.14h0.8V24h1.61v3.2h0.79V24.77l0.75,0s0,0,0,.07c0,0.19,0,.38,0,0.57s0,0.09,0,.14h0.72a0.07,0.07,0,0,1,.08.08c0,0.31,0,.63,0,0.94q0,2.24,0,4.48s0,0.07,0,.11h-0.79s0,0,0,.06q0,1.13,0,2.26s0,0.06,0,.08h-0.81v1.58h-6.4v-1.6h-0.8V32h-0.78a15,15,0,0,0,0,1.6h0.79V36c2.69,0,5.35,0,8,0,0-.13,0-0.25,0-0.36,0-.61,0-1.22,0-1.83a2,2,0,0,0,0-.21h0.71c0.07,0,.09,0,0.09-0.09,0-.59,0-1.17,0-1.76,0-.17,0-0.34,0-0.53l0.39,0h0.4V25.58h-0.8V24.8h-0.8V24h-1.61V23.2h-2.06Zm-5.63,7.23V32H171a0.09,0.09,0,0,0,.11-0.1c0-.43,0-0.85,0-1.28,0-.07,0-0.15,0-0.23h-0.8v-1.6h-0.81V28h-0.77a3.55,3.55,0,0,0,0,.81h0.76s0,0.06,0,.09c0,0.18,0,.36,0,0.54s0,0.59,0,.89a0.06,0.06,0,0,0,.07.07h0.73Z" fill="#fff"/>
+      <path d="M179.94,33.6s0-.06,0-0.08q0-1.13,0-2.26s0,0,0-.06h0.79s0-.07,0-0.11q0-2.24,0-4.48c0-.31,0-0.63,0-0.94a0.07,0.07,0,0,0-.08-0.08h-0.72c0-.05,0-0.1,0-0.14s0-.38,0-0.57c0,0,0-.07,0-0.07l-0.75,0v2.41h-0.79V24h-1.61v2.39h-0.8s0-.09,0-0.14q0-1.48,0-3s0-.08,0-0.12h0l0.33,0h2.06V24h1.61V24.8h0.8v0.79h0.8V31.2h-0.4l-0.39,0c0,0.19,0,.36,0,0.53,0,0.59,0,1.17,0,1.76,0,0.07,0,.09-0.09.09h-0.71Z"/>
+      <path d="M179.94,33.6a2,2,0,0,1,0,.21c0,0.61,0,1.22,0,1.83,0,0.11,0,.23,0,0.36-2.67,0-5.33,0-8,0V33.6h-0.79a15,15,0,0,1,0-1.6h0.78v1.59h0.8v1.6h6.4V33.6h0.81Z"/>
+      <path d="M171.92,19.17q0,1.21,0,2.43,0,3.15,0,6.3V28h-0.8V27.2h-0.79V26.38h0.79V19.19h0.8Z"/>
+      <path d="M175.95,23.17h-1.62v3.2h-0.8V19.2h0.8v3.18h1.59s0,0.07,0,.1c0,0.2,0,.39,0,0.59a0.58,0.58,0,0,0,0,.1h0Z"/>
+      <path d="M170.31,30.4h-0.73a0.06,0.06,0,0,1-.07-0.07c0-.3,0-0.59,0-0.89s0-.36,0-0.54c0,0,0-.05,0-0.09h-0.76a3.55,3.55,0,0,1,0-.81h0.77v0.8h0.81v1.6h0.8c0,0.08,0,.16,0,0.23,0,0.43,0,.85,0,1.28a0.09,0.09,0,0,1-.11.1h-0.69V30.4Z"/>
+      <path d="M170.33,26.38l-0.43,0h-1.18V28h-0.8V25.6h2.41c0,0.14,0,.28,0,0.41s0,0.25,0,.37h0Z"/>
+      <path d="M171.92,19.17V18.39h1.59v0.78h-1.59Z"/>
+    </g>
   </g>
   <g opacity="0.6">
     <text transform="translate(560 81.12)" font-size="12" font-family="Open Sans">Instead<tspan x="41.43" y="0"> </tspan><tspan x="45.39" y="0">of</tspan><tspan x="56.7" y="0"> </tspan><tspan x="60.65" y="0">reading</tspan><tspan x="103.29" y="0"> </tspan><tspan x="107.24" y="0">from</tspan><tspan x="134.62" y="0"> </tspan><tspan x="138.57" y="0">one</tspan><tspan x="159.92" y="0"> </tspan><tspan x="163.87" y="0">location,</tspan><tspan x="211.37" y="0"> </tspan><tspan x="215.32" y="0">we</tspan><tspan x="231.39" y="0"> </tspan><tspan x="235.34" y="0">read </tspan><tspan x="0" y="18">from</tspan><tspan x="27.38" y="18"> </tspan><tspan x="30.64" y="18">everywhere,</tspan><tspan x="99.07" y="18"> </tspan><tspan x="102.34" y="18">just</tspan><tspan x="122.7" y="18"> </tspan><tspan x="125.97" y="18">to</tspan><tspan x="137.46" y="18"> </tspan><tspan x="140.72" y="18">different</tspan><tspan x="189.22" y="18"> </tspan><tspan x="192.49" y="18">extents.</tspan><tspan x="236.99" y="18"> </tspan><tspan x="240.26" y="18">The </tspan><tspan x="0" y="36">result is a weighted combination of memory.</tspan></text>
