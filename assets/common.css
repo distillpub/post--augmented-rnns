@@ -45,6 +45,11 @@ figure {
   }
 /*}*/
 
+.w-body-plus,
+.post .w-body-plus {
+  width: 768px;
+}
+
 .w-body,
 .post .w-body {
   margin-left: auto;
@@ -207,7 +212,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 16px/30px "Open Sans", sans-serif;
+  font: 17px/30px "Open Sans", sans-serif;
 }
 
 
@@ -251,7 +256,7 @@ figure {
 }
 
 .post a {
-  color: #004276;
+  color: inherit;
 }
 
 .post p {
@@ -370,7 +375,7 @@ pre code {
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-  padding: 24px;
+  padding: 18px;
   box-sizing: border-box;
 }
 

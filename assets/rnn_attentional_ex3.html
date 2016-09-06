@@ -2,17 +2,18 @@
 <figure id="attentional-ex3" class="w-page">
   <svg></svg>
   <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
-  <img src="assets/rnn-attention-waveform.png">
-  <figcaption>Figure derived from [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
+  <img src="assets/rnn-attention-waveform-bw.png">
+  <figcaption>Figure derived from <a href="https://arxiv.org/pdf/1508.01211.pdf">Chan, <i>et al.</i> 2015</a></figcaption>
 </figure>
 
 <style>
 #attentional-ex3 img {
   width: 100%;
-  height: 80px;
+  height: 140px;
   border-radius: 4px;
   border: 12px solid rgb(240, 240, 245);
   box-sizing: border-box;
+  blend-mix-mode: multiply;
 }
 #attentional-ex3 svg {
   width: 100%;
@@ -27,7 +28,7 @@
   fill: white;
   stroke: black;
   stroke-width: 1px;
-  stroke-opacity: 0.6;
+  stroke-opacity: 0.3;
 }
 #attentional-ex3 .cell .shadow {
   fill: black;
@@ -41,7 +42,7 @@
 }
 #attentional-ex3 .cell text.label {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   fill-opacity: 0.6;
   text-anchor: middle;
   alignment-baseline: middle;
