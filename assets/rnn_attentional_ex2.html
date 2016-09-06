@@ -7,6 +7,12 @@
         <path d="M0,-5L5,0L0,5" fill="none" stroke="#666"/>
       </marker>
     </defs>
+    <g class="labels">
+      <text transform="translate(0, 20)">output text</text>
+      <text transform="translate(0, 65)">network B</text>
+      <text transform="translate(0, 165)">network A</text>
+      <text transform="translate(0, 213)">input text</text>
+    </g>
   </svg>
   <figcaption>Diagram derived from Fig. 3 of <a href="https://arxiv.org/pdf/1409.0473.pdf">Bahdanau, <i>et al.</i> 2014</a></figcaption>
 </figure>
@@ -15,7 +21,15 @@
   #attentional-ex2 svg {
   width: 100%;
   height: 220px;
-  }
+  margin-bottom: 18px;
+}
+#attentional-ex2 figcaption {
+  text-align: right;
+}
+#attentional-ex2 svg .labels {
+  font-size: 12px;
+  fill-opacity: 0.5;
+}
 #attentional-ex2 .background {
   fill: rgb(240, 240, 245);
   fill-opacity: 0.8;
@@ -33,14 +47,14 @@
 }
 #attentional-ex2 .cell text {
   font-size: 13px;
-  fill-opacity: 0.5;
+  fill-opacity: 0.4;
   text-anchor: middle;
   alignment-baseline: middle;
 }
 #attentional-ex2 .cell text.label {
-  font-weight: 600;
-  font-size: 12px;
-  fill-opacity: 0.6;
+  font-style: italic;
+  font-size: 13px;
+  fill-opacity: 0.9;
   text-anchor: middle;
   alignment-baseline: middle;
 }
@@ -134,7 +148,7 @@ var networkMargin = 100;
 var html = d3.select("#attentional-ex2");
 var outerWidth = html.node().getBoundingClientRect().width;
 var outerHeight = html.node().getBoundingClientRect().height;
-var margin = {top: 36, right: nodeMargin + 2, bottom: 24, left: nodeMargin + 2};
+var margin = {top: 36, right: nodeMargin + 2, bottom: 24, left: nodeMargin + 80};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeight - margin.top - margin.bottom;
 
