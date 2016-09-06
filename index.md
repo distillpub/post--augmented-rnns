@@ -137,7 +137,7 @@ This kind of attention between RNNs has a number of other applications. It can b
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
 <figure class="w-body-plus external">
-  <img src="assets/ShowAttendTell.png">
+  <img src="assets/show-attend-tell.png">
   <figcaption style="bottom: 0px;">Figure from [Xu, *et al.*, 2015]</figcaption>
 </figure>
 
