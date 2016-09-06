@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="assets/d3.min.js"></script>
 
 <h1>{{ typewriter.title }}</h1>
 
@@ -109,16 +109,20 @@ The attention distribution is usually generated with content-based attention. Th
 
 One use of attention between RNNs is translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
+<!--
 <figure class="w-page">
   {{> assets/rnn_attentional_ex1.svg}}
   <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
 </figure>
 
-<!-- {{> assets/rnn_attentional_ex2.html}} -->
+-->
 
-{{> assets/rnn_attentional_ex3.html}}
+{{> assets/rnn_attentional_ex2.html}}
+
 
 This kind of attention between RNNs has a number of other applications. It can be used in voice recognition ([Chan, *et al.* 2015]), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript. This kind of attention can also be use to parse text ([Vinyals, *et al.*, 2014]), allowing the model to glance at a sentence as it generates the parse tree, and for conversational modeling ([Vinyals & Le, 2015]), allowing the model to focus on previous parts of the conversation as it generates its response.
+
+{{> assets/rnn_attentional_ex3.html}}
 
 <!--
 <figure class=" external" >

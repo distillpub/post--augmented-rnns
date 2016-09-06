@@ -1,6 +1,6 @@
 <!doctype html>
 <meta charset="utf8">
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="../node_modules/d3/build/d3.min.js"></script>
 <style>
   img {
     border: 1px solid cyan;
@@ -10,34 +10,58 @@
 <div id="root"><div>
 
 <script>
-  var columns = 20;
-  var rows = 30;
-  var margin = {top: 140, left: 74, right: 10, bottom: 8};
-  var imageUrl = "old-rnn-attention-vis1.png";
+  // var imageUrl = "old-rnn-attention-vis1.png";
+  // var columns = 39;
+  // var rows = 34;
+  // var margin = {top: 140, left: 74, right: 10, bottom: 8};
+
+  var imageUrl = "old-rnn-attention-vis2.png";
+  var columns = 15;
+  var rows = 16;
+  var margin = {top: 115, left: 125, right: 10, bottom: 8};
+
   var width;
   var height;
+
+  var outputData = [];
+  var outputString;
+
+  var x = d3.scaleBand();
+  var y = d3.scaleBand();
 
   var root = document.getElementById("root");
   var canvas = document.createElement("canvas");
   var context = canvas.getContext("2d");
   var image = new Image();
   root.appendChild(canvas);
-  // root.appendChild(image);
   image.onload = function() {
     width = image.width - margin.left - margin.right;
     height = image.height - margin.top - margin.bottom;
+    x.domain(d3.range(columns - 1)).range([0, width])
+    y.domain(d3.range(rows - 1)).range([0, height])
+
     canvas.width = width;
     canvas.height = height;
     context.drawImage(image, margin.left, margin.top, width, height, 0, 0, width, height);
 
-    // var idata = context.getImageData(x, y, 1, 1);
-    // var data = idata.data;
-    //r, g, b, a
+    for (var row = 0; row < rows - 1 ; row += 1) {
+      var rowData = [];
+      for (var column = 0; column < columns - 1 ; column += 1) {
+        var xpos = x(column) + x.step() / 2;
+        var ypos = y(row) + y.step() / 2;
+        var idata = context.getImageData(xpos, ypos, 1, 1).data;
+        // var data = idata.data;
+        //r, g, b, a
+        rowData[column] = Math.round(100 * (((254 - idata[0]) / 254 + (254 - idata[1]) / 254 + (254 - idata[2]) / 254) / 3)) / 100;
+        context.strokeStyle = "magenta";
+        context.strokeRect( xpos - 1, ypos - 1, 2, 2);
+      }
+      outputData.push(rowData);
+    }
+    outputString = d3.csvFormatRows(outputData);
 
-    //ctx.strokeStyle = "magenta";
-    //ctx.strokeRect(x, y, 5, 5);
 
-    console.log("loaded");
+
   }
   image.src = "../assets/" + imageUrl;
 </script>
