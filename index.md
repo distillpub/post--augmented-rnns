@@ -229,9 +229,9 @@ That's the core idea of Neural Programmer, but the version in the paper answers 
 
 * **Multiple Types:** Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. <!-- footnote? (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) --> Only outputs of the same type get merged together.
 
-* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks ([Vinyals, *et al*, 2015]). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. -->
+* **Referencing Inputs:** The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks ([Vinyals, *et al.*, 2015]). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. -->
 
-The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter ([]) which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.
+The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter ([Reed & de Freitas, 2015]) which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.
 
 We think that this general space, of bridging the gap between more traditional programming and neural networks is extremely important. While the Neural Programmer is clearly not the final solution, we think there are a lot of important lessons to be learned from it.
 
@@ -243,11 +243,13 @@ A human with a piece of paper is, in some sense, much smarter than a human witho
 
 In general, it seems like a lot of interesting forms of intelligence are an interaction between the creative heuristic intuition of humans and some more crisp and careful media, like language or equations. Sometimes, the media is something that physically exists, and stores information for us, prevents us from making mistakes, or does computational heavy lifting. In other cases, the media is a model in our head that we manipulate. Either way, it seems deeply fundamental to intelligence.
 
-Recent results in machine learning have started to have this flavor, combining the intuition of neural networks with something else. One approach is what one might call "heuristic search." For example, AlphaGo ([Silver, *et al*, 2016]) has a model of how Go works and explores how the game could play out guided by neural network intuition. Similarly, DeepMath ([Alemi, *et al*, 2016]) uses neural networks as intuition for manipulating mathematical expressions. The "augmented RNNs" we've talked about in this article are another approach, where we connect RNNs to engineered media, in order to extend their abilities.
+Recent results in machine learning have started to have this flavor, combining the intuition of neural networks with something else. One approach is what one might call "heuristic search." For example, AlphaGo ([Silver, *et al.*, 2016]) has a model of how Go works and explores how the game could play out guided by neural network intuition. Similarly, DeepMath ([Alemi, *et al.*, 2016]) uses neural networks as intuition for manipulating mathematical expressions. The "augmented RNNs" we've talked about in this article are another approach, where we connect RNNs to engineered media, in order to extend their abilities.
 
-Interacting with a media naturally involves making a sequence of taking an action, observing, and taking more actions. The challenge
+Interacting with a media naturally involves making a sequence of taking an action, observing, and taking more actions. This creates a major challenge: how do we learn which actions to take? That sounds like a reinforcement learning problem and we could certainly take that approach. But the reinforcement learning literature is really attacking the hardest version of this problem, and its solutions are hard to use. The wonderful thing about attention is that it gives us an easier way out of this problem by partially taking all actions to varying extents. This works because we can deign media -- like the NTM memory -- to allow fractional actions and to be differentiable. Reinforcement learning has us take a single path, and try to learn from that. Attention takes every direction at a fork, and then merges the paths back together.
 
-(TODO: add heirachal memory paper, pointer networks)
+One of the major weaknesses of attention is that we have to take every "action" every step. This causes the computational cost to grow linearly as you do things like increase the amount of memory in a Neural Turing Machine. One thing you could imagine doing is having your attention be sparse, only touching memory with $> \epsilon$ attention, or only touching memory under that threshold probabilistically. However, it's still challenging if you want your attention to depend on the content of the memory, because doing that naively forces you to look at each memory. We've seen some initial attempts to attack this problem, such as [Andrychowicz & Kurach, 2016], but it seems like there's a lot more to be done. If we could really make such sub-linear time attention work, that would be very powerful!
+
+Augmented recurrent neural networks, and the underlying technique of attention, are incredibly exciting. We look forward to seeing what happens next!
 
 ---
 
@@ -260,7 +262,8 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 <!-- We could write up a bibliography section citing these: -->
 
 
-[Alemi, *et al*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
+[Alemi, *et al.*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
+[Andrychowicz & Kurach, 2016]: https://arxiv.org/pdf/1602.03218.pdf
 [Bahdanau, *et al.* 2014]: https://arxiv.org/pdf/1409.0473.pdf
 [Chan, *et al.* 2015]: https://arxiv.org/pdf/1508.01211.pdf
 [Graves, *et al.*, 2014]: https://arxiv.org/pdf/1410.5401.pdf
@@ -272,16 +275,18 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 [Kurach *et al.*, 2015]: http://arxiv.org/pdf/1511.06392.pdf
 [Neelakantan, *et al.*, 2015]: http://arxiv.org/abs/1511.04834
 [olah2015lstm]: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
-[Silver, *et al*, 2016]: http://willamette.edu/~levenick/cs448/goNature.pdf
+[Reed & de Freitas, 2015]: https://arxiv.org/pdf/1511.06279.pdf
+[Silver, *et al.*, 2016]: http://willamette.edu/~levenick/cs448/goNature.pdf
 [Vinyals, *et al.*, 2014]: https://arxiv.org/pdf/1412.7449.pdf
 [Vinyals & Le, 2015]: http://arxiv.org/pdf/1506.05869.pdf
-[Vinyals, *et al*, 2015]: https://arxiv.org/pdf/1506.03134.pdf
+[Vinyals, *et al.*, 2015]: https://arxiv.org/pdf/1506.03134.pdf
 [Weston *et al.*, 2014]: http://arxiv.org/abs/1410.3916
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
 <ul style="font-size: 65%; line-height: 155%;">
 <li>Alemi, A. A., Chollet, F., Irving, G., Szegedy, C., & Urban, J. (2016). DeepMath-Deep Sequence Models for Premise Selection. arXiv preprint arXiv:1606.04442.</li>
+<li>Andrychowicz, M., & Kurach, K. (2016). Learning Efficient Algorithms with Hierarchical Attentive Memory. arXiv preprint arXiv:1602.03218.</li>
 <li>Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.</li>
 <li>Chan, W., Jaitly, N., Le, Q. V., & Vinyals, O. (2015). Listen, attend and spell. arXiv preprint arXiv:1508.01211.</li>
 <li>Graves, A., Wayne, G., & Danihelka, I. (2014). Neural turing machines. arXiv preprint arXiv:1410.5401.</li>
@@ -293,6 +298,7 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 <li>Kurach, K., Andrychowicz, M., & Sutskever, I. (2015). Neural random-access machines. arXiv preprint arXiv:1511.06392.</li>
 <li>Neelakantan, A., Le, Q. V., & Sutskever, I. (2015). Neural programmer: Inducing latent programs with gradient descent. arXiv preprint arXiv:1511.04834.</li>
 <li>Olah, C. (2015). Understanding LSTM Networks.</li>
+<li>Reed, S., & de Freitas, N. (2015). Neural programmer-interpreters. arXiv preprint arXiv:1511.06279.</li>
 <li>Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M. & Dieleman, S. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587), 484-489.</li>
 <li>Vinyals, O., Kaiser, Ł., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. (2015). Grammar as a foreign language. In Advances in Neural Information Processing Systems (pp. 2773-2781).</li>
 <li>Vinyals, O., & Le, Q. (2015). A neural conversational model. arXiv preprint arXiv:1506.05869.</li>
