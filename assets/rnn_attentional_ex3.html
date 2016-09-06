@@ -47,10 +47,23 @@
   text-anchor: middle;
   alignment-baseline: middle;
 }
+#attentional-ex3 .link-group {
+  transition: opacity, 0.3s, linear;
+}
+#attentional-ex3 .link-group .node-highlight {
+  transition: stroke-opacity, 0.3s, linear;
+  stroke: black;
+  stroke-opacity: 0;
+  fill: none;
+}
+#attentional-ex3 .link-group:hover .node-highlight {
+  stroke-opacity: 1;
+}
 #attentional-ex3 .link {
   fill: none;
   stroke: rgb(131, 89, 178);
   stroke-width: 2px;
+  pointer-events: none;
 }
 #attentional-ex3 .arrow {
   stroke: black;
@@ -64,26 +77,26 @@
 <script>
 (function() {
 
-//length: 33
-
-
 var data = d3.csvParseRows(d3.select("#attentional-ex3-data").text());
-console.log(data);
-console.log(data[0].length)
 var labelsB = ["h","o","w","_","m","u","c","h","_","w","o","u","l","d","_","a","_","w","o","o","d","c","h","u","c","k","_","c","h","u","c","k","<end>"];
 var labelsA = d3.range(data[0].length);
 
 var linkData = [];
 data.forEach(function(b, bi) {
+  var bLinks = [];
   b.forEach(function(a, ai) {
-    linkData.push({
+    bLinks.push({
       ai: ai,
       bi: bi,
       v: data[bi][ai]
-    })
-  })
-})
-var nodeSize = 14;
+    });
+  });
+  linkData.push({
+    bi: bi,
+    links: bLinks
+  });
+});
+
 var nodeMargin = 8;
 var networkMargin = 100;
 
@@ -92,21 +105,27 @@ var outerWidth = html.node().getBoundingClientRect().width;
 var outerHeight = html.node().getBoundingClientRect().height;
 var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
-var height = outerHeigh = margin.top - margin.bottom;
+var height = outerHeight - margin.top - margin.bottom;
 
-var xa = d3.scaleLinear()
-    .domain([0, labelsA.length - 1])
-    .range([0, width - nodeSize]);
+var xa = d3.scaleBand()
+    .domain(d3.range(labelsA.length))
+    .paddingInner(0.5)
+    .range([nodeMargin, width - nodeMargin]);
 
-var xb = d3.scaleLinear()
-    .domain([0, labelsB.length - 1])
-    .range([0, width - nodeSize]);
+var xb = d3.scaleBand()
+    .domain(d3.range(labelsB.length))
+    .paddingInner(0.5)
+    .range([nodeMargin, width - nodeMargin]);
+
+var nodeSize = 14;
+var nodeSizeA = xa.bandwidth();
+var nodeSizeB = xb.bandwidth();
 
 var link = function(d) {
-  return "M" + (xb(d.bi) + nodeSize / 2) + "," + nodeSize
-      + "C" + (xb(d.bi) + nodeSize / 2) + "," + (nodeSize + networkMargin / 4)
-      + " " + (xa(d.ai) + nodeSize / 2) + "," + (networkMargin - networkMargin / 4)
-      + " " + (xa(d.ai) + nodeSize / 2) + "," + networkMargin;
+  return "M" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + nodeMargin)
+      + "C" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + networkMargin / 3 + nodeMargin)
+      + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin - networkMargin / 3 + nodeMargin)
+      + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin + nodeMargin);
 };
 
 var svg = html.select("svg")
@@ -119,19 +138,17 @@ var networkA = svg.append("g")
     .attr("transform", "translate(0, " + networkMargin + ")");
 
 networkA.append("rect")
-    .attr("x", -nodeMargin)
-    .attr("y", -nodeMargin)
     .attr("class", "background")
-    .attr("width", width + nodeMargin * 2)
-    .attr("height", nodeSize + nodeMargin * 2)
-    .attr("rx", 6)
-    .attr("ry", 6);
+    .attr("width", width)
+    .attr("height", nodeSizeA + 2 * nodeMargin)
+    .attr("rx", nodeMargin * 0.7)
+    .attr("ry", nodeMargin * 0.7);
 
 var cellA = networkA.selectAll(".cell")
     .data(labelsA)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", 0)"; });
+    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", " + nodeMargin + ")"; });
 
 cellA.append("rect")
     .attr("class", "shadow")
@@ -174,22 +191,25 @@ cellA.append("line")
 //     .attr("dy", nodeSize + nodeMargin * 2)
 //     .text(function(d) { return d; });
 
+
+//
+// Network B
+//
+
 var networkB = svg.append("g");
 
 networkB.append("rect")
-    .attr("x", -nodeMargin)
-    .attr("y", -nodeMargin)
     .attr("class", "background")
-    .attr("width", width + nodeMargin * 2)
-    .attr("height", nodeSize + nodeMargin * 2)
-    .attr("rx", 6)
-    .attr("ry", 6);
+    .attr("width", width)
+    .attr("height", nodeSizeA + 2 * nodeMargin)
+    .attr("rx", nodeMargin * 0.7)
+    .attr("ry", nodeMargin * 0.7);
 
 var cellB = networkB.selectAll(".cell")
     .data(labelsB)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xb(i) + ", 0)"; });
+    .attr("transform", function(d, i) { return "translate(" + xb(i) + ", " + nodeMargin + ")"; });
 
 cellB.append("rect")
     .attr("class", "shadow")
@@ -232,8 +252,39 @@ cellB.append("text")
     .attr("dy", - nodeMargin * 2 - 12)
     .text(function(d) { return d; });
 
-var linkA = svg.selectAll(".link")
+//
+// Links
+//
+
+var linkGroup = svg.selectAll(".link-group")
     .data(linkData)
+  .enter().append("g")
+    .attr("class", "link-group")
+    .on("mouseover", function(d) {
+      linkGroup.style("opacity", 0);
+      d3.select(this).style("opacity", 1)
+    }).on("mouseout", function() {
+      linkGroup.style("opacity", 1);
+    });
+
+linkGroup.append("rect")
+    .style("opacity", 0)
+    .attr("width", xb.step())
+    .attr("height", height)
+    .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; });
+
+linkGroup.append("rect")
+    .attr("class", "node-highlight")
+    .attr("x", function(d) { return xb(d.bi); })
+    .attr("y", nodeMargin)
+    .attr("width", nodeSizeB)
+    .attr("height", nodeSizeB)
+    .attr("rx", 4)
+    .attr("ry", 4);
+
+
+var link = linkGroup.selectAll(".link")
+    .data(function(d) { return d.links; })
   .enter().append("path")
     .attr("class", "link")
     .attr("d", link)

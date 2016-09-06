@@ -49,6 +49,15 @@
 #attentional-ex2 .link-group {
   transition: opacity, 0.3s, linear;
 }
+#attentional-ex2 .link-group .node-highlight {
+  transition: stroke-opacity, 0.3s, linear;
+  stroke: black;
+  stroke-opacity: 0;
+  fill: none;
+}
+#attentional-ex2 .link-group:hover .node-highlight {
+  stroke-opacity: 1;
+}
 #attentional-ex2 .link {
   fill: none;
   stroke: rgb(131, 89, 178);
@@ -119,8 +128,6 @@ data.forEach(function(b, bi) {
     links: bLinks
   });
 });
-
-
 
 
 var nodeMargin = 10;
@@ -290,17 +297,25 @@ var linkGroup = svg.selectAll(".link-group")
     .on("mouseover", function(d) {
       linkGroup.style("opacity", 0);
       d3.select(this).style("opacity", 1)
+    }).on("mouseout", function() {
+      linkGroup.style("opacity", 1);
     });
-
-svg.on("mouseout", function() {
-  linkGroup.style("opacity", 1);
-});
 
 linkGroup.append("rect")
     .style("opacity", 0)
     .attr("width", xb.step())
     .attr("height", height)
-    .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; })
+    .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; });
+
+linkGroup.append("rect")
+    .attr("class", "node-highlight")
+    .attr("x", function(d) { return xb(d.bi); })
+    .attr("y", nodeMargin)
+    .attr("width", nodeSizeB)
+    .attr("height", nodeSizeB)
+    .attr("rx", 4)
+    .attr("ry", 4);
+
 
 var link = linkGroup.selectAll(".link")
     .data(function(d) { return d.links; })
