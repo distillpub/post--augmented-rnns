@@ -94,7 +94,6 @@ var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeigh = margin.top - margin.bottom;
 
-
 var xa = d3.scaleLinear()
     .domain([0, labelsA.length - 1])
     .range([0, width - nodeSize]);
@@ -105,8 +104,8 @@ var xb = d3.scaleLinear()
 
 var link = function(d) {
   return "M" + (xb(d.bi) + nodeSize / 2) + "," + nodeSize
-      + "C" + (xb(d.bi) + nodeSize / 2) + "," + (nodeSize + networkMargin / 3)
-      + " " + (xa(d.ai) + nodeSize / 2) + "," + (networkMargin - networkMargin / 3)
+      + "C" + (xb(d.bi) + nodeSize / 2) + "," + (nodeSize + networkMargin / 4)
+      + " " + (xa(d.ai) + nodeSize / 2) + "," + (networkMargin - networkMargin / 4)
       + " " + (xa(d.ai) + nodeSize / 2) + "," + networkMargin;
 };
 
