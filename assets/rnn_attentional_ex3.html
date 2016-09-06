@@ -2,7 +2,6 @@
 <figure id="attentional-ex3" class="w-page">
   <svg></svg>
   <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
-  <img src="assets/rnn-attention-waveform-bw.png">
   <figcaption>Figure derived from <a href="https://arxiv.org/pdf/1508.01211.pdf">Chan, <i>et al.</i> 2015</a></figcaption>
 </figure>
 
@@ -17,22 +16,22 @@
 }
 #attentional-ex3 svg {
   width: 100%;
-  height: 170px;
+  height: 370px;
 }
 #attentional-ex3 .background {
   fill: rgb(240, 240, 245);
-  /*stroke: black;*/
-  /*stroke-opacity: 0.1;*/
+  fill-opacity: 0.8;
 }
 #attentional-ex3 .node {
   fill: white;
+  fill-opacity: 0.9;
   stroke: black;
   stroke-width: 1px;
-  stroke-opacity: 0.3;
+  stroke-opacity: 0.25;
 }
 #attentional-ex3 .cell .shadow {
   fill: black;
-  fill-opacity: 0.1;
+  fill-opacity: 0.07;
 }
 #attentional-ex3 .cell text {
   font-size: 13px;
@@ -117,7 +116,6 @@ var xb = d3.scaleBand()
     .paddingInner(0.5)
     .range([nodeMargin, width - nodeMargin]);
 
-var nodeSize = 14;
 var nodeSizeA = xa.bandwidth();
 var nodeSizeB = xb.bandwidth();
 
@@ -153,43 +151,32 @@ var cellA = networkA.selectAll(".cell")
 cellA.append("rect")
     .attr("class", "shadow")
     .attr("transform", "translate(1, 3)")
-    .attr("width", nodeSize)
-    .attr("height", nodeSize)
+    .attr("width", nodeSizeA)
+    .attr("height", nodeSizeA)
     .attr("rx", 4)
     .attr("ry", 4);
 
 cellA.append("rect")
     .attr("class", "node")
-    .attr("width", nodeSize)
-    .attr("height", nodeSize)
+    .attr("width", nodeSizeA)
+    .attr("height", nodeSizeA)
     .attr("rx", 2)
     .attr("ry", 2);
 
 cellA.append("line")
     .attr("class", "arrow")
     .attr("marker-end", "url(#edgeArrowhead)")
-    .attr("x1", nodeSize)
-    .attr("x2", nodeSize + nodeMargin)
-    .attr("y1", nodeSize / 2)
-    .attr("y2", nodeSize / 2);
+    .attr("x1", nodeSizeA)
+    .attr("x2", nodeSizeA + nodeMargin)
+    .attr("y1", nodeSizeA / 2)
+    .attr("y2", nodeSizeA / 2);
 
 cellA.append("line")
     .attr("class", "arrow")
     .attr("marker-end", "url(#edgeArrowhead)")
-    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
-    .attr("y1", nodeSize + nodeMargin * 2)
-    .attr("y2", nodeSize + 4);
-
-// cellA.append("text")
-//     .text("A")
-//     .attr("dx", nodeSize / 2)
-//     .attr("dy", nodeSize / 2 + 1);
-
-// cellA.append("text")
-//     .attr("class", "label")
-//     .attr("dx", nodeSize / 2)
-//     .attr("dy", nodeSize + nodeMargin * 2)
-//     .text(function(d) { return d; });
+    .attr("transform", "translate(" + nodeSizeA / 2 + ", 0)")
+    .attr("y1", nodeSizeA + nodeMargin * 2)
+    .attr("y2", nodeSizeA + 4);
 
 
 //
@@ -201,7 +188,7 @@ var networkB = svg.append("g");
 networkB.append("rect")
     .attr("class", "background")
     .attr("width", width)
-    .attr("height", nodeSizeA + 2 * nodeMargin)
+    .attr("height", nodeSizeB + 2 * nodeMargin)
     .attr("rx", nodeMargin * 0.7)
     .attr("ry", nodeMargin * 0.7);
 
@@ -214,41 +201,36 @@ var cellB = networkB.selectAll(".cell")
 cellB.append("rect")
     .attr("class", "shadow")
     .attr("transform", "translate(1, 3)")
-    .attr("width", nodeSize)
-    .attr("height", nodeSize)
+    .attr("width", nodeSizeB)
+    .attr("height", nodeSizeB)
     .attr("rx", 4)
     .attr("ry", 4);
 
 cellB.append("rect")
     .attr("class", "node")
-    .attr("width", nodeSize)
-    .attr("height", nodeSize)
+    .attr("width", nodeSizeB)
+    .attr("height", nodeSizeB)
     .attr("rx", 2)
     .attr("ry", 2);
 
 cellB.append("line")
     .attr("class", "arrow")
     .attr("marker-end", "url(#edgeArrowhead)")
-    .attr("x1", nodeSize)
-    .attr("x2", nodeSize + nodeMargin)
-    .attr("y1", nodeSize / 2)
-    .attr("y2", nodeSize / 2);
+    .attr("x1", nodeSizeB)
+    .attr("x2", nodeSizeB + nodeMargin)
+    .attr("y1", nodeSizeB / 2)
+    .attr("y2", nodeSizeB / 2);
 
 cellB.append("line")
     .attr("class", "arrow")
     .attr("marker-end", "url(#edgeArrowhead)")
-    .attr("transform", "translate(" + nodeSize / 2 + ", 0)")
+    .attr("transform", "translate(" + nodeSizeB / 2 + ", 0)")
     .attr("y1", 0)
     .attr("y2", -nodeMargin * 2);
 
-// cellB.append("text")
-//     .text("B")
-//     .attr("dx", nodeSize / 2)
-//     .attr("dy", nodeSize / 2 + 1);
-
 cellB.append("text")
     .attr("class", "label")
-    .attr("dx", nodeSize / 2)
+    .attr("dx", nodeSizeB / 2)
     .attr("dy", - nodeMargin * 2 - 12)
     .text(function(d) { return d; });
 
@@ -289,6 +271,35 @@ var link = linkGroup.selectAll(".link")
     .attr("class", "link")
     .attr("d", link)
     .style("opacity", function(d) { return d.v; });
+
+
+//
+// Audio
+//
+
+var audioHeight = 60;
+
+var audio = svg.append("g")
+    .attr("class", "audio")
+    .attr("transform", "translate(0, " + (nodeMargin * 4 + nodeSizeA + nodeSizeB + networkMargin) + ")");
+
+audio.append("rect")
+    .attr("class", "background")
+    .attr("width", width)
+    .attr("height", audioHeight + 2 * nodeMargin)
+    .attr("rx", nodeMargin * 0.7)
+    .attr("ry", nodeMargin * 0.7);
+
+audio.append("image")
+    // .style("mix-blend-mode", "multiply")
+    .style("opacity", 0.5)
+    .attr("x", nodeMargin)
+    .attr("y", nodeMargin)
+    .attr("width", width - nodeMargin * 2)
+    .attr("height", audioHeight)
+    .attr("preserveAspectRatio", "none")
+    .attr("xlink:href", "assets/rnn-attention-waveform-bw.png")
+
 
 })();
 </script>
