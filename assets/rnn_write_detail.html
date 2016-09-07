@@ -144,7 +144,7 @@ svg.select("#query-hover")
 svg.select("#interpolate-hover")
   .on("mousemove", function() {
     var bbox = svg.select("#interpolate-amount").node().getBoundingClientRect();
-    interpolationData = [Math.min(1, (d3.event.x - bbox.left) / bbox.width)];
+    interpolationData = [Math.max(0, Math.min(1, (d3.event.x - bbox.left) / bbox.width))];
     redraw()
   })
   // .on("mouseout", function() {

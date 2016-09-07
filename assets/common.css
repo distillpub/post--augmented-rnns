@@ -128,6 +128,14 @@ figure {
 .p-right-margin,
 .post .p-right-margin {
   float: right;
+  margin-top: 0;
+  width: calc((960px - 620px) / 2);
+  margin-right: calc((100vw - 960px) / 2);
+}
+/*
+.p-right-margin,
+.post .p-right-margin {
+  float: right;
   width: calc((768px - 620px) / 2);
   margin-right: calc((100vw - 768px) / 2);
   margin-top: 0;
@@ -145,7 +153,7 @@ figure {
     width: calc((1200px - 620px) / 2);
     margin-right: calc((100vw - 1200px) / 2);
   }
-}
+}*/
 
 .p-left-margin,
 .post .p-left-margin {
@@ -259,6 +267,11 @@ figure {
   color: inherit;
 }
 
+.post p .link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .post p {
   margin-bottom: 24px;
   /*text-align: justify;*/
@@ -275,7 +288,7 @@ figure {
 }
 
 .post ul {
-  padding-left: 0;
+  padding-left: 20px;
 }
 
 .post li {
@@ -323,6 +336,10 @@ pre code {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.post .byline a {
+  text-decoration: none;
+}
+
 .post .byline .authors {
   display: inline-block;
 }
@@ -334,12 +351,17 @@ pre code {
   /*border-left: 1px solid #ddd;*/
 }
 
+.post .byline .affiliation {
+  display: block;
+}
+
 .post .byline .author:last-child {
   margin-right: 0;
 }
 
 .post .byline .name {
   text-transform: uppercase;
+  display: block;
 }
 
 .post .byline .date {
@@ -405,3 +427,31 @@ pre code {
   color: rgba(0, 0, 0, 1.0);
   font-weight: 600;
 }
+
+/* Appendix */
+.post .appendix {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+
+}
+
+.post .appendix h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.post .appendix .citation {
+  font-size: 12px;
+  line-height: 18px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 18px;
+}
+
+.post .appendix .references {
+  font-size: 12px;
+  line-height: 20px;
+}
+
