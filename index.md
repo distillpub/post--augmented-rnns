@@ -255,7 +255,7 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 
 Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a> unless noted otherwise. Source for diagrams is available on <a>github</a>. If you see mistakes or want to suggest changes, please submit a <a>pull request</a> on github.
 
-For attribution in academic contexts, please cite this work as: <code>Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</code> You can also get a <a id="bibtex-citation" href="#">BibTeX citation</a>.
+For attribution in academic contexts, please cite this work as: <code>Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</code> You can also get a <span class="link" id="bibtex-citation">BibTeX citation</span>.
 
 {{=<% %>=}}
 <pre id="bibtex-citation-text" style="display: none;">@misc{<%typewriter.slug%>

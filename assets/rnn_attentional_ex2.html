@@ -129,21 +129,15 @@ var labelsB = [
 var data = d3.csvParseRows(d3.select("#attentional-ex2-data").text());
 
 var linkData = [];
-data.forEach(function(b, bi) {
-  var bLinks = [];
-  b.forEach(function(a, ai) {
-    bLinks.push({
+data.forEach(function(a, ai) {
+  a.forEach(function(b, bi) {
+    linkData.push({
       ai: ai,
       bi: bi,
-      v: data[bi][ai]
+      v: data[ai][bi]
     });
   });
-  linkData.push({
-    bi: bi,
-    links: bLinks
-  });
 });
-
 
 var nodeMargin = 10;
 var networkMargin = 120;
@@ -308,40 +302,38 @@ cellB.append("text")
 //
 // Links
 //
+var linkGroup = svg.append("g").attr("class", ".link-group")
+//     .data(linkData)
+//   .enter().append("g")
+//     .attr("class", "link-group")
+//     .on("mouseover", function(d) {
+//       linkGroup.style("opacity", 0);
+//       d3.select(this).style("opacity", 1)
+//     }).on("mouseout", function() {
+//       linkGroup.style("opacity", 1);
+//     });
 
-var linkGroup = svg.selectAll(".link-group")
-    .data(linkData)
-  .enter().append("g")
-    .attr("class", "link-group")
-    .on("mouseover", function(d) {
-      linkGroup.style("opacity", 0);
-      d3.select(this).style("opacity", 1)
-    }).on("mouseout", function() {
-      linkGroup.style("opacity", 1);
-    });
+// linkGroup.append("rect")
+//     .style("opacity", 0)
+//     .attr("width", xb.step())
+//     .attr("height", height)
+//     .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; });
 
-linkGroup.append("rect")
-    .style("opacity", 0)
-    .attr("width", xb.step())
-    .attr("height", height)
-    .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; });
-
-linkGroup.append("rect")
-    .attr("class", "node-highlight")
-    .attr("x", function(d) { return xb(d.bi); })
-    .attr("y", nodeMargin)
-    .attr("width", nodeSizeB)
-    .attr("height", nodeSizeB)
-    .attr("rx", 4)
-    .attr("ry", 4);
+// linkGroup.append("rect")
+//     .attr("class", "node-highlight")
+//     .attr("x", function(d) { return xb(d.bi); })
+//     .attr("y", nodeMargin)
+//     .attr("width", nodeSizeB)
+//     .attr("height", nodeSizeB)
+//     .attr("rx", 4)
+//     .attr("ry", 4);
 
 
 var link = linkGroup.selectAll(".link")
-    .data(function(d) { return d.links; })
+    .data(linkData)
   .enter().append("path")
     .attr("class", "link")
     .attr("d", link)
     .style("opacity", function(d) { return d.v; });
-
 })();
 </script>
