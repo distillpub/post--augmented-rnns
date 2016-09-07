@@ -241,10 +241,10 @@
     <use width="50.5" height="27.5" transform="translate(576 36)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(678 -88.88)" font-size="12" font-family="Open Sans">At each step the <tspan x="0" y="18">controller RNN outputs a </tspan><tspan x="0" y="36">probability distribution</tspan></text>
+    <text transform="translate(678 -88.12)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(678 177.12)" font-size="12" font-family="Open Sans">We run all of the <tspan x="0" y="18">operations and average </tspan><tspan x="0" y="36">the outputs together</tspan></text>
+    <text transform="translate(678 177.88)" font-size="13" font-family="Open Sans">We run all of the <tspan x="0" y="20">operations and average </tspan><tspan x="0" y="40">the outputs together</tspan></text>
   </g>
   <g>
     <line x1="228" y1="198.5" x2="300.57" y2="198.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>

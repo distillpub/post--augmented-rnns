@@ -32,6 +32,20 @@
         </g>
       </g>
     </symbol>
+    <symbol id="pointer" data-name="pointer" viewBox="0 0 13.62 17.63">
+      <g id="LwC7Nw" opacity="0.3">
+        <g>
+          <path d="M2.41,8c0-.12,0-0.25,0-0.37s0-.27,0-0.41H0V9.59H0.8V8H2L2.41,8V8.81H3.21V9.59H4V9.51Q4,6.36,4,3.2,4,2,4,.78H5.6V0H4V0.78H3.2V8H2.41ZM8,4.78a0.59,0.59,0,0,1,0-.1c0-.2,0-0.39,0-0.59C8,4.06,8,4,8,4H6.41V0.81H5.61V8h0.8V4.8H8S8,4.86,8,4.9q0,1.48,0,3S8,7.94,8,8h0.8V5.6h1.61v3.2h0.79V6.38l0.75,0s0,0,0,.07c0,0.19,0,.38,0,0.57s0,0.09,0,.14h0.72a0.07,0.07,0,0,1,.08.08c0,0.31,0,.63,0,0.94q0,2.24,0,4.48s0,0.07,0,.11H12s0,0,0,.06q0,1.13,0,2.26s0,0.06,0,.08H11.21v1.58H4.81v-1.6H4V13.61H3.22a15,15,0,0,0,0,1.6H4v2.4c2.69,0,5.35,0,8,0,0-.13,0-0.25,0-0.36,0-.61,0-1.22,0-1.83a2,2,0,0,0,0-.21h0.71c0.07,0,.09,0,0.09-0.09,0-.59,0-1.17,0-1.76,0-.17,0-0.34,0-0.53l0.39,0h0.4V7.19h-0.8V6.41H12V5.59H10.42V4.8H8.36ZM2.4,12v1.6H3.09a0.09,0.09,0,0,0,.11-0.1c0-.43,0-0.85,0-1.28,0-.07,0-0.15,0-0.23H2.41v-1.6H1.6V9.6H0.83a3.55,3.55,0,0,0,0,.81H1.56s0,0.06,0,.09c0,0.18,0,.36,0,0.54s0,0.59,0,.89a0.06,0.06,0,0,0,.07.07H2.4Z" fill="#fff"/>
+          <path d="M12,15.21s0-.06,0-0.08q0-1.13,0-2.26s0,0,0-.06h0.79s0-.07,0-0.11q0-2.24,0-4.48c0-.31,0-0.63,0-0.94a0.07,0.07,0,0,0-.08-0.08H12c0-.05,0-0.1,0-0.14s0-.38,0-0.57c0,0,0-.07,0-0.07l-0.75,0V8.79H10.42V5.6H8.81V8H8S8,7.9,8,7.85q0-1.48,0-3s0-.08,0-0.12H8l0.33,0h2.06V5.59H12V6.41h0.8V7.19h0.8v5.61h-0.4l-0.39,0c0,0.19,0,.36,0,0.53,0,0.59,0,1.17,0,1.76,0,0.07,0,.09-0.09.09H12Z"/>
+          <path d="M12,15.2a2,2,0,0,1,0,.21c0,0.61,0,1.22,0,1.83,0,0.11,0,.23,0,0.36-2.67,0-5.33,0-8,0V15.2H3.21a15,15,0,0,1,0-1.6H4v1.59h0.8v1.6h6.4V15.21H12Z"/>
+          <path d="M4,0.78Q4,2,4,3.2q0,3.15,0,6.3V9.59H3.21V8.81H2.41V8H3.2V0.8H4Z"/>
+          <path d="M8,4.78H6.41V8H5.61V0.81h0.8V4H8s0,0.07,0,.1c0,0.2,0,.39,0,0.59a0.58,0.58,0,0,0,0,.1H8Z"/>
+          <path d="M2.4,12H1.67a0.06,0.06,0,0,1-.07-0.07c0-.3,0-0.59,0-0.89s0-.36,0-0.54c0,0,0-.05,0-0.09H0.8a3.55,3.55,0,0,1,0-.81H1.6v0.8H2.41V12H3.2c0,0.08,0,.16,0,0.23,0,0.43,0,.85,0,1.28a0.09,0.09,0,0,1-.11.1H2.4V12Z"/>
+          <path d="M2.41,8L2,8H0.8V9.59H0V7.2H2.41c0,0.14,0,.28,0,0.41s0,0.25,0,.37h0Z"/>
+          <path d="M4,0.78V0H5.6V0.78H4Z"/>
+        </g>
+      </g>
+    </symbol>
   </defs>
   <title>rnn</title>
   <g>
@@ -251,19 +265,19 @@
   </g>
   <use width="37.5" height="37.5" transform="translate(844.84 76.75)" xlink:href="#array-1"/>
   <g opacity="0.6">
-    <text transform="translate(166 68.12)" font-size="12" font-family="Open Sans">First, the controller gives <tspan x="0" y="18">a query vector and each </tspan><tspan x="0" y="36">memory entry is scored </tspan><tspan x="0" y="54">for similarity with the </tspan><tspan x="0" y="72">query.</tspan></text>
+    <text transform="translate(166 68.88)" font-size="13" font-family="Open Sans">First, the controller gives a <tspan x="0" y="20">query vector and each </tspan><tspan x="0" y="40">memory entry is scored for </tspan><tspan x="0" y="60">similarity with the query.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(167.5 206.12)" font-size="12" font-family="Open Sans">The scores are then <tspan x="0" y="18">converted into a </tspan><tspan x="0" y="36">distribution using </tspan><tspan x="0" y="54">softmax.</tspan></text>
+    <text transform="translate(167.5 206.88)" font-size="13" font-family="Open Sans">The scores are then <tspan x="0" y="20">converted into a </tspan><tspan x="0" y="40">distribution using softmax.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(167.5 345.12)" font-size="12" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="18">attention from the </tspan><tspan x="0" y="36">previous time step. </tspan></text>
+    <text transform="translate(167.5 345.88)" font-size="13" font-family="Open Sans">Next, we interpolate <tspan x="0" y="20">the attention from the </tspan><tspan x="0" y="40">previous time step. </tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(167.5 458.12)" font-size="12" font-family="Open Sans">We convolve the <tspan x="0" y="18">attention with a shift </tspan><tspan x="0" y="36">filter — this allows the </tspan><tspan x="0" y="54">controller to move its </tspan><tspan x="0" y="72">focus.</tspan></text>
+    <text transform="translate(167.5 458.88)" font-size="13" font-family="Open Sans">We convolve the <tspan x="0" y="20">attention with a shift </tspan><tspan x="0" y="40">filter — this allows the </tspan><tspan x="0" y="60">controller to move its </tspan><tspan x="0" y="80">focus.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(167.5 591.12)" font-size="12" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="18">attention distribution. </tspan><tspan x="0" y="36">This final attention </tspan><tspan x="0" y="54">distribution is fed to the </tspan><tspan x="0" y="72">read or write operation.</tspan></text>
+    <text transform="translate(167.5 591.88)" font-size="13" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="20">attention distribution. </tspan><tspan x="0" y="40">This final attention </tspan><tspan x="0" y="60">distribution is fed to the </tspan><tspan x="0" y="80">read or write operation.</tspan></text>
   </g>
   <g>
     <path d="M396.26,355.49a0.7,0.7,0,0,1,.19-0.52,0.72,0.72,0,0,1,.53-0.18,0.71,0.71,0,0,1,.52.18,0.7,0.7,0,0,1,.19.52,0.68,0.68,0,0,1-.19.51,0.7,0.7,0,0,1-.52.19,0.71,0.71,0,0,1-.53-0.19A0.68,0.68,0,0,1,396.26,355.49ZM397.6,363h-1.26v-5.94h1.26V363Z" fill="#666"/>
@@ -326,66 +340,35 @@
     <use width="36" height="36" transform="translate(443 12)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(479 12)" xlink:href="#array-vector"/>
   </g>
-  <g id="LwC7Nw" opacity="0.3">
-    <g>
-      <path d="M826.22,58.48c0-.12,0-0.25,0-0.37s0-.27,0-0.41h-2.41v2.39h0.8V58.5h1.18l0.43,0V59.3H827v0.79h0.8V60q0-3.15,0-6.3,0-1.21,0-2.42h1.59V50.5h-1.59v0.78H827v7.19h-0.79Zm5.62-3.2a0.59,0.59,0,0,1,0-.1c0-.2,0-0.39,0-0.59,0,0,0-.06,0-0.1h-1.59V51.3h-0.8v7.18h0.8v-3.2h1.62s0,0.08,0,.12q0,1.48,0,3s0,0.09,0,.14h0.8V56.09h1.61v3.2H835V56.88l0.75,0s0,0,0,.07c0,0.19,0,.38,0,0.57s0,0.09,0,.14h0.72a0.07,0.07,0,0,1,.08.08c0,0.31,0,.63,0,0.94q0,2.24,0,4.48s0,0.07,0,.11h-0.79s0,0,0,.06q0,1.13,0,2.26s0,0.06,0,.08H835v1.58h-6.4v-1.6h-0.8V64.1H827a15,15,0,0,0,0,1.6h0.79v2.4c2.69,0,5.35,0,8,0,0-.13,0-0.25,0-0.36,0-.61,0-1.22,0-1.83a2,2,0,0,0,0-.21h0.71c0.07,0,.09,0,0.09-0.09,0-.59,0-1.17,0-1.76,0-.17,0-0.34,0-0.53l0.39,0h0.4V57.69h-0.8V56.9h-0.8V56.09h-1.61V55.3h-2.06Zm-5.63,7.23v1.6h0.69A0.09,0.09,0,0,0,827,64c0-.43,0-0.85,0-1.28,0-.07,0-0.15,0-0.23h-0.8v-1.6h-0.81v-0.8h-0.77a3.55,3.55,0,0,0,0,.81h0.76s0,0.06,0,.09c0,0.18,0,.36,0,0.54s0,0.59,0,.89a0.06,0.06,0,0,0,.07.07h0.73Z" fill="#fff"/>
-      <path d="M835.83,65.7s0-.06,0-0.08q0-1.13,0-2.26s0,0,0-.06h0.79s0-.07,0-0.11q0-2.24,0-4.48c0-.31,0-0.63,0-0.94a0.07,0.07,0,0,0-.08-0.08h-0.72c0-.05,0-0.1,0-0.14s0-.38,0-0.57c0,0,0-.07,0-0.07l-0.75,0v2.41h-0.79v-3.2h-1.61v2.39h-0.8s0-.09,0-0.14q0-1.48,0-3s0-.08,0-0.12h0l0.33,0h2.06v0.79h1.61V56.9h0.8v0.79h0.8V63.3H837l-0.39,0c0,0.19,0,.36,0,0.53,0,0.59,0,1.17,0,1.76,0,0.07,0,.09-0.09.09h-0.71Z"/>
-      <path d="M835.83,65.7a2,2,0,0,1,0,.21c0,0.61,0,1.22,0,1.83,0,0.11,0,.23,0,0.36-2.67,0-5.33,0-8,0V65.7H827a15,15,0,0,1,0-1.6h0.78v1.59h0.8v1.6H835V65.7h0.81Z"/>
-      <path d="M827.81,51.28q0,1.21,0,2.43,0,3.15,0,6.3v0.09H827V59.3h-0.79V58.48H827V51.3h0.8Z"/>
-      <path d="M831.84,55.28h-1.62v3.2h-0.8V51.3h0.8v3.18h1.59s0,0.07,0,.1c0,0.2,0,.39,0,0.59a0.58,0.58,0,0,0,0,.1h0Z"/>
-      <path d="M826.21,62.51h-0.73a0.06,0.06,0,0,1-.07-0.07c0-.3,0-0.59,0-0.89s0-.36,0-0.54c0,0,0-.05,0-0.09h-0.76a3.55,3.55,0,0,1,0-.81h0.77v0.8h0.81v1.6H827c0,0.08,0,.16,0,0.23,0,0.43,0,.85,0,1.28a0.09,0.09,0,0,1-.11.1h-0.69v-1.6Z"/>
-      <path d="M826.22,58.48l-0.43,0h-1.18v1.59h-0.8V57.7h2.41c0,0.14,0,.28,0,0.41s0,0.25,0,.37h0Z"/>
-      <path d="M827.81,51.28V50.5h1.59v0.78h-1.59Z"/>
-    </g>
-  </g>
-  <g id="LwC7Nw-2" data-name="LwC7Nw" opacity="0.3">
-    <g>
-      <path d="M826.22,322.21c0-.12,0-0.25,0-0.37s0-.27,0-0.41h-2.41v2.39h0.8v-1.59h1.18l0.43,0V323H827v0.79h0.8v-0.09q0-3.15,0-6.3,0-1.21,0-2.42h1.59v-0.78h-1.59V315H827v7.19h-0.79Zm5.62-3.2a0.59,0.59,0,0,1,0-.1c0-.2,0-0.39,0-0.59,0,0,0-.06,0-0.1h-1.59V315h-0.8v7.18h0.8V319h1.62s0,0.08,0,.12q0,1.48,0,3s0,0.09,0,.14h0.8v-2.39h1.61V323H835V320.6l0.75,0s0,0,0,.07c0,0.19,0,.38,0,0.57s0,0.09,0,.14h0.72a0.07,0.07,0,0,1,.08.08c0,0.31,0,.63,0,0.94q0,2.24,0,4.48s0,0.07,0,.11h-0.79s0,0,0,.06q0,1.13,0,2.26s0,0.06,0,.08H835V331h-6.4v-1.6h-0.8v-1.59H827a15,15,0,0,0,0,1.6h0.79v2.4c2.69,0,5.35,0,8,0,0-.13,0-0.25,0-0.36,0-.61,0-1.22,0-1.83a2,2,0,0,0,0-.21h0.71c0.07,0,.09,0,0.09-0.09,0-.59,0-1.17,0-1.76,0-.17,0-0.34,0-0.53l0.39,0h0.4v-5.61h-0.8v-0.79h-0.8v-0.81h-1.61V319h-2.06Zm-5.63,7.23v1.6h0.69a0.09,0.09,0,0,0,.11-0.1c0-.43,0-0.85,0-1.28,0-.07,0-0.15,0-0.23h-0.8v-1.6h-0.81v-0.8h-0.77a3.55,3.55,0,0,0,0,.81h0.76s0,0.06,0,.09c0,0.18,0,.36,0,0.54s0,0.59,0,.89a0.06,0.06,0,0,0,.07.07h0.73Z" fill="#fff"/>
-      <path d="M835.83,329.43s0-.06,0-0.08q0-1.13,0-2.26s0,0,0-.06h0.79s0-.07,0-0.11q0-2.24,0-4.48c0-.31,0-0.63,0-0.94a0.07,0.07,0,0,0-.08-0.08h-0.72c0-.05,0-0.1,0-0.14s0-.38,0-0.57c0,0,0-.07,0-0.07l-0.75,0V323h-0.79v-3.2h-1.61v2.39h-0.8s0-.09,0-0.14q0-1.48,0-3s0-.08,0-0.12h0l0.33,0h2.06v0.79h1.61v0.81h0.8v0.79h0.8V327H837l-0.39,0c0,0.19,0,.36,0,0.53,0,0.59,0,1.17,0,1.76,0,0.07,0,.09-0.09.09h-0.71Z"/>
-      <path d="M835.83,329.42a2,2,0,0,1,0,.21c0,0.61,0,1.22,0,1.83,0,0.11,0,.23,0,0.36-2.67,0-5.33,0-8,0v-2.4H827a15,15,0,0,1,0-1.6h0.78v1.59h0.8V331H835v-1.58h0.81Z"/>
-      <path d="M827.81,315q0,1.21,0,2.43,0,3.15,0,6.3v0.09H827V323h-0.79V322.2H827V315h0.8Z"/>
-      <path d="M831.84,319h-1.62v3.2h-0.8V315h0.8v3.18h1.59s0,0.07,0,.1c0,0.2,0,.39,0,0.59a0.58,0.58,0,0,0,0,.1h0Z"/>
-      <path d="M826.21,326.23h-0.73a0.06,0.06,0,0,1-.07-0.07c0-.3,0-0.59,0-0.89s0-.36,0-0.54c0,0,0-.05,0-0.09h-0.76a3.55,3.55,0,0,1,0-.81h0.77v0.8h0.81v1.6H827c0,0.08,0,.16,0,0.23,0,0.43,0,.85,0,1.28a0.09,0.09,0,0,1-.11.1h-0.69v-1.6Z"/>
-      <path d="M826.22,322.2l-0.43,0h-1.18v1.59h-0.8v-2.39h2.41c0,0.14,0,.28,0,0.41s0,0.25,0,.37h0Z"/>
-      <path d="M827.81,315v-0.78h1.59V315h-1.59Z"/>
-    </g>
-  </g>
-  <g id="LwC7Nw-3" data-name="LwC7Nw" opacity="0.3">
-    <g>
-      <path d="M826.22,454c0-.12,0-0.25,0-0.37s0-.27,0-0.41h-2.41v2.39h0.8V454h1.18l0.43,0v0.82H827v0.79h0.8v-0.09q0-3.15,0-6.3,0-1.21,0-2.42h1.59V446h-1.59v0.78H827V454h-0.79Zm5.62-3.2a0.59,0.59,0,0,1,0-.1c0-.2,0-0.39,0-0.59,0,0,0-.06,0-0.1h-1.59v-3.18h-0.8V454h0.8v-3.2h1.62s0,0.08,0,.12q0,1.48,0,3s0,0.09,0,.14h0.8V451.6h1.61v3.2H835v-2.41l0.75,0s0,0,0,.07c0,0.19,0,.38,0,0.57s0,0.09,0,.14h0.72a0.07,0.07,0,0,1,.08.08c0,0.31,0,.63,0,0.94q0,2.24,0,4.48s0,0.07,0,.11h-0.79s0,0,0,.06q0,1.13,0,2.26s0,0.06,0,.08H835v1.58h-6.4v-1.6h-0.8v-1.59H827a15,15,0,0,0,0,1.6h0.79v2.4c2.69,0,5.35,0,8,0,0-.13,0-0.25,0-0.36,0-.61,0-1.22,0-1.83a2,2,0,0,0,0-.21h0.71c0.07,0,.09,0,0.09-0.09,0-.59,0-1.17,0-1.76,0-.17,0-0.34,0-0.53l0.39,0h0.4V453.2h-0.8v-0.79h-0.8V451.6h-1.61v-0.79h-2.06ZM826.21,458v1.6h0.69a0.09,0.09,0,0,0,.11-0.1c0-.43,0-0.85,0-1.28,0-.07,0-0.15,0-0.23h-0.8v-1.6h-0.81v-0.8h-0.77a3.55,3.55,0,0,0,0,.81h0.76s0,0.06,0,.09c0,0.18,0,.36,0,0.54s0,0.59,0,.89a0.06,0.06,0,0,0,.07.07h0.73Z" fill="#fff"/>
-      <path d="M835.83,461.21s0-.06,0-0.08q0-1.13,0-2.26s0,0,0-.06h0.79s0-.07,0-0.11q0-2.24,0-4.48c0-.31,0-0.63,0-0.94a0.07,0.07,0,0,0-.08-0.08h-0.72c0-.05,0-0.1,0-0.14s0-.38,0-0.57c0,0,0-.07,0-0.07l-0.75,0v2.41h-0.79v-3.2h-1.61V454h-0.8s0-.09,0-0.14q0-1.48,0-3s0-.08,0-0.12h0l0.33,0h2.06v0.79h1.61v0.81h0.8v0.79h0.8v5.61H837l-0.39,0c0,0.19,0,.36,0,0.53,0,0.59,0,1.17,0,1.76,0,0.07,0,.09-0.09.09h-0.71Z"/>
-      <path d="M835.83,461.21a2,2,0,0,1,0,.21c0,0.61,0,1.22,0,1.83,0,0.11,0,.23,0,0.36-2.67,0-5.33,0-8,0v-2.4H827a15,15,0,0,1,0-1.6h0.78v1.59h0.8v1.6H835v-1.58h0.81Z"/>
-      <path d="M827.81,446.79q0,1.21,0,2.43,0,3.15,0,6.3v0.09H827v-0.79h-0.79V454H827v-7.19h0.8Z"/>
-      <path d="M831.84,450.79h-1.62V454h-0.8v-7.18h0.8V450h1.59s0,0.07,0,.1c0,0.2,0,.39,0,0.59a0.58,0.58,0,0,0,0,.1h0Z"/>
-      <path d="M826.21,458h-0.73a0.06,0.06,0,0,1-.07-0.07c0-.3,0-0.59,0-0.89s0-.36,0-0.54c0,0,0-.05,0-0.09h-0.76a3.55,3.55,0,0,1,0-.81h0.77v0.8h0.81V458H827c0,0.08,0,.16,0,0.23,0,0.43,0,.85,0,1.28a0.09,0.09,0,0,1-.11.1h-0.69V458Z"/>
-      <path d="M826.22,454l-0.43,0h-1.18v1.59h-0.8v-2.39h2.41c0,0.14,0,.28,0,0.41s0,0.25,0,.37h0Z"/>
-      <path d="M827.81,446.79V446h1.59v0.78h-1.59Z"/>
-    </g>
+  <use width="13.62" height="17.63" transform="translate(823.4 53.2)" xlink:href="#pointer"/>
+  <use width="13.62" height="17.63" transform="translate(823.4 315.01)" xlink:href="#pointer"/>
+  <use width="13.62" height="17.63" transform="translate(823.4 447.5)" xlink:href="#pointer"/>
+  <g opacity="0.6">
+    <text transform="translate(525.41 33)" font-size="13" font-family="Open Sans">memory</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(527.38 33)" font-size="12" font-family="Open Sans">memory</text>
-  </g>
-  <g opacity="0.4">
-    <text transform="translate(528.5 155.77)" font-size="12" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="18">pink high dissimilarity.</tspan></text>
+    <text transform="translate(528.5 156.63)" font-size="13" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="20">pink high dissimilarity.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(845.09 328)" font-size="12" font-family="Open Sans">interpolation amount</text>
-  </g>
-  <text transform="translate(845.09 460)" font-size="12" fill="#666" font-family="Open Sans">shift filter</text>
-  <g opacity="0.4">
-    <text transform="translate(825.09 12)" font-size="12" font-family="Open Sans" font-style="italic">RNN controller</text>
-  </g>
-  <g opacity="0.4">
-    <text transform="translate(687.91 12)" font-size="12" font-family="Open Sans" font-style="italic">attention mechanism</text>
+    <text transform="translate(845.09 328)" font-size="13" font-family="Open Sans">interpolation amount</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(845.09 64)" font-size="12" font-family="Open Sans">query vector</text>
+    <text transform="translate(845.09 460)" font-size="13" font-family="Open Sans">shift filter</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(603.71 266)" font-size="12" font-family="Open Sans">attention from previous step</text>
+    <text transform="translate(825.09 12)" font-size="13" font-family="Open Sans" font-style="italic">RNN controller</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(352.16 728)" font-size="12" font-family="Open Sans">new attention distribution</text>
+    <text transform="translate(678.56 12)" font-size="13" font-family="Open Sans" font-style="italic">attention mechanism</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(845.09 64)" font-size="13" font-family="Open Sans">query vector</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(597.03 266)" font-size="13" font-family="Open Sans">attention from previous step</text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(346.09 728)" font-size="13" font-family="Open Sans">new attention distribution</text>
   </g>
   <circle id="query-hover" cx="912.96" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>
   <circle id="interpolate-hover" cx="862.96" cy="357.04" r="41.37" fill="#fff" fill-opacity="0"/>

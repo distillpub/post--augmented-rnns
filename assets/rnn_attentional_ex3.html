@@ -23,7 +23,7 @@
   fill-opacity: 0.5;
 }
 #attentional-ex3 figcaption {
-  text-align: left;
+  text-align: center;
 }
 #attentional-ex3 .background {
   fill: rgb(240, 240, 245);
@@ -122,7 +122,7 @@ var audioHeight = 60;
 var html = d3.select("#attentional-ex3");
 var outerWidth = html.node().getBoundingClientRect().width;
 var outerHeight = html.node().getBoundingClientRect().height;
-var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin + 80};
+var margin = {top: 36, right: nodeMargin + 80, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeight - margin.top - margin.bottom;
 
@@ -152,7 +152,8 @@ var svg = html.select("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// html.select("svg .labels").attr("transform", "translate(" + (width + nodeMargin * 2 + 6) + ", 0)")
+html.select("svg .labels")
+    .attr("transform", "translate(" + (width + nodeMargin * 3) + ", 0)");
 
 var audio = svg.append("g")
     .attr("class", "audio")

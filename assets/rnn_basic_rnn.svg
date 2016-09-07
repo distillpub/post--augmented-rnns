@@ -47,25 +47,25 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(575.25 48.18)" xlink:href="#rnn-a"/>
   </g>
-  <text transform="translate(185.43 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">x0</text>
-  <text transform="translate(209.55 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">y0</text>
-  <text transform="translate(317.43 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">x1</text>
-  <text transform="translate(341.55 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">y1</text>
-  <text transform="translate(449.43 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">x2</text>
-  <text transform="translate(473.55 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">y2</text>
-  <text transform="translate(581.43 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">x3</text>
-  <text transform="translate(605.55 136.93)" opacity="0.6" font-size="12" font-family="Open Sans">y3</text>
+  <text transform="translate(184.88 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">x0</text>
+  <text transform="translate(209.01 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">y0</text>
+  <text transform="translate(316.88 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">x1</text>
+  <text transform="translate(341.01 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">y1</text>
+  <text transform="translate(448.88 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">x2</text>
+  <text transform="translate(473.01 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">y2</text>
+  <text transform="translate(580.88 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">x3</text>
+  <text transform="translate(605.01 136.93)" opacity="0.6" font-size="13" font-family="Open Sans">y3</text>
   <g opacity="0.6">
-    <text transform="translate(176.67 24.93)" font-size="12" font-family="Open Sans">One cell...</text>
+    <text transform="translate(174.39 24.93)" font-size="13" font-family="Open Sans">One cell...</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(283.58 24.93)" font-size="12" font-family="Open Sans">can be used over...</text>
+    <text transform="translate(279.21 24.93)" font-size="13" font-family="Open Sans">can be used over...</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(438.51 24.93)" font-size="12" font-family="Open Sans">and over...</text>
+    <text transform="translate(436.05 24.93)" font-size="13" font-family="Open Sans">and over...</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(583.24 24.93)" font-size="12" font-family="Open Sans">again.</text>
+    <text transform="translate(581.85 24.93)" font-size="13" font-family="Open Sans">again.</text>
   </g>
   <g>
     <g>

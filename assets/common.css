@@ -212,7 +212,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 17px/30px "Open Sans", sans-serif;
+  font: 18px/34px "Open Sans", sans-serif;
 }
 
 
@@ -240,7 +240,7 @@ figure {
 
 .post h3 {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.4em;
   font-family: "Open Sans", sans-serif;
   margin-top: 30px;
@@ -261,8 +261,9 @@ figure {
 
 .post p {
   margin-bottom: 24px;
-  /*text-align: justify;*/
-  /*-webkit-font-smoothing: antialiased;*/
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .post ul {

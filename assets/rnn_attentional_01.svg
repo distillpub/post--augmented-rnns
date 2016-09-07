@@ -349,7 +349,7 @@
     <use width="24" height="24" transform="translate(759 95.75)" xlink:href="#op-sum"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(167 35.12)" font-size="12" font-family="Open Sans">Network B focuses on different <tspan x="0" y="18">information from network A at </tspan><tspan x="0" y="36">every step.</tspan></text>
+    <text transform="translate(167 35.88)" font-size="13" font-family="Open Sans">Network B focuses on different <tspan x="0" y="20">information from network A at </tspan><tspan x="0" y="40">every step.</tspan></text>
   </g>
   <g id="_Group_8" data-name="&lt;Group&gt;">
     <g opacity="0.1">

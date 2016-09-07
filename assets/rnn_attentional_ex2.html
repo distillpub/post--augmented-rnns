@@ -6,8 +6,11 @@
       <marker id="edgeArrowhead" viewBox="0 -5 10 10" markerWidth="6" markerHeight="10" orient="auto" refX="5" refY="0">
         <path d="M0,-5L5,0L0,5" fill="none" stroke="#666"/>
       </marker>
+      <marker id="edgeArrowheadLeft" viewBox="0 -5 10 10" markerWidth="6" markerHeight="10" orient="auto" refX="0" refY="0">
+        <path d="M5,-5L0,0L5,5" fill="none" stroke="#666"/>
+      </marker>
     </defs>
-    <g class="labels">
+    <g class="labels" style="display: none;">
       <text transform="translate(0, 20)">output text</text>
       <text transform="translate(0, 65)">network B</text>
       <text transform="translate(0, 185)">network A</text>
@@ -24,7 +27,7 @@
   margin-bottom: 24px;
 }
 #attentional-ex2 figcaption {
-  text-align: left;
+  text-align: center;
 }
 #attentional-ex2 svg .labels {
   font-size: 12px;
@@ -148,7 +151,7 @@ var networkMargin = 120;
 var html = d3.select("#attentional-ex2");
 var outerWidth = html.node().getBoundingClientRect().width;
 var outerHeight = html.node().getBoundingClientRect().height;
-var margin = {top: 36, right: nodeMargin + 2, bottom: 24, left: nodeMargin + 80};
+var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeight - margin.top - margin.bottom;
 
@@ -171,6 +174,9 @@ var link = function(d) {
       + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin - networkMargin / 3 + nodeMargin)
       + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin + nodeMargin);
 };
+
+html.select("svg .labels")
+    .attr("transform", "translate(" + (width + nodeMargin * 3) + ", 0)");
 
 var svg = html.select("svg")
     .attr("width", outerWidth)
@@ -211,8 +217,9 @@ cellA.append("rect")
 
 cellA.append("line")
     .attr("class", "arrow")
+    .attr("marker-start", "url(#edgeArrowheadLeft)")
     .attr("marker-end", "url(#edgeArrowhead)")
-    .attr("x1", nodeSizeA)
+    .attr("x1", nodeSizeA + 8)
     .attr("x2", nodeSizeA + nodeMargin + 20)
     .attr("y1", nodeSizeA / 2)
     .attr("y2", nodeSizeA / 2);

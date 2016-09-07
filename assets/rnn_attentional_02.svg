@@ -103,9 +103,11 @@
     </g>
     <use width="49.5" height="49.5" transform="translate(468.25 365.25)" xlink:href="#rnn-a"/>
   </g>
-  <text transform="translate(167.98 25.12)" font-size="12" fill="#666" font-family="Open Sans">The attending RNN generates <tspan x="-0.42" y="18">a query describing what it </tspan><tspan x="-0.84" y="36">wants to focus on</tspan></text>
   <g opacity="0.6">
-    <text transform="translate(562 223.12)" font-size="12" font-family="Open Sans">Each item is dot producted with <tspan x="0" y="18">the query to produce a score, </tspan><tspan x="0" y="36">describing how well it matches </tspan><tspan x="0" y="54">the query. The scores are fed </tspan><tspan x="0" y="72">into a softmax to create the </tspan><tspan x="0" y="90">attention distribution.</tspan></text>
+    <text transform="translate(168.25 25.88)" font-size="13" font-family="Open Sans">The attending RNN generates a <tspan x="-0.53" y="20">query describing what it wants </tspan><tspan x="-1.06" y="40">to focus on</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(562 223.88)" font-size="13" font-family="Open Sans">Each item is dot producted with the <tspan x="0" y="20">query to produce a score, describing </tspan><tspan x="0" y="40">how well it matches the query. The </tspan><tspan x="0" y="60">scores are fed into a softmax to </tspan><tspan x="0" y="80">create the attention distribution.</tspan></text>
   </g>
   <path d="M201,330H177a10,10,0,0,1-10-10V118a10,10,0,0,1,10-10H529a10,10,0,0,0,10-10V58a10,10,0,0,0-10-10H516.37" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g>
