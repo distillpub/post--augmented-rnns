@@ -212,7 +212,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 18px/34px "Open Sans", sans-serif;
+  font: 18px/32px "PT Serif", "Open Sans", sans-serif;
 }
 
 
@@ -225,26 +225,26 @@ figure {
 }
 
 .post h1 {
-  font: 700 48px/54px "Open Sans", helvetica, sans-serif;
+  font: 500 50px/54px "PT Serif", helvetica, sans-serif;
   margin-bottom: 15px;
 }
 
 .post h2 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 1.45em;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
+  font-family: "PT Serif", "Open Sans", sans-serif;
+  margin-bottom: 24px;
   -webkit-font-smoothing: antialiased;
 }
 
 .post h3 {
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.4em;
   font-family: "Open Sans", sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .post h4 {
@@ -261,9 +261,17 @@ figure {
 
 .post p {
   margin-bottom: 24px;
-  text-align: justify;
+  /*text-align: justify;*/
   -webkit-hyphens: auto;
   -webkit-font-smoothing: antialiased;
+}
+
+.post p code {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+  padding: 4px 7px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .post ul {

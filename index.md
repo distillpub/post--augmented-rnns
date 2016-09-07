@@ -40,7 +40,7 @@ Our guess is that these "augmented RNNs" will have an important role to play in 
 
 ---
 
-### Neural Turing Machines
+## Neural Turing Machines
 
 Neural Turing Machines ([Graves, *et al.*, 2014]) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:
 
@@ -85,11 +85,13 @@ Since the original NTM paper, there's been a number of exciting papers exploring
 
 In some objective sense, many of the tasks these models can perform -- such as learning how to add numbers -- aren't that objectively hard. The traditional program synthesis community would eat them for lunch. But neural networks are capable of many other things, and models like the Neural Turing Machine seem to have knocked away a very profound limit on their abilities.
 
-<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> There are a number of open source implementations of these models. Open source implementations of the Neural Turing Machine include [Taehoon Kim's](https://github.com/carpedm20/NTM-tensorflow) (TensorFlow), [Shawn Tan's](https://github.com/shawntan/neural-turing-machines) (Thenao), [Fumin's](https://github.com/fumin/ntm) (Go), [Kai Sheng Tai's](https://github.com/kaishengtai/torch-ntm) (Torch), and [Snip's](https://github.com/snipsco/ntm-lasagne) (Lasagne). Code for the Neural GPU publication was open sourced and put in the [TensorFlow Models repository](https://github.com/tensorflow/models/tree/master/neural_gpu). Open source implementations of Memory Networks include [Facebook's](https://github.com/facebook/MemNN) (Torch/Matlab), [YerevaNN's](https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano) (Theano), and [Taehoon Kim's](https://github.com/carpedm20/MemN2N-tensorflow) (TensorFlow). </span></p>
+### Code
+
+There are a number of open source implementations of these models. Open source implementations of the Neural Turing Machine include [Taehoon Kim's](https://github.com/carpedm20/NTM-tensorflow) (TensorFlow), [Shawn Tan's](https://github.com/shawntan/neural-turing-machines) (Thenao), [Fumin's](https://github.com/fumin/ntm) (Go), [Kai Sheng Tai's](https://github.com/kaishengtai/torch-ntm) (Torch), and [Snip's](https://github.com/snipsco/ntm-lasagne) (Lasagne). Code for the Neural GPU publication was open sourced and put in the [TensorFlow Models repository](https://github.com/tensorflow/models/tree/master/neural_gpu). Open source implementations of Memory Networks include [Facebook's](https://github.com/facebook/MemNN) (Torch/Matlab), [YerevaNN's](https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano) (Theano), and [Taehoon Kim's](https://github.com/carpedm20/MemN2N-tensorflow) (TensorFlow). </span></p>
 
 ---
 
-### Attentional Interfaces
+## Attentional Interfaces
 
 When I’m translating a sentence, I pay special attention to the word I’m presently translating. When I’m transcribing an audio recording, I listen carefully to the segment I’m actively writing down. And if you ask me to describe the room I’m sitting in, I’ll glance around at the objects I’m describing as I do so.
 
@@ -98,45 +100,26 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.
 
 <!-- Diagram slightly unaligned on right side -->
-<figure class="side-saddle-right w-page">
+<figure class="w-page">
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how well it matches the query. The scores are fed into a softmax to create the attention distribution.
 
 <!-- Diagram slightly unaligned on right side -->
-<!-- Add a clearer break on the left side? Alternatively, shift softmax and improve alignment -->
 <figure class="w-page">
   {{> assets/rnn_attentional_02.svg}}
 </figure>
 
 One use of attention between RNNs is translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
 
-<!--
-<figure class="w-page">
-  {{> assets/rnn_attentional_ex1.svg}}
-  <figcaption>Diagram derived from Fig. 3 of [Bahdanau, *et al.* 2014]</figcaption>
-</figure>
-
--->
 
 {{> assets/rnn_attentional_ex2.html}}
-
 
 This kind of attention between RNNs has a number of other applications. It can be used in voice recognition ([Chan, *et al.* 2015]), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript. This kind of attention can also be use to parse text ([Vinyals, *et al.*, 2014]), allowing the model to glance at a sentence as it generates the parse tree, and for conversational modeling ([Vinyals & Le, 2015]), allowing the model to focus on previous parts of the conversation as it generates its response.
 
 {{> assets/rnn_attentional_ex3.html}}
 
-<!--
-<figure class=" external" >
-  <img src="assets/old-rnn-attention-vis1.png"></img>
-  <figcaption>Figure from [Chan, *et al.* 2015](https://arxiv.org/pdf/1508.01211.pdf)</figcaption>
-</figure>
--->
-
-<!--
-<img src="assets/old-rnn-attention-conv.png" style="width:60%; margin-left:20%; padding-top:20px; padding-bottom:17px;"></img>
--->
 Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
 <figure class="w-body-plus external">
@@ -150,7 +133,7 @@ Attentional interfaces have been found to be an extremely general and powerful t
 
 ---
 
-### Adaptive Computation Time
+## Adaptive Computation Time
 
 Standard RNNs do the same amount of computation each time step. This seems unintuitive. Surely, one should think more when things are hard? It also limits RNNs to doing $O(n)$ operations for a list of length $n$.
 
@@ -196,11 +179,13 @@ When training Adaptive Computation Time models, one adds a "ponder cost" term to
 
 Adaptive Computation Time is a very new idea, but we believe that it, along with similar ideas, will be very important.
 
-<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> The only open source implementation of Adaptive Computation Time at the moment seems to be [Mark Neumann's](https://github.com/DeNeutoy/act-tensorflow) (TensorFlow). </span></p>
+### Code
+
+The only open source implementation of Adaptive Computation Time at the moment seems to be [Mark Neumann's](https://github.com/DeNeutoy/act-tensorflow) (TensorFlow).
 
 ---
 
-### Neural Programmer
+## Neural Programmer
 
 Neural nets are excellent at many tasks, but they also struggle to do some basic things like arithmetic, which are trivial in normal approaches to computing. It would be really nice to have a way to fuse neural nets with normal programming, and get the best of both worlds.
 
@@ -238,11 +223,13 @@ The Neural Programmer isn't the only approach to having neural networks generate
 
 We think that this general space, of bridging the gap between more traditional programming and neural networks is extremely important. While the Neural Programmer is clearly not the final solution, we think there are a lot of important lessons to be learned from it.
 
-<p style="font-size: 75%; line-height: 145%;"><b>Code:</b><span style="color: rgba(0, 0, 0, 0.6);"> There don't seem to be any open source implementations of the Neural Programmer at present, but there is an implementation of the Neural Programmer-Interpreter by [Ken Morishita](https://github.com/mokemokechicken/keras_npi) (Keras). </span></p>
+### Code
+
+There don't seem to be any open source implementations of the Neural Programmer at present, but there is an implementation of the Neural Programmer-Interpreter by [Ken Morishita](https://github.com/mokemokechicken/keras_npi) (Keras).
 
 ---
 
-### The Big Picture
+## The Big Picture
 
 A human with a piece of paper is, in some sense, much smarter than a human without. A human with mathematical notation can solve problems they otherwise couldn't. Access to computers makes us capable of incredible feats that would otherwise be far beyond us.
 
@@ -258,14 +245,11 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 
 ---
 
-### Acknowledgments
+## Acknowledgments
 
 Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian Goodfellow for their feedback and encouragement.
 
-### References
-
-<!-- We could write up a bibliography section citing these: -->
-
+---
 
 [Alemi, *et al.*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
 [Andrychowicz & Kurach, 2016]: https://arxiv.org/pdf/1602.03218.pdf
@@ -289,26 +273,29 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
-<ul style="font-size: 65%; line-height: 155%;">
-<li>Alemi, A. A., Chollet, F., Irving, G., Szegedy, C., & Urban, J. (2016). DeepMath-Deep Sequence Models for Premise Selection. arXiv preprint arXiv:1606.04442.</li>
-<li>Andrychowicz, M., & Kurach, K. (2016). Learning Efficient Algorithms with Hierarchical Attentive Memory. arXiv preprint arXiv:1602.03218.</li>
-<li>Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.</li>
-<li>Chan, W., Jaitly, N., Le, Q. V., & Vinyals, O. (2015). Listen, attend and spell. arXiv preprint arXiv:1508.01211.</li>
-<li>Graves, A., Wayne, G., & Danihelka, I. (2014). Neural turing machines. arXiv preprint arXiv:1410.5401.</li>
-<li>Graves, A. (2016). Adaptive Computation Time for Recurrent Neural Networks. arXiv preprint arXiv:1603.08983.</li>
-<li>Grefenstette, E., Hermann, K. M., Suleyman, M., & Blunsom, P. (2015). Learning to transduce with unbounded memory. In Advances in Neural Information Processing Systems (pp. 1828-1836).</li>
-<li>Joulin, A., & Mikolov, T. (2015). Inferring algorithmic patterns with stack-augmented recurrent nets. In Advances in Neural Information Processing Systems (pp. 190-198).</li>
-<li>Kaiser, Ł., & Sutskever, I. (2015). Neural gpus learn algorithms. arXiv preprint arXiv:1511.08228.</li>
-<li>Kumar, A., Irsoy, O., Su, J., Bradbury, J., English, R., Pierce, B., Ondruska, P., Gulrajani, I. & Socher, R., (2015). Ask me anything: Dynamic memory networks for natural language processing. arXiv preprint arXiv:1506.07285.</li>
-<li>Kurach, K., Andrychowicz, M., & Sutskever, I. (2015). Neural random-access machines. arXiv preprint arXiv:1511.06392.</li>
-<li>Neelakantan, A., Le, Q. V., & Sutskever, I. (2015). Neural programmer: Inducing latent programs with gradient descent. arXiv preprint arXiv:1511.04834.</li>
-<li>Olah, C. (2015). Understanding LSTM Networks.</li>
-<li>Reed, S., & de Freitas, N. (2015). Neural programmer-interpreters. arXiv preprint arXiv:1511.06279.</li>
-<li>Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M. & Dieleman, S. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587), 484-489.</li>
-<li>Vinyals, O., Kaiser, Ł., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. (2015). Grammar as a foreign language. In Advances in Neural Information Processing Systems (pp. 2773-2781).</li>
-<li>Vinyals, O., & Le, Q. (2015). A neural conversational model. arXiv preprint arXiv:1506.05869.</li>
-<li>Vinyals, O., Fortunato, M., & Jaitly, N. (2015). Pointer networks. In Advances in Neural Information Processing Systems (pp. 2692-2700).</li>
-<li>Weston, J., Chopra, S., & Bordes, A. (2014). Memory networks. arXiv preprint arXiv:1410.3916.</li>
-<li>Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R.S. & Bengio, Y., 2015. (2015). Show, attend and tell: Neural image caption generation with visual attention. arXiv preprint arXiv:1502.03044, 2(3), 5.</li>
-<li>Zaremba, W., & Sutskever, I. (2015). Reinforcement learning neural Turing machines. arXiv preprint arXiv:1505.00521, 362.</li>
-</ul>
+<section class="references w-body">
+  <h2>References</h2>
+  <ul>
+    <li>Alemi, A. A., Chollet, F., Irving, G., Szegedy, C., & Urban, J. (2016). DeepMath-Deep Sequence Models for Premise Selection. arXiv preprint arXiv:1606.04442.</li>
+    <li>Andrychowicz, M., & Kurach, K. (2016). Learning Efficient Algorithms with Hierarchical Attentive Memory. arXiv preprint arXiv:1602.03218.</li>
+    <li>Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.</li>
+    <li>Chan, W., Jaitly, N., Le, Q. V., & Vinyals, O. (2015). Listen, attend and spell. arXiv preprint arXiv:1508.01211.</li>
+    <li>Graves, A., Wayne, G., & Danihelka, I. (2014). Neural turing machines. arXiv preprint arXiv:1410.5401.</li>
+    <li>Graves, A. (2016). Adaptive Computation Time for Recurrent Neural Networks. arXiv preprint arXiv:1603.08983.</li>
+    <li>Grefenstette, E., Hermann, K. M., Suleyman, M., & Blunsom, P. (2015). Learning to transduce with unbounded memory. In Advances in Neural Information Processing Systems (pp. 1828-1836).</li>
+    <li>Joulin, A., & Mikolov, T. (2015). Inferring algorithmic patterns with stack-augmented recurrent nets. In Advances in Neural Information Processing Systems (pp. 190-198).</li>
+    <li>Kaiser, Ł., & Sutskever, I. (2015). Neural gpus learn algorithms. arXiv preprint arXiv:1511.08228.</li>
+    <li>Kumar, A., Irsoy, O., Su, J., Bradbury, J., English, R., Pierce, B., Ondruska, P., Gulrajani, I. & Socher, R., (2015). Ask me anything: Dynamic memory networks for natural language processing. arXiv preprint arXiv:1506.07285.</li>
+    <li>Kurach, K., Andrychowicz, M., & Sutskever, I. (2015). Neural random-access machines. arXiv preprint arXiv:1511.06392.</li>
+    <li>Neelakantan, A., Le, Q. V., & Sutskever, I. (2015). Neural programmer: Inducing latent programs with gradient descent. arXiv preprint arXiv:1511.04834.</li>
+    <li>Olah, C. (2015). Understanding LSTM Networks.</li>
+    <li>Reed, S., & de Freitas, N. (2015). Neural programmer-interpreters. arXiv preprint arXiv:1511.06279.</li>
+    <li>Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M. & Dieleman, S. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587), 484-489.</li>
+    <li>Vinyals, O., Kaiser, Ł., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. (2015). Grammar as a foreign language. In Advances in Neural Information Processing Systems (pp. 2773-2781).</li>
+    <li>Vinyals, O., & Le, Q. (2015). A neural conversational model. arXiv preprint arXiv:1506.05869.</li>
+    <li>Vinyals, O., Fortunato, M., & Jaitly, N. (2015). Pointer networks. In Advances in Neural Information Processing Systems (pp. 2692-2700).</li>
+    <li>Weston, J., Chopra, S., & Bordes, A. (2014). Memory networks. arXiv preprint arXiv:1410.3916.</li>
+    <li>Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R.S. & Bengio, Y., 2015. (2015). Show, attend and tell: Neural image caption generation with visual attention. arXiv preprint arXiv:1502.03044, 2(3), 5.</li>
+    <li>Zaremba, W., & Sutskever, I. (2015). Reinforcement learning neural Turing machines. arXiv preprint arXiv:1505.00521, 362.</li>
+  </ul>
+</section>
