@@ -253,21 +253,28 @@ Thank you to Maithra Raghu, Dario Amodei, Natasha Jaques, Cassandra Xia, and Ian
 
 ### Licensing and Citation
 
-Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0<a> unless noted otherwise. Source for diagrams is available on <a>github</a>. If you see mistakes or want to suggest changes, please submit a <a>pull request</a> on github.
+Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a> unless noted otherwise. Source for diagrams is available on <a>github</a>. If you see mistakes or want to suggest changes, please submit a <a>pull request</a> on github.
 
-For attribution in academic contexts, please cite this work as: <code>Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</code> You can also get a <a>BibTeX citation</a>.
+For attribution in academic contexts, please cite this work as: <code>Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</code> You can also get a <a id="bibtex-citation" href="#">BibTeX citation</a>.
 
-Click to reveal bibtex
-<pre>
 {{=<% %>=}}
-@misc{<%typewriter.slug%>
+<pre id="bibtex-citation-text" style="display: none;">@misc{<%typewriter.slug%>
   author = {<%typewriter.bibtexAuthors%>},
   title = {<%typewriter.title%>},
   year = {<%typewriter.firstPublishedYear%>},
   howpublished = {URL}
-}
+}</pre>
 <%={{ }}=%>
-</pre>
+
+<script>
+(function() {
+  var button = document.getElementById("bibtex-citation");
+  var citation = document.getElementById("bibtex-citation-text")
+  button.onclick = function() {
+    citation.style.display = "block";
+  }
+})();
+</script>
 
 [Alemi, *et al.*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
 [Andrychowicz & Kurach, 2016]: https://arxiv.org/pdf/1602.03218.pdf
