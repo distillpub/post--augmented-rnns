@@ -7,19 +7,6 @@
 
 {{> mathjax.html}}
 
-<!--
-Some things we might want to think about adding somewhere:
-* Hyperlink author names and instituion
-* Select a canonical picture for the diagram, when displaying it?
-* List of article translations -- my LSTM article has at least 7 translations
-* Licensing Info (CC-BY?)
-* FAQ: https://docs.google.com/a/google.com/document/d/17d0iIq55dKX4Czo_r7iVZu3iG9WHfAO-namQCCr3FJc/edit?usp=sharing
-* Diagram source?
-* Source code for models?
--->
-
-<!-- Maybe rename "Attention and Augmented RNNs?" -->
-
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
 <!-- Comment on inputs/outputs in figure? -->
@@ -68,7 +55,6 @@ Similarly, we write everywhere at once to different extents. Again, an attention
 
 But how do NTMs decide which positions in memory to focus their attention on? They actually use a combination of two different methods: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and focus on places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
 
-<!-- Interpolation input seems to be able to be negative -->
 {{> assets/rnn_write_detail.html}}
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a long sequence in memory, and then loop over it, repeating it back repeatedly. As they do this, we can watch where they read and write, to better understand what they're doing:
@@ -99,14 +85,12 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.
 
-<!-- Diagram slightly unaligned on right side -->
 <figure class="w-page">
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how well it matches the query. The scores are fed into a softmax to create the attention distribution.
 
-<!-- Diagram slightly unaligned on right side -->
 <figure class="w-page">
   {{> assets/rnn_attentional_02.svg}}
 </figure>
@@ -193,9 +177,9 @@ Neural nets are excellent at many tasks, but they also struggle to do some basic
 
 The neural programmer ([Neelakantan, *et al.*, 2015]) is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs *without needing examples of correct programs*. It discovers how to produce programs as a means to the end of accomplishing some task.
 
-The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler program, which is given an arithmetic expression and generates a program to evaluate it.
+The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler model, which is given an arithmetic expression and generates a program to evaluate it.
 
-The program is a sequence of operations. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned and read from.
+The generated program is a sequence of operations. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned to and read from.
 
 <figure class="w-page">
   {{> assets/rnn_programmer_1.svg}}
@@ -207,7 +191,7 @@ The program is generated one operation at a time by a controller RNN. At each st
   {{> assets/rnn_programmer_2.svg}}
 </figure>
 
-The resulting distribution over operations can now be evaluated. Instead of running a single operation at each step, we use our usual trick of running all of them, and then average the outputs together, weighted by the probability we ran that operation.
+The resulting distribution over operations can now be evaluated. Instead of running a single operation at each step, we do the usual attention trick of running all of them and then average the outputs together, weighted by the probability we ran that operation.
 
 <figure class="w-page">
   {{> assets/rnn_programmer_3.svg}}
