@@ -303,31 +303,6 @@ cellB.append("text")
 // Links
 //
 var linkGroup = svg.append("g").attr("class", ".link-group")
-//     .data(linkData)
-//   .enter().append("g")
-//     .attr("class", "link-group")
-//     .on("mouseover", function(d) {
-//       linkGroup.style("opacity", 0);
-//       d3.select(this).style("opacity", 1)
-//     }).on("mouseout", function() {
-//       linkGroup.style("opacity", 1);
-//     });
-
-// linkGroup.append("rect")
-//     .style("opacity", 0)
-//     .attr("width", xb.step())
-//     .attr("height", height)
-//     .attr("x", function(d) { return xb(d.bi) - xb.bandwidth() / 2; });
-
-// linkGroup.append("rect")
-//     .attr("class", "node-highlight")
-//     .attr("x", function(d) { return xb(d.bi); })
-//     .attr("y", nodeMargin)
-//     .attr("width", nodeSizeB)
-//     .attr("height", nodeSizeB)
-//     .attr("rx", 4)
-//     .attr("ry", 4);
-
 
 var link = linkGroup.selectAll(".link")
     .data(linkData)
@@ -335,5 +310,35 @@ var link = linkGroup.selectAll(".link")
     .attr("class", "link")
     .attr("d", link)
     .style("opacity", function(d) { return d.v; });
-})();
-</script>
+
+var hoverA = svg.selectAll(".hover-a")
+    .data(labelsA)
+  .enter().append("rect")
+    .attr("class", "hover-a")
+    .style("opacity", 0)
+    .attr("transform", function(d, i) { return "translate(" + (xa(i) - xa.step() / 4) + ", " + (networkMargin / 2 + nodeSizeB) + ")"; })
+    .attr("width", xa.step())
+    .attr("height", 1.5 * (nodeSizeA + nodeMargin * 2))
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.ai === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
+
+var hoverB = svg.selectAll(".hover-b")
+    .data(labelsB)
+  .enter().append("rect")
+    .attr("class", "hover-b")
+    .style("opacity", 0)
+    .attr("transform", function(d, i) { return "translate(" + (xb(i) - xb.step() / 4) + ", 0)"; })
+    .attr("width", xb.step())
+    .attr("height", networkMargin / 2 + nodeSizeB)
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.bi === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
+
+})();</script>
