@@ -252,7 +252,7 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 <!-- Appendix -->
 <section class="appendix w-body">
   <h3>Acknowledgments</h3>
-  <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement.
+  <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement.
   <h3 id="citation">Errors, Reuse, and Citation</h3>
   <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a> unless noted otherwise. Source for diagrams is available on <a>github</a>. If you see mistakes or want to suggest changes, please submit a <a>pull request</a>.
   <p>For attribution in academic contexts, please cite this work as
