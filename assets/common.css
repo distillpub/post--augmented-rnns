@@ -219,7 +219,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 18px/30px Georgia, "Open Sans", sans-serif;
+  font: 16px/28px "Open Sans", sans-serif;
 }
 
 .post > h1:first-of-type {
