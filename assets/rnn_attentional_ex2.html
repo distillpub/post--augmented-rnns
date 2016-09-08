@@ -43,6 +43,7 @@
   stroke: black;
   stroke-width: 1px;
   stroke-opacity: 0.25;
+  /*transition: stroke-opacity, 0.2s, linear;*/
 }
 #attentional-ex2 .cell:hover .node {
   stroke-opacity: 1;
@@ -165,7 +166,7 @@ var nodeSizeA = xa.bandwidth();
 var nodeSizeB = xb.bandwidth();
 
 var networkHeightA = nodeSizeA + nodeMargin * 2;
-var networkHeightB = nodeSizeB + nodeMargin * 2
+var networkHeightB = nodeSizeB + nodeMargin * 2;
 
 var link = function(d) {
   return "M" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + nodeMargin)

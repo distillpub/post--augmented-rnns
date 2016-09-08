@@ -9,11 +9,21 @@
     </g>
   </svg>
   <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
+  <img src="assets/rnn-attention-waveform-bw.png">
   <figcaption>Figure derived from <a href="https://arxiv.org/pdf/1508.01211.pdf">Chan, <i>et al.</i> 2015</a></figcaption>
 </figure>
 
 <style>
+#attentional-ex3 {
+  position: relative;
+}
+#attentional-ex3 img {
+  position: absolute;
+  opacity: 0.7;
+}
 #attentional-ex3 svg {
+  z-index: 1;
+  position: relative;
   width: 100%;
   height: 280px;
   margin-bottom: 24px;
@@ -41,7 +51,7 @@
   stroke-width: 1px;
   stroke-opacity: 0.15;
 }
-#attentional-ex2 .cell:hover .node {
+#attentional-ex3 .cell:hover .node {
   stroke-opacity: 1;
 }
 #attentional-ex3 .cell .shadow {
@@ -136,6 +146,9 @@ var xb = d3.scaleBand()
 var nodeSizeA = xa.bandwidth();
 var nodeSizeB = xb.bandwidth();
 
+var networkHeightA = nodeSizeA + nodeMargin * 2;
+var networkHeightB = nodeSizeB + nodeMargin * 2;
+
 var link = function(d) {
   return "M" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + nodeMargin)
       + "C" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + networkMargin / 3 + nodeMargin)
@@ -174,7 +187,13 @@ var cellA = networkA.selectAll(".cell")
     .data(labelsA)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", " + nodeMargin + ")"; });
+    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", " + nodeMargin + ")"; })
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.ai === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
 
 cellA.append("rect")
     .attr("class", "shadow")
@@ -206,6 +225,12 @@ cellA.append("line")
     .attr("y1",  nodeMargin * 3)
     .attr("y2",  4);
 
+cellA.append("rect")
+    .style("opacity", 0)
+    .attr("transform", "translate(-" + ((xa.step() - nodeSizeA) / 2) + ",-" + (nodeMargin + (networkMargin - networkHeightB) / 2) + ")")
+    .attr("width", xa.step())
+    .attr("height", networkHeightA + (networkMargin - networkHeightA) / 2 + audioHeight + nodeMargin * 2);
+
 
 //
 // Network B
@@ -224,7 +249,13 @@ var cellB = networkB.selectAll(".cell")
     .data(labelsB)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xb(i) + ", " + nodeMargin + ")"; });
+    .attr("transform", function(d, i) { return "translate(" + xb(i) + ", " + nodeMargin + ")"; })
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.bi === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
 
 cellB.append("rect")
     .attr("class", "shadow")
@@ -262,6 +293,11 @@ cellB.append("text")
     .attr("dy", - nodeMargin * 2 - 15)
     .text(function(d) { return d; });
 
+cellB.append("rect")
+    .style("opacity", 0)
+    .attr("transform", "translate(-" + ((xb.step() - nodeSizeB) / 2) + ",-" + nodeMargin + ")")
+    .attr("width", xb.step())
+    .attr("height", networkHeightB + (networkMargin - networkHeightB) / 2);
 //
 // Links
 //
@@ -275,48 +311,15 @@ var link = linkGroup.selectAll(".link")
     .attr("d", link)
     .style("opacity", function(d) { return d.v; });
 
-var hoverA = svg.selectAll(".hover-a")
-    .data(labelsA)
-  .enter().append("rect")
-    .attr("class", "hover-a")
-    .style("opacity", 0)
-    .attr("transform", function(d, i) { return "translate(" + (xa(i) - xa.step() / 4) + ", " + (networkMargin / 2 + nodeSizeB) + ")"; })
-    .attr("width", xa.step())
-    .attr("height", height)
-    .on("mouseover", function(d, i) {
-      link.style("display", function(ld) {
-        return ld.ai === i ? "" : "none";
-      });
-    })
-    .on("mouseout", function() { link.style("display", ""); });
-
-var hoverB = svg.selectAll(".hover-b")
-    .data(labelsB)
-  .enter().append("rect")
-    .attr("class", "hover-b")
-    .style("opacity", 0)
-    .attr("transform", function(d, i) { return "translate(" + (xb(i) - xb.step() / 4) + ", 0)"; })
-    .attr("width", xb.step())
-    .attr("height", networkMargin / 2 + nodeSizeB)
-    .on("mouseover", function(d, i) {
-      link.style("display", function(ld) {
-        return ld.bi === i ? "" : "none";
-      });
-    })
-    .on("mouseout", function() { link.style("display", ""); });
-
 //
 // Audio
 //
 
-audio.append("image")
-    // .style("mix-blend-mode", "multiply")
-    .style("opacity", 0.7)
-    // .attr("y", nodeMargin)
-    .attr("width", width)
-    .attr("height", audioHeight)
-    .attr("preserveAspectRatio", "none")
-    .attr("xlink:href", "assets/rnn-attention-waveform-bw.png")
+html.select("img")
+    .style("left", margin.left + "px")
+    .style("top", margin.top + networkMargin + nodeSizeA + nodeMargin * 4 + "px")
+    .style("width", width + "px")
+    .style("height", audioHeight + "px")
 
 audio.append("rect")
     .attr("class", "audio-background")
