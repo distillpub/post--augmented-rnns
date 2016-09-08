@@ -15,7 +15,6 @@ figure {
 .page {
   overflow: hidden;
   background-color: #fcfcfc;
-  padding-bottom: 120px;
 }
 
 /**
@@ -223,11 +222,6 @@ figure {
   font: 18px/30px "PT Serif", "Open Sans", sans-serif;
 }
 
-
-.post section:first-of-type {
-  margin-top: 80px;
-}
-
 .post > h1:first-of-type {
   margin-top: 80px;
 }
@@ -330,7 +324,7 @@ pre code {
 /* Byline */
 .post .byline {
   font: 500 12px/18px "Open Sans", helvetica, sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 12px;
   color: rgba(0, 0, 0, 0.5);
@@ -433,6 +427,15 @@ pre code {
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 24px;
+  margin-top: 96px;
+  padding-top: 36px;
+  padding-left: 343px;
+  padding-right: 350px;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.025);
 
 }
 
@@ -454,4 +457,3 @@ pre code {
   font-size: 12px;
   line-height: 20px;
 }
-

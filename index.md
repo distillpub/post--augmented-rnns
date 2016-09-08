@@ -229,9 +229,6 @@ A major weaknesses of attention is that we have to take every "action" every ste
 
 Augmented recurrent neural networks, and the underlying technique of attention, are incredibly exciting. We look forward to seeing what happens next!
 
----
-
-
 [Alemi, *et al.*, 2016]: https://arxiv.org/pdf/1606.04442.pdf
 [Andrychowicz & Kurach, 2016]: https://arxiv.org/pdf/1602.03218.pdf
 [Bahdanau, *et al.* 2014]: https://arxiv.org/pdf/1409.0473.pdf
