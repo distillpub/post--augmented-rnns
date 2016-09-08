@@ -262,7 +262,7 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
   <pre class="citation">Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</pre>
   <p>BibTeX citation
   {{=<% %>=}}
-<pre class="citation">@misc{<%typewriter.slug%>
+<pre class="citation">@misc{<%typewriter.slug%>,
   author = {<%typewriter.bibtexAuthors%>},
   title = {<%typewriter.title%>},
   year = {<%typewriter.firstPublishedYear%>},
