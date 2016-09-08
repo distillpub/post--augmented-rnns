@@ -55,9 +55,8 @@
   alignment-baseline: middle;
 }
 #attentional-ex2 .cell text.label {
-  font-style: italic;
   font-size: 13px;
-  fill-opacity: 0.9;
+  /*fill-opacity: 0.9;*/
   text-anchor: middle;
   alignment-baseline: middle;
 }
@@ -192,7 +191,24 @@ var cellA = networkA.selectAll(".cell")
     .data(labelsA)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", " + nodeMargin + ")"; });
+    .attr("transform", function(d, i) { return "translate(" + xa(i) + ", " + nodeMargin + ")"; })
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.ai === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
+
+    // var hoverA = svg.selectAll(".hover-a")
+    //     .data(labelsA)
+    //   .enter().append("rect")
+    //     .attr("class", "hover-a")
+    //     .style("opacity", 0)
+    //     .attr("transform", function(d, i) { return "translate(" + (xa(i) - xa.step() / 4) + ", " + (networkMargin / 2 + nodeSizeB) + ")"; })
+    //     .attr("width", xa.step())
+    //     .attr("height", 1.5 * (nodeSizeA + nodeMargin * 2))
+    //
+    //
 
 cellA.append("rect")
     .attr("class", "shadow")
@@ -255,7 +271,13 @@ var cellB = networkB.selectAll(".cell")
     .data(labelsB)
   .enter().append("g")
     .attr("class", "cell")
-    .attr("transform", function(d, i) { return "translate(" + xb(i) + "," + nodeMargin + ")"; });
+    .attr("transform", function(d, i) { return "translate(" + xb(i) + "," + nodeMargin + ")"; })
+    .on("mouseover", function(d, i) {
+      link.style("display", function(ld) {
+        return ld.bi === i ? "" : "none";
+      });
+    })
+    .on("mouseout", function() { link.style("display", ""); });
 
 cellB.append("rect")
     .attr("class", "shadow")
@@ -310,35 +332,17 @@ var link = linkGroup.selectAll(".link")
     .attr("class", "link")
     .attr("d", link)
     .style("opacity", function(d) { return d.v; });
+// 
+//
+//
+// var hoverB = svg.selectAll(".hover-b")
+//     .data(labelsB)
+//   .enter().append("rect")
+//     .attr("class", "hover-b")
+//     .style("opacity", 0)
+//     .attr("transform", function(d, i) { return "translate(" + (xb(i) - xb.step() / 4) + ", 0)"; })
+//     .attr("width", xb.step())
+//     .attr("height", networkMargin / 2 + nodeSizeB)
 
-var hoverA = svg.selectAll(".hover-a")
-    .data(labelsA)
-  .enter().append("rect")
-    .attr("class", "hover-a")
-    .style("opacity", 0)
-    .attr("transform", function(d, i) { return "translate(" + (xa(i) - xa.step() / 4) + ", " + (networkMargin / 2 + nodeSizeB) + ")"; })
-    .attr("width", xa.step())
-    .attr("height", 1.5 * (nodeSizeA + nodeMargin * 2))
-    .on("mouseover", function(d, i) {
-      link.style("display", function(ld) {
-        return ld.ai === i ? "" : "none";
-      });
-    })
-    .on("mouseout", function() { link.style("display", ""); });
-
-var hoverB = svg.selectAll(".hover-b")
-    .data(labelsB)
-  .enter().append("rect")
-    .attr("class", "hover-b")
-    .style("opacity", 0)
-    .attr("transform", function(d, i) { return "translate(" + (xb(i) - xb.step() / 4) + ", 0)"; })
-    .attr("width", xb.step())
-    .attr("height", networkMargin / 2 + nodeSizeB)
-    .on("mouseover", function(d, i) {
-      link.style("display", function(ld) {
-        return ld.bi === i ? "" : "none";
-      });
-    })
-    .on("mouseout", function() { link.style("display", ""); });
 
 })();</script>

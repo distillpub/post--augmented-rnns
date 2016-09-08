@@ -249,6 +249,8 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
+{{> mathjax.html}}
+
 <!-- Appendix -->
 <section class="appendix w-body">
   <h3>Acknowledgments</h3>
@@ -292,5 +294,3 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
     <li>Zaremba, W., & Sutskever, I. (2015). Reinforcement learning neural Turing machines. arXiv preprint arXiv:1505.00521, 362.</li>
   </ul>
 </section>
-
-{{> mathjax.html}}

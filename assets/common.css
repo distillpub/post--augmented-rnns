@@ -219,7 +219,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 18px/30px "PT Serif", "Open Sans", sans-serif;
+  font: 18px/30px Georgia, "Open Sans", sans-serif;
 }
 
 .post > h1:first-of-type {
@@ -428,11 +428,11 @@ pre code {
   font-size: 14px;
   line-height: 24px;
   margin-top: 96px;
-  padding-top: 36px;
-  padding-left: 343px;
-  padding-right: 350px;
-  padding-bottom: 60px;
   margin-bottom: 0;
+  padding-top: 36px;
+  padding-bottom: 60px;
+  padding-left: calc(50% - (648px / 2));
+  padding-right: calc(50% - (648px / 2));
   border-top: 1px solid rgba(0,0,0,0.1);
   color: rgba(0,0,0,0.4);
   background: rgba(0,0,0,0.025);
