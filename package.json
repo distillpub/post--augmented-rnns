@@ -4,8 +4,9 @@
   "typewriter": {
     "title": "Attention and Augmented Recurrent Neural Networks",
     "description": "Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video",
-    "firstPublished": "Sat Jan 02 2016 00:00:00 GMT-0800 (PST)",
-    "lastPublished": "Thu Sep 01 2016 16:55:08 GMT-0700 (PDT)",
+    "url": "http://distill.pub/2016/augmented-rnns/",
+    "firstPublished": "Thu Sep 08 2016 10:27:05 GMT-0700 (PDT)",
+    "lastPublished": "Thu Sep 08 2016 10:27:05 GMT-0700 (PDT)",
     "authors": [
       {
         "firstName": "Chris",
