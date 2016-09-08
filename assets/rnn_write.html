@@ -68,47 +68,47 @@
       .data(memoryData)
     .enter().append("line")
       .attr("class", "vector")
-      .attr("transform", (d) => {
+      .attr("transform", function(d) {
         return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
       })
-      .attr("x2", (d) => vectorScale(d.x))
-      .attr("y2", (d) => vectorScale(d.y))
+      .attr("x2", function(d) { return  vectorScale(d.x); })
+      .attr("y2", function(d) { return  vectorScale(d.y); })
       .attr("marker-end", "url(#arrowhead)")
       .style("stroke", "grey");
 
   function updateReadAttention(data) {
     attention.data(data)
-        .style("opacity", (d) => d + 0.05);
+        .style("opacity", function(d) { return  d + 0.05; });
 
     path.data(data)
-        .style("stroke-opacity", (d) => d + 0.1);
+        .style("stroke-opacity", function(d) { return  d + 0.1; });
 
-    var resultX = d3.sum(memoryData, (d, i) => d.x * data[i]) / d3.sum(data);
-    var resultY = d3.sum(memoryData, (d, i) => d.y * data[i]) / d3.sum(data);
+    var resultX = d3.sum(memoryData, function(d, i) { return d.x * data[i]; }) / d3.sum(data);
+    var resultY = d3.sum(memoryData, function(d, i) { return d.y * data[i]; }) / d3.sum(data);
 
     resultArrow
         .attr("transform",`translate(${resultBBox.left + resultBBox.width / 2 - svgBBox.left - vectorScale(resultX) / 2}, ${resultBBox.top + resultBBox.width / 2 - svgBBox.top - vectorScale(resultY) / 2})`)
-        .attr("x2", (d) => vectorScale(resultX))
-        .attr("y2", (d) => vectorScale(resultY));
+        .attr("x2", function(d) { return  vectorScale(resultX); })
+        .attr("y2", function(d) { return  vectorScale(resultY); });
   }
 
   var length = memory.size();
-  var attentionData = d3.range(length).map(() => Math.random());
+  var attentionData = d3.range(length).map(function() { return Math.random(); });
   updateReadAttention(attentionData);
 
   readHtml.on("mousemove", function() {
     var data = [];
     attention.each(function() {
       var bbox = this.getBoundingClientRect()
-      var distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
+      var distance = Math.abs(bbox.left - d3.event.clientX + bbox.width / 2);
       data.push(Math.exp(-distance / 25));
     });
-    data = data.map((d) => d / d3.sum(data));
+    data = data.map(function(d) { return  d / d3.sum(data); });
     updateReadAttention(data);
   });
 
-  var initReadData = d3.range(attention.size()).map((d) => Math.exp(-d));
-  initReadData = initReadData.map((d) => d / d3.sum(initReadData));
+  var initReadData = d3.range(attention.size()).map(function(d) { return  Math.exp(-d); });
+  initReadData = initReadData.map(function(d) { return  d / d3.sum(initReadData); });
   updateReadAttention(initReadData);
 
   //
@@ -124,14 +124,14 @@
   var writeSvgBBox = writeSvg.node().getBoundingClientRect();
   var writeResult = writeSvg.select("#write-result").style("opacity", 0);
   var writeResultBBox = writeResult.node().getBoundingClientRect();
-  var newMemoryData = memoryData.map(d => { return {}; });
+  var newMemoryData = memoryData.map(function(){ return {}; });
 
   appendArrowhead(writeSvg);
   var writeArrow = writeSvg.append("line")
       .attr("class", "write-line")
       .attr("marker-end", "url(#arrowhead)")
       .style("stroke", "grey")
-      .attr("transform",`translate(${writeResultBBox.left + writeResultBBox.width / 2 - writeSvgBBox.left - vectorScale(writeData.x) / 2}, ${writeResultBBox.top + writeResultBBox.width / 2 - writeSvgBBox.top - vectorScale(writeData.y) / 2})`)
+      .attr("transform", "translate(" + (writeResultBBox.left + writeResultBBox.width / 2 - writeSvgBBox.left - vectorScale(writeData.x) / 2) + ", " + (writeResultBBox.top + writeResultBBox.width / 2 - writeSvgBBox.top - vectorScale(writeData.y) / 2) + ")")
       .attr("x2", vectorScale(writeData.x))
       .attr("y2", vectorScale(writeData.y));
 
@@ -148,11 +148,11 @@
       .data(memoryData)
     .enter().append("line")
       .attr("class", "vector")
-      .attr("transform", (d) => {
-        return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+      .attr("transform", function(d) {
+        return "translate(" + (d.left + d.width / 2 - vectorScale(d.x) / 2) + ", " + (d.top + d.width / 2 - vectorScale(d.y) / 2) + ")";
       })
-      .attr("x2", (d) => vectorScale(d.x))
-      .attr("y2", (d) => vectorScale(d.y))
+      .attr("x2", function(d) { return  vectorScale(d.x); })
+      .attr("y2", function(d) { return  vectorScale(d.y); })
       .attr("marker-end", "url(#arrowhead)")
       .style("stroke", "grey");
 
@@ -173,37 +173,37 @@
       .style("stroke", "grey");
 
   function updateWriteAttention(data) {
-    newMemoryData.forEach((d, i) => {
+    newMemoryData.forEach(function(d, i) {
       d.x = (memoryData[i].x + writeData.x * data[i]) / (1 + data[i]);
       d.y = (memoryData[i].y + writeData.y * data[i]) / (1 + data[i]);
     });
     writeNewMemoryVectors
-        .attr("transform", (d) => {
-          return `translate(${d.left + d.width / 2 - vectorScale(d.x) / 2}, ${d.top + d.width / 2 - vectorScale(d.y) / 2})`
+        .attr("transform", function(d) {
+          return "translate(" + (d.left + d.width / 2 - vectorScale(d.x) / 2) + ", " + (d.top + d.width / 2 - vectorScale(d.y) / 2) + ")";
         })
-        .attr("x2", (d) => vectorScale(d.x))
-        .attr("y2", (d) => vectorScale(d.y));
+        .attr("x2", function(d) { return  vectorScale(d.x); })
+        .attr("y2", function(d) { return  vectorScale(d.y); });
 
     writeAttention.data(data)
-        .style("opacity", (d) => d + 0.05);
+        .style("opacity", function(d) { return  d + 0.05; });
 
     writePath.data(data)
-        .style("stroke-opacity", (d) => d + 0.1);
+        .style("stroke-opacity", function(d) { return  d + 0.1; });
   }
 
   writeHtml.on("mousemove", function() {
     var data = [];
     writeAttention.each(function() {
       var bbox = this.getBoundingClientRect()
-      var distance = Math.abs(bbox.left - d3.event.x + bbox.width / 2);
+      var distance = Math.abs(bbox.left - d3.event.clientX + bbox.width / 2);
       data.push(Math.exp(-distance / 25));
     });
-    data = data.map((d) => d / d3.sum(data));
+    data = data.map(function(d) { return  d / d3.sum(data); });
     updateWriteAttention(data);
   });
 
-  var initWriteData = d3.range(writeAttention.size()).map((d) => Math.exp(-d));
-  initWriteData = initWriteData.map((d) => d / d3.sum(initWriteData));
+  var initWriteData = d3.range(writeAttention.size()).map(function(d) { return  Math.exp(-d); });
+  initWriteData = initWriteData.map(function(d) { return  d / d3.sum(initWriteData); });
   updateWriteAttention(initWriteData);
 
 })();
