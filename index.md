@@ -5,8 +5,6 @@
 
 {{> byline.html}}
 
-{{> mathjax.html}}
-
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
 <!-- Comment on inputs/outputs in figure? -->
@@ -251,7 +249,6 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
-
 <!-- Appendix -->
 <section class="appendix w-body">
   <h3>Acknowledgments</h3>
@@ -295,3 +292,5 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
     <li>Zaremba, W., & Sutskever, I. (2015). Reinforcement learning neural Turing machines. arXiv preprint arXiv:1505.00521, 362.</li>
   </ul>
 </section>
+
+{{> mathjax.html}}
