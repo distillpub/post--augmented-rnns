@@ -359,7 +359,7 @@
     </g>
     <use width="24" height="24" transform="translate(567.25 95.75)" xlink:href="#op-sum"/>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="287" y1="135" x2="287" y2="134" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="287" y1="131.97" x2="287" y2="68.02" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2.03 2.03"/>

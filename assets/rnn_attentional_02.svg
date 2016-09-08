@@ -301,7 +301,7 @@
     </g>
     <use width="24" height="24" transform="translate(480 191.25)" xlink:href="#op-x"/>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="222" y1="72" x2="222" y2="73" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="222" y1="75" x2="222" y2="106" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2 2"/>

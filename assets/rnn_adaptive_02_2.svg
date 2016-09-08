@@ -53,7 +53,7 @@
   <g opacity="0.6">
     <text transform="translate(60.76 134)" font-size="13" font-family="Open Sans">halting neuron</text>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="157" y1="132" x2="158" y2="132" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="159.98" y1="132" x2="250.01" y2="132" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="1.98 1.98"/>

@@ -261,14 +261,14 @@
   <g opacity="0.6">
     <text transform="translate(66 251.14)" font-size="13" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="20">the first computation step</tspan></text>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="108" y1="48" x2="108" y2="49" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="108" y1="51.03" x2="108" y2="110.98" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2.03 2.03"/>
       <line x1="108" y1="112" x2="108" y2="113" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
     </g>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="105" y1="195" x2="104.29" y2="195.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="102.79" y1="197.21" x2="85.46" y2="214.54" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2.13 2.13"/>
@@ -277,14 +277,14 @@
       <line x1="84" y1="233" x2="84" y2="234" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
     </g>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="388" y1="48" x2="388" y2="49" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="388" y1="51" x2="388" y2="70" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2 2"/>
       <line x1="388" y1="71" x2="388" y2="72" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
     </g>
   </g>
-  <g opacity="0.4">
+  <g opacity="0.6">
     <g>
       <line x1="647" y1="48" x2="647" y2="49" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
       <line x1="647" y1="51" x2="647" y2="66" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5" stroke-dasharray="2 2"/>
