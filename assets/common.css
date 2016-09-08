@@ -219,7 +219,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 16px/28px "Open Sans", sans-serif;
+  font: 16px/28px 'Open Sans', sans-serif;
 }
 
 .post > h1:first-of-type {
@@ -227,7 +227,10 @@ figure {
 }
 
 .post h1 {
-  font: 500 50px/54px "PT Serif", helvetica, sans-serif;
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 54px;
   margin-bottom: 15px;
 }
 
@@ -235,7 +238,7 @@ figure {
   font-weight: 500;
   font-size: 30px;
   line-height: 1.45em;
-  font-family: "PT Serif", "Open Sans", sans-serif;
+  font-family: 'PT Serif', Georgia, serif;
   margin-bottom: 24px;
   -webkit-font-smoothing: antialiased;
 }
@@ -244,7 +247,7 @@ figure {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.4em;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -332,6 +335,10 @@ pre code {
 
 .post .byline a {
   text-decoration: none;
+}
+
+.post .byline a:hover {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .post .byline .authors {
@@ -440,9 +447,8 @@ pre code {
   padding-left: calc(50% - (648px / 2));
   padding-right: calc(50% - (648px / 2));
   border-top: 1px solid rgba(0,0,0,0.1);
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.025);
-
 }
 
 .post .appendix h3 {
@@ -450,13 +456,19 @@ pre code {
   font-weight: 500;
   margin-top: 18px;
   margin-bottom: 18px;
+    color: rgba(0,0,0,0.65);
 }
 
 .post .appendix .citation {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 11px;
+  line-height: 15px;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   padding-left: 18px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.02);
+  padding: 10px 18px;
+  border-radius: 3px;
+  color: rgba(150, 150, 150, 1);
 }
 
 .post .appendix .references {

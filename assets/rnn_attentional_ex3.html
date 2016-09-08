@@ -9,17 +9,24 @@
     </g>
   </svg>
   <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
-  <img src="assets/rnn-attention-waveform-bw.png">
+  <img class="waveform" src="assets/rnn-attention-waveform-bw.png">
   <figcaption>Figure derived from <a href="https://arxiv.org/pdf/1508.01211.pdf">Chan, <i>et al.</i> 2015</a></figcaption>
+  <img class="pointer" src="assets/pointer.svg">
 </figure>
-
 <style>
 #attentional-ex3 {
   position: relative;
 }
-#attentional-ex3 img {
+#attentional-ex3 .waveform {
   position: absolute;
   opacity: 0.7;
+}
+#attentional-ex3 .pointer {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 36px;
+  left: -36px;
 }
 #attentional-ex3 svg {
   z-index: 1;
@@ -315,7 +322,7 @@ var link = linkGroup.selectAll(".link")
 // Audio
 //
 
-html.select("img")
+html.select(".waveform")
     .style("left", margin.left + "px")
     .style("top", margin.top + networkMargin + nodeSizeA + nodeMargin * 4 + "px")
     .style("width", width + "px")
