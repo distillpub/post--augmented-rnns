@@ -254,7 +254,7 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 <!-- Appendix -->
 <section class="appendix w-body">
   <h3>Acknowledgments</h3>
-  <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement.
+  <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement. We're also very grateful to our team, <a href="http://g.co/brain">Google Brain</a>, for being extremely supportive of our project.
   <h3 id="citation">Errors, Reuse, and Citation</h3>
   <p>If you see mistakes or want to suggest changes, please submit a pull request on <a href="{{{typewriter.github}}}">github</a>.
   <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>, unless noted otherwise, with the source available on available on <a href="{{{typewriter.github}}}">github</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from …".
