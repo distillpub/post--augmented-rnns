@@ -119,7 +119,7 @@ Attentional interfaces have been found to be an extremely general and powerful t
 
 ## Adaptive Computation Time
 
-Standard RNNs do the same amount of computation each time step. This seems unintuitive. Surely, one should think more when things are hard? It also limits RNNs to doing $O(n)$ operations for a list of length $n$.
+<p class="equation-mimic">Standard RNNs do the same amount of computation each time step. This seems unintuitive. Surely, one should think more when things are hard? It also limits RNNs to doing <span class="equation-mimic">O(n)</span> operations for a list of length <span class="equation-mimic">n</span>.</p>
 
 Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
@@ -248,8 +248,6 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 [Weston *et al.*, 2014]: http://arxiv.org/abs/1410.3916
 [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
-
-{{> mathjax.html}}
 
 <!-- Appendix -->
 <section class="appendix w-body">
