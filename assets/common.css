@@ -232,6 +232,7 @@ figure {
   font-size: 50px;
   line-height: 54px;
   margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .post h2 {
@@ -272,8 +273,8 @@ figure {
 .post p {
   margin-bottom: 24px;
   /*text-align: justify;*/
-  -webkit-hyphens: auto;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-hyphens: auto;*/
+  /*-webkit-font-smoothing: antialiased;*/
 }
 
 .post p code {
