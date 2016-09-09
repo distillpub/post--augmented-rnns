@@ -97,7 +97,7 @@
   </g>
   <use width="26.87" height="26.87" transform="translate(129.37 136.54)" xlink:href="#pointer"/>
   <g opacity="0.6">
-    <text transform="translate(560 150.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution, <tspan x="0" y="20">describing how much we should change </tspan><tspan x="0" y="40">each memory position towards the write </tspan><tspan x="0" y="60">value.</tspan></text>
+    <text transform="translate(558 150.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution, <tspan x="0" y="20">describing how much we should change </tspan><tspan x="0" y="40">each memory position towards the write </tspan><tspan x="0" y="60">value.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(560 65.88)" font-size="13" font-family="Open Sans">Instead of writing to one location, we write <tspan x="0" y="20">everywhere, just do different extents.</tspan></text>

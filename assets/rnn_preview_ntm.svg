@@ -1,0 +1,65 @@
+<svg id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="108" viewBox="0 0 144 108">
+  <defs>
+    <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
+      <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
+      <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
+      <path d="M29.77,31.75l-1.93-4.94H21.6l-1.91,4.94H17.86L24,16.14h1.52l6.11,15.61H29.77Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z" fill="#666"/>
+    </symbol>
+    <symbol id="array-small" data-name="array-small" viewBox="0 0 182.08 31.66">
+      <rect x="0.75" y="0.75" width="180.58" height="30.16" rx="6" ry="6" fill="#e5daf2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="30.7" y1="30.91" x2="30.7" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="60.86" y1="30.91" x2="60.86" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="91.03" y1="30.91" x2="91.03" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="121.19" y1="30.91" x2="121.19" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="151.33" y1="30.91" x2="151.33" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </symbol>
+    <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
+      <rect width="36" height="36" fill="#d8c2f2" opacity="0"/>
+      <g opacity="0.5">
+        <g>
+          <line x1="18" y1="24" x2="18" y2="13.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="22.09 16.4 21.36 17.08 18 13.47 14.64 17.08 13.91 16.4 18 12 22.09 16.4"/>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <title>rnn</title>
+  <g>
+    <line x1="68.41" y1="34.82" x2="68.41" y2="56.38" fill="none" stroke="#666" stroke-miterlimit="10"/>
+    <path d="M68.41,60a18.13,18.13,0,0,0-2.85-5.13l2.85,1,2.85-1A18.12,18.12,0,0,0,68.41,60Z" fill="#666"/>
+  </g>
+  <g>
+    <line x1="86.41" y1="60" x2="86.41" y2="38.44" fill="none" stroke="#666" stroke-miterlimit="10"/>
+    <path d="M86.41,34.82a18.13,18.13,0,0,0,2.85,5.13l-2.85-1-2.85,1A18.12,18.12,0,0,0,86.41,34.82Z" fill="#666"/>
+  </g>
+  <g>
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect x="-0.01" y="69.31" width="143.05" height="38.93" rx="5" ry="5" fill="#f0f0f5"/>
+      <g opacity="0.1">
+        <rect x="-0.01" y="69.31" width="143.05" height="38.93" rx="5" ry="5" fill="none" stroke="#667780"/>
+      </g>
+    </g>
+    <use id="rnn-a-3" data-name="rnn-a" width="49.5" height="49.5" transform="translate(6.58 75.39) scale(0.54)" xlink:href="#rnn-a"/>
+    <use width="49.5" height="49.5" transform="translate(59.56 75.39) scale(0.54)" xlink:href="#rnn-a"/>
+    <use id="rnn-a-8" data-name="rnn-a" width="49.5" height="49.5" transform="translate(110.65 75.39) scale(0.54)" xlink:href="#rnn-a"/>
+    <g>
+      <line x1="32.93" y1="89.04" x2="52.33" y2="89.04" fill="none" stroke="#666" stroke-miterlimit="10"/>
+      <path d="M56,89a18.13,18.13,0,0,0-5.13,2.85l1-2.85-1-2.85A18.12,18.12,0,0,0,56,89Z" fill="#666"/>
+    </g>
+    <g>
+      <line x1="85.51" y1="89.04" x2="104.91" y2="89.04" fill="none" stroke="#666" stroke-miterlimit="10"/>
+      <path d="M108.53,89a18.13,18.13,0,0,0-5.13,2.85l1-2.85-1-2.85A18.12,18.12,0,0,0,108.53,89Z" fill="#666"/>
+    </g>
+  </g>
+  <g>
+    <use id="array-small-3" data-name="array-small" width="182.08" height="31.66" transform="translate(0.33 0.38) scale(0.79)" xlink:href="#array-small"/>
+    <use width="36" height="36" transform="translate(1.37) scale(0.66)" xlink:href="#array-vector"/>
+    <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(25.01 0.99) scale(0.66)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(48.64 0.99) scale(0.66)" xlink:href="#array-vector"/>
+    <use id="array-vector-10" data-name="array-vector" width="36" height="36" transform="translate(72.28 0.21) scale(0.66)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(95.78 0.99) scale(0.66)" xlink:href="#array-vector"/>
+    <use id="array-vector-15" data-name="array-vector" width="36" height="36" transform="translate(119.38 1.6) scale(0.66)" xlink:href="#array-vector"/>
+  </g>
+</svg>

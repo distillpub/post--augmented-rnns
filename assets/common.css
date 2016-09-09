@@ -400,8 +400,8 @@ pre code {
 .post figure figcaption {
   font-family: "Open Sans";
   color: rgba(0, 0, 0, 0.6);
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .post figure.external img {

@@ -14,10 +14,50 @@ The basic RNN design struggles with longer sequences, but a special variant -- [
 
 As this has happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions stand out as particularly exciting:
 
-* [*Neural Turing Machines*](#neural-turing-machines) have external memory that they can read and write to.
-* [*Attentional Interfaces*](#attentional-interfaces) allow RNNs to focus on parts of their input.
-* [*Adaptive Computation Time*](#adaptive-computation-time) allows for varying amounts of computation per step.
-* [*Neural Programmers*](#neural-programmer) can call functions, building programs as they run.
+<figure class="w-body-plus" id="previews">
+  <a href="#neural-turing-machines">
+    <img src="assets/rnn_preview_ntm.svg">
+    <figcaption><b>Neural Turing<br>Machines</b><br> have external memory that they can read and write to.</figcaption>
+  </a>
+  <a href="#attentional-interfaces">
+    <img src="assets/rnn_preview_ai.svg">
+    <figcaption><b>Attentional<br>Interfaces</b><br> allow RNNs to focus on parts of their input.</figcaption>
+  </a>
+  <a href="#adaptive-computation-time">
+    <img src="assets/rnn_preview_act.svg">
+    <figcaption><b>Adaptive<br>Computation Time</b><br> allows for varying amounts of computation per step.</figcaption>
+  </a>
+  <a href="#neural-programmer">
+    <img src="assets/rnn_preview_np.svg">
+    <figcaption><b>Neural<br>Programmers</b><br> can call functions, building programs as they run.</figcaption>
+  </a>
+</figure>
+
+<style>
+  #previews {
+    overflow: hidden;
+  }
+  #previews a {
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-right: 3.2%;
+    padding-right: 3.2%;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+  }
+  #previews a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+  }
+  #previews svg, #previews img {
+    margin-bottom: 18px;
+    display: block;
+    width: 100%;
+  }
+</style>
+
 
 Individually, these techniques are all potent extensions of RNNs, but the really striking thing is that they can be combined together, and seem to just be points in a broader space. Further, they all rely on the same underlying trick -- something called attention -- to work.
 

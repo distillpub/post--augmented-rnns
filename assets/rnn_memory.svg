@@ -61,10 +61,10 @@
       <rect x="166" y="192" width="648" height="72" rx="10" ry="10" fill="none" stroke="#667780"/>
     </g>
   </g>
-  <use id="array-small-3" data-name="array-small" width="182.08" height="31.66" transform="translate(112 35.44)" xlink:href="#array-small"/>
-  <use width="182.08" height="31.66" transform="translate(305.08 35.44)" xlink:href="#array-small"/>
-  <use width="182.08" height="31.66" transform="translate(497.08 35.44)" xlink:href="#array-small"/>
-  <use id="array-small-10" data-name="array-small" width="182.08" height="31.66" transform="translate(689.08 35.44)" xlink:href="#array-small"/>
+  <use id="array-small-3" data-name="array-small" width="182.08" height="31.66" transform="translate(116.84 35.44)" xlink:href="#array-small"/>
+  <use width="182.08" height="31.66" transform="translate(309.92 35.44)" xlink:href="#array-small"/>
+  <use width="182.08" height="31.66" transform="translate(501.92 35.44)" xlink:href="#array-small"/>
+  <use id="array-small-10" data-name="array-small" width="182.08" height="31.66" transform="translate(693.92 35.44)" xlink:href="#array-small"/>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <g opacity="0.1">
       <rect x="755.64" y="206" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
@@ -227,10 +227,10 @@
     <use width="49.5" height="49.5" transform="translate(177.89 203.25)" xlink:href="#rnn-a"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(115 22)" font-size="13" font-family="Open Sans">Memory is an array of vectors</text>
+    <text transform="translate(119.84 22)" font-size="13" font-family="Open Sans">Memory is an array of vectors</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(112 104.14)" font-size="13" font-family="Open Sans">Network A <tspan x="0" y="20">writes and reads </tspan><tspan x="0" y="40">from this memory </tspan><tspan x="0" y="60">each step</tspan></text>
+    <text transform="translate(120 104.14)" font-size="13" font-family="Open Sans">Network A <tspan x="0" y="20">writes and reads </tspan><tspan x="0" y="40">from this memory </tspan><tspan x="0" y="60">each step</tspan></text>
   </g>
   <g>
     <line x1="226.89" y1="228" x2="360.21" y2="228" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -300,28 +300,28 @@
   <g opacity="0.6">
     <text transform="translate(781.9 294)" font-size="13" font-family="Open Sans">y2</text>
   </g>
-  <use width="36" height="36" transform="translate(113.33 34.96) scale(0.83)" xlink:href="#array-vector"/>
-  <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(143.37 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(173.41 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use id="array-vector-10" data-name="array-vector" width="36" height="36" transform="translate(203.46 35.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 320.35, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(335.37 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(365.41 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(395.46 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 512.35, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 542.39, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(557.41 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(587.46 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 704.35, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 734.39, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 764.43, 30)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(779.46 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(233.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(425.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(455.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use id="array-vector-43" data-name="array-vector" width="36" height="36" transform="translate(263.33 36.99) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(617.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(647.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(809.33 36.22) scale(0.83)" xlink:href="#array-vector"/>
-  <use width="36" height="36" transform="translate(841 37.99) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(118.17 34.96) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(148.21 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(178.25 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-10" data-name="array-vector" width="36" height="36" transform="translate(208.29 35.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 325.19, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(340.21 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(370.25 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(400.29 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 517.19, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 547.23, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(562.25 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(592.29 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 709.19, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 739.23, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="matrix(0.59, 0.59, -0.59, 0.59, 769.27, 30)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(784.29 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(238.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(430.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(460.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use id="array-vector-43" data-name="array-vector" width="36" height="36" transform="translate(268.17 36.99) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(622.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(652.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(814.17 36.22) scale(0.83)" xlink:href="#array-vector"/>
+  <use width="36" height="36" transform="translate(845.84 36) scale(0.83)" xlink:href="#array-vector"/>
 </svg>

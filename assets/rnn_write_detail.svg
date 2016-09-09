@@ -1,4 +1,4 @@
-<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="744" viewBox="0 0 984 744">
+<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="756" viewBox="0 0 984 756">
   <defs>
     <symbol id="array-5" data-name="array-5" viewBox="0 0 181.5 37.5">
       <rect x="0.75" y="0.75" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -50,329 +50,329 @@
   </defs>
   <title>rnn</title>
   <g>
-    <line x1="763.09" x2="763.59" y2="741" fill="#fff"/>
+    <line x1="763.09" y1="7" x2="763.59" y2="748" fill="#fff"/>
     <g>
-      <line x1="763.09" x2="763.09" y2="1" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
-      <line x1="763.09" y1="3" x2="763.59" y2="739" fill="none" stroke="#aaa" stroke-miterlimit="10" stroke-dasharray="2 2"/>
-      <line x1="763.59" y1="740" x2="763.59" y2="741" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
+      <line x1="763.09" y1="7" x2="763.09" y2="8" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
+      <line x1="763.09" y1="10" x2="763.59" y2="746" fill="none" stroke="#aaa" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <line x1="763.59" y1="747" x2="763.59" y2="748" fill="none" stroke="#aaa" stroke-miterlimit="10"/>
     </g>
   </g>
   <g>
     <g opacity="0">
       <g>
-        <line x1="643.34" y1="201" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="208" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.17">
       <g>
-        <line x1="643.34" y1="206" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="213" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.33">
       <g>
-        <line x1="643.34" y1="211" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="218" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.5">
       <g>
-        <line x1="643.34" y1="216" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="223" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.67">
       <g>
-        <line x1="643.34" y1="221" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="228" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.83">
       <g>
-        <line x1="643.34" y1="226" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+        <line x1="643.34" y1="233" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
       </g>
     </g>
     <g>
-      <line x1="643.34" y1="231" x2="643.34" y2="243.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <path d="M643.34,249.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,249.35Z" fill="#666"/>
+      <line x1="643.34" y1="238" x2="643.34" y2="250.92" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M643.34,256.35a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,643.34,256.35Z" fill="#666"/>
     </g>
   </g>
   <g>
-    <line x1="375" y1="48" x2="375" y2="72.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,78.18a27.2,27.2,0,0,0-4.28-7.69L375,72l4.28-1.55A27.18,27.18,0,0,0,375,78.18Z" fill="#666"/>
+    <line x1="375" y1="55" x2="375" y2="79.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,85.18a27.2,27.2,0,0,0-4.28-7.69L375,79l4.28-1.55A27.18,27.18,0,0,0,375,85.18Z" fill="#666"/>
   </g>
   <g>
-    <line x1="794.09" y1="96" x2="428.43" y2="96" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M423,96a27.2,27.2,0,0,0,7.69-4.28L429.14,96l1.55,4.28A27.18,27.18,0,0,0,423,96Z" fill="#666"/>
+    <line x1="794.09" y1="103" x2="428.43" y2="103" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M423,103a27.2,27.2,0,0,0,7.69-4.28L429.14,103l1.55,4.28A27.18,27.18,0,0,0,423,103Z" fill="#666"/>
   </g>
   <g>
-    <line x1="794.09" y1="366" x2="428.43" y2="366" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M423,366a27.2,27.2,0,0,0,7.69-4.28L429.14,366l1.55,4.28A27.18,27.18,0,0,0,423,366Z" fill="#666"/>
+    <line x1="794.09" y1="373" x2="428.43" y2="373" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M423,373a27.2,27.2,0,0,0,7.69-4.28L429.14,373l1.55,4.28A27.18,27.18,0,0,0,423,373Z" fill="#666"/>
   </g>
   <g>
-    <line x1="794.09" y1="492" x2="428.43" y2="492" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M423,492a27.2,27.2,0,0,0,7.69-4.28L429.14,492l1.55,4.28A27.18,27.18,0,0,0,423,492Z" fill="#666"/>
+    <line x1="794.09" y1="499" x2="428.43" y2="499" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M423,499a27.2,27.2,0,0,0,7.69-4.28L429.14,499l1.55,4.28A27.18,27.18,0,0,0,423,499Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="107.82" x2="375" y2="132.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,138a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,138Z" fill="#666"/>
+    <line x1="375" y1="114.82" x2="375" y2="139.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,145a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,145Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="179.82" x2="375" y2="204.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,210a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,210Z" fill="#666"/>
+    <line x1="375" y1="186.82" x2="375" y2="211.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,217a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,217Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="240" x2="375" y2="264.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,270.18a27.2,27.2,0,0,0-4.28-7.69L375,264l4.28-1.55A27.18,27.18,0,0,0,375,270.18Z" fill="#666"/>
+    <line x1="375" y1="247" x2="375" y2="271.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,277.18a27.2,27.2,0,0,0-4.28-7.69L375,271l4.28-1.55A27.18,27.18,0,0,0,375,277.18Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="311.82" x2="375" y2="336.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,342a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,342Z" fill="#666"/>
+    <line x1="375" y1="318.82" x2="375" y2="343.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,349a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,349Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="371.82" x2="375" y2="396.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,402a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,402Z" fill="#666"/>
+    <line x1="375" y1="378.82" x2="375" y2="403.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,409a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,409Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="444" x2="375" y2="468.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,474.18a27.2,27.2,0,0,0-4.28-7.69L375,468l4.28-1.55A27.18,27.18,0,0,0,375,474.18Z" fill="#666"/>
+    <line x1="375" y1="451" x2="375" y2="475.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,481.18a27.2,27.2,0,0,0-4.28-7.69L375,475l4.28-1.55A27.18,27.18,0,0,0,375,481.18Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="503.82" x2="375" y2="528.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,534a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,534Z" fill="#666"/>
+    <line x1="375" y1="510.82" x2="375" y2="535.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,541a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,541Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="576.82" x2="375" y2="601.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,607a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,607Z" fill="#666"/>
+    <line x1="375" y1="583.82" x2="375" y2="608.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,614a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,614Z" fill="#666"/>
   </g>
   <g>
-    <line x1="375" y1="635.82" x2="375" y2="660.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M375,666a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,666Z" fill="#666"/>
+    <line x1="375" y1="642.82" x2="375" y2="667.57" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375,673a27.2,27.2,0,0,0-4.28-7.69l4.28,1.55,4.28-1.55A27.18,27.18,0,0,0,375,673Z" fill="#666"/>
   </g>
   <g>
-    <path d="M643.34,312v32a10,10,0,0,1-10,10H428.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M423,354a27.2,27.2,0,0,0,7.69-4.28L429.14,354l1.55,4.28A27.18,27.18,0,0,0,423,354Z" fill="#666"/>
+    <path d="M643.34,319v32a10,10,0,0,1-10,10H428.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M423,361a27.2,27.2,0,0,0,7.69-4.28L429.14,361l1.55,4.28A27.18,27.18,0,0,0,423,361Z" fill="#666"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="334" y="614" width="84" height="24" rx="12" ry="12"/>
-      <rect x="334" y="614" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="334" y="621" width="84" height="24" rx="12" ry="12"/>
+      <rect x="334" y="621" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g>
-      <rect x="333" y="612" width="84" height="24" rx="12" ry="12" fill="#fff"/>
-      <rect x="333" y="612" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    </g>
-  </g>
-  <g>
-    <g opacity="0.1">
-      <rect x="334" y="482" width="84" height="24" rx="12" ry="12"/>
-      <rect x="334" y="482" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
-    </g>
-    <g>
-      <rect x="333" y="480" width="84" height="24" rx="12" ry="12" fill="#fff"/>
-      <rect x="333" y="480" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="333" y="619" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="333" y="619" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="334" y="350" width="84" height="24" rx="12" ry="12"/>
-      <rect x="334" y="350" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="334" y="489" width="84" height="24" rx="12" ry="12"/>
+      <rect x="334" y="489" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g>
-      <rect x="333" y="348" width="84" height="24" rx="12" ry="12" fill="#fff"/>
-      <rect x="333" y="348" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="333" y="487" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="333" y="487" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="334" y="218" width="84" height="24" rx="12" ry="12"/>
-      <rect x="334" y="218" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="334" y="357" width="84" height="24" rx="12" ry="12"/>
+      <rect x="334" y="357" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g>
-      <rect x="333" y="216" width="84" height="24" rx="12" ry="12" fill="#fff"/>
-      <rect x="333" y="216" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="333" y="355" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="333" y="355" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="334" y="86" width="84" height="24" rx="12" ry="12"/>
-      <rect x="334" y="86" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="334" y="225" width="84" height="24" rx="12" ry="12"/>
+      <rect x="334" y="225" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g>
-      <rect x="333" y="84" width="84" height="24" rx="12" ry="12" fill="#fff"/>
-      <rect x="333" y="84" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="333" y="223" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="333" y="223" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
-  <use id="array-5-3" data-name="array-5" width="181.5" height="37.5" transform="translate(284 274.75)" xlink:href="#array-5"/>
-  <use width="181.5" height="37.5" transform="translate(552.34 275.75)" xlink:href="#array-5"/>
-  <use width="181.5" height="37.5" transform="translate(284 406.75)" xlink:href="#array-5"/>
-  <use id="array-5-10" data-name="array-5" width="181.5" height="37.5" transform="translate(284 539.75)" xlink:href="#array-5"/>
-  <use width="181.5" height="37.5" transform="translate(284 670.75)" xlink:href="#array-5"/>
-  <use width="37.5" height="37.5" transform="translate(794.84 341.75)" xlink:href="#array-1"/>
-  <use id="array-3-3" data-name="array-3" width="109" height="37.5" transform="translate(794.84 472.75)" xlink:href="#array-3"/>
-  <use width="181.5" height="37.5" transform="translate(284 142.75)" xlink:href="#array-5"/>
+  <g>
+    <g opacity="0.1">
+      <rect x="334" y="93" width="84" height="24" rx="12" ry="12"/>
+      <rect x="334" y="93" width="84" height="24" rx="12" ry="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="333" y="91" width="84" height="24" rx="12" ry="12" fill="#fff"/>
+      <rect x="333" y="91" width="84" height="24" rx="12" ry="12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <use id="array-5-3" data-name="array-5" width="181.5" height="37.5" transform="translate(284 281.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(552.34 282.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(284 413.75)" xlink:href="#array-5"/>
+  <use id="array-5-10" data-name="array-5" width="181.5" height="37.5" transform="translate(284 546.75)" xlink:href="#array-5"/>
+  <use width="181.5" height="37.5" transform="translate(284 677.75)" xlink:href="#array-5"/>
+  <use width="37.5" height="37.5" transform="translate(794.84 348.75)" xlink:href="#array-1"/>
+  <use id="array-3-3" data-name="array-3" width="109" height="37.5" transform="translate(794.84 479.75)" xlink:href="#array-3"/>
+  <use width="181.5" height="37.5" transform="translate(284 149.75)" xlink:href="#array-5"/>
   <g id="dot">
-    <use width="36" height="36" transform="translate(285 143.25)" xlink:href="#array-negative-value"/>
-    <use width="36" height="36" transform="translate(321 143)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(357 143)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(393 143)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(429 143)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(285 150.25)" xlink:href="#array-negative-value"/>
+    <use width="36" height="36" transform="translate(321 150)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(357 150)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(393 150)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(429 150)" xlink:href="#array-positive-value"/>
   </g>
-  <use id="array-5-17" data-name="array-5" width="181.5" height="37.5" transform="translate(284 11.75)" xlink:href="#array-5"/>
+  <use id="array-5-17" data-name="array-5" width="181.5" height="37.5" transform="translate(284 18.75)" xlink:href="#array-5"/>
   <g id="softmax">
-    <use width="36" height="36" transform="translate(285 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(321 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(357 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(393 276)" xlink:href="#array-positive-value"/>
-    <use id="array-positive-value-19" data-name="array-positive-value" width="36" height="36" transform="translate(429 276)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(285 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(321 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(357 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(393 283)" xlink:href="#array-positive-value"/>
+    <use id="array-positive-value-19" data-name="array-positive-value" width="36" height="36" transform="translate(429 283)" xlink:href="#array-positive-value"/>
   </g>
   <g id="shift">
-    <use width="36" height="36" transform="translate(795.59 473)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(831.59 473)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(867.59 473)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(795.59 480)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(831.59 480)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(867.59 480)" xlink:href="#array-positive-value"/>
   </g>
-  <use id="interpolate-amount" width="36" height="36" transform="translate(795.59 342)" xlink:href="#array-positive-value"/>
+  <use id="interpolate-amount" width="36" height="36" transform="translate(795.59 349)" xlink:href="#array-positive-value"/>
   <g id="previous">
-    <use width="36" height="36" transform="translate(553.34 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(589.34 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(625.34 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(661.34 276)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(697.34 276)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(553.34 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(589.34 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(625.34 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(661.34 283)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(697.34 283)" xlink:href="#array-positive-value"/>
   </g>
   <g id="interpolate">
-    <use width="36" height="36" transform="translate(285 407)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(321 407)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(357 407)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(393 407)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(429 407)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(285 414)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(321 414)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(357 414)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(393 414)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(429 414)" xlink:href="#array-positive-value"/>
   </g>
   <g id="convolve">
-    <use width="36" height="36" transform="translate(284.5 541)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(321 541)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(357 541)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(393 541)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(429 541)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(284.5 548)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(321 548)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(357 548)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(393 548)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(429 548)" xlink:href="#array-positive-value"/>
   </g>
   <g id="new-attention">
-    <use width="36" height="36" transform="translate(285 671)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(321 671)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(357 671)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(393 671)" xlink:href="#array-positive-value"/>
-    <use width="36" height="36" transform="translate(429 671)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(285 678)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(321 678)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(357 678)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(393 678)" xlink:href="#array-positive-value"/>
+    <use width="36" height="36" transform="translate(429 678)" xlink:href="#array-positive-value"/>
   </g>
-  <use width="37.5" height="37.5" transform="translate(794.84 76.75)" xlink:href="#array-1"/>
+  <use width="37.5" height="37.5" transform="translate(794.84 83.75)" xlink:href="#array-1"/>
   <g opacity="0.6">
-    <text transform="translate(76 68.88)" font-size="13" font-family="Open Sans">First, the controller gives a query <tspan x="0" y="20">vector and each memory entry is </tspan><tspan x="0" y="40">scored for similarity with the </tspan><tspan x="0" y="60">query.</tspan></text>
-  </g>
-  <g opacity="0.6">
-    <text transform="translate(77.83 206.88)" font-size="13" font-family="Open Sans">The scores are then converted <tspan x="0" y="20">into a distribution using softmax.</tspan></text>
+    <text transform="translate(76 75.88)" font-size="13" font-family="Open Sans">First, the controller gives a query <tspan x="0" y="20">vector and each memory entry is </tspan><tspan x="0" y="40">scored for similarity with the </tspan><tspan x="0" y="60">query.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(77.83 345.88)" font-size="13" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="20">attention from the previous </tspan><tspan x="0" y="40">time step. </tspan></text>
+    <text transform="translate(77.83 213.88)" font-size="13" font-family="Open Sans">The scores are then converted <tspan x="0" y="20">into a distribution using softmax.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(77.83 458.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter — this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
+    <text transform="translate(77.83 352.88)" font-size="13" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="20">attention from the previous </tspan><tspan x="0" y="40">time step. </tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(77.83 591.88)" font-size="13" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="20">attention distribution. This </tspan><tspan x="0" y="40">final attention distribution is </tspan><tspan x="0" y="60">fed to the read or write </tspan><tspan x="0" y="80">operation.</tspan></text>
+    <text transform="translate(77.83 465.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter — this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
+  </g>
+  <g opacity="0.6">
+    <text transform="translate(77.83 598.88)" font-size="13" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="20">attention distribution. This </tspan><tspan x="0" y="40">final attention distribution is </tspan><tspan x="0" y="60">fed to the read or write </tspan><tspan x="0" y="80">operation.</tspan></text>
   </g>
   <g>
-    <path d="M346.26,355.49a0.7,0.7,0,0,1,.19-0.52,0.72,0.72,0,0,1,.53-0.18,0.71,0.71,0,0,1,.52.18,0.7,0.7,0,0,1,.19.52,0.68,0.68,0,0,1-.19.51,0.7,0.7,0,0,1-.52.19,0.71,0.71,0,0,1-.53-0.19A0.68,0.68,0,0,1,346.26,355.49ZM347.6,363h-1.26v-5.94h1.26V363Z" fill="#666"/>
-    <path d="M354.63,363h-1.27v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47,2.61,2.61,0,0,0-.37,1.58v3H349.4v-5.94h1l0.18,0.78h0.06a1.75,1.75,0,0,1,.76-0.66,2.55,2.55,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V363Z" fill="#666"/>
-    <path d="M358.6,362.09a3.07,3.07,0,0,0,.92-0.14v1a2.49,2.49,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V358h-0.81v-0.56l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,358.6,362.09Z" fill="#666"/>
-    <path d="M363.3,363.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,363.3,363.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,363.07,357.91Z" fill="#666"/>
-    <path d="M370.06,357a3.08,3.08,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.78,1.78,0,0,0-.47,1.28V363H367v-5.94h1l0.17,1h0.06a2.35,2.35,0,0,1,.77-0.84A1.84,1.84,0,0,1,370.06,357Z" fill="#666"/>
-    <path d="M374.8,363.11a2.08,2.08,0,0,1-1.75-.81H373q0.08,0.75.08,0.91v2.43h-1.26v-8.58h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,374.8,363.11ZM374.5,358a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41V360a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,374.5,358Z" fill="#666"/>
-    <path d="M383.91,360a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,383.91,360Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,379.59,360Z" fill="#666"/>
-    <path d="M386.62,363h-1.26v-8.36h1.26V363Z" fill="#666"/>
-    <path d="M392.14,363l-0.25-.83h0a2.42,2.42,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.94,3.94,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.84,2.84,0,0,0-.88.13,6.6,6.6,0,0,0-.81.32l-0.41-.9a4.41,4.41,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49A1.94,1.94,0,0,1,393,359v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,390.26,362.14Z" fill="#666"/>
-    <path d="M397,362.09a3.07,3.07,0,0,0,.92-0.14v1a2.49,2.49,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V358h-0.81v-0.56L395,357l0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,397,362.09Z" fill="#666"/>
-    <path d="M401.73,363.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,401.73,363.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,401.5,357.91Z" fill="#666"/>
+    <path d="M346.26,362.49a0.7,0.7,0,0,1,.19-0.52,0.72,0.72,0,0,1,.53-0.18,0.71,0.71,0,0,1,.52.18,0.7,0.7,0,0,1,.19.52,0.68,0.68,0,0,1-.19.51,0.7,0.7,0,0,1-.52.19,0.71,0.71,0,0,1-.53-0.19A0.68,0.68,0,0,1,346.26,362.49ZM347.6,370h-1.26v-5.94h1.26V370Z" fill="#666"/>
+    <path d="M354.63,370h-1.27v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47,2.61,2.61,0,0,0-.37,1.58v3H349.4v-5.94h1l0.18,0.78h0.06a1.75,1.75,0,0,1,.76-0.66,2.55,2.55,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V370Z" fill="#666"/>
+    <path d="M358.6,369.09a3.07,3.07,0,0,0,.92-0.14v1a2.49,2.49,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V365h-0.81v-0.56l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,358.6,369.09Z" fill="#666"/>
+    <path d="M363.3,370.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,363.3,370.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,363.07,364.91Z" fill="#666"/>
+    <path d="M370.06,364a3.08,3.08,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.78,1.78,0,0,0-.47,1.28V370H367v-5.94h1l0.17,1h0.06a2.35,2.35,0,0,1,.77-0.84A1.84,1.84,0,0,1,370.06,364Z" fill="#666"/>
+    <path d="M374.8,370.11a2.08,2.08,0,0,1-1.75-.81H373q0.08,0.75.08,0.91v2.43h-1.26v-8.58h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,374.8,370.11ZM374.5,365a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41V367a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,374.5,365Z" fill="#666"/>
+    <path d="M383.91,367a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,383.91,367Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,379.59,367Z" fill="#666"/>
+    <path d="M386.62,370h-1.26v-8.36h1.26V370Z" fill="#666"/>
+    <path d="M392.14,370l-0.25-.83h0a2.42,2.42,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.94,3.94,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.84,2.84,0,0,0-.88.13,6.6,6.6,0,0,0-.81.32l-0.41-.9a4.41,4.41,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49A1.94,1.94,0,0,1,393,366v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,390.26,369.14Z" fill="#666"/>
+    <path d="M397,369.09a3.07,3.07,0,0,0,.92-0.14v1a2.49,2.49,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V365h-0.81v-0.56L395,364l0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,397,369.09Z" fill="#666"/>
+    <path d="M401.73,370.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,401.73,370.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,401.5,364.91Z" fill="#666"/>
   </g>
   <g>
-    <path d="M354.78,495.11a2.6,2.6,0,0,1-2-.79,4,4,0,0,1,0-4.56,2.72,2.72,0,0,1,2.12-.81,4,4,0,0,1,1.69.35l-0.38,1a3.84,3.84,0,0,0-1.32-.31q-1.54,0-1.54,2a2.45,2.45,0,0,0,.38,1.5,1.33,1.33,0,0,0,1.13.5,3.23,3.23,0,0,0,1.6-.42v1.1a2.49,2.49,0,0,1-.72.28A4.31,4.31,0,0,1,354.78,495.11Z" fill="#666"/>
-    <path d="M363.1,492a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,363.1,492Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,358.77,492Z" fill="#666"/>
-    <path d="M369.77,495H368.5v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47,2.61,2.61,0,0,0-.37,1.58v3h-1.26v-5.94h1l0.18,0.78h0.06a1.75,1.75,0,0,1,.76-0.66,2.55,2.55,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V495Z" fill="#666"/>
-    <path d="M372.88,495l-2.26-5.94H372l1.21,3.45a6.85,6.85,0,0,1,.38,1.41h0a9.45,9.45,0,0,1,.38-1.41l1.21-3.45h1.34L374.25,495h-1.36Z" fill="#666"/>
-    <path d="M382.68,492a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,382.68,492Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,378.36,492Z" fill="#666"/>
-    <path d="M385.4,495h-1.26v-8.36h1.26V495Z" fill="#666"/>
-    <path d="M388.55,495l-2.26-5.94h1.33l1.21,3.45a6.85,6.85,0,0,1,.38,1.41h0a9.45,9.45,0,0,1,.38-1.41l1.21-3.45h1.34L389.92,495h-1.36Z" fill="#666"/>
-    <path d="M395.68,495.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,395.68,495.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,395.45,489.91Z" fill="#666"/>
+    <path d="M354.78,502.11a2.6,2.6,0,0,1-2-.79,4,4,0,0,1,0-4.56,2.72,2.72,0,0,1,2.12-.81,4,4,0,0,1,1.69.35l-0.38,1a3.84,3.84,0,0,0-1.32-.31q-1.54,0-1.54,2a2.45,2.45,0,0,0,.38,1.5,1.33,1.33,0,0,0,1.13.5,3.23,3.23,0,0,0,1.6-.42v1.1a2.49,2.49,0,0,1-.72.28A4.31,4.31,0,0,1,354.78,502.11Z" fill="#666"/>
+    <path d="M363.1,499a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,363.1,499Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,358.77,499Z" fill="#666"/>
+    <path d="M369.77,502H368.5v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47,2.61,2.61,0,0,0-.37,1.58v3h-1.26v-5.94h1l0.18,0.78h0.06a1.75,1.75,0,0,1,.76-0.66,2.55,2.55,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V502Z" fill="#666"/>
+    <path d="M372.88,502l-2.26-5.94H372l1.21,3.45a6.85,6.85,0,0,1,.38,1.41h0a9.45,9.45,0,0,1,.38-1.41l1.21-3.45h1.34L374.25,502h-1.36Z" fill="#666"/>
+    <path d="M382.68,499a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.84,2.84,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,382.68,499Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,378.36,499Z" fill="#666"/>
+    <path d="M385.4,502h-1.26v-8.36h1.26V502Z" fill="#666"/>
+    <path d="M388.55,502l-2.26-5.94h1.33l1.21,3.45a6.85,6.85,0,0,1,.38,1.41h0a9.45,9.45,0,0,1,.38-1.41l1.21-3.45h1.34L389.92,502h-1.36Z" fill="#666"/>
+    <path d="M395.68,502.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.62,1.62,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.06,5.06,0,0,0,1-.33v1a3.92,3.92,0,0,1-.93.31A5.76,5.76,0,0,1,395.68,502.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,395.45,496.91Z" fill="#666"/>
   </g>
   <g>
-    <path d="M358.08,625.31a1.55,1.55,0,0,1-.63,1.33,3,3,0,0,1-1.82.46,4.29,4.29,0,0,1-1.91-.36v-1.09a4.68,4.68,0,0,0,1.95.48q1.17,0,1.17-.7a0.56,0.56,0,0,0-.13-0.38,1.53,1.53,0,0,0-.42-0.31,7.3,7.3,0,0,0-.82-0.37,3.81,3.81,0,0,1-1.39-.79,1.47,1.47,0,0,1-.36-1,1.35,1.35,0,0,1,.62-1.18A2.92,2.92,0,0,1,356,621a4.74,4.74,0,0,1,2,.42l-0.41,1a4.4,4.4,0,0,0-1.62-.4q-1,0-1,.57a0.57,0.57,0,0,0,.26.47,5.72,5.72,0,0,0,1.14.53,5.19,5.19,0,0,1,1.07.52,1.56,1.56,0,0,1,.49.54A1.58,1.58,0,0,1,358.08,625.31Z" fill="#666"/>
-    <path d="M364.67,627H363.4v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.39,1.39,0,0,0-1.17.48,2.62,2.62,0,0,0-.37,1.59V627h-1.26v-8.36h1.26v2.12a9.9,9.9,0,0,1-.06,1.09h0.08a1.76,1.76,0,0,1,.72-0.67,2.31,2.31,0,0,1,1.07-.24,1.92,1.92,0,0,1,2.16,2.18V627Z" fill="#666"/>
-    <path d="M370.14,627l-0.25-.83h0a2.43,2.43,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.93,3.93,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.86,2.86,0,0,0-.88.13,6.61,6.61,0,0,0-.81.32l-0.41-.9a4.37,4.37,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49A1.94,1.94,0,0,1,371,623v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,368.26,626.14Z" fill="#666"/>
-    <path d="M375.82,621a3,3,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.79,1.79,0,0,0-.47,1.28V627H372.8v-5.94h1l0.17,1H374a2.35,2.35,0,0,1,.77-0.84A1.83,1.83,0,0,1,375.82,621Z" fill="#666"/>
-    <path d="M380.56,627.11a2.08,2.08,0,0,1-1.75-.81h-0.08q0.08,0.75.08,0.91v2.43h-1.26v-8.58h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,380.56,627.11ZM380.25,622a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41V624a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,380.25,622Z" fill="#666"/>
-    <path d="M387,627.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.63,1.63,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.13,5.13,0,0,0,1-.33v1a3.88,3.88,0,0,1-.93.31A5.71,5.71,0,0,1,387,627.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,386.76,621.91Z" fill="#666"/>
-    <path d="M396,627H394.7v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47A2.61,2.61,0,0,0,392,624v3h-1.26v-5.94h1l0.18,0.78H392a1.76,1.76,0,0,1,.76-0.66,2.56,2.56,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V627Z" fill="#666"/>
+    <path d="M358.08,632.31a1.55,1.55,0,0,1-.63,1.33,3,3,0,0,1-1.82.46,4.29,4.29,0,0,1-1.91-.36v-1.09a4.68,4.68,0,0,0,1.95.48q1.17,0,1.17-.7a0.56,0.56,0,0,0-.13-0.38,1.53,1.53,0,0,0-.42-0.31,7.3,7.3,0,0,0-.82-0.37,3.81,3.81,0,0,1-1.39-.79,1.47,1.47,0,0,1-.36-1,1.35,1.35,0,0,1,.62-1.18A2.92,2.92,0,0,1,356,628a4.74,4.74,0,0,1,2,.42l-0.41,1a4.4,4.4,0,0,0-1.62-.4q-1,0-1,.57a0.57,0.57,0,0,0,.26.47,5.72,5.72,0,0,0,1.14.53,5.19,5.19,0,0,1,1.07.52,1.56,1.56,0,0,1,.49.54A1.58,1.58,0,0,1,358.08,632.31Z" fill="#666"/>
+    <path d="M364.67,634H363.4v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.39,1.39,0,0,0-1.17.48,2.62,2.62,0,0,0-.37,1.59V634h-1.26v-8.36h1.26v2.12a9.9,9.9,0,0,1-.06,1.09h0.08a1.76,1.76,0,0,1,.72-0.67,2.31,2.31,0,0,1,1.07-.24,1.92,1.92,0,0,1,2.16,2.18V634Z" fill="#666"/>
+    <path d="M370.14,634l-0.25-.83h0a2.43,2.43,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.93,3.93,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.86,2.86,0,0,0-.88.13,6.61,6.61,0,0,0-.81.32l-0.41-.9a4.37,4.37,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49A1.94,1.94,0,0,1,371,630v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,368.26,633.14Z" fill="#666"/>
+    <path d="M375.82,628a3,3,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.79,1.79,0,0,0-.47,1.28V634H372.8v-5.94h1l0.17,1H374a2.35,2.35,0,0,1,.77-0.84A1.83,1.83,0,0,1,375.82,628Z" fill="#666"/>
+    <path d="M380.56,634.11a2.08,2.08,0,0,1-1.75-.81h-0.08q0.08,0.75.08,0.91v2.43h-1.26v-8.58h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,380.56,634.11ZM380.25,629a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41V631a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,380.25,629Z" fill="#666"/>
+    <path d="M387,634.11a2.87,2.87,0,0,1-2.17-.81,3.07,3.07,0,0,1-.78-2.23,3.37,3.37,0,0,1,.73-2.29,2.5,2.5,0,0,1,2-.83,2.45,2.45,0,0,1,1.86.71,2.73,2.73,0,0,1,.68,2v0.68h-4a2,2,0,0,0,.47,1.33,1.63,1.63,0,0,0,1.24.46,4.57,4.57,0,0,0,1-.1,5.13,5.13,0,0,0,1-.33v1a3.88,3.88,0,0,1-.93.31A5.71,5.71,0,0,1,387,634.11Zm-0.23-5.2a1.27,1.27,0,0,0-1,.38,1.81,1.81,0,0,0-.43,1.11h2.7a1.64,1.64,0,0,0-.35-1.11A1.21,1.21,0,0,0,386.76,628.91Z" fill="#666"/>
+    <path d="M396,634H394.7v-3.65a1.6,1.6,0,0,0-.28-1,1.07,1.07,0,0,0-.88-0.34,1.4,1.4,0,0,0-1.17.47A2.61,2.61,0,0,0,392,631v3h-1.26v-5.94h1l0.18,0.78H392a1.76,1.76,0,0,1,.76-0.66,2.56,2.56,0,0,1,1.1-.23,1.91,1.91,0,0,1,2.14,2.18V634Z" fill="#666"/>
   </g>
   <g>
-    <path d="M358.22,229.31a1.55,1.55,0,0,1-.63,1.33,3,3,0,0,1-1.82.46,4.29,4.29,0,0,1-1.91-.36v-1.09a4.68,4.68,0,0,0,1.95.48q1.17,0,1.17-.7a0.56,0.56,0,0,0-.13-0.38,1.53,1.53,0,0,0-.42-0.31,7.3,7.3,0,0,0-.82-0.37,3.81,3.81,0,0,1-1.39-.79,1.47,1.47,0,0,1-.36-1,1.35,1.35,0,0,1,.62-1.18,2.92,2.92,0,0,1,1.67-.42,4.74,4.74,0,0,1,2,.42l-0.41,1a4.4,4.4,0,0,0-1.62-.4q-1,0-1,.57a0.57,0.57,0,0,0,.26.47,5.72,5.72,0,0,0,1.14.53,5.19,5.19,0,0,1,1.07.52,1.56,1.56,0,0,1,.49.54A1.58,1.58,0,0,1,358.22,229.31Z" fill="#666"/>
-    <path d="M364.85,228a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,364.85,228Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,360.53,228Z" fill="#666"/>
-    <path d="M369.29,226h-1.45v5h-1.27v-5h-1v-0.59l1-.39v-0.39a2.16,2.16,0,0,1,.49-1.56,2,2,0,0,1,1.51-.51,4,4,0,0,1,1.31.22l-0.33,1a2.92,2.92,0,0,0-.89-0.15,0.73,0.73,0,0,0-.63.27,1.34,1.34,0,0,0-.2.8v0.39h1.45v1Z" fill="#666"/>
-    <path d="M372.51,230.09a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V226H369.6v-0.56l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,372.51,230.09Z" fill="#666"/>
-    <path d="M379.62,231h-1.27v-3.66a1.66,1.66,0,0,0-.26-1,1,1,0,0,0-.81-0.34,1.23,1.23,0,0,0-1.07.48,2.78,2.78,0,0,0-.34,1.58v3h-1.26v-5.94h1l0.18,0.78h0.06a1.64,1.64,0,0,1,.72-0.66,2.31,2.31,0,0,1,1-.23,1.81,1.81,0,0,1,1.82.93h0.09a1.81,1.81,0,0,1,.74-0.69,2.36,2.36,0,0,1,1.1-.25,2,2,0,0,1,1.55.54,2.38,2.38,0,0,1,.49,1.64V231h-1.26v-3.66a1.65,1.65,0,0,0-.26-1A1,1,0,0,0,381,226a1.25,1.25,0,0,0-1.08.46,2.37,2.37,0,0,0-.34,1.41V231Z" fill="#666"/>
-    <path d="M388.85,231l-0.25-.83h0a2.43,2.43,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.93,3.93,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.86,2.86,0,0,0-.88.13,6.61,6.61,0,0,0-.81.32l-0.41-.9a4.37,4.37,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49,1.94,1.94,0,0,1,.58,1.55v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,387,230.14Z" fill="#666"/>
-    <path d="M392.84,228l-2-2.91h1.44l1.35,2.08,1.36-2.08h1.43l-2,2.91,2.1,3H395.1l-1.47-2.22L392.18,231h-1.43Z" fill="#666"/>
+    <path d="M358.22,236.31a1.55,1.55,0,0,1-.63,1.33,3,3,0,0,1-1.82.46,4.29,4.29,0,0,1-1.91-.36v-1.09a4.68,4.68,0,0,0,1.95.48q1.17,0,1.17-.7a0.56,0.56,0,0,0-.13-0.38,1.53,1.53,0,0,0-.42-0.31,7.3,7.3,0,0,0-.82-0.37,3.81,3.81,0,0,1-1.39-.79,1.47,1.47,0,0,1-.36-1,1.35,1.35,0,0,1,.62-1.18,2.92,2.92,0,0,1,1.67-.42,4.74,4.74,0,0,1,2,.42l-0.41,1a4.4,4.4,0,0,0-1.62-.4q-1,0-1,.57a0.57,0.57,0,0,0,.26.47,5.72,5.72,0,0,0,1.14.53,5.19,5.19,0,0,1,1.07.52,1.56,1.56,0,0,1,.49.54A1.58,1.58,0,0,1,358.22,236.31Z" fill="#666"/>
+    <path d="M364.85,235a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,364.85,235Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,360.53,235Z" fill="#666"/>
+    <path d="M369.29,233h-1.45v5h-1.27v-5h-1v-0.59l1-.39v-0.39a2.16,2.16,0,0,1,.49-1.56,2,2,0,0,1,1.51-.51,4,4,0,0,1,1.31.22l-0.33,1a2.92,2.92,0,0,0-.89-0.15,0.73,0.73,0,0,0-.63.27,1.34,1.34,0,0,0-.2.8v0.39h1.45v1Z" fill="#666"/>
+    <path d="M372.51,237.09a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89V233H369.6v-0.56l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,372.51,237.09Z" fill="#666"/>
+    <path d="M379.62,238h-1.27v-3.66a1.66,1.66,0,0,0-.26-1,1,1,0,0,0-.81-0.34,1.23,1.23,0,0,0-1.07.48,2.78,2.78,0,0,0-.34,1.58v3h-1.26v-5.94h1l0.18,0.78h0.06a1.64,1.64,0,0,1,.72-0.66,2.31,2.31,0,0,1,1-.23,1.81,1.81,0,0,1,1.82.93h0.09a1.81,1.81,0,0,1,.74-0.69,2.36,2.36,0,0,1,1.1-.25,2,2,0,0,1,1.55.54,2.38,2.38,0,0,1,.49,1.64V238h-1.26v-3.66a1.65,1.65,0,0,0-.26-1A1,1,0,0,0,381,233a1.25,1.25,0,0,0-1.08.46,2.37,2.37,0,0,0-.34,1.41V238Z" fill="#666"/>
+    <path d="M388.85,238l-0.25-.83h0a2.43,2.43,0,0,1-.86.74,2.73,2.73,0,0,1-1.12.2,1.89,1.89,0,0,1-1.37-.47,1.77,1.77,0,0,1-.49-1.34,1.57,1.57,0,0,1,.68-1.39,3.93,3.93,0,0,1,2.08-.51l1,0v-0.32a1.2,1.2,0,0,0-.27-0.85,1.08,1.08,0,0,0-.82-0.28,2.86,2.86,0,0,0-.88.13,6.61,6.61,0,0,0-.81.32l-0.41-.9a4.37,4.37,0,0,1,1.06-.38,4.86,4.86,0,0,1,1.08-.13,2.57,2.57,0,0,1,1.71.49,1.94,1.94,0,0,1,.58,1.55v4h-0.9Zm-1.88-.86a1.56,1.56,0,0,0,1.1-.38,1.39,1.39,0,0,0,.42-1.08v-0.52l-0.76,0a2.62,2.62,0,0,0-1.3.3,0.91,0.91,0,0,0-.41.81,0.79,0.79,0,0,0,.24.61A1,1,0,0,0,387,237.14Z" fill="#666"/>
+    <path d="M392.84,235l-2-2.91h1.44l1.35,2.08,1.36-2.08h1.43l-2,2.91,2.1,3H395.1l-1.47-2.22L392.18,238h-1.43Z" fill="#666"/>
   </g>
   <g>
-    <path d="M346.57,99.27a2.07,2.07,0,0,1-1.73-.81,4.42,4.42,0,0,1,0-4.54,2.09,2.09,0,0,1,1.75-.81,2,2,0,0,1,1.78.86h0.06a7.54,7.54,0,0,1-.09-1V90.81h1.27v8.36h-1l-0.22-.78h-0.06A2,2,0,0,1,346.57,99.27Zm0.34-1a1.37,1.37,0,0,0,1.13-.44,2.31,2.31,0,0,0,.37-1.42V96.22a2.66,2.66,0,0,0-.37-1.6,1.36,1.36,0,0,0-1.14-.47,1.16,1.16,0,0,0-1,.54,2.77,2.77,0,0,0-.36,1.54,2.69,2.69,0,0,0,.35,1.51A1.18,1.18,0,0,0,346.91,98.25Z" fill="#666"/>
-    <path d="M356.69,96.19a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,356.69,96.19Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,352.36,96.19Z" fill="#666"/>
-    <path d="M360.35,98.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89v-3.2h-0.81V93.62l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,360.35,98.25Z" fill="#666"/>
-    <path d="M368.33,99.27a2.08,2.08,0,0,1-1.75-.81h-0.08q0.08,0.75.08,0.91v2.43h-1.26V93.23h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,368.33,99.27ZM368,94.15a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41v0.19a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,368,94.15Z" fill="#666"/>
-    <path d="M375.19,93.12a3,3,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.79,1.79,0,0,0-.47,1.28v3.1h-1.26V93.23h1l0.17,1h0.06a2.35,2.35,0,0,1,.77-0.84A1.83,1.83,0,0,1,375.19,93.12Z" fill="#666"/>
-    <path d="M382.18,96.19a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,382.18,96.19Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,377.86,96.19Z" fill="#666"/>
-    <path d="M385.64,99.27a2.07,2.07,0,0,1-1.73-.81,4.42,4.42,0,0,1,0-4.54,2.09,2.09,0,0,1,1.75-.81,2,2,0,0,1,1.78.86h0.06a7.54,7.54,0,0,1-.09-1V90.81h1.27v8.36h-1l-0.22-.78h-0.06A2,2,0,0,1,385.64,99.27Zm0.34-1a1.37,1.37,0,0,0,1.13-.44,2.31,2.31,0,0,0,.37-1.42V96.22a2.66,2.66,0,0,0-.37-1.6,1.36,1.36,0,0,0-1.14-.47,1.16,1.16,0,0,0-1,.54,2.77,2.77,0,0,0-.36,1.54,2.69,2.69,0,0,0,.35,1.51A1.18,1.18,0,0,0,386,98.25Z" fill="#666"/>
-    <path d="M394.68,99.17l-0.18-.78h-0.06a1.79,1.79,0,0,1-.75.65,2.5,2.5,0,0,1-1.11.24,2.18,2.18,0,0,1-1.61-.54,2.23,2.23,0,0,1-.53-1.63V93.23h1.27v3.66a1.59,1.59,0,0,0,.28,1,1.07,1.07,0,0,0,.88.34,1.39,1.39,0,0,0,1.17-.48,2.62,2.62,0,0,0,.37-1.59v-3h1.27v5.94h-1Z" fill="#666"/>
-    <path d="M399.87,99.27a2.6,2.6,0,0,1-2-.79,4,4,0,0,1,0-4.56,2.72,2.72,0,0,1,2.12-.81,4,4,0,0,1,1.69.35l-0.38,1a3.83,3.83,0,0,0-1.32-.31q-1.54,0-1.54,2a2.45,2.45,0,0,0,.38,1.5,1.33,1.33,0,0,0,1.13.5,3.23,3.23,0,0,0,1.6-.42v1.1a2.49,2.49,0,0,1-.72.28A4.34,4.34,0,0,1,399.87,99.27Z" fill="#666"/>
-    <path d="M405.13,98.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06A1.63,1.63,0,0,1,403,97.38v-3.2h-0.81V93.62l0.87-.46,0.43-1.26h0.78v1.32H406v1H404.3v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,405.13,98.25Z" fill="#666"/>
+    <path d="M346.57,106.27a2.07,2.07,0,0,1-1.73-.81,4.42,4.42,0,0,1,0-4.54,2.09,2.09,0,0,1,1.75-.81,2,2,0,0,1,1.78.86h0.06a7.54,7.54,0,0,1-.09-1V97.81h1.27v8.36h-1l-0.22-.78h-0.06A2,2,0,0,1,346.57,106.27Zm0.34-1a1.37,1.37,0,0,0,1.13-.44,2.31,2.31,0,0,0,.37-1.42v-0.18a2.66,2.66,0,0,0-.37-1.6,1.36,1.36,0,0,0-1.14-.47,1.16,1.16,0,0,0-1,.54,2.77,2.77,0,0,0-.36,1.54,2.69,2.69,0,0,0,.35,1.51A1.18,1.18,0,0,0,346.91,105.25Z" fill="#666"/>
+    <path d="M356.69,103.19a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,356.69,103.19Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,352.36,103.19Z" fill="#666"/>
+    <path d="M360.35,105.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89v-3.2h-0.81v-0.56l0.87-.46,0.43-1.26h0.78v1.32h1.69v1h-1.69v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,360.35,105.25Z" fill="#666"/>
+    <path d="M368.33,106.27a2.08,2.08,0,0,1-1.75-.81h-0.08q0.08,0.75.08,0.91v2.43h-1.26v-8.58h1q0,0.17.18,0.79h0.06a2,2,0,0,1,1.77-.9,2.06,2.06,0,0,1,1.73.81,4.42,4.42,0,0,1,0,4.53A2.08,2.08,0,0,1,368.33,106.27ZM368,101.15a1.31,1.31,0,0,0-1.1.44,2.29,2.29,0,0,0-.35,1.41v0.19a2.78,2.78,0,0,0,.34,1.57,1.28,1.28,0,0,0,1.12.49,1.14,1.14,0,0,0,1-.54,2.77,2.77,0,0,0,.35-1.53,2.68,2.68,0,0,0-.35-1.51A1.17,1.17,0,0,0,368,101.15Z" fill="#666"/>
+    <path d="M375.19,100.12a3,3,0,0,1,.63.05l-0.12,1.18a2.39,2.39,0,0,0-.56-0.06,1.61,1.61,0,0,0-1.23.49,1.79,1.79,0,0,0-.47,1.28v3.1h-1.26v-5.94h1l0.17,1h0.06a2.35,2.35,0,0,1,.77-0.84A1.83,1.83,0,0,1,375.19,100.12Z" fill="#666"/>
+    <path d="M382.18,103.19a3.24,3.24,0,0,1-.75,2.27,2.67,2.67,0,0,1-2.08.82,2.85,2.85,0,0,1-1.47-.38,2.48,2.48,0,0,1-1-1.08,3.68,3.68,0,0,1-.34-1.63,3.22,3.22,0,0,1,.74-2.26,2.69,2.69,0,0,1,2.09-.81,2.62,2.62,0,0,1,2,.83A3.2,3.2,0,0,1,382.18,103.19Zm-4.32,0q0,2.06,1.52,2.06t1.5-2.06q0-2-1.51-2a1.29,1.29,0,0,0-1.15.53A2.68,2.68,0,0,0,377.86,103.19Z" fill="#666"/>
+    <path d="M385.64,106.27a2.07,2.07,0,0,1-1.73-.81,4.42,4.42,0,0,1,0-4.54,2.09,2.09,0,0,1,1.75-.81,2,2,0,0,1,1.78.86h0.06a7.54,7.54,0,0,1-.09-1V97.81h1.27v8.36h-1l-0.22-.78h-0.06A2,2,0,0,1,385.64,106.27Zm0.34-1a1.37,1.37,0,0,0,1.13-.44,2.31,2.31,0,0,0,.37-1.42v-0.18a2.66,2.66,0,0,0-.37-1.6,1.36,1.36,0,0,0-1.14-.47,1.16,1.16,0,0,0-1,.54,2.77,2.77,0,0,0-.36,1.54,2.69,2.69,0,0,0,.35,1.51A1.18,1.18,0,0,0,386,105.25Z" fill="#666"/>
+    <path d="M394.68,106.17l-0.18-.78h-0.06a1.79,1.79,0,0,1-.75.65,2.5,2.5,0,0,1-1.11.24,2.18,2.18,0,0,1-1.61-.54,2.23,2.23,0,0,1-.53-1.63v-3.88h1.27v3.66a1.59,1.59,0,0,0,.28,1,1.07,1.07,0,0,0,.88.34,1.39,1.39,0,0,0,1.17-.48,2.62,2.62,0,0,0,.37-1.59v-3h1.27v5.94h-1Z" fill="#666"/>
+    <path d="M399.87,106.27a2.6,2.6,0,0,1-2-.79,4,4,0,0,1,0-4.56,2.72,2.72,0,0,1,2.12-.81,4,4,0,0,1,1.69.35l-0.38,1a3.83,3.83,0,0,0-1.32-.31q-1.54,0-1.54,2a2.45,2.45,0,0,0,.38,1.5,1.33,1.33,0,0,0,1.13.5,3.23,3.23,0,0,0,1.6-.42v1.1a2.49,2.49,0,0,1-.72.28A4.34,4.34,0,0,1,399.87,106.27Z" fill="#666"/>
+    <path d="M405.13,105.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89v-3.2h-0.81v-0.56l0.87-.46,0.43-1.26h0.78v1.32H406v1H404.3v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,405.13,105.25Z" fill="#666"/>
   </g>
-  <use id="query" width="36" height="36" transform="translate(795.59 78)" xlink:href="#array-vector"/>
+  <use id="query" width="36" height="36" transform="translate(795.59 85)" xlink:href="#array-vector"/>
   <g id="memory">
-    <use width="36" height="36" transform="translate(285 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(321 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(357 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(393 12)" xlink:href="#array-vector"/>
-    <use width="36" height="36" transform="translate(429 12)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(285 19)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(321 19)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(357 19)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(393 19)" xlink:href="#array-vector"/>
+    <use width="36" height="36" transform="translate(429 19)" xlink:href="#array-vector"/>
   </g>
-  <use width="26.87" height="26.87" transform="translate(840.37 82.78)" xlink:href="#pointer"/>
-  <use width="26.87" height="26.87" transform="translate(841.72 346.66)" xlink:href="#pointer"/>
-  <use width="26.87" height="26.87" transform="translate(912.89 477.66)" xlink:href="#pointer"/>
+  <use width="26.87" height="26.87" transform="translate(840.37 89.78)" xlink:href="#pointer"/>
+  <use width="26.87" height="26.87" transform="translate(841.72 353.66)" xlink:href="#pointer"/>
+  <use width="26.87" height="26.87" transform="translate(912.89 484.66)" xlink:href="#pointer"/>
   <g opacity="0.6">
-    <text transform="translate(560 -169.12)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution, <tspan x="0" y="20">describing how much we should change </tspan><tspan x="0" y="40">each memory position towards the write </tspan><tspan x="0" y="60">value.</tspan></text>
-  </g>
-  <g opacity="0.6">
-    <text transform="translate(475.41 33)" font-size="13" font-family="Open Sans">memory</text>
+    <text transform="translate(558 -161.12)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution, <tspan x="0" y="20">describing how much we should change </tspan><tspan x="0" y="40">each memory position towards the write </tspan><tspan x="0" y="60">value.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(478.5 156.63)" font-size="13" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="20">pink high dissimilarity.</tspan></text>
+    <text transform="translate(475.41 40)" font-size="13" font-family="Open Sans">memory</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(795.09 328)" font-size="13" font-family="Open Sans">interpolation amount</text>
+    <text transform="translate(478.5 163.63)" font-size="13" font-family="Open Sans" font-style="italic">Blue shows high similarity, <tspan x="0" y="20">pink high dissimilarity.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(795.09 460)" font-size="13" font-family="Open Sans">shift filter</text>
+    <text transform="translate(795.09 335)" font-size="13" font-family="Open Sans">interpolation amount</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(775.09 12)" font-size="13" font-family="Open Sans" font-style="italic">RNN controller</text>
+    <text transform="translate(795.09 467)" font-size="13" font-family="Open Sans">shift filter</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(628.56 12)" font-size="13" font-family="Open Sans" font-style="italic">attention mechanism</text>
+    <text transform="translate(775.09 19)" font-size="13" font-family="Open Sans" font-style="italic">RNN controller</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(795.09 64)" font-size="13" font-family="Open Sans">query vector</text>
+    <text transform="translate(628.56 19)" font-size="13" font-family="Open Sans" font-style="italic">attention mechanism</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(557.03 266)" font-size="13" font-family="Open Sans">attention from previous step</text>
+    <text transform="translate(795.09 71)" font-size="13" font-family="Open Sans">query vector</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(296.09 728)" font-size="13" font-family="Open Sans">new attention distribution</text>
+    <text transform="translate(557.03 273)" font-size="13" font-family="Open Sans">attention from previous step</text>
   </g>
-  <circle id="query-hover" cx="812.96" cy="95.44" r="87.04" fill="#fff" fill-opacity="0"/>
-  <circle id="interpolate-hover" cx="812.96" cy="357.04" r="41.37" fill="#fff" fill-opacity="0"/>
-  <rect id="shift-hover" x="775.59" y="449" width="168" height="84" fill-opacity="0" opacity="0.6"/>
+  <g opacity="0.6">
+    <text transform="translate(296.09 735)" font-size="13" font-family="Open Sans">new attention distribution</text>
+  </g>
+  <circle id="query-hover" cx="812.96" cy="102.44" r="87.04" fill="#fff" fill-opacity="0"/>
+  <circle id="interpolate-hover" cx="812.96" cy="364.04" r="41.37" fill="#fff" fill-opacity="0"/>
+  <rect id="shift-hover" x="775.59" y="456" width="168" height="84" fill-opacity="0" opacity="0.6"/>
 </svg>
