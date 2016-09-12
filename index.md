@@ -167,7 +167,7 @@ Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to do different am
   {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
-In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
+In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have an attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
 
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
