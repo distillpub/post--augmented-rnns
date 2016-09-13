@@ -53,11 +53,11 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
     float: left;
   }
 
-  @media(min-width: 1080px) {
+  @media(min-width: 768px) {
     #previews {
       overflow: hidden;
-      margin-top: 90px;
-      margin-bottom: 90px;
+      margin-top: 48px;
+      margin-bottom: 48px;
     }
     #previews figcaption {
       margin-left: 0;
@@ -76,6 +76,8 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
       padding-right: 3.6%;
       border-right: 1px solid rgba(0, 0, 0, 0.05);
       border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
     #previews a:last-child {
       margin-right: 0;
@@ -89,6 +91,13 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
       float: none;
     }
   }
+
+@media(min-width: 1024px) {
+  #previews {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+}
 </style>
 
 

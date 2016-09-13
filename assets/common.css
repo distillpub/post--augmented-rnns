@@ -63,8 +63,25 @@ figure {
   top: 0;
 }
 
+@media(min-width: 768px) {
+  .post > h1,
+  .post > h2,
+  .post > h3,
+  .post > h4,
+  .post > h5,
+  .post > ul,
+  .post > ol,
+  .post > figure,
+  .post > pre,
+  .post > p,
+  .post > .byline {
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+}
+
 /* If we have elements as direct descendent children of a .post, we should assume they are "w-body" */
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post > h1,
   .post > h2,
   .post > h3,
@@ -177,7 +194,7 @@ figure {
 }
 
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .p-right-margin,
   .post .p-right-margin {
     width: 396px;
@@ -261,13 +278,13 @@ figure {
   font: 15px/1.75em 'Open Sans', sans-serif;
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post {
     font-size: 16px;
   }
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post > h1:first-of-type {
     margin-top: 80px;
   }
@@ -280,7 +297,7 @@ figure {
 
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post h1 {
     font-size: 50px;
     margin-bottom: 15px;
@@ -418,7 +435,14 @@ pre code {
   display: inline;
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 768px) {
+  .post .byline {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+
+@media(min-width: 1024px) {
   .post .byline {
     margin-left: auto;
     margin-right: auto;
@@ -484,7 +508,7 @@ pre code {
   margin-bottom: 30px;
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post figure {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -506,7 +530,7 @@ pre code {
   font-size: 12px;
   line-height: 1.5em;
 }
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
   .post figure figcaption {
     font-size: 13px;
   }
@@ -560,7 +584,14 @@ pre code {
   padding-left: 20px;
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 768px) {
+  .post .appendix {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+
+@media(min-width: 1024px) {
   .post .appendix {
     margin-top: 96px;
     padding-left: calc(50% - (648px / 2));
