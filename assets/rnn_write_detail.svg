@@ -1,4 +1,4 @@
-<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="756" viewBox="0 0 984 756">
+<svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 984 756">
   <defs>
     <symbol id="array-5" data-name="array-5" viewBox="0 0 181.5 37.5">
       <rect x="0.75" y="0.75" width="180" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"/>
@@ -331,7 +331,9 @@
     <path d="M399.87,106.27a2.6,2.6,0,0,1-2-.79,4,4,0,0,1,0-4.56,2.72,2.72,0,0,1,2.12-.81,4,4,0,0,1,1.69.35l-0.38,1a3.83,3.83,0,0,0-1.32-.31q-1.54,0-1.54,2a2.45,2.45,0,0,0,.38,1.5,1.33,1.33,0,0,0,1.13.5,3.23,3.23,0,0,0,1.6-.42v1.1a2.49,2.49,0,0,1-.72.28A4.34,4.34,0,0,1,399.87,106.27Z" fill="#666"/>
     <path d="M405.13,105.25a3.07,3.07,0,0,0,.92-0.15v1a2.55,2.55,0,0,1-.54.15,3.73,3.73,0,0,1-.68.06,1.63,1.63,0,0,1-1.79-1.89v-3.2h-0.81v-0.56l0.87-.46,0.43-1.26h0.78v1.32H406v1H404.3v3.18a0.89,0.89,0,0,0,.23.67A0.83,0.83,0,0,0,405.13,105.25Z" fill="#666"/>
   </g>
-  <use id="query" width="36" height="36" transform="translate(795.59 85)" xlink:href="#array-vector"/>
+  <g id="query">
+    <use id="q" width="36" height="36" transform="translate(795.59 85)" xlink:href="#array-vector"/>
+  </g>
   <g id="memory">
     <use width="36" height="36" transform="translate(285 19)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(321 19)" xlink:href="#array-vector"/>

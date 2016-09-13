@@ -1,12 +1,13 @@
 <link rel="stylesheet" type="text/css" href="assets/common.css">
 <script src="assets/d3.min.js"></script>
 <h1>{{ typewriter.title }}</h1>
+<!--<div class="description">{{ typewriter.description }}</div>-->
 {{> byline.html}}
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
 <!-- Comment on inputs/outputs in figure? -->
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_basic_rnn.svg}}
 </figure>
 
@@ -17,44 +18,66 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
 <figure class="w-body-plus" id="previews">
   <a href="#neural-turing-machines">
     <img src="assets/rnn_preview_ntm.svg">
-    <figcaption><b>Neural Turing<br>Machines</b><br> have external memory that they can read and write to.</figcaption>
+    <figcaption><b><span>Neural Turing</span> Machines</b> have external memory that they can read and write to.</figcaption>
   </a>
   <a href="#attentional-interfaces">
     <img src="assets/rnn_preview_ai.svg">
-    <figcaption><b>Attentional<br>Interfaces</b><br> allow RNNs to focus on parts of their input.</figcaption>
+    <figcaption><b><span>Attentional</span> Interfaces</b> allow RNNs to focus on parts of their input.</figcaption>
   </a>
   <a href="#adaptive-computation-time">
     <img src="assets/rnn_preview_act.svg">
-    <figcaption><b>Adaptive<br>Computation Time</b><br> allows for varying amounts of computation per step.</figcaption>
+    <figcaption><b><span>Adaptive</span> Computation Time</b> allows for varying amounts of computation per step.</figcaption>
   </a>
   <a href="#neural-programmer">
     <img src="assets/rnn_preview_np.svg">
-    <figcaption><b>Neural<br>Programmers</b><br> can call functions, building programs as they run.</figcaption>
+    <figcaption><b><span>Neural</span>Programmers</b> can call functions, building programs as they run.</figcaption>
   </a>
 </figure>
 
 <style>
-  #previews {
-    overflow: hidden;
-  }
   #previews a {
-    position: relative;
-    float: left;
-    width: 20%;
-    margin-right: 3.2%;
-    padding-right: 3.2%;
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
     text-decoration: none;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 12px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+
   }
-  #previews a:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: 0;
+  #previews figcaption {
+    margin-left: 100px;
   }
   #previews svg, #previews img {
-    margin-bottom: 18px;
-    display: block;
-    width: 100%;
+    width: 80px;
+    float: left;
+  }
+
+  @media(min-width: 1080px) {
+    #previews {
+      overflow: hidden;
+      margin-top: 90px;
+      margin-bottom: 90px;
+    }
+    #previews a {
+      position: relative;
+      float: left;
+      width: 19%;
+      margin-right: 3.6%;
+      padding-right: 3.6%;
+      border-right: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    #previews a:last-child {
+      margin-right: 0;
+      padding-right: 0;
+      border-right: 0;
+    }
+    #previews svg, #previews img {
+      margin-bottom: 18px;
+      display: block;
+      width: 100%;
+    }
   }
 </style>
 
@@ -69,35 +92,37 @@ Our guess is that these "augmented RNNs" will have an important role to play in 
 
 Neural Turing Machines ([Graves, *et al.*, 2014]) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:
 
-<figure class="w-page">
-  <!--
-  <figcaption>Memory is an array of vectors.</figcaption>
-  <figcaption style="top: 100px;">At every time step, the RNN controller can read from and write to this external memory.</figcaption>
-  -->
-  <div id="rnn-memory">
+<figure class="w-body-plus"  id="rnn-memory">
   {{> assets/rnn_memory.svg}}
-  </div>
 </figure>
 
 But how does reading and writing work? The challenge is that we want to make them differentiable. In particular, we want to make them differentiable with respect to the location we read from or write to, so that we can learn where to read and write. This is tricky because memory addresses seem to be fundamentally discrete. NTMs take a very clever solution to this: every step, they read and write everywhere, just to different extents.
 
 As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.
 
-<figure class="w-page" id="rnn-read">
+<figure class="w-body-plus" id="rnn-read">
   {{> assets/rnn_read.svg}}
 </figure>
 
 Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.
 
+<figure class="w-body-plus" id="rnn-write">
+  {{> assets/rnn_write.svg}}
+</figure>
+
 {{> assets/rnn_write.html}}
 
 But how do NTMs decide which positions in memory to focus their attention on? They actually use a combination of two different methods: content-based attention and location-based attention. Content-based attention allows NTMs to search through their memory and focus on places that match what they’re looking for, while location-based attention allows relative movement in memory, enabling the NTM to loop.
+
+<figure class="w-page" id="rnn-write-detail">
+  {{> assets/rnn_write_detail.svg}}
+</figure>
 
 {{> assets/rnn_write_detail.html}}
 
 This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a long sequence in memory, and then loop over it, repeating it back repeatedly. As they do this, we can watch where they read and write, to better understand what they're doing:
 
-<figure class="p-right-margin external" style="width: 396px; margin-left: 48px;">
+<figure class="p-right-margin external">
   <img src="assets/NTM-Copy-ReadWrite.svg"></img>
   <figcaption style="bottom: 0px;">See more experiments in [Graves, *et al.*, 2014]. This figure is based on the Repeat Copy experiment.</figcaption>
 </figure>
@@ -123,18 +148,17 @@ Neural networks can achieve this same behavior using *attention*, focusing on pa
 
 We'd like attention to be differentiable, so that we can learn where to focus. To do this, we use the same trick Neural Turing Machines use: we focus everywhere, just to different extents.
 
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_attentional_01.svg}}
 </figure>
 
 The attention distribution is usually generated with content-based attention. The attending RNN generates a query describing what it wants to focus on. Each item is dot producted with the query to produce a score, describing how well it matches the query. The scores are fed into a softmax to create the attention distribution.
 
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_attentional_02.svg}}
 </figure>
 
 One use of attention between RNNs is translation ([Bahdanau, *et al.* 2014]). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.
-
 
 {{> assets/rnn_attentional_ex2.html}}
 
@@ -163,39 +187,39 @@ Attentional interfaces have been found to be an extremely general and powerful t
 
 Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to do different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
+In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
+
 <figure class="w-page">
   {{> assets/rnn_adaptive_01.svg}}
 </figure>
 
-In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
-
 There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.
 
-<figure class="w-page">
+<figure class="w-body-plus">
   {{> assets/rnn_adaptive_02.svg}}
 </figure>
 
 That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:
 
-<figure class="w-page">
+<figure class="w-body-plus">
   {{> assets/rnn_adaptive_02_1.svg}}
 </figure>
 
 The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.
 
-<figure class="w-page">
+<figure class="w-body-plus">
   {{> assets/rnn_adaptive_02_2.svg}}
 </figure>
 
 We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.
 
-<figure class="w-page">
+<figure class="w-body-plus">
   {{> assets/rnn_adaptive_02_3.svg}}
 </figure>
 
 When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it's being given to future steps but we don't want to compute those, so we attribute it to the last step.
 
-<figure class="w-page">
+<figure class="w-body-plus">
   {{> assets/rnn_adaptive_02_4.svg}}
 </figure>
 
@@ -219,19 +243,19 @@ The actual model in the paper answers questions about tables by generating SQL-l
 
 The generated program is a sequence of operations. Each operation is defined to operate on the output of past operations. So an operation might be something like "add the output of the operation 2 steps ago and the output of the operation 1 step ago." It's more like a unix pipe than a program with variables being assigned to and read from.
 
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_programmer_1.svg}}
 </figure>
 
 The program is generated one operation at a time by a controller RNN. At each step, the controller RNN outputs a probability distribution for what the next operation should be. For example, we might be pretty sure we want to perform addition at the first time step, then have a hard time deciding whether we should multiply or divide at the second step, and so on...
 
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_programmer_2.svg}}
 </figure>
 
 The resulting distribution over operations can now be evaluated. Instead of running a single operation at each step, we do the usual attention trick of running all of them and then average the outputs together, weighted by the probability we ran that operation.
 
-<figure class="w-page">
+<figure class="w-body">
   {{> assets/rnn_programmer_3.svg}}
 </figure>
 

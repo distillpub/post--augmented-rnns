@@ -1,6 +1,3 @@
-<figure class="w-page" id="rnn-write">
-  {{> assets/rnn_write.svg}}
-</figure>
 <script>
 "use strict";
 (function() {
@@ -39,14 +36,15 @@
   //
   // Read
   //
-
+  var nodeWidth = 36;
   var readHtml = d3.selectAll("#rnn-read");
   var svg = readHtml.select("svg");
-  var svgBBox = svg.node().getBoundingClientRect();
   var result = svg.select("#read-result").style("opacity", 0);
-  var resultBBox = result.node().getBoundingClientRect();
+  var resultBBox = result.node().getBBox();
   var memory = svg.selectAll("#memory use");
+  var memoryBBox = svg.select("#memory").node().getBBox();
   var attention = svg.selectAll("#attention use");
+  var attentionBBox = svg.select("#attention").node().getBBox();
   var path = svg.selectAll("#paths path");
 
   appendArrowhead(svg);
@@ -56,12 +54,11 @@
       .style("stroke", "grey");
 
   memory.data(memoryData)
-    .each(function(d) {
+    .each(function(d, i) {
       this.style.opacity = 0;
-      var bBox = this.getBoundingClientRect();
-      d.top = bBox.top - svgBBox.top;
-      d.left = bBox.left - svgBBox.left;
-      d.width = bBox.width;
+      d.top = memoryBBox.y;
+      d.left = memoryBBox.x + nodeWidth * i;
+      d.width = nodeWidth;
     });
 
   var memoryVectors = svg.selectAll(".vector")
@@ -87,7 +84,7 @@
     var resultY = d3.sum(memoryData, function(d, i) { return d.y * data[i]; }) / d3.sum(data);
 
     resultArrow
-        .attr("transform",`translate(${resultBBox.left + resultBBox.width / 2 - svgBBox.left - vectorScale(resultX) / 2}, ${resultBBox.top + resultBBox.width / 2 - svgBBox.top - vectorScale(resultY) / 2})`)
+        .attr("transform",`translate(${resultBBox.x + resultBBox.width / 2 - vectorScale(resultX) / 2}, ${resultBBox.y + resultBBox.width / 2 - vectorScale(resultY) / 2})`)
         .attr("x2", function(d) { return  vectorScale(resultX); })
         .attr("y2", function(d) { return  vectorScale(resultY); });
   }
@@ -118,12 +115,14 @@
   var writeHtml = d3.selectAll("#rnn-write");
   var writeSvg = writeHtml.select("svg");
   var writeMemory = writeSvg.selectAll("#memory use");
+  var writeMemoryBBox = writeSvg.select("#memory").node().getBBox();
   var writeNewMemory = writeSvg.selectAll("#new-memory use");
+  var writeNewMemoryBBox = writeSvg.select("#new-memory").node().getBBox();
   var writeAttention = writeSvg.selectAll("#attention use");
+  var writeAttentionBBox = writeSvg.select("#attention").node().getBBox();
   var writePath = writeSvg.selectAll("#paths path");
-  var writeSvgBBox = writeSvg.node().getBoundingClientRect();
   var writeResult = writeSvg.select("#write-result").style("opacity", 0);
-  var writeResultBBox = writeResult.node().getBoundingClientRect();
+  var writeResultBBox = writeResult.node().getBBox();
   var newMemoryData = memoryData.map(function(){ return {}; });
 
   appendArrowhead(writeSvg);
@@ -131,17 +130,16 @@
       .attr("class", "write-line")
       .attr("marker-end", "url(#arrowhead)")
       .style("stroke", "grey")
-      .attr("transform", "translate(" + (writeResultBBox.left + writeResultBBox.width / 2 - writeSvgBBox.left - vectorScale(writeData.x) / 2) + ", " + (writeResultBBox.top + writeResultBBox.width / 2 - writeSvgBBox.top - vectorScale(writeData.y) / 2) + ")")
+      .attr("transform", "translate(" + (writeResultBBox.x + writeResultBBox.width / 2 - vectorScale(writeData.x) / 2) + ", " + (writeResultBBox.y + writeResultBBox.width / 2 - vectorScale(writeData.y) / 2) + ")")
       .attr("x2", vectorScale(writeData.x))
       .attr("y2", vectorScale(writeData.y));
 
   writeMemory.data(memoryData)
-    .each(function(d) {
+    .each(function(d, i) {
       this.style.opacity = 0;
-      var bBox = this.getBoundingClientRect();
-      d.top = bBox.top - writeSvgBBox.top;
-      d.left = bBox.left - writeSvgBBox.left;
-      d.width = bBox.width;
+      d.top = writeMemoryBBox.y;
+      d.left = writeMemoryBBox.x + i * nodeWidth;
+      d.width = nodeWidth;
     });
 
   var writeMemoryVectors = writeSvg.selectAll(".vector")
@@ -157,12 +155,11 @@
       .style("stroke", "grey");
 
   writeNewMemory.data(newMemoryData)
-    .each(function(d) {
+    .each(function(d, i) {
       this.style.opacity = 0;
-      var bBox = this.getBoundingClientRect();
-      d.top = bBox.top - writeSvgBBox.top;
-      d.left = bBox.left - writeSvgBBox.left;
-      d.width = bBox.width;
+      d.top = writeNewMemoryBBox.y;
+      d.left = writeNewMemoryBBox.x + i * nodeWidth;
+      d.width = nodeWidth;
     });
 
   var writeNewMemoryVectors = writeSvg.selectAll(".new-vector")

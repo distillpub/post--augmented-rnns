@@ -24,7 +24,6 @@
 <style>
   #attentional-ex2 svg {
   width: 100%;
-  height: 240px;
   margin-bottom: 24px;
 }
 #attentional-ex2 .pointer {
@@ -32,7 +31,7 @@
   width: 26px;
   height: 26px;
   top: 36px;
-  left: -36px;
+  left: -48px;
 }
 #attentional-ex2 figcaption {
   text-align: center;
@@ -154,8 +153,8 @@ var nodeMargin = 10;
 var networkMargin = 120;
 
 var html = d3.select("#attentional-ex2");
-var outerWidth = html.node().getBoundingClientRect().width;
-var outerHeight = html.node().getBoundingClientRect().height;
+var outerWidth = 984;//html.node().getBoundingClientRect().width;
+var outerHeight = 240;//html.node().getBoundingClientRect().height;
 var margin = {top: 36, right: nodeMargin, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeight - margin.top - margin.bottom;
@@ -187,8 +186,7 @@ html.select("svg .labels")
     .attr("transform", "translate(" + (width + nodeMargin * 3) + ", 0)");
 
 var svg = html.select("svg")
-    .attr("width", outerWidth)
-    .attr("height", outerHeight)
+    .attr("viewBox", "0 0 " + outerWidth + " " + outerHeight)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 

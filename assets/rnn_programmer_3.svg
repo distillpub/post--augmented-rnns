@@ -1,16 +1,16 @@
-<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="252" viewBox="0 0 984 252">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 648 252">
   <defs>
     <clipPath id="clip-path">
-      <rect id="first-clip" x="228" y="10" width="84" height="144" fill="none"/>
+      <rect id="first-clip" x="60" y="10" width="84" height="144" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-2">
-      <polygon points="500 10 306 10 306 40 360 40 360 142 444 142 444 40 500 40 500 10" fill="none"/>
+      <polygon points="332 10 138 10 138 40 192 40 192 142 276 142 276 40 332 40 332 10" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-3">
-      <polygon points="612 10 438 10 438 40 492 40 492 142 576 142 576 40 612 40 612 10" fill="none"/>
+      <polygon points="444 10 270 10 270 40 324 40 324 142 408 142 408 40 444 40 444 10" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-4">
-      <rect x="624" y="10" width="60" height="120" fill="none"/>
+      <rect x="456" y="10" width="60" height="120" fill="none"/>
     </clipPath>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
       <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
@@ -73,205 +73,205 @@
   </defs>
   <title>rnn</title>
   <g id="_Group_" data-name="&lt;Group&gt;">
-    <rect x="168" y="166" width="468" height="72" rx="10" ry="10" fill="#f0f0f5"/>
+    <rect y="166" width="468" height="72" rx="10" ry="10" fill="#f0f0f5"/>
     <g opacity="0.1">
-      <rect x="168" y="166" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
+      <rect y="166" width="468" height="72" rx="10" ry="10" fill="none" stroke="#231f20"/>
     </g>
   </g>
-  <path d="M367.26,28h-103" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M199.26,28h-103" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g clip-path="url(#clip-path)">
     <g opacity="0.9">
-      <path d="M222,124h9c4.95,0,9-4.5,9-10V38a10,10,0,0,1,10-10h31.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M54,124h9c5,0,9-4.5,9-10V38A10,10,0,0,1,82,28h31.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M222,88h9c4.95,0,9-4.5,9-10V38a10,10,0,0,1,10-10h31.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M54,88h9c5,0,9-4.5,9-10V38A10,10,0,0,1,82,28h31.75" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.4">
-      <path d="M222,52h9c5,0,9-4.5,9-10V38a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M54,52h9c5,0,9-4.5,9-10V38a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M318,124h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H262.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M150,124h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H94.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M318,88h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H262.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M150,88h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H94.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M318,52h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H258.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M150,52h-9c-4.95,0-9-4.5-9-10V38a10,10,0,0,0-10-10H90.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g clip-path="url(#clip-path-2)">
     <g opacity="0.2">
-      <path d="M354,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M186,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M354,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M186,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M354,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M186,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M451.05,126H430a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H376.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M283.05,126H262a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H208.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M451.05,90H430a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H376.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M283.05,90H262a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H208.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M451.05,53H430a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H376.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M283.05,53H262a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H208.65" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M450.25,123h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H390.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M282.25,123h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H222.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M450.25,87h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H390.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M282.25,87h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H222.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M450.25,50h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H390.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M282.25,50h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H222.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
-    <path d="M500.17,28H459.75a38.44,38.44,0,0,1-18.28-5.6l-1.18-.8A38.44,38.44,0,0,0,422,16H396.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M332.17,28H291.75a38.44,38.44,0,0,1-18.28-5.6l-1.18-.8A38.44,38.44,0,0,0,254,16H228.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   </g>
   <g clip-path="url(#clip-path-3)">
     <g opacity="0.9">
-      <path d="M486,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M486,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M486,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M318,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h31.7" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M583.05,126H562a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H507.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M415.05,126H394a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H339.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M583.05,90H562a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H507.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M415.05,90H394a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H339.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M583.05,54H562a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H507.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M415.05,54H394a10,10,0,0,1-10-10V38a10,10,0,0,0-10-10H339.83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M582.25,123h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H522.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M414.25,123h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H354.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M582.25,87h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H522.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M414.25,87h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H354.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.9">
-      <path d="M582.25,51h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H522.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M414.25,51h-9.12c-5,0-9.12-4.5-9.12-10V26a10,10,0,0,0-10-10H354.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g clip-path="url(#clip-path-4)">
     <g opacity="0.9">
       <g>
-        <path d="M618,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h26.27" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-        <path d="M677.75,16a27.2,27.2,0,0,0-7.69,4.28L671.61,16l-1.55-4.28A27.18,27.18,0,0,0,677.75,16Z" fill="#666"/>
+        <path d="M450,52h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10h26.27" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path d="M509.75,16a27.2,27.2,0,0,0-7.69,4.28L503.61,16l-1.55-4.28A27.18,27.18,0,0,0,509.75,16Z" fill="#666"/>
       </g>
     </g>
     <g opacity="0.2">
-      <path d="M618,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10H666" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M450,124h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10H498" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
     <g opacity="0.2">
-      <path d="M618,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10H666" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M450,88h9c5,0,9-4.5,9-10V26a10,10,0,0,1,10-10H498" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     </g>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="181" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
-      <rect x="181" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <path d="M210,211l-1.93-4.94h-6.23L199.94,211h-1.83l6.14-15.61h1.52L211.89,211H210Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
+      <rect x="13" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="13" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path d="M42,211l-1.93-4.94H33.85L31.94,211H30.11l6.14-15.61h1.52L43.89,211H42Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
-    <use width="49.5" height="49.5" transform="translate(179.25 177.25)" xlink:href="#rnn-a"/>
+    <use width="49.5" height="49.5" transform="translate(11.25 177.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="313" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
-      <rect x="313" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <path d="M342,211l-1.93-4.94h-6.23L331.94,211h-1.83l6.14-15.61h1.52L343.89,211H342Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
+      <rect x="145" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="145" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path d="M174,211l-1.93-4.94h-6.23L163.94,211h-1.83l6.14-15.61h1.52L175.89,211H174Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
-    <use width="49.5" height="49.5" transform="translate(311.25 177.25)" xlink:href="#rnn-a"/>
+    <use width="49.5" height="49.5" transform="translate(143.25 177.25)" xlink:href="#rnn-a"/>
   </g>
   <g>
     <g opacity="0.1">
-      <rect x="445" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
-      <rect x="445" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <path d="M474,211l-1.93-4.94h-6.23L463.94,211h-1.83l6.14-15.61h1.52L475.89,211H474Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
+      <rect x="277" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="277" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path d="M306,211l-1.93-4.94h-6.23L295.94,211h-1.83l6.14-15.61h1.52L307.89,211H306Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
-    <use width="49.5" height="49.5" transform="translate(443.25 177.25)" xlink:href="#rnn-a"/>
+    <use width="49.5" height="49.5" transform="translate(275.25 177.25)" xlink:href="#rnn-a"/>
   </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="577" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
-      <rect x="577" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <path d="M606,211l-1.93-4.94h-6.23L595.94,211h-1.83l6.14-15.61h1.52L607.89,211H606Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
+      <rect x="409" y="180" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="409" y="180" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path d="M438,211l-1.93-4.94h-6.23L427.94,211h-1.83l6.14-15.61h1.52L439.89,211H438Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z"/>
     </g>
-    <use width="49.5" height="49.5" transform="translate(575.25 177.25)" xlink:href="#rnn-a"/>
+    <use width="49.5" height="49.5" transform="translate(407.25 177.25)" xlink:href="#rnn-a"/>
   </g>
   <g opacity="0.9">
-    <use width="50.5" height="27.5" transform="translate(180 112)" xlink:href="#op-1"/>
+    <use width="50.5" height="27.5" transform="translate(12 112)" xlink:href="#op-1"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(180 76)" xlink:href="#op-2"/>
+    <use width="50.5" height="27.5" transform="translate(12 76)" xlink:href="#op-2"/>
   </g>
   <g opacity="0.4">
-    <use width="50.5" height="27.5" transform="translate(180 40)" xlink:href="#op-3"/>
+    <use width="50.5" height="27.5" transform="translate(12 40)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(312 112)" xlink:href="#op-1"/>
+    <use width="50.5" height="27.5" transform="translate(144 112)" xlink:href="#op-1"/>
   </g>
   <g opacity="0.9">
-    <use id="op-2-5" data-name="op-2" width="50.5" height="27.5" transform="translate(312 76)" xlink:href="#op-2"/>
+    <use id="op-2-5" data-name="op-2" width="50.5" height="27.5" transform="translate(144 76)" xlink:href="#op-2"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(312 40)" xlink:href="#op-3"/>
+    <use width="50.5" height="27.5" transform="translate(144 40)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.9">
-    <use width="50.5" height="27.5" transform="translate(444 112)" xlink:href="#op-1"/>
+    <use width="50.5" height="27.5" transform="translate(276 112)" xlink:href="#op-1"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(444 76)" xlink:href="#op-2"/>
+    <use width="50.5" height="27.5" transform="translate(276 76)" xlink:href="#op-2"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(444 40)" xlink:href="#op-3"/>
+    <use width="50.5" height="27.5" transform="translate(276 40)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(576 112)" xlink:href="#op-1"/>
+    <use width="50.5" height="27.5" transform="translate(408 112)" xlink:href="#op-1"/>
   </g>
   <g opacity="0.2">
-    <use width="50.5" height="27.5" transform="translate(576 76)" xlink:href="#op-2"/>
+    <use width="50.5" height="27.5" transform="translate(408 76)" xlink:href="#op-2"/>
   </g>
   <g opacity="0.9">
-    <use width="50.5" height="27.5" transform="translate(576 40)" xlink:href="#op-3"/>
+    <use width="50.5" height="27.5" transform="translate(408 40)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(676 -84.12)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
+    <text transform="translate(493 -84.12)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(678 181.88)" font-size="13" font-family="Open Sans">We run all of the <tspan x="0" y="20">operations and average </tspan><tspan x="0" y="40">the outputs together</tspan></text>
+    <text transform="translate(495 181.88)" font-size="13" font-family="Open Sans">We run all of the <tspan x="0" y="20">operations and average </tspan><tspan x="0" y="40">the outputs together</tspan></text>
   </g>
   <g>
-    <line x1="228" y1="202.5" x2="300.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M306,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,306,202.5Z" fill="#666"/>
+    <line x1="60" y1="202.5" x2="132.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M138,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,138,202.5Z" fill="#666"/>
   </g>
   <g>
-    <line x1="204" y1="178" x2="204" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M204,144a27.2,27.2,0,0,0,4.28,7.69L204,150.14l-4.28,1.55A27.17,27.17,0,0,0,204,144Z" fill="#666"/>
+    <line x1="36" y1="178" x2="36" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M36,144a27.2,27.2,0,0,0,4.28,7.69L36,150.14l-4.28,1.55A27.17,27.17,0,0,0,36,144Z" fill="#666"/>
   </g>
   <g>
-    <line x1="336" y1="178" x2="336" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M336,144a27.2,27.2,0,0,0,4.28,7.69L336,150.14l-4.28,1.55A27.17,27.17,0,0,0,336,144Z" fill="#666"/>
+    <line x1="168" y1="178" x2="168" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M168,144a27.2,27.2,0,0,0,4.28,7.69L168,150.14l-4.28,1.55A27.17,27.17,0,0,0,168,144Z" fill="#666"/>
   </g>
   <g>
-    <line x1="468" y1="178" x2="468" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M468,144a27.2,27.2,0,0,0,4.28,7.69L468,150.14l-4.28,1.55A27.17,27.17,0,0,0,468,144Z" fill="#666"/>
+    <line x1="300" y1="178" x2="300" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M300,144a27.2,27.2,0,0,0,4.28,7.69L300,150.14l-4.28,1.55A27.17,27.17,0,0,0,300,144Z" fill="#666"/>
   </g>
   <g>
-    <line x1="600" y1="178" x2="600" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M600,144a27.2,27.2,0,0,0,4.28,7.69L600,150.14l-4.28,1.55A27.17,27.17,0,0,0,600,144Z" fill="#666"/>
+    <line x1="432" y1="178" x2="432" y2="149.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M432,144a27.2,27.2,0,0,0,4.28,7.69L432,150.14l-4.28,1.55A27.17,27.17,0,0,0,432,144Z" fill="#666"/>
   </g>
   <g>
-    <line x1="360" y1="202.5" x2="432.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M438,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,438,202.5Z" fill="#666"/>
+    <line x1="192" y1="202.5" x2="264.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M270,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,270,202.5Z" fill="#666"/>
   </g>
   <g>
-    <line x1="492" y1="202.5" x2="564.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M570,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,570,202.5Z" fill="#666"/>
+    <line x1="324" y1="202.5" x2="396.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M402,202.5a27.2,27.2,0,0,0-7.69,4.28l1.55-4.28-1.55-4.28A27.18,27.18,0,0,0,402,202.5Z" fill="#666"/>
   </g>
 </svg>

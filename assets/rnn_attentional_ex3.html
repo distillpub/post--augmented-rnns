@@ -1,21 +1,24 @@
 
 <figure id="attentional-ex3" class="w-page">
-  <svg>
-    <g class="labels">
-      <text transform="translate(0, 18)">output text</text>
-      <text transform="translate(0, 55)">network B</text>
-      <text transform="translate(0, 195)">network A</text>
-      <text transform="translate(0, 250)">input audio</text>
-    </g>
-  </svg>
-  <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
-  <img class="waveform" src="assets/rnn-attention-waveform-bw.png">
+  <div class="stage">
+    <svg>
+      <g class="labels">
+        <text transform="translate(0, 18)">output text</text>
+        <text transform="translate(0, 55)">network B</text>
+        <text transform="translate(0, 195)">network A</text>
+        <text transform="translate(0, 250)">input audio</text>
+      </g>
+    </svg>
+    <div id="attentional-ex3-data" style="display: none;">{{> assets/rnn_attentional_ex3.csv}}</div>
+    <img class="waveform" src="assets/rnn-attention-waveform-bw.png">
+  </div>
   <figcaption>Figure derived from <a href="https://arxiv.org/pdf/1508.01211.pdf">Chan, <i>et al.</i> 2015</a></figcaption>
   <img class="pointer" src="assets/pointer.svg">
 </figure>
 <style>
-#attentional-ex3 {
+#attentional-ex3 .stage {
   position: relative;
+  margin-bottom: 24px;
 }
 #attentional-ex3 .waveform {
   position: absolute;
@@ -26,14 +29,12 @@
   width: 26px;
   height: 26px;
   top: 36px;
-  left: -36px;
+  left: -48px;
 }
 #attentional-ex3 svg {
   z-index: 1;
   position: relative;
   width: 100%;
-  height: 280px;
-  margin-bottom: 24px;
 }
 #attentional-ex3 svg .labels {
   font-size: 12px;
@@ -134,8 +135,8 @@ var networkMargin = 140;
 var audioHeight = 60;
 
 var html = d3.select("#attentional-ex3");
-var outerWidth = html.node().getBoundingClientRect().width;
-var outerHeight = html.node().getBoundingClientRect().height;
+var outerWidth = 984; //Math.max(700, html.node().getBoundingClientRect().width);
+var outerHeight = 280;
 var margin = {top: 36, right: nodeMargin + 80, bottom: 24, left: nodeMargin};
 var width = outerWidth - margin.left - margin.right;
 var height = outerHeight - margin.top - margin.bottom;
@@ -164,8 +165,7 @@ var link = function(d) {
 };
 
 var svg = html.select("svg")
-    .attr("width", outerWidth)
-    .attr("height", outerHeight)
+    .attr("viewBox", "0 0 " + outerWidth + " " + outerHeight)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -323,10 +323,10 @@ var link = linkGroup.selectAll(".link")
 //
 
 html.select(".waveform")
-    .style("left", margin.left + "px")
-    .style("top", margin.top + networkMargin + nodeSizeA + nodeMargin * 4 + "px")
-    .style("width", width + "px")
-    .style("height", audioHeight + "px")
+    .style("left", "1%")
+    .style("top", "76%")
+    .style("width", "90%")
+    .style("height", "20%")
 
 audio.append("rect")
     .attr("class", "audio-background")

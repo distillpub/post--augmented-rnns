@@ -1,4 +1,4 @@
-<svg id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="108" viewBox="0 0 144 108">
+<svg id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 144 108">
   <defs>
     <symbol id="rnn-bg" data-name="rnn-bg" viewBox="0 0 49.5 49.5">
       <rect x="0.75" y="0.75" width="48" height="48" rx="6" ry="6" fill="#fff" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
@@ -6,14 +6,6 @@
     <symbol id="rnn-a" data-name="rnn-a" viewBox="0 0 49.5 49.5">
       <use id="rnn-bg-3" data-name="rnn-bg" width="49.5" height="49.5" xlink:href="#rnn-bg"/>
       <path d="M29.77,31.75l-1.93-4.94H21.6l-1.91,4.94H17.86L24,16.14h1.52l6.11,15.61H29.77Zm-2.5-6.57-1.81-4.82q-0.35-.91-0.72-2.24a20.34,20.34,0,0,1-.67,2.24l-1.83,4.82h5Z" fill="#666"/>
-    </symbol>
-    <symbol id="array-small" data-name="array-small" viewBox="0 0 182.08 31.66">
-      <rect x="0.75" y="0.75" width="180.58" height="30.16" rx="6" ry="6" fill="#e5daf2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <line x1="30.7" y1="30.91" x2="30.7" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="60.86" y1="30.91" x2="60.86" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="91.03" y1="30.91" x2="91.03" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="121.19" y1="30.91" x2="121.19" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
-      <line x1="151.33" y1="30.91" x2="151.33" y2="0.75" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
     </symbol>
     <symbol id="array-vector" data-name="array-vector" viewBox="0 0 36 36">
       <rect width="36" height="36" fill="#d8c2f2" opacity="0"/>
@@ -54,12 +46,27 @@
     </g>
   </g>
   <g>
-    <use id="array-small-3" data-name="array-small" width="182.08" height="31.66" transform="translate(0.33 0.38) scale(0.79)" xlink:href="#array-small"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect x="0.92" y="0.97" width="143.08" height="23.73" rx="6" ry="6" fill="#e5daf2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line x1="24.48" y1="24.7" x2="24.48" y2="0.97" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="48.21" y1="24.7" x2="48.21" y2="0.97" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="71.94" y1="24.7" x2="71.94" y2="0.97" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="95.67" y1="24.7" x2="95.67" y2="0.97" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+      <line x1="119.17" y1="24.7" x2="119.17" y2="0.97" fill="none" stroke="#8c8c8c" stroke-miterlimit="10"/>
+    </g>
     <use width="36" height="36" transform="translate(1.37) scale(0.66)" xlink:href="#array-vector"/>
     <use id="array-vector-5" data-name="array-vector" width="36" height="36" transform="translate(25.01 0.99) scale(0.66)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(48.64 0.99) scale(0.66)" xlink:href="#array-vector"/>
     <use id="array-vector-10" data-name="array-vector" width="36" height="36" transform="translate(72.28 0.21) scale(0.66)" xlink:href="#array-vector"/>
     <use width="36" height="36" transform="translate(95.78 0.99) scale(0.66)" xlink:href="#array-vector"/>
-    <use id="array-vector-15" data-name="array-vector" width="36" height="36" transform="translate(119.38 1.6) scale(0.66)" xlink:href="#array-vector"/>
+    <g id="_Group_3" data-name="&lt;Group&gt;">
+      <rect x="119.38" y="1.6" width="23.63" height="23.63" fill="#d8c2f2" opacity="0"/>
+      <g opacity="0.5">
+        <g>
+          <line x1="131.2" y1="17.35" x2="131.2" y2="10.19" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <polygon points="133.89 12.36 133.41 12.81 131.2 10.44 129 12.81 128.52 12.36 131.2 9.47 133.89 12.36"/>
+        </g>
+      </g>
+    </g>
   </g>
 </svg>

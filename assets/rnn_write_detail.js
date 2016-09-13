@@ -14,12 +14,12 @@ var previousAttentionData = [0, 0.2, 0, 0.2, 0.6];
 // DOM
 //
 
+var nodeWidth = 36;
 var html = d3.selectAll("#rnn-write-detail");
 var svg = html.select("svg");
-var svgBBox = svg.node().getBoundingClientRect();
-
 var query = svg.selectAll("#query").style("opacity", 0);
 var memory = svg.selectAll("#memory use").style("opacity", 0);
+var memoryBBox = svg.select("#memory").node().getBBox();
 var shift = svg.selectAll("#shift use");
 
 //
@@ -29,9 +29,9 @@ var shift = svg.selectAll("#shift use");
 // Store positions of vectors
 function cachePositions(selection) {
   selection.each(function (d) {
-    var bBox = this.getBoundingClientRect();
-    d.top = bBox.top - svgBBox.top;
-    d.left = bBox.left - svgBBox.left;
+    var bBox = this.getBBox();
+    d.top = bBox.y;
+    d.left = bBox.x;
     d.width = bBox.width;
   });
 }
@@ -49,7 +49,12 @@ function renderVector(selection) {
 
 // Memory
 memory.data(memoryData);
-cachePositions(memory);
+memory.each(function(d, i) {
+  d.top = memoryBBox.y;
+  d.left = memoryBBox.x + nodeWidth * i;
+  d.width = nodeWidth;
+})
+// cachePositions(memory);
 var memoryVector = svg.selectAll(".memory-vector").data(memoryData).enter().append("line").attr("class", "memory-vector");
 renderVector(memoryVector);
 

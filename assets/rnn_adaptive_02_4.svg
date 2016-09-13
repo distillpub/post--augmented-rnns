@@ -1,4 +1,4 @@
-<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="984" height="270" viewBox="0 0 984 270">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 270">
   <defs>
     <symbol id="op-halo" data-name="op-halo" viewBox="0 0 31.45 31.45">
       <circle cx="15.73" cy="15.73" r="14.73" fill="#e6eaf2" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
@@ -46,138 +46,138 @@
     </symbol>
   </defs>
   <title>rnn</title>
-  <rect x="168" y="17.25" width="612" height="238.75" rx="10" ry="10" fill="#f0f0f5"/>
-  <line x1="348" y1="43" x2="348" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
-  <line x1="540" y1="43" x2="540" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
-  <line x1="732" y1="43" x2="732" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+  <rect x="48" y="17.25" width="612" height="238.75" rx="10" ry="10" fill="#f0f0f5"/>
+  <line x1="228" y1="43" x2="228" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line x1="420" y1="43" x2="420" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line x1="612" y1="43" x2="612" y2="268" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
   <g opacity="0.2">
     <g>
-      <path d="M396,244H593.5a6,6,0,0,0,6-6V210" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="603.18 212.96 602.52 213.57 599.5 210.32 596.48 213.57 595.82 212.96 599.5 209 603.18 212.96" fill="#666"/>
+      <path d="M276,244H473.5a6,6,0,0,0,6-6V210" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="483.18 212.96 482.52 213.57 479.5 210.32 476.48 213.57 475.82 212.96 479.5 209 483.18 212.96" fill="#666"/>
     </g>
     <g>
-      <path d="M407.5,210.14V238a6,6,0,0,1-6,6H222a6,6,0,0,0-6,6v18h0V208" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="403.21 213.62 403.98 214.33 407.5 210.54 411.02 214.33 411.79 213.62 407.5 209 403.21 213.62" fill="#666"/>
+      <path d="M287.5,210.14V238a6,6,0,0,1-6,6H102a6,6,0,0,0-6,6v18h0V208" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="283.21 213.62 283.98 214.33 287.5 210.54 291.02 214.33 291.79 213.62 287.5 209 283.21 213.62" fill="#666"/>
     </g>
     <g>
-      <line x1="156" y1="184" x2="191.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="188.04 187.68 187.43 187.02 190.68 184 187.43 180.98 188.04 180.32 192 184 188.04 187.68" fill="#666"/>
+      <line x1="36" y1="184" x2="71.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="68.04 187.68 67.43 187.02 70.68 184 67.43 180.98 68.04 180.32 72 184 68.04 187.68" fill="#666"/>
     </g>
     <g>
-      <line x1="240" y1="184" x2="383.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="380.04 187.68 379.43 187.02 382.68 184 379.43 180.98 380.04 180.32 384 184 380.04 187.68" fill="#666"/>
+      <line x1="120" y1="184" x2="263.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="260.04 187.68 259.43 187.02 262.68 184 259.43 180.98 260.04 180.32 264 184 260.04 187.68" fill="#666"/>
     </g>
     <g>
-      <line x1="432" y1="184" x2="575.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="572.04 187.68 571.43 187.02 574.68 184 571.43 180.98 572.04 180.32 576 184 572.04 187.68" fill="#666"/>
+      <line x1="312" y1="184" x2="455.02" y2="184" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="452.04 187.68 451.43 187.02 454.68 184 451.43 180.98 452.04 180.32 456 184 452.04 187.68" fill="#666"/>
     </g>
     <g>
-      <path d="M240,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="267.68 151.96 267.02 152.57 264 149.32 260.98 152.57 260.32 151.96 264 148 267.68 151.96" fill="#666"/>
+      <path d="M120,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="147.68 151.96 147.02 152.57 144 149.32 140.98 152.57 140.32 151.96 144 148 147.68 151.96" fill="#666"/>
     </g>
     <g>
-      <path d="M432,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="459.68 151.96 459.02 152.57 456 149.32 452.98 152.57 452.32 151.96 456 148 459.68 151.96" fill="#666"/>
+      <path d="M312,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="339.68 151.96 339.02 152.57 336 149.32 332.98 152.57 332.32 151.96 336 148 339.68 151.96" fill="#666"/>
     </g>
     <g>
-      <path d="M624,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="651.68 151.96 651.02 152.57 648 149.32 644.98 152.57 644.32 151.96 648 148 651.68 151.96" fill="#666"/>
+      <path d="M504,184h18a6,6,0,0,0,6-6V149" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="531.68 151.96 531.02 152.57 528 149.32 524.98 152.57 524.32 151.96 528 148 531.68 151.96" fill="#666"/>
     </g>
-    <path d="M240,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M432,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M120,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M312,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     <g>
-      <line x1="264" y1="136" x2="264" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="267.68 67.96 267.02 68.57 264 65.32 260.98 68.57 260.32 67.96 264 64 267.68 67.96" fill="#666"/>
-    </g>
-    <g>
-      <line x1="456" y1="70.25" x2="456" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="459.68 67.96 459.02 68.57 456 65.32 452.98 68.57 452.32 67.96 456 64 459.68 67.96" fill="#666"/>
-    </g>
-    <line x1="456" y1="136" x2="456" y2="77.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <g>
-      <line x1="648" y1="70" x2="648" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="651.68 67.96 651.02 68.57 648 65.32 644.98 68.57 644.32 67.96 648 64 651.68 67.96" fill="#666"/>
-    </g>
-    <line x1="648" y1="96" x2="648" y2="81" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <line x1="648" y1="124" x2="648" y2="104" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <g>
-      <path d="M264,136V106a6,6,0,0,1,6-6h17" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="284.04 103.68 283.43 103.02 286.68 100 283.43 96.98 284.04 96.32 288 100 284.04 103.68" fill="#666"/>
+      <line x1="144" y1="136" x2="144" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="147.68 67.96 147.02 68.57 144 65.32 140.98 68.57 140.32 67.96 144 64 147.68 67.96" fill="#666"/>
     </g>
     <g>
-      <path d="M456,136V106a6,6,0,0,1,6-6h17" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="476.04 103.68 475.43 103.02 478.68 100 475.43 96.98 476.04 96.32 480 100 476.04 103.68" fill="#666"/>
+      <line x1="336" y1="70.25" x2="336" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="339.68 67.96 339.02 68.57 336 65.32 332.98 68.57 332.32 67.96 336 64 339.68 67.96" fill="#666"/>
     </g>
-    <path d="M300,88V79.5a6,6,0,0,1,6-6H756" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M492,88V82.75c0-2.89,2.7-5.25,6-5.25H756" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <line x1="228" y1="52" x2="648" y2="52" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line x1="336" y1="136" x2="336" y2="77.25" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
     <g>
-      <path d="M264,52.5h18a16.83,16.83,0,0,0,10.26-4.22L308,32.72a16.83,16.83,0,0,1,10.26-4.22H332" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="329.04 32.18 328.43 31.52 331.68 28.5 328.43 25.48 329.04 24.82 333 28.5 329.04 32.18" fill="#666"/>
+      <line x1="528" y1="70" x2="528" y2="64.97" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="531.68 67.96 531.02 68.57 528 65.32 524.98 68.57 524.32 67.96 528 64 531.68 67.96" fill="#666"/>
+    </g>
+    <line x1="528" y1="96" x2="528" y2="81" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line x1="528" y1="124" x2="528" y2="104" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g>
+      <path d="M144,136V106a6,6,0,0,1,6-6h17" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="164.04 103.68 163.43 103.02 166.68 100 163.43 96.98 164.04 96.32 168 100 164.04 103.68" fill="#666"/>
     </g>
     <g>
-      <path d="M456,52h18a17.11,17.11,0,0,0,10.31-4.18l15.63-15.15a17.11,17.11,0,0,1,10.31-4.18H524" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="521.04 32.18 520.43 31.52 523.68 28.5 520.43 25.48 521.04 24.82 525 28.5 521.04 32.18" fill="#666"/>
+      <path d="M336,136V106a6,6,0,0,1,6-6h17" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="356.04 103.68 355.43 103.02 358.68 100 355.43 96.98 356.04 96.32 360 100 356.04 103.68" fill="#666"/>
+    </g>
+    <path d="M180,88V79.5a6,6,0,0,1,6-6H636" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M372,88V82.75c0-2.89,2.7-5.25,6-5.25H636" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line x1="108" y1="52" x2="528" y2="52" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g>
+      <path d="M144,52.5h18a16.83,16.83,0,0,0,10.26-4.22L188,32.72a16.83,16.83,0,0,1,10.26-4.22H212" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="209.04 32.18 208.43 31.52 211.68 28.5 208.43 25.48 209.04 24.82 213 28.5 209.04 32.18" fill="#666"/>
     </g>
     <g>
-      <path d="M648,52.5h18a16.83,16.83,0,0,0,10.26-4.22L692,32.72a16.83,16.83,0,0,1,10.26-4.22H716" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-      <polygon points="713.04 32.18 712.43 31.52 715.68 28.5 712.43 25.48 713.04 24.82 717 28.5 713.04 32.18" fill="#666"/>
+      <path d="M336,52h18a17.11,17.11,0,0,0,10.31-4.18l15.63-15.15a17.11,17.11,0,0,1,10.31-4.18H404" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="401.04 32.18 400.43 31.52 403.68 28.5 400.43 25.48 401.04 24.82 405 28.5 401.04 32.18" fill="#666"/>
     </g>
-    <use id="op-halo-3" data-name="op-halo" width="31.45" height="31.45" transform="translate(332.94 13.11)" xlink:href="#op-halo"/>
-    <use id="op-halo-6" data-name="op-halo" width="31.45" height="31.45" transform="translate(524.94 13.11)" xlink:href="#op-halo"/>
-    <use id="op-halo-9" data-name="op-halo" width="31.45" height="31.45" transform="translate(716.94 13.11)" xlink:href="#op-halo"/>
-    <use width="24" height="24" transform="translate(336.75 16.75)" xlink:href="#op-sum_5"/>
-    <use width="24" height="24" transform="translate(252.75 40.09)" xlink:href="#op-sum_4"/>
-    <use width="24" height="24" transform="translate(203.25 40.75)" xlink:href="#op-sum_3"/>
-    <use width="24" height="24" transform="translate(288.01 87.25)" xlink:href="#op-x"/>
-    <use width="49.5" height="49.5" transform="translate(191.25 159.25)" xlink:href="#rnn-s"/>
-    <use width="24" height="24" transform="translate(528.74 16.75)" xlink:href="#op-sum_5"/>
-    <use width="24" height="24" transform="translate(444.74 40.09)" xlink:href="#op-sum_4"/>
-    <use width="24" height="24" transform="translate(480.01 87.25)" xlink:href="#op-x"/>
-    <use width="49.5" height="49.5" transform="translate(383.24 159.25)" xlink:href="#rnn-s"/>
-    <use width="24" height="24" transform="translate(720.74 16.75)" xlink:href="#op-sum_5"/>
-    <use width="24" height="24" transform="translate(635.74 40.09)" xlink:href="#op-sum_4"/>
-    <use width="24" height="24" transform="translate(203.75 216.25)" xlink:href="#op-sum_2"/>
-    <use id="rnn-sigma-3" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(251.58 122.58)" xlink:href="#rnn-sigma"/>
-    <use id="rnn-sigma-6" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(443.58 122.58)" xlink:href="#rnn-sigma"/>
-    <use id="rnn-sigma-9" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(635.58 122.58)" xlink:href="#rnn-sigma"/>
+    <g>
+      <path d="M528,52.5h18a16.83,16.83,0,0,0,10.26-4.22L572,32.72a16.83,16.83,0,0,1,10.26-4.22H596" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polygon points="593.04 32.18 592.43 31.52 595.68 28.5 592.43 25.48 593.04 24.82 597 28.5 593.04 32.18" fill="#666"/>
+    </g>
+    <use id="op-halo-3" data-name="op-halo" width="31.45" height="31.45" transform="translate(212.94 13.11)" xlink:href="#op-halo"/>
+    <use id="op-halo-6" data-name="op-halo" width="31.45" height="31.45" transform="translate(404.94 13.11)" xlink:href="#op-halo"/>
+    <use id="op-halo-9" data-name="op-halo" width="31.45" height="31.45" transform="translate(596.94 13.11)" xlink:href="#op-halo"/>
+    <use width="24" height="24" transform="translate(216.75 16.75)" xlink:href="#op-sum_5"/>
+    <use width="24" height="24" transform="translate(132.75 40.09)" xlink:href="#op-sum_4"/>
+    <use width="24" height="24" transform="translate(83.25 40.75)" xlink:href="#op-sum_3"/>
+    <use width="24" height="24" transform="translate(168.01 87.25)" xlink:href="#op-x"/>
+    <use width="49.5" height="49.5" transform="translate(71.25 159.25)" xlink:href="#rnn-s"/>
+    <use width="24" height="24" transform="translate(408.74 16.75)" xlink:href="#op-sum_5"/>
+    <use width="24" height="24" transform="translate(324.74 40.09)" xlink:href="#op-sum_4"/>
+    <use width="24" height="24" transform="translate(360.01 87.25)" xlink:href="#op-x"/>
+    <use width="49.5" height="49.5" transform="translate(263.24 159.25)" xlink:href="#rnn-s"/>
+    <use width="24" height="24" transform="translate(600.74 16.75)" xlink:href="#op-sum_5"/>
+    <use width="24" height="24" transform="translate(515.74 40.09)" xlink:href="#op-sum_4"/>
+    <use width="24" height="24" transform="translate(83.75 216.25)" xlink:href="#op-sum_2"/>
+    <use id="rnn-sigma-3" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(131.58 122.58)" xlink:href="#rnn-sigma"/>
+    <use id="rnn-sigma-6" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(323.58 122.58)" xlink:href="#rnn-sigma"/>
+    <use id="rnn-sigma-9" data-name="rnn-sigma" width="25.17" height="25.17" transform="translate(515.58 122.58)" xlink:href="#rnn-sigma"/>
   </g>
-  <path d="M624,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-  <path d="M684,101V87.5a6,6,0,0,1,6-6h66" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-  <path d="M612,65V94a6,6,0,0,0,6,6h36" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-  <path d="M540,52h66a6,6,0,0,1,6,6V69" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M504,184h54a6,6,0,0,0,6-6V112" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M564,101V87.5a6,6,0,0,1,6-6h66" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M492,65V94a6,6,0,0,0,6,6h36" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+  <path d="M420,52h66a6,6,0,0,1,6,6V69" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
   <g id="_Group_" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="685" cy="101.25" r="11.25"/>
-      <circle cx="685" cy="101.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
-      <path d="M682.16,104.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L685.72,101l2.57,2.57-1,1L684.72,102Z"/>
+      <circle cx="565" cy="101.25" r="11.25"/>
+      <circle cx="565" cy="101.25" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
+      <path d="M562.16,104.53l-1-1,2.56-2.56-2.58-2.58,1-1,2.58,2.58,2.56-2.56,1,1L565.72,101l2.57,2.57-1,1L564.72,102Z"/>
     </g>
-    <use width="24" height="24" transform="translate(672 87.25)" xlink:href="#op-x"/>
+    <use width="24" height="24" transform="translate(552 87.25)" xlink:href="#op-x"/>
   </g>
   <g id="_Group_2" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <rect x="576.99" y="162" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
-      <rect x="576.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <rect x="576.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <rect x="576.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
-      <path d="M605.92,188.86a3.81,3.81,0,0,1-1.49,3.2,6.46,6.46,0,0,1-4,1.15,10.1,10.1,0,0,1-4.25-.71v-1.74a11.16,11.16,0,0,0,2.08.64,10.92,10.92,0,0,0,2.23.23,4.49,4.49,0,0,0,2.72-.69,2.25,2.25,0,0,0,.92-1.91,2.45,2.45,0,0,0-.32-1.32,3,3,0,0,0-1.08-1,15.14,15.14,0,0,0-2.31-1,7.38,7.38,0,0,1-3.1-1.84,4.06,4.06,0,0,1-.93-2.77,3.45,3.45,0,0,1,1.35-2.86,5.61,5.61,0,0,1,3.57-1.06,10.54,10.54,0,0,1,4.26.85L605,179.66a9.63,9.63,0,0,0-3.74-.81,3.62,3.62,0,0,0-2.24.62,2,2,0,0,0-.81,1.71,2.62,2.62,0,0,0,.3,1.32,2.8,2.8,0,0,0,1,.95,12.47,12.47,0,0,0,2.16,1,8.56,8.56,0,0,1,3.37,1.87A3.68,3.68,0,0,1,605.92,188.86Z"/>
+      <rect x="456.99" y="162" width="48" height="48" rx="6" ry="6" opacity="0.8"/>
+      <rect x="456.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="456.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <rect x="456.99" y="162" width="48" height="48" rx="6" ry="6" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path d="M485.92,188.86a3.81,3.81,0,0,1-1.49,3.2,6.46,6.46,0,0,1-4,1.15,10.1,10.1,0,0,1-4.25-.71v-1.74a11.16,11.16,0,0,0,2.08.64,10.92,10.92,0,0,0,2.23.23,4.49,4.49,0,0,0,2.72-.69,2.25,2.25,0,0,0,.92-1.91,2.45,2.45,0,0,0-.32-1.32,3,3,0,0,0-1.08-1,15.14,15.14,0,0,0-2.31-1,7.38,7.38,0,0,1-3.1-1.84,4.06,4.06,0,0,1-.93-2.77,3.45,3.45,0,0,1,1.35-2.86,5.61,5.61,0,0,1,3.57-1.06,10.54,10.54,0,0,1,4.26.85L485,179.66a9.63,9.63,0,0,0-3.74-.81,3.62,3.62,0,0,0-2.24.62,2,2,0,0,0-.81,1.71,2.62,2.62,0,0,0,.3,1.32,2.8,2.8,0,0,0,1,.95,12.47,12.47,0,0,0,2.16,1,8.56,8.56,0,0,1,3.37,1.87A3.68,3.68,0,0,1,485.92,188.86Z"/>
     </g>
-    <use width="49.5" height="49.5" transform="translate(575.24 159.25)" xlink:href="#rnn-s"/>
+    <use width="49.5" height="49.5" transform="translate(455.24 159.25)" xlink:href="#rnn-s"/>
   </g>
   <g>
-    <line x1="762" y1="77" x2="786.57" y2="77" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M792,77a27.2,27.2,0,0,0-7.69,4.28L785.86,77l-1.55-4.28A27.17,27.17,0,0,0,792,77Z" fill="#666"/>
+    <line x1="642" y1="77" x2="666.57" y2="77" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M672,77a27.2,27.2,0,0,0-7.69,4.28L665.86,77l-1.55-4.28A27.17,27.17,0,0,0,672,77Z" fill="#666"/>
   </g>
   <g>
-    <line x1="652" y1="100" x2="666.57" y2="100.12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path d="M672,100.16a27.2,27.2,0,0,0-7.73,4.22l1.58-4.27-1.51-4.29A27.18,27.18,0,0,0,672,100.16Z" fill="#666"/>
+    <line x1="532" y1="100" x2="546.57" y2="100.12" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M552,100.16a27.2,27.2,0,0,0-7.73,4.22l1.58-4.27-1.51-4.29A27.18,27.18,0,0,0,552,100.16Z" fill="#666"/>
   </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <g opacity="0.1">
-      <circle cx="757.75" cy="79" r="11.25"/>
-      <circle cx="757.75" cy="79" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
-      <path d="M753.63,79.49V78.18H757V74.75h1.34v3.43h3.41v1.31h-3.41v3.42H757V79.49h-3.41Z"/>
+      <circle cx="637.75" cy="79" r="11.25"/>
+      <circle cx="637.75" cy="79" r="11.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" opacity="0.5"/>
+      <path d="M633.63,79.49V78.18H637V74.75h1.34v3.43h3.41v1.31h-3.41v3.42H637V79.49h-3.41Z"/>
     </g>
-    <use width="24" height="24" transform="translate(744.75 65)" xlink:href="#op-sum"/>
+    <use width="24" height="24" transform="translate(624.75 65)" xlink:href="#op-sum"/>
   </g>
 </svg>
