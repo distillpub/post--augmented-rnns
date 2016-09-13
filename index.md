@@ -30,14 +30,13 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
   </a>
   <a href="#neural-programmer">
     <img src="assets/rnn_preview_np.svg">
-    <figcaption><b><span>Neural</span>Programmers</b> can call functions, building programs as they run.</figcaption>
+    <figcaption><b><span>Neural</span> Programmers</b> can call functions, building programs as they run.</figcaption>
   </a>
 </figure>
 
 <style>
   #previews a {
     text-decoration: none;
-    clear: both;
     overflow: hidden;
     margin-bottom: 12px;
     display: block;
@@ -60,6 +59,15 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
       margin-top: 90px;
       margin-bottom: 90px;
     }
+    #previews figcaption {
+      margin-left: 0;
+    }
+    #previews figcaption b {
+      display: block;
+    }
+    #previews figcaption b span {
+      display: block;
+    }
     #previews a {
       position: relative;
       float: left;
@@ -67,6 +75,7 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
       margin-right: 3.6%;
       padding-right: 3.6%;
       border-right: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: none;
     }
     #previews a:last-child {
       margin-right: 0;
@@ -77,6 +86,7 @@ As this has happened, we’ve seen a growing number of attempts to augment RNNs 
       margin-bottom: 18px;
       display: block;
       width: 100%;
+      float: none;
     }
   }
 </style>

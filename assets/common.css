@@ -182,7 +182,6 @@ figure {
   .post .p-right-margin {
     width: 396px;
     float: right;
-    /*width: calc((960px - 620px) / 2);*/
     margin-top: 0;
     margin-left: 48px;
     margin-right: calc((100vw - 960px) / 2);
@@ -541,6 +540,7 @@ pre code {
 }
 
 .post figure figcaption b {
+  font-weight: 600;
   color: rgba(0, 0, 0, 1.0);
 }
 
