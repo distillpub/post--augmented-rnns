@@ -294,35 +294,24 @@ figure {
 }
 
 .post h1 {
-  font: 400 32px/1.1em 'PT Serif', Georgia, serif;
-  font-weight: 400;
+  font: 400 32px/1.1em 'Open Sans', Georgia, serif;
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
 
 }
 
-@media(min-width: 1024px) {
+/*@media(min-width: 1024px) {
   .post h1 {
     font-size: 50px;
     margin-bottom: 15px;
   }
-}
-
-.post .description {
-  margin: 0 auto;
-  width: 698px;
-  text-align: center;
-  margin-bottom: 21px;
-  margin-top: -34px;
-  font-size: 25px;
-  line-height: 1.5em;
-  font-weight: 300;
-}
+}*/
 
 .post h2 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.45em;
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: 'Open Sans', Georgia, serif;
   margin-bottom: 24px;
   -webkit-font-smoothing: antialiased;
 }

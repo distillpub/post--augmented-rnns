@@ -1,0 +1,174 @@
+<script src="assets/d3.min.js"></script>
+<script src="assets/typewriter.js"></script>
+<style>
+{{> assets/common.css}}
+.post section.cover {
+  position: relative;
+  padding: 0;
+  margin-top: 0;
+  background-color: rgb(100, 30, 147);
+  color: white;
+  height: 90vh;
+  min-height: 400px;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-display: flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+
+.post .cover .title {
+  position: relative;
+  top: -100px;
+  width: 55%;
+}
+
+.post .cover .date {
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0 0 6px 0;
+}
+
+.post .cover h1 {
+  font-size: 40px;
+  line-height: 1.25em;
+  margin: 0 0 6px 0;
+  font-weight: 300;
+  -webkit-font-smoothing: auto;
+}
+
+.post .cover .description {
+  font-size: 24px;
+  margin: 0 0 6px 0;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.post .cover .authors {
+  line-height: 1.5em;
+}
+
+.post .cover .authors a {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.post .cover .illustration {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.post .cover .illustration svg {
+  margin-left: 35%;
+  width: 50%;
+  height: 100%;
+}
+
+.post .cover .illustration path {
+  fill: none;
+  stroke: white;
+  stroke-width: 1px;
+  stroke-opacity: 0.35;
+}
+
+</style>
+<section class="cover" id="cover">
+  <div class="w-page">
+    <div class="illustration">
+      <svg></svg>
+    </div>
+    <div class="title">
+      <h1>Getting Neural Networks<br> To Pay Attention</h1>
+      <div class="authors">
+        {{#typewriter.authors}}
+          <div class="author">
+            <a class="name" href="{{personalURL}}">{{firstName}} {{lastName}}</a>
+            <a class="affiliation" href="{{affiliationURL}}">{{affiliation}}</a>
+          </div>
+        {{/typewriter.authors}}
+        <div class="date">{{typewriter.firstPublishedMonth}}. {{typewriter.firstPublishedDate}}, {{typewriter.firstPublishedYear}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+
+  var html = d3.select("#cover");
+  var svg = html.select("svg");
+
+  var svgBBox = svg.node().getBoundingClientRect();
+
+  var width = svgBBox.width;
+  var height = svgBBox.height;
+
+  console.log(width)
+
+  var numNodes = 30;
+  var numNetworks = 5;
+
+  var xNode = d3.scaleLinear()
+    .domain([0, numNodes - 1])
+    .range([0, width]);
+
+  var xNetwork = d3.scaleLinear()
+    .domain([0, numNetworks - 1])
+    .range([width / 2.8, width - width / 2.8]);
+
+  var y = d3.scaleLinear()
+      .range([0, height]);
+
+
+  var link = function(d, i) {
+    return "M" + xNode(d.node) + "," + y(0)
+        + "C" + xNode(d.node) + "," + y(0.45)
+        + " " + xNetwork(d.network) + "," + y(0.55)
+        + " " + xNetwork(d.network) + "," + y(1);
+  };
+
+  var data = d3.range(numNetworks).map(function(network) {
+    return d3.range(numNodes).map(function(node) {
+      return {node: node, network: network};
+    });
+  });
+
+  var network = svg.selectAll(".network")
+      .data(data)
+    .enter().append("g")
+      .attr("class", "network")
+      .style("opacity", function(d, i) {
+        return Math.exp(-Math.abs((numNetworks - 1) / 2 - i));
+      });
+
+  var node = network.selectAll(".node")
+      .data(function(d) { return d; })
+    .enter().append("g")
+      .attr("class", "node")
+      // .style("opacity", function() {
+      //   return Math.random() + 0.2;
+      // })
+      // .style("opacity", function(d, i) {
+      //   return Math.sin(Math.PI * i / (numNodes - 1)) + 0.6;
+      // });
+
+  node.append("path")
+      .attr("class", "link")
+      .attr("d", link);
+
+  console.log(data);
+
+  tw.whenReady(html, function() {
+    console.log("I'm ready");
+  });
+
+
+})();
+</script>

@@ -3,7 +3,7 @@
   "name": "augmented-rnns",
   "typewriter": {
     "title": "Attention and Augmented Recurrent Neural Networks",
-    "description": "A visual overview of neural attention, and the powerful extensions of neural networks being built on top of it.",
+    "description": "A visual overview of neural attention, and the powerful extensions being built on top of it.",
     "url": "http://distill.pub/2016/augmented-rnns/",
     "github": "https://github.com/distillpub/post--augmented-rnns",
     "firstPublished": "Thu Sep 08 2016 10:27:05 GMT-0700 (PDT)",

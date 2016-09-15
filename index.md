@@ -1,8 +1,6 @@
-<link rel="stylesheet" type="text/css" href="assets/common.css">
-<script src="assets/d3.min.js"></script>
-<h1>{{ typewriter.title }}</h1>
-<!--<div class="description">{{ typewriter.description }}</div>-->
-{{> byline.html}}
+<div>{{> assets/cover.html}}</div>
+
+<h2 class="description">{{ typewriter.description }}</h2>
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
 
