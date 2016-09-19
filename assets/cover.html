@@ -1,28 +1,28 @@
 <script src="assets/d3.min.js"></script>
 <script src="assets/typewriter.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Alice|David+Libre|Domine|Fanwood+Text|Libre+Baskerville|Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Martel:300|Cardo|Crimson+Text|EB+Garamond|Lusitana|Sorts+Mill+Goudy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|David+Libre|Martel:200,300,400,600,700" rel="stylesheet">
 <style>
+
 {{> assets/common.css}}
+
 .post section.cover {
   position: relative;
   padding: 0;
   margin-top: 0;
-  background-color: rgb(100, 30, 147);
+  background-color: rgb(12, 113, 205)	;
   color: white;
-  height: 90vh;
+  height: 80vh;
   min-height: 400px;
   max-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  -webkit-display: flex;
-  -webkit-flex-direction: column;
-  -webkit-justify-content: center;
 }
 
 .post .cover .title {
+  padding-top: 25vh;
+  /*width: 60%;*/
   position: relative;
-  top: -100px;
-  width: 55%;
+  z-index: 3;
 }
 
 .post .cover .date {
@@ -33,11 +33,11 @@
 }
 
 .post .cover h1 {
-  font-size: 40px;
-  line-height: 1.25em;
-  margin: 0 0 6px 0;
-  font-weight: 300;
-  -webkit-font-smoothing: auto;
+  font-size: 60px;
+  line-height: 1em;
+  margin: 0 0 12px 0;
+  font-weight: 400;
+  font-family: Cardo;
 }
 
 .post .cover .description {
@@ -54,8 +54,8 @@
 .post .cover .authors a {
   font-weight: 400;
   text-decoration: none;
-  font-size: 13px;
-  opacity: 0.5;
+  font-size: 15px;
+  opacity: 0.7;
 }
 
 .post .cover .illustration {
@@ -65,24 +65,35 @@
   top: 0;
   left: 0;
 }
-.post .cover .illustration svg {
-  margin-left: 35%;
-  width: 50%;
+.post .cover canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  display: block;
+}
+.post .cover .illustration svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .post .cover .illustration path {
   fill: none;
-  stroke: white;
+  stroke: black;
   stroke-width: 1px;
-  stroke-opacity: 0.35;
+  stroke-opacity: 0.55;
+  vector-effect: non-scaling-stroke;
 }
 
 </style>
 <section class="cover" id="cover">
-  <div class="w-page">
+  <canvas></canvas>
+  <div class="w-page" style="position: relative;height: 100%;">
     <div class="illustration">
-      <svg></svg>
+      <svg class="w-page" preserveAspectRatio="none"></svg>
     </div>
     <div class="title">
       <h1>Getting Neural Networks<br> To Pay Attention</h1>
@@ -101,18 +112,39 @@
 
 <script>
 (function() {
+  // canvas
+
+  var canvas = document.querySelector("#cover canvas");
+  var context = canvas.getContext("2d");
+
+  context.fillStyle = "rgb(100, 30, 147)";
+  context.fillRect(0, 0, canvas.width, canvas.height);
+
+  context.globalCompositeOperation = "soft-light";
+  context.globalAlpha = 0.3;
+  for (var i = 0; i < 5; i++) {
+    var x = Math.random() * canvas.width;
+    var y = Math.random() * canvas.height;
+    var gradient = context.createRadialGradient(x,y,10,x,y,200);
+    gradient.addColorStop(0,"pink");
+    gradient.addColorStop(1,"rgba(0, 0, 0, 0)");
+    context.fillStyle = gradient;
+    context.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  // svg
 
   var html = d3.select("#cover");
   var svg = html.select("svg");
 
-  var svgBBox = svg.node().getBoundingClientRect();
+  // var svgBBox = svg.node().getBoundingClientRect();
 
-  var width = svgBBox.width;
-  var height = svgBBox.height;
+  var width = 500;
+  var height = 500;
 
-  console.log(width)
+  svg.attr("viewBox", "0 0 " + 500 + " " + 500)
 
-  var numNodes = 30;
+  var numNodes = 40;
   var numNetworks = 5;
 
   var xNode = d3.scaleLinear()
@@ -121,11 +153,10 @@
 
   var xNetwork = d3.scaleLinear()
     .domain([0, numNetworks - 1])
-    .range([width / 2.8, width - width / 2.8]);
+    .range([width / 2.5, width - width / 2.5]);
 
   var y = d3.scaleLinear()
       .range([0, height]);
-
 
   var link = function(d, i) {
     return "M" + xNode(d.node) + "," + y(0)
@@ -155,8 +186,12 @@
       // .style("opacity", function() {
       //   return Math.random() + 0.2;
       // })
+
+      .style("opacity", function(d, i) {
+        return Math.exp(-Math.abs((numNodes * 0.7) - i)) + 0.5;
+      });
       // .style("opacity", function(d, i) {
-      //   return Math.sin(Math.PI * i / (numNodes - 1)) + 0.6;
+      //   return Math.sin(Math.PI * i / (numNodes - 1)) + 0.4;
       // });
 
   node.append("path")

@@ -1,14 +1,3 @@
-html {
-  background-color: #fafafa;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
 figure {
   margin: 0;
 }
@@ -278,7 +267,7 @@ figure {
 
 .post {
   color: rgba(0, 0, 0, 0.8);
-  font: 15px/1.75em 'Open Sans', sans-serif;
+  font: 15px/1.75em Cardo, 'Open Sans', sans-serif;
 }
 
 @media(min-width: 1024px) {
