@@ -223,7 +223,7 @@ That's a bit complicated, so let's work through it step by step. At a high-level
   {{> assets/rnn_adaptive_02_1.svg}}
 </figure>
 
-The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.
+The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives a halting weight, which we can think of as the probability that we should stop at that step.
 
 <figure class="w-body-plus">
   {{> assets/rnn_adaptive_02_2.svg}}
@@ -336,8 +336,8 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
   <h3>Acknowledgments</h3>
   <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement. We're also very grateful to our team, <a href="http://g.co/brain">Google Brain</a>, for being extremely supportive of our project.
   <h3 id="citation">Errors, Reuse, and Citation</h3>
-  <p>If you see mistakes or want to suggest changes, please submit a pull request on <a href="{{{typewriter.github}}}">github</a>.
-  <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>, unless noted otherwise, with the source available on available on <a href="{{{typewriter.github}}}">github</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from …".
+  <p>If you see mistakes or want to suggest changes, please submit a pull request on <a href="{{{typewriter.github}}}">GitHub</a>.
+  <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>, unless noted otherwise, with the source available on available on <a href="{{{typewriter.github}}}">GitHub</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from …".
   <p>For attribution in academic contexts, please cite this work as
   <pre class="citation">Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</pre>
   <p>BibTeX citation
