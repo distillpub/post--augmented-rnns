@@ -1,6 +1,6 @@
 <script src="assets/d3.min.js"></script>
-<h1>{{ typewriter.title }}</h1>
-<!--<div class="description">{{ typewriter.description }}</div>-->
+<h1>{{ distill.title }}</h1>
+<!--<div class="description">{{ distill.description }}</div>-->
 {{> byline.html}}
 
 Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!
@@ -336,17 +336,17 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
   <h3>Acknowledgments</h3>
   <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement. We're also very grateful to our team, <a href="http://g.co/brain">Google Brain</a>, for being extremely supportive of our project.
   <h3 id="citation">Errors, Reuse, and Citation</h3>
-  <p>If you see mistakes or want to suggest changes, please submit a pull request on <a href="{{{typewriter.github}}}">github</a>.
-  <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>, unless noted otherwise, with the source available on available on <a href="{{{typewriter.github}}}">github</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from …".
+  <p>If you see mistakes or want to suggest changes, please submit a pull request on <a href="{{{distill.github}}}">github</a>.
+  <p>Diagrams and text are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>, unless noted otherwise, with the source available on available on <a href="{{{distill.github}}}">github</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from …".
   <p>For attribution in academic contexts, please cite this work as
-  <pre class="citation">Chris Olah & Shan Carter, "{{typewriter.title}}", Distill, {{typewriter.firstPublishedYear}}.</pre>
+  <pre class="citation">Chris Olah & Shan Carter, "{{distill.title}}", Distill, {{distill.firstPublishedYear}}.</pre>
   <p>BibTeX citation
   {{=<% %>=}}
-<pre class="citation">@misc{<%typewriter.slug%>,
-  author = {<%typewriter.bibtexAuthors%>},
-  title = {<%typewriter.title%>},
-  year = {<%typewriter.firstPublishedYear%>},
-  howpublished = {<%typewriter.url%>}
+<pre class="citation">@misc{<%distill.slug%>,
+  author = {<%distill.bibtexAuthors%>},
+  title = {<%distill.title%>},
+  year = {<%distill.firstPublishedYear%>},
+  howpublished = {<%distill.url%>}
 }</pre>
 
   <%={{ }}=%>
