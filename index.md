@@ -332,7 +332,7 @@ Augmented recurrent neural networks, and the underlying technique of attention, 
 [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
 <!-- Appendix -->
-<section class="appendix w-body">
+<section class="appendix">
   <h3>Acknowledgments</h3>
   <p>Thank you to Maithra Raghu, Dario Amodei, Cassandra Xia, Luke Vilnis, Anna Goldie, Jesse Engel, Dan Mané, Natasha Jaques, Emma Pierson and Ian Goodfellow for their feedback and encouragement. We're also very grateful to our team, <a href="http://g.co/brain">Google Brain</a>, for being extremely supportive of our project.
   <h3 id="citation">Errors, Reuse, and Citation</h3>
