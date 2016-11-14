@@ -205,7 +205,7 @@ Attentional interfaces have been found to be an extremely general and powerful t
 
 Adaptive Computation Time ([Graves, 2016]), is a way for RNNs to do different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.
 
-In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have a attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
+In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have an attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.
 
 <figure class="w-page">
   {{> assets/rnn_adaptive_01.svg}}
