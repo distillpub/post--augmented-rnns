@@ -291,7 +291,7 @@ We think that this general space, of bridging the gap between more traditional p
 
 ### Code
 
-There don't seem to be any open source implementations of the Neural Programmer at present, but there is an implementation of the Neural Programmer-Interpreter by [Ken Morishita](https://github.com/mokemokechicken/keras_npi) (Keras).
+The more recent version of Neural Programmer for [question answering](https://openreview.net/pdf?id=ry2YOrcge) has been open sourced by its authors and is available as a [TensorFlow Model](https://github.com/tensorflow/models/tree/master/neural_programmer). There is also an implementation of the Neural Programmer-Interpreter by [Ken Morishita](https://github.com/mokemokechicken/keras_npi) (Keras).
 
 ---
 
