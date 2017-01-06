@@ -1,13 +1,9 @@
 {
-  "main": "index.md",
+  "main": "index.html",
   "name": "augmented-rnns",
   "distill": {
     "title": "Attention and Augmented Recurrent Neural Networks",
     "description": "A visual overview of neural attention, and the powerful extensions of neural networks being built on top of it.",
-    "url": "http://distill.pub/2016/augmented-rnns/",
-    "github": "https://github.com/distillpub/post--augmented-rnns",
-    "firstPublished": "Thu Sep 08 2016 10:27:05 GMT-0700 (PDT)",
-    "lastPublished": "Thu Sep 08 2016 10:27:05 GMT-0700 (PDT)",
     "authors": [
       {
         "firstName": "Chris",

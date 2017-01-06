@@ -1,6 +1,19 @@
 
 <figure id="attentional-ex2" class="w-page">
-  <div id="attentional-ex2-data" style="display: none;">{{> assets/rnn_attentional_ex2.csv}}</div>
+  <pre id="attentional-ex2-data" style="display: none;">0.50, 0.02, 0.04, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.01, 0.00, 0.00, 0.00, 0.05, 0.05
+0.14, 0.89, 0.07, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.06, 0.00, 0.00, 0.00, 0.02, 0.00
+0.02, 0.00, 0.56, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.02, 0.00
+0.00, 0.00, 0.01, 0.61, 0.02, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00
+0.00, 0.00, 0.02, 0.03, 0.01, 0.21, 0.97, 0.05, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00
+0.00, 0.00, 0.02, 0.07, 0.25, 0.76, 0.02, 0.04, 0.00, 0.00, 0.00, 0.00, 0.00, 0.02, 0.00
+0.02, 0.04, 0.03, 0.27, 0.71, 0.02, 0.00, 0.02, 0.00, 0.00, 0.02, 0.00, 0.00, 0.05, 0.01
+0.02, 0.00, 0.07, 0.00, 0.00, 0.00, 0.00, 0.60, 0.40, 0.01, 0.04, 0.00, 0.00, 0.13, 0.01
+0.13, 0.02, 0.02, 0.00, 0.01, 0.00, 0.00, 0.23, 0.52, 0.91, 0.07, 0.00, 0.00, 0.10, 0.00
+0.04, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.01, 0.03, 0.00, 0.67, 0.00, 0.00, 0.16, 0.02
+0.02, 0.00, 0.04, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.14, 0.96, 0.00, 0.02, 0.07
+0.02, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.02, 0.02, 1.00, 0.02, 0.03
+0.02, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.01, 0.00, 0.00, 0.32, 0.11
+0.04, 0.00, 0.08, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.04, 0.67</pre>
   <svg>
     <defs>
       <marker id="edgeArrowhead" viewBox="0 -5 10 10" markerWidth="6" markerHeight="10" orient="auto" refX="5" refY="0">
@@ -137,14 +150,14 @@ var labelsB = [
 ];
 
 var data = d3.csvParseRows(d3.select("#attentional-ex2-data").text());
-
+// console.log(data)
 var linkData = [];
 data.forEach(function(a, ai) {
   a.forEach(function(b, bi) {
     linkData.push({
-      ai: ai,
-      bi: bi,
-      v: data[ai][bi]
+      ai: +ai,
+      bi: +bi,
+      v: +data[ai][bi]
     });
   });
 });
@@ -176,10 +189,13 @@ var networkHeightA = nodeSizeA + nodeMargin * 2;
 var networkHeightB = nodeSizeB + nodeMargin * 2;
 
 var link = function(d) {
-  return "M" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + nodeMargin)
+  // console.log(nodeSizeB, nodeSizeA, nodeMargin, d.bi, xb(d.bi))
+  var p = "M" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + nodeMargin)
       + "C" + (xb(d.bi) + nodeSizeB / 2) + "," + (nodeSizeB + networkMargin / 3 + nodeMargin)
       + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin - networkMargin / 3 + nodeMargin)
       + " " + (xa(d.ai) + nodeSizeA / 2) + "," + (networkMargin + nodeMargin);
+  // console.log(p);
+  return p;
 };
 
 html.select("svg .labels")
