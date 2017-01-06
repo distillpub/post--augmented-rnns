@@ -1,6 +1,6 @@
 <!doctype html>
 <meta charset="utf-8">
-<script src="http://distill.pub/components.js"></script>
+<script src="http://distill.pub/template.min.js"></script>
 <script src="assets/d3.min.js"></script>
 <dt-header></dt-header>
 
@@ -70,7 +70,7 @@
 }
 </style>
 
-<dt-post markdown>
+<dt-article markdown>
   # Attention and Augmented Recurrent Neural Networks
 
   <dt-byline></dt-byline>
@@ -85,7 +85,7 @@
 
   As this has happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions stand out as particularly exciting:
 
-  <figure class="w-body-plus" id="previews">
+  <figure class="l-middle" id="previews">
     <a href="#neural-turing-machines">
       <img src="assets/rnn_preview_ntm.svg">
       <figcaption><b><span>Neural Turing</span> Machines</b> have external memory that they can read and write to.</figcaption>
@@ -211,7 +211,7 @@
 
   This capability to read and write allows NTMs to perform many simple algorithms, previously beyond neural networks. For example, they can learn to store a long sequence in memory, and then loop over it, repeating it back repeatedly. As they do this, we can watch where they read and write, to better understand what they're doing:
 
-  <figure class="p-right-margin external">
+  <figure class="l-page side">
     <img src="assets/NTM-Copy-ReadWrite.svg"></img>
     <figcaption style="bottom: 0px;">See more experiments in [Graves, *et al.*, 2014]. This figure is based on the Repeat Copy experiment.</figcaption>
   </figure>
@@ -259,7 +259,7 @@
 
   Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:
 
-  <figure class="w-body-plus external">
+  <figure class="l-middle external">
     <img src="assets/show-attend-tell.png">
     <figcaption style="bottom: 0px;">Figure from [Xu, *et al.*, 2015]</figcaption>
   </figure>
@@ -402,7 +402,7 @@
   [Xu, *et al.*, 2015]: https://arxiv.org/pdf/1502.03044.pdf
   [Zaremba & Sutskever, 2016]: http://arxiv.org/pdf/1505.00521.pdf
 
-</dt-post>
+</dt-article>
 
 <!-- Appendix -->
 <dt-appendix>
