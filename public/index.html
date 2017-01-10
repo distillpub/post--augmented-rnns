@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
 <script src="assets/d3.min.js"></script>
-
+<script src="http://distill.pub/template.js"></script>
 <script type="text/front-matter">
   title: Attention and Augmented Recurrent Neural Networks
   description: A visual overview of neural attention, and the powerful extensions of neural networks being built on top of it.
@@ -325,7 +325,7 @@
 
   <h2>Neural Turing Machines</h2>
 
-  <p>Neural Turing Machines (<dt-cite key="graves2014neural"></dt-cite>) combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:</p>
+  <p>Neural Turing Machines <dt-cite key="graves2014neural"></dt-cite> combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:</p>
 
   <p></p><figure class="l-body-plus" id="rnn-memory">
     <dt-include src="assets/rnn_memory.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 312">
@@ -1687,7 +1687,7 @@ redraw();
 
   <p>They can also learn to mimic a lookup table, or even learn to sort numbers (although they kind of cheat)! On the other hand, they still can’t do many basic things, like add or multiply numbers.</p>
 
-  <p>Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU (<dt-cite key="kaiser2015neural"></dt-cite>) overcomes the NTM's inability to add and multiply numbers.  <dt-cite key="zaremba2015reinforcement"></dt-cite> train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines (<dt-cite key="kurach2015neural"></dt-cite>) work based on pointers. Some papers have explored differentiable data structures, like stacks and queues (<dt-cite key="grefenstette2015learning,joulin2015inferring"></dt-cite>). And memory networks (<dt-cite key="weston2014memory,kumar2015ask"></dt-cite>) are another approach to attacking similar problems.</p>
+  <p>Since the original NTM paper, there's been a number of exciting papers exploring similar directions. The Neural GPU <dt-cite key="kaiser2015neural"></dt-cite> overcomes the NTM's inability to add and multiply numbers.  <dt-cite key="zaremba2015reinforcement"></dt-cite> train NTMs using reinforcement learning instead of the differentiable read/writes used by the original. Neural Random Access Machines <dt-cite key="kurach2015neural"></dt-cite> work based on pointers. Some papers have explored differentiable data structures, like stacks and queues <dt-cite key="grefenstette2015learning,joulin2015inferring"></dt-cite>. And memory networks <dt-cite key="weston2014memory,kumar2015ask"></dt-cite> are another approach to attacking similar problems.</p>
 
   <p>In some objective sense, many of the tasks these models can perform -- such as learning how to add numbers -- aren't that objectively hard. The traditional program synthesis community would eat them for lunch. But neural networks are capable of many other things, and models like the Neural Turing Machine seem to have knocked away a very profound limit on their abilities.</p>
 
@@ -2395,7 +2395,7 @@ redraw();
 </dt-include>
   </figure><p></p>
 
-  <p>One use of attention between RNNs is translation (<dt-cite key="bahdanau2014neural"></dt-cite>). A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.</p>
+  <p>One use of attention between RNNs is translation <dt-cite key="bahdanau2014neural"></dt-cite>. A traditional sequence-to-sequence model has to boil the entire input down into a single vector and then expands it back out. Attention avoids this by allowing the RNN processing the input to pass along information about each word it sees, and then for the RNN generating the output to focus on words as they become relevant.</p>
 
   <p><dt-include src="assets/rnn_attentional_ex2.html">
 <figure id="attentional-ex2" class="l-page">
@@ -2775,7 +2775,7 @@ var link = linkGroup.selectAll(".link")
 })();</script>
 </dt-include></p>
 
-  <p>This kind of attention between RNNs has a number of other applications. It can be used in voice recognition (<dt-cite key="chan2015listen"></dt-cite>), allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript.</p>
+  <p>This kind of attention between RNNs has a number of other applications. It can be used in voice recognition <dt-cite key="chan2015listen"></dt-cite>, allowing one RNN process the audio and then have another RNN skim over it, focusing on relevant parts as it generates a transcript.</p>
 
   <p><dt-include src="assets/rnn_attentional_ex3.html">
 <figure id="attentional-ex3" class="l-page">
@@ -3177,7 +3177,7 @@ audio.selectAll(".segment")
 </script>
 </dt-include></p>
 
-  <p>Other uses of this kind of attention include parsing text (<dt-cite key="vinyals2015grammar"></dt-cite>), where it allows the model to glance at words as it generates the parse tree, and for conversational modeling (<dt-cite key="vinyals2015neural"></dt-cite>), where it lets the model focus on previous parts of the conversation as it generates its response.</p>
+  <p>Other uses of this kind of attention include parsing text <dt-cite key="vinyals2015grammar"></dt-cite>, where it allows the model to glance at words as it generates the parse tree, and for conversational modeling <dt-cite key="vinyals2015neural"></dt-cite>, where it lets the model focus on previous parts of the conversation as it generates its response.</p>
 
   <p>Attention can also be used on the interface between a convolutional neural network and an RNN. This allows the RNN to look at different position of an image every step. One popular use of this kind of attention is for image captioning. First, a conv net processes the image, extracting high-level features. Then an RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv nets interpretation of the relevant parts of the image. We can explicitly visualize this:</p>
 
@@ -3196,7 +3196,7 @@ audio.selectAll(".segment")
 
   <p class="equation-mimic">Standard RNNs do the same amount of computation each time step. This seems unintuitive. Surely, one should think more when things are hard? It also limits RNNs to doing <span class="equation-mimic">O(n)</span> operations for a list of length <span class="equation-mimic">n</span>.</p>
 
-  <p>Adaptive Computation Time (<dt-cite key="graves2016adaptive"></dt-cite>), is a way for RNNs to do different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.</p>
+  <p>Adaptive Computation Time <dt-cite key="graves2016adaptive"></dt-cite>, is a way for RNNs to do different amounts of computation each step. The big picture idea is simple: allow the RNN to do multiple steps of computation for each time step.</p>
 
   <p>In order for the network to learn how many steps to do, we want the number of steps to be differentiable. We achieve this with the same trick we used before: instead of deciding to run for a discrete number of steps, we have an attention distribution over the number of steps to run. The output is a weighted combination of the outputs of each step.</p>
 
@@ -4666,7 +4666,7 @@ audio.selectAll(".segment")
 
   <p>Neural nets are excellent at many tasks, but they also struggle to do some basic things like arithmetic, which are trivial in normal approaches to computing. It would be really nice to have a way to fuse neural nets with normal programming, and get the best of both worlds.</p>
 
-  <p>The neural programmer (<dt-cite key="neelakantan2015neural"></dt-cite>) is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs <em>without needing examples of correct programs</em>. It discovers how to produce programs as a means to the end of accomplishing some task.</p>
+  <p>The neural programmer <dt-cite key="neelakantan2015neural"></dt-cite> is one approach to this. It learns to create programs in order to solve a task. In fact, it learns to generate such programs <em>without needing examples of correct programs</em>. It discovers how to produce programs as a means to the end of accomplishing some task.</p>
 
   <p>The actual model in the paper answers questions about tables by generating SQL-like programs to query the table. However, there are a number of details here that make it a bit complicated, so let's start by imagining a slightly simpler model, which is given an arithmetic expression and generates a program to evaluate it.</p>
 
@@ -5223,10 +5223,10 @@ audio.selectAll(".segment")
 
   <ul>
   <li><p><strong>Multiple Types:</strong> Many of the operations in the Neural Programmer deal with types other than scalar numbers. Some operations output selections of table columns or selections of cells. <!-- footnote? (To allow us to backprop through the selecting things and average selections, we allow things to be selected to different extents, with 0 as unselected and 1 as fully selected.) --> Only outputs of the same type get merged together.</p></li>
-  <li><p><strong>Referencing Inputs:</strong> The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks (<dt-cite key="vinyals2015pointer"></dt-cite>). <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. --></p></li>
+  <li><p><strong>Referencing Inputs:</strong> The neural programmer needs to answer questions like "How many cities have a population greater than 1,000,000?" given a table of cities with a population column. To facilitate this, some operations allow the network to reference constants in the question they're answering, or the names of columns. This referencing happens by attention, in the style of pointer networks <dt-cite key="vinyals2015pointer"></dt-cite>. <!-- For example, in order to use the *Greater* operation, the controller must select a value that table entries are greater than; instead of using a previous scalar value it's computed, it has the controller select a value in the question using attention. --></p></li>
   </ul>
 
-  <p>The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter (<dt-cite key="reed2015neural"></dt-cite>) which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.</p>
+  <p>The Neural Programmer isn't the only approach to having neural networks generate programs. Another lovely approach is the Neural Programmer-Interpreter <dt-cite key="reed2015neural"></dt-cite> which can accomplish a number of very interesting tasks, but requires supervision in the form of correct programs.</p>
 
   <p>We think that this general space, of bridging the gap between more traditional programming and neural networks is extremely important. While the Neural Programmer is clearly not the final solution, we think there are a lot of important lessons to be learned from it.</p>
 
@@ -5242,7 +5242,7 @@ audio.selectAll(".segment")
 
   <p>In general, it seems like a lot of interesting forms of intelligence are an interaction between the creative heuristic intuition of humans and some more crisp and careful media, like language or equations. Sometimes, the medium is something that physically exists, and stores information for us, prevents us from making mistakes, or does computational heavy lifting. In other cases, the medium is a model in our head that we manipulate. Either way, it seems deeply fundamental to intelligence.</p>
 
-  <p>Recent results in machine learning have started to have this flavor, combining the intuition of neural networks with something else. One approach is what one might call "heuristic search." For example, AlphaGo (<dt-cite key="silver2016mastering"></dt-cite>) has a model of how Go works and explores how the game could play out guided by neural network intuition. Similarly, DeepMath (<dt-cite key="alemi2016deepmath"></dt-cite>) uses neural networks as intuition for manipulating mathematical expressions. The "augmented RNNs" we've talked about in this article are another approach, where we connect RNNs to engineered media, in order to extend their general capabilities.</p>
+  <p>Recent results in machine learning have started to have this flavor, combining the intuition of neural networks with something else. One approach is what one might call "heuristic search." For example, AlphaGo <dt-cite key="silver2016mastering"></dt-cite> has a model of how Go works and explores how the game could play out guided by neural network intuition. Similarly, DeepMath <dt-cite key="alemi2016deepmath"></dt-cite> uses neural networks as intuition for manipulating mathematical expressions. The "augmented RNNs" we've talked about in this article are another approach, where we connect RNNs to engineered media, in order to extend their general capabilities.</p>
 
   <p>Interacting with media naturally involves making a sequence of taking an action, observing, and taking more actions. This creates a major challenge: how do we learn which actions to take? That sounds like a reinforcement learning problem and we could certainly take that approach. But the reinforcement learning literature is really attacking the hardest version of this problem, and its solutions are hard to use. The wonderful thing about attention is that it gives us an easier way out of this problem by partially taking all actions to varying extents. This works because we can design media -- like the NTM memory -- to allow fractional actions and to be differentiable. Reinforcement learning has us take a single path, and try to learn from that. Attention takes every direction at a fork, and then merges the paths back together.</p>
 
@@ -5352,7 +5352,7 @@ audio.selectAll(".segment")
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
-@incollection{cortes2015learning,
+@incollection{grefenstette2015learning,
   title = {Learning to Transduce with Unbounded Memory},
   author = {Grefenstette, Edward and Hermann, Karl Moritz and Suleyman, Mustafa and Blunsom, Phil},
   booktitle = {Advances in Neural Information Processing Systems 28},
@@ -5363,7 +5363,7 @@ audio.selectAll(".segment")
   url = {http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf}
 }
 
-@incollection{cortes2015inferring,
+@incollection{joulin2015inferring,
   title = {Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets},
   author = {Joulin, Armand and Mikolov, Tomas},
   booktitle = {Advances in Neural Information Processing Systems 28},
