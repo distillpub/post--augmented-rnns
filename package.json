@@ -2,6 +2,7 @@
   "main": "index.html",
   "name": "augmented-rnns",
   "dependencies": {
-    "d3": "^4.2.2"
+    "d3": "^4.2.2",
+    "jsdom": "^9.9.1"
   }
 }
