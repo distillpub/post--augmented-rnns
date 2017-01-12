@@ -327,7 +327,7 @@
 
   <p>Neural Turing Machines <dt-cite key="graves2014neural"></dt-cite> combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:</p>
 
-  <p></p><figure class="l-body-plus" id="rnn-memory">
+  <p></p><figure class="w-body-plus" id="rnn-memory">
     <dt-include src="assets/rnn_memory.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 312">
   <defs>
     <symbol id="array-small" data-name="array-small" viewBox="0 0 152.83 31.66">
@@ -657,7 +657,7 @@
 
   <p>As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.</p>
 
-  <p></p><figure class="l-body-plus" id="rnn-read">
+  <p></p><figure class="w-body-plus" id="rnn-read">
     <dt-include src="assets/rnn_read.svg"><svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 252">
   <defs>
     <symbol id="array-7" data-name="array-7" viewBox="0 0 253.5 37.5">
@@ -771,7 +771,7 @@
 
   <p>Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.</p>
 
-  <p></p><figure class="l-body-plus" id="rnn-write">
+  <p></p><figure class="w-body-plus" id="rnn-write">
     <dt-include src="assets/rnn_write.svg"><svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 300">
   <defs>
     <symbol id="array-1" data-name="array-1" viewBox="0 0 37.5 37.5">
@@ -3500,7 +3500,7 @@ audio.selectAll(".segment")
 
   <p>There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.</p>
 
-  <p></p><figure class="l-body-plus">
+  <p></p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 270">
   <defs>
     <symbol id="op-halo" data-name="op-halo" viewBox="0 0 31.45 31.45">
@@ -3793,7 +3793,7 @@ audio.selectAll(".segment")
 
   <p>That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:</p>
 
-  <p></p><figure class="l-body-plus">
+  <p></p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_1.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 270">
   <defs>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
@@ -4026,7 +4026,7 @@ audio.selectAll(".segment")
 
   <p>The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.</p>
 
-  <p></p><figure class="l-body-plus">
+  <p></p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_2.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 264">
   <defs>
     <symbol id="op-halo" data-name="op-halo" viewBox="0 0 31.45 31.45">
@@ -4232,7 +4232,7 @@ audio.selectAll(".segment")
 
   <p>We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.</p>
 
-  <p></p><figure class="l-body-plus">
+  <p></p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_3.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 276">
   <defs>
     <symbol id="op-bg" data-name="op-bg" viewBox="0 0 24 24">
@@ -4465,7 +4465,7 @@ audio.selectAll(".segment")
 
   <p>When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it's being given to future steps but we don't want to compute those, so we attribute it to the last step.</p>
 
-  <p></p><figure class="l-body-plus">
+  <p></p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_4.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 270">
   <defs>
     <symbol id="op-halo" data-name="op-halo" viewBox="0 0 31.45 31.45">

@@ -189,7 +189,7 @@
 
   <p>Neural Turing Machines <dt-cite key="graves2014neural"></dt-cite> combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:</p>
 
-  <p><figure class="l-body-plus"  id="rnn-memory">
+  <p><figure class="w-body-plus"  id="rnn-memory">
     <dt-include src="assets/rnn_memory.svg"></dt-include>
   </figure></p>
 
@@ -197,13 +197,13 @@
 
   <p>As an example, let’s focus on reading. Instead of specifying a single location, the RNN gives “attention distribution” which describe how we spread out the amount we care about different memory positions. As such, the result of the read operation is a weighted sum.</p>
 
-  <p><figure class="l-body-plus" id="rnn-read">
+  <p><figure class="w-body-plus" id="rnn-read">
     <dt-include src="assets/rnn_read.svg"></dt-include>
   </figure></p>
 
   <p>Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.</p>
 
-  <p><figure class="l-body-plus" id="rnn-write">
+  <p><figure class="w-body-plus" id="rnn-write">
     <dt-include src="assets/rnn_write.svg"></dt-include>
   </figure></p>
 
@@ -291,31 +291,31 @@
 
   <p>There are a few more details, which were left out in the previous diagram. Here's a complete diagram of a time step with three computation steps.</p>
 
-  <p><figure class="l-body-plus">
+  <p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02.svg"></dt-include>
   </figure></p>
 
   <p>That's a bit complicated, so let's work through it step by step. At a high-level, we're still running the RNN and outputting a weighted combination of the states:</p>
 
-  <p><figure class="l-body-plus">
+  <p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_1.svg"></dt-include>
   </figure></p>
 
   <p>The weight for each step is determined by a "halting neuron". It's a sigmoid neuron that looks at the RNN state and gives an halting weight, which we can think of as the probability that we should stop at that step.</p>
 
-  <p><figure class="l-body-plus">
+  <p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_2.svg"></dt-include>
   </figure></p>
 
   <p>We have a total budget for the halting weights of 1, so we track that budget along the top. When it gets to less than epsilon, we stop.</p>
 
-  <p><figure class="l-body-plus">
+  <p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_3.svg"></dt-include>
   </figure></p>
 
   <p>When we stop, might have some left over halting budget because we stop when it gets to less than epsilon. What should we do with it? Technically, it's being given to future steps but we don't want to compute those, so we attribute it to the last step.</p>
 
-  <p><figure class="l-body-plus">
+  <p><figure class="w-body-plus">
     <dt-include src="assets/rnn_adaptive_02_4.svg"></dt-include>
   </figure></p>
 
