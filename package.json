@@ -4,5 +4,8 @@
   "dependencies": {
     "d3": "^4.2.2",
     "jsdom": "^9.9.1"
+  },
+  "scripts": {
+    "build": "node bin/include.js > public/index.html"
   }
 }
