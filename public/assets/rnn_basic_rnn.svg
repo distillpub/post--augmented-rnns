@@ -120,7 +120,7 @@
     <path d="M402.67,66.43A27.2,27.2,0,0,0,395,70.71l1.55-4.28L395,62.15A27.18,27.18,0,0,0,402.67,66.43Z" fill="#666"/>
   </g>
   <text transform="translate(544.8 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">x4</text>
-  <text transform="translate(568.8 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">x4</text>
+  <text transform="translate(568.8 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">y4</text>
   <g opacity="0.6">
     <text transform="translate(547.02 17.93)" font-size="13" font-family="Open Sans">again.</text>
   </g>
