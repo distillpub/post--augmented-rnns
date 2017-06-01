@@ -135,7 +135,7 @@
     <use id="op-3-9" data-name="op-3" width="50.5" height="27.5" transform="translate(408 20)" xlink:href="#op-3"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(493 155.88)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
+    <text transform="translate(493 155.88)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution.</tspan></text>
   </g>
   <g>
     <line x1="36" y1="152" x2="36" y2="127.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>

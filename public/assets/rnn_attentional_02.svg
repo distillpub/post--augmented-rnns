@@ -104,7 +104,7 @@
     <use width="49.5" height="49.5" transform="translate(300.25 370.25)" xlink:href="#rnn-a"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(5.28 30.88)" font-size="13" font-family="Open Sans">The attending RNN generates a <tspan x="-0.07" y="20">query describing what it wants </tspan><tspan x="-0.13" y="40">to focus on</tspan></text>
+    <text transform="translate(5.28 30.88)" font-size="13" font-family="Open Sans">The attending RNN generates a <tspan x="-0.07" y="20">query describing what it wants </tspan><tspan x="-0.13" y="40">to focus on.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(394 228.88)" font-size="13" font-family="Open Sans">Each item is dot producted with the <tspan x="0" y="20">query to produce a score, describing </tspan><tspan x="0" y="40">how well it matches the query. The </tspan><tspan x="0" y="60">scores are fed into a softmax to </tspan><tspan x="0" y="80">create the attention distribution.</tspan></text>

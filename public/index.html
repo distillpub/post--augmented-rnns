@@ -208,7 +208,7 @@
     <path d="M402.67,66.43A27.2,27.2,0,0,0,395,70.71l1.55-4.28L395,62.15A27.18,27.18,0,0,0,402.67,66.43Z" fill="#666"></path>
   </g>
   <text transform="translate(544.8 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">x4</text>
-  <text transform="translate(568.8 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">y4</text>
+  <text transform="translate(568.93 129.93)" opacity="0.6" font-size="13" font-family="Open Sans">y4</text>
   <g opacity="0.6">
     <text transform="translate(547.02 17.93)" font-size="13" font-family="Open Sans">again.</text>
   </g>
@@ -328,7 +328,7 @@
   <p>Neural Turing Machines <dt-cite key="graves2014neural"></dt-cite> combine a RNN with an external memory bank. Since vectors are the natural language of neural networks, the memory is an array of vectors:</p>
 
   <p></p><figure class="l-body-outset" id="rnn-memory">
-    <dt-include src="assets/rnn_memory.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="744" height="312" viewBox="0 0 744 312">
+    <dt-include src="assets/rnn_memory.svg"><svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 312">
   <defs>
     <symbol id="array-small" data-name="array-small" viewBox="0 0 152.83 31.66">
       <rect x="0.75" y="0.75" width="151.33" height="30.16" rx="6" ry="6" fill="#e5daf2" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></rect>
@@ -556,10 +556,10 @@
     <use width="49.5" height="49.5" transform="translate(59.89 203.25)" xlink:href="#rnn-a"></use>
   </g>
   <g opacity="0.6">
-    <text transform="translate(0 22)" font-size="13" font-family="Open Sans">Memory is an array of vectors</text>
+    <text transform="translate(0 22)" font-size="13" font-family="Open Sans">Memory is an array of vectors.</text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(0.16 104.14)" font-size="13" font-family="Open Sans">Network A <tspan x="0" y="20">writes and reads </tspan><tspan x="0" y="40">from this memory </tspan><tspan x="0" y="60">each step</tspan></text>
+    <text transform="translate(0.16 104.14)" font-size="13" font-family="Open Sans">Network A <tspan x="0" y="20">writes and reads </tspan><tspan x="0" y="40">from this memory </tspan><tspan x="0" y="60">each step.</tspan></text>
   </g>
   <g>
     <line x1="106.89" y1="228" x2="240.21" y2="228" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
@@ -743,7 +743,7 @@
   </g>
   <use id="pointer-3" data-name="pointer" width="26.87" height="26.87" transform="translate(9.84 15.06)" xlink:href="#pointer"></use>
   <g opacity="0.6">
-    <text transform="translate(440 33.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution <tspan x="0" y="20">which describe how we spread out the </tspan><tspan x="0" y="40">amount we care about different memory </tspan><tspan x="0" y="60">positions</tspan></text>
+    <text transform="translate(440 33.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution <tspan x="0" y="20">which describe how we spread out the </tspan><tspan x="0" y="40">amount we care about different memory </tspan><tspan x="0" y="60">positions.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(440 172.81)" font-size="13" font-family="Open Sans">The read result is a weighted sum.</text>
@@ -772,7 +772,7 @@
   <p>Similarly, we write everywhere at once to different extents. Again, an attention distribution describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight.</p>
 
   <p></p><figure class="l-body-outset" id="rnn-write">
-    <dt-include src="assets/rnn_write.svg"><svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="744" height="300" viewBox="0 0 744 300">
+    <dt-include src="assets/rnn_write.svg"><svg id="edges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744 300">
   <defs>
     <symbol id="array-1" data-name="array-1" viewBox="0 0 37.5 37.5">
       <rect x="0.75" y="0.75" width="36" height="36" rx="6" ry="6" fill="#fff" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.5"></rect>
@@ -1393,7 +1393,7 @@
     <text transform="translate(77.83 352.88)" font-size="13" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="20">attention from the previous </tspan><tspan x="0" y="40">time step. </tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(77.83 465.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter — this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
+    <text transform="translate(77.83 465.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter—this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(77.83 598.88)" font-size="13" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="20">attention distribution. This </tspan><tspan x="0" y="40">final attention distribution is </tspan><tspan x="0" y="60">fed to the read or write </tspan><tspan x="0" y="80">operation.</tspan></text>
@@ -2187,7 +2187,7 @@ redraw();
     <use width="49.5" height="49.5" transform="translate(300.25 370.25)" xlink:href="#rnn-a"></use>
   </g>
   <g opacity="0.6">
-    <text transform="translate(5.28 30.88)" font-size="13" font-family="Open Sans">The attending RNN generates a <tspan x="-0.07" y="20">query describing what it wants </tspan><tspan x="-0.13" y="40">to focus on</tspan></text>
+    <text transform="translate(5.28 30.88)" font-size="13" font-family="Open Sans">The attending RNN generates a <tspan x="-0.07" y="20">query describing what it wants </tspan><tspan x="-0.13" y="40">to focus on.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(394 228.88)" font-size="13" font-family="Open Sans">Each item is dot producted with the <tspan x="0" y="20">query to produce a score, describing </tspan><tspan x="0" y="40">how well it matches the query. The </tspan><tspan x="0" y="60">scores are fed into a softmax to </tspan><tspan x="0" y="80">create the attention distribution.</tspan></text>
@@ -3267,10 +3267,10 @@ audio.selectAll(".segment")
     <text transform="translate(60 22.88)" font-size="13" font-family="Open Sans">For every time step the RNN can <tspan x="0" y="20">do multiple computation steps.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(330.67 22.88)" font-size="13" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="20">of the computation step outputs</tspan></text>
+    <text transform="translate(330.67 22.88)" font-size="13" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="20">of the computation step outputs.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(634.67 22.88)" font-size="13" font-family="Open Sans">The process is repeated for <tspan x="0" y="20">each time step</tspan></text>
+    <text transform="translate(634.67 22.88)" font-size="13" font-family="Open Sans">The process is repeated for <tspan x="0" y="20">each time step.</tspan></text>
   </g>
   <g id="_Group_3" data-name="<Group>">
     <rect x="463" y="70" width="275.67" height="156" rx="10" ry="10" fill="#f0f0f5"></rect>
@@ -3462,7 +3462,7 @@ audio.selectAll(".segment")
     <use width="24" height="24" transform="translate(371.75 82.39)" xlink:href="#op-sum"></use>
   </g>
   <g opacity="0.6">
-    <text transform="translate(61 258.14)" font-size="13" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="20">the first computation step</tspan></text>
+    <text transform="translate(61 258.14)" font-size="13" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="20">the first computation step.</tspan></text>
   </g>
   <g opacity="0.6">
     <g>
@@ -4900,7 +4900,7 @@ audio.selectAll(".segment")
     <use id="op-3-9" data-name="op-3" width="50.5" height="27.5" transform="translate(408 20)" xlink:href="#op-3"></use>
   </g>
   <g opacity="0.6">
-    <text transform="translate(493 155.88)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
+    <text transform="translate(493 155.88)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution.</tspan></text>
   </g>
   <g>
     <line x1="36" y1="152" x2="36" y2="127.43" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>
@@ -5180,10 +5180,10 @@ audio.selectAll(".segment")
     <use width="50.5" height="27.5" transform="translate(408 40)" xlink:href="#op-3"></use>
   </g>
   <g opacity="0.6">
-    <text transform="translate(493 -84.12)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution</tspan></text>
+    <text transform="translate(493 -84.12)" font-size="13" font-family="Open Sans">At each step the <tspan x="0" y="20">controller RNN outputs a </tspan><tspan x="0" y="40">probability distribution.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(495 181.88)" font-size="13" font-family="Open Sans">We run all of the <tspan x="0" y="20">operations and average </tspan><tspan x="0" y="40">the outputs together</tspan></text>
+    <text transform="translate(495 181.88)" font-size="13" font-family="Open Sans">We run all of the <tspan x="0" y="20">operations and average </tspan><tspan x="0" y="40">the outputs together.</tspan></text>
   </g>
   <g>
     <line x1="60" y1="202.5" x2="132.57" y2="202.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"></line>

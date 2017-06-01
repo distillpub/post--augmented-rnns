@@ -273,7 +273,7 @@
     <text transform="translate(77.83 352.88)" font-size="13" font-family="Open Sans">Next, we interpolate the <tspan x="0" y="20">attention from the previous </tspan><tspan x="0" y="40">time step. </tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(77.83 465.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter — this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
+    <text transform="translate(77.83 465.88)" font-size="13" font-family="Open Sans">We convolve the attention with <tspan x="0" y="20">a shift filter—this allows the </tspan><tspan x="0" y="40">controller to move its focus.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(77.83 598.88)" font-size="13" font-family="Open Sans">Finally, we sharpen the <tspan x="0" y="20">attention distribution. This </tspan><tspan x="0" y="40">final attention distribution is </tspan><tspan x="0" y="60">fed to the read or write </tspan><tspan x="0" y="80">operation.</tspan></text>

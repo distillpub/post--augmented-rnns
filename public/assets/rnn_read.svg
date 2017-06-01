@@ -83,7 +83,7 @@
   </g>
   <use id="pointer-3" data-name="pointer" width="26.87" height="26.87" transform="translate(9.84 15.06)" xlink:href="#pointer"/>
   <g opacity="0.6">
-    <text transform="translate(440 33.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution <tspan x="0" y="20">which describe how we spread out the </tspan><tspan x="0" y="40">amount we care about different memory </tspan><tspan x="0" y="60">positions</tspan></text>
+    <text transform="translate(440 33.88)" font-size="13" font-family="Open Sans">The RNN gives an attention distribution <tspan x="0" y="20">which describe how we spread out the </tspan><tspan x="0" y="40">amount we care about different memory </tspan><tspan x="0" y="60">positions.</tspan></text>
   </g>
   <g opacity="0.6">
     <text transform="translate(440 172.81)" font-size="13" font-family="Open Sans">The read result is a weighted sum.</text>

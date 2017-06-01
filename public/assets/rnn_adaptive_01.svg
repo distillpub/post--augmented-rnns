@@ -64,10 +64,10 @@
     <text transform="translate(60 22.88)" font-size="13" font-family="Open Sans">For every time step the RNN can <tspan x="0" y="20">do multiple computation steps.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(330.67 22.88)" font-size="13" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="20">of the computation step outputs</tspan></text>
+    <text transform="translate(330.67 22.88)" font-size="13" font-family="Open Sans">The output is a weighted combination <tspan x="0" y="20">of the computation step outputs.</tspan></text>
   </g>
   <g opacity="0.6">
-    <text transform="translate(634.67 22.88)" font-size="13" font-family="Open Sans">The process is repeated for <tspan x="0" y="20">each time step</tspan></text>
+    <text transform="translate(634.67 22.88)" font-size="13" font-family="Open Sans">The process is repeated for <tspan x="0" y="20">each time step.</tspan></text>
   </g>
   <g id="_Group_3" data-name="&lt;Group&gt;">
     <rect x="463" y="70" width="275.67" height="156" rx="10" ry="10" fill="#f0f0f5"/>
@@ -259,7 +259,7 @@
     <use width="24" height="24" transform="translate(371.75 82.39)" xlink:href="#op-sum"/>
   </g>
   <g opacity="0.6">
-    <text transform="translate(61 258.14)" font-size="13" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="20">the first computation step</tspan></text>
+    <text transform="translate(61 258.14)" font-size="13" font-family="Open Sans">A special bit is set to denote <tspan x="0" y="20">the first computation step.</tspan></text>
   </g>
   <g opacity="0.6">
     <g>
