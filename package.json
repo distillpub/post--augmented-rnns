@@ -6,6 +6,7 @@
     "jsdom": "^9.9.1"
   },
   "scripts": {
-    "build": "node bin/include.js > public/index.html"
+    "build": "node bin/include.js > public/index.html",
+    "serve": "python -m SimpleHTTPServer"
   }
 }
