@@ -1,12 +1,13 @@
 {
-  "main": "index.html",
+  "main": "index.md",
   "name": "augmented-rnns",
-  "dependencies": {
-    "d3": "^4.2.2",
-    "jsdom": "^9.9.1"
-  },
+  "private": true,
   "scripts": {
     "build": "node bin/include.js > public/index.html",
-    "serve": "python -m SimpleHTTPServer"
+    "serve": "python3 -m http.server --bind localhost 8008"
+  },
+  "dependencies": {
+    "d3": "^4.2.2",
+    "jsdom": "^11.2.0"
   }
 }
